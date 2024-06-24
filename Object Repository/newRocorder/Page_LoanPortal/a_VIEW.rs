@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_VIEW</name>
+   <tag></tag>
+   <elementGuidId>c4f28066-17dd-45ee-b08f-ac3de0ba9674</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@onclick=&quot;if(window.onRowClick){callCustomRowLinkMethod(this,'onRowClick','listapplication');}cancelBubbling(event);return false;&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-primary.control-class.control-label.fmarginbottom0</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=row[name=&quot;Maheshasa Pandurangd Bhidew LOS-1000004176 01 hours/s Dealer Pre Release In Process VIEW&quot;i] >> a</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>d39f20bc-b1c6-4226-92a2-55ff8de37fcd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>if(window.onRowClick){callCustomRowLinkMethod(this,'onRowClick','listapplication');}cancelBubbling(event);return false;</value>
+      <webElementGuid>35bf9b30-40b5-4536-a87e-8818354c2265</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary control-class control-label fmarginbottom0</value>
+      <webElementGuid>48031707-e12d-4869-8571-36b8845fe12f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>VIEW</value>
+      <webElementGuid>c9188844-59be-4383-b0a0-f8bd0a15824f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;listapplication&quot;)/tbody[1]/tr[@class=&quot;rowinhtml&quot;]/td[@class=&quot;fpadding3 fminwidth90&quot;]/a[@class=&quot;btn btn-primary control-class control-label fmarginbottom0&quot;]</value>
+      <webElementGuid>a185220d-fbd4-4865-b49e-f73eb49f5827</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@onclick=&quot;if(window.onRowClick){callCustomRowLinkMethod(this,'onRowClick','listapplication');}cancelBubbling(event);return false;&quot;]</value>
+      <webElementGuid>fddcc7b9-efa0-4e42-9344-8042265cde9b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='listapplication']/tbody/tr/td[7]/a</value>
+      <webElementGuid>07b54bf9-74a3-4821-9d37-166cba9f51f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'VIEW')]</value>
+      <webElementGuid>84922278-f130-42d5-9bc5-2438b4095a3d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='WIId'])[1]/following::a[1]</value>
+      <webElementGuid>d2ef5e93-8ae0-4692-bb35-ddadd8005741</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='VIEW'])[1]/following::a[1]</value>
+      <webElementGuid>b17e1261-33be-492e-91d9-eab7a12f0148</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='VIEW'])[3]/preceding::a[1]</value>
+      <webElementGuid>074677f8-13f5-408b-a44e-c440b98eab1f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='VIEW'])[4]/preceding::a[2]</value>
+      <webElementGuid>5ebe7dbf-b703-4333-b487-8341eae9ced7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[7]/a</value>
+      <webElementGuid>3472711b-86ae-46a7-907b-62a45ec9fa07</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'VIEW' or . = 'VIEW')]</value>
+      <webElementGuid>159ee1e4-7d7d-4363-be26-fc2f8dc76f6c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

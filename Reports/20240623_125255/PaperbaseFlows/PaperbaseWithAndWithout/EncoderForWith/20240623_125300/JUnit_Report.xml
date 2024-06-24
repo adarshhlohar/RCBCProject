@@ -1,0 +1,1003 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="EncoderForWith" time="567.917" tests="13" failures="0" errors="0">
+   <testsuite name="EncoderForWith" tests="13" failures="0" errors="0" time="567.917" skipped="0" timestamp="23-06-2024T12:56:58" hostname="Adarsh.Lohar - QKNBK2037.qkcorp.qualitykiosk.com" id="Test Suites/PaperbaseFlows/PaperbaseWithAndWithout/EncoderForWith">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300"/>
+         <property name="logFiles" value="D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\execution0.log"/>
+         <property name="attachments" value="D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_12_57_15.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_12_57_40.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_12_57_48.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_12_58_10.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_12_58_27.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_12_58_35.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_12_58_41.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_12_58_56.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_12_59_18.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_12_59_29.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_12_59_37.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_12_59_44.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_01_00_15.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_01_00_29.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_01_00_59.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_01_01_08.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_01_01_20.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_01_01_29.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_01_01_40.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_01_01_50.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_01_02_03.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_01_02_13.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_01_02_21.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_01_02_32.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_01_02_41.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_01_02_51.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_01_03_00.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_01_03_10.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_01_03_24.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_01_03_35.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_01_03_53.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_01_04_04.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_01_04_15.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_01_04_57.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_01_05_11.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_01_05_20.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_01_05_30.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\1719128164370.png, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\1719128171009.png"/>
+         <property name="hostName" value="Adarsh.Lohar - QKNBK2037.qkcorp.qualitykiosk.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.101"/>
+         <property name="sessionId" value="87ea2077092563f7ef4b3dacd2642f69"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Paper_STPWithAndWithoutAPI/Encoder/LoginPage" time="32.171" classname="Test Cases/Paper_STPWithAndWithoutAPI/Encoder/LoginPage" status="PASSED">
+         <system-out><![CDATA[23-06-2024T12:56:58 - [TEST_CASE][PASSED] - Test Cases/Paper_STPWithAndWithoutAPI/Encoder/LoginPage: Test Cases/Paper_STPWithAndWithoutAPI/Encoder/LoginPage
+
+23-06-2024T12:57:00 - [TEST_STEP][PASSED] - encoder.LoginForibpsEncoder.login(): encoder.LoginForibpsEncoder.login is PASSED
+
+23-06-2024T12:57:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-06-2024T12:57:01 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito]']
+
+23-06-2024T12:57:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-06-2024T12:57:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-06-2024T12:57:08 - [MESSAGE][PASSED] - Current window maximized
+
+23-06-2024T12:57:11 - [MESSAGE][PASSED] - Navigate to 'https://rcbcuat.nonprodnmc.com/omniapp' successfully
+
+23-06-2024T12:57:13 - [MESSAGE][PASSED] - Text 'QK_Encoder7' is set on object 'Object Repository/BackOffice/ibpsLogin/userName'
+
+23-06-2024T12:57:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/BackOffice/ibpsLogin/password'
+
+23-06-2024T12:57:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T12:57:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T12:57:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-06-2024T12:57:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_12_57_15.jpg]]
+
+23-06-2024T12:57:20 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/ibpsLogin/loginButton' is clicked on
+
+23-06-2024T12:57:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-06-2024T12:57:26 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id="oaloginform:contloginbtn"]'. Please recheck the objects properties to make sure the desired element is located. 
+
+23-06-2024T12:57:26 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/BackOffice/ibpsLogin/yesLogin'. Try using Self-healing.
+
+23-06-2024T12:57:27 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+23-06-2024T12:57:28 - [MESSAGE][WARNING] - [SELF-HEALING] javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression  because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression."}
+  (Session info: chrome=126.0.6478.114)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'QKNBK2037', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\Users\ADARSH~1.LOH\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65278}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 87ea2077092563f7ef4b3dacd2642f69
+*** Element info: {Using=xpath, value=}
+
+23-06-2024T12:57:28 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+23-06-2024T12:57:28 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/BackOffice/ibpsLogin/yesLogin' located by '//input[@id="oaloginform:contloginbtn"]' not found
+
+23-06-2024T12:57:28 - [MESSAGE][PASSED] - encoder.LoginForibpsEncoder.login is PASSED
+
+23-06-2024T12:57:30 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Encoder/LoginPage' .
+
+23-06-2024T12:57:30 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Encoder/LoginPage' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Paper_STPWithAndWithoutAPI/Encoder/HomePage" time="31.602" classname="Test Cases/Paper_STPWithAndWithoutAPI/Encoder/HomePage" status="PASSED">
+         <system-out><![CDATA[23-06-2024T12:57:30 - [TEST_CASE][PASSED] - Test Cases/Paper_STPWithAndWithoutAPI/Encoder/HomePage: Test Cases/Paper_STPWithAndWithoutAPI/Encoder/HomePage
+
+23-06-2024T12:57:31 - [TEST_STEP][PASSED] - encoder.HomePageForibpsEncoder.selectResistration(): encoder.HomePageForibpsEncoder.selectResistration is PASSED
+
+23-06-2024T12:57:31 - [MESSAGE][PASSED] - Wait for page load successfully
+
+23-06-2024T12:57:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-06-2024T12:57:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-06-2024T12:57:36 - [MESSAGE][INFO] -  ******** LOS-3358
+
+23-06-2024T12:57:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-06-2024T12:57:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T12:57:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T12:57:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-06-2024T12:57:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_12_57_40.jpg]]
+
+23-06-2024T12:57:46 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/EncoderNSTP/ibpsHomePage/encoder' is clicked on
+
+23-06-2024T12:57:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T12:57:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T12:57:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-06-2024T12:57:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_12_57_48.jpg]]
+
+23-06-2024T12:57:52 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/COMaker/ibpsHomePage/resistrationNo' is clicked on
+
+23-06-2024T12:57:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T12:57:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-06-2024T12:58:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-06-2024T12:58:00 - [MESSAGE][PASSED] - encoder.HomePageForibpsEncoder.selectResistration is PASSED
+
+23-06-2024T12:58:02 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Encoder/HomePage' .
+
+23-06-2024T12:58:02 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Encoder/HomePage' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Paper_STPWithAndWithoutAPI/Encoder/ClientInformationWithAPI" time="119.733" classname="Test Cases/Paper_STPWithAndWithoutAPI/Encoder/ClientInformationWithAPI" status="PASSED">
+         <system-out><![CDATA[23-06-2024T12:58:02 - [TEST_CASE][PASSED] - Test Cases/Paper_STPWithAndWithoutAPI/Encoder/ClientInformationWithAPI: Test Cases/Paper_STPWithAndWithoutAPI/Encoder/ClientInformationWithAPI
+
+23-06-2024T12:58:03 - [TEST_STEP][PASSED] - tabSection.CustomerDetail.clientInformationForEncoderPaperBasedWith(): tabSection.CustomerDetail.clientInformationForEncoderPaperBasedWith is PASSED
+
+23-06-2024T12:58:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T12:58:08 - [MESSAGE][PASSED] - Current window's index is: 0
+
+23-06-2024T12:58:08 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+23-06-2024T12:58:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/Action/referenceNumber' is: 'Encoder : LOS-3358'
+
+23-06-2024T12:58:09 - [MESSAGE][INFO] - Encoder : LOS-3358 Contains LOS-3358
+
+23-06-2024T12:58:09 - [MESSAGE][INFO] - Ready to go....
+
+23-06-2024T12:58:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T12:58:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-06-2024T12:58:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_12_58_10.jpg]]
+
+23-06-2024T12:58:17 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/principal' is clicked on
+
+23-06-2024T12:58:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-06-2024T12:58:21 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/borrowerType'
+
+23-06-2024T12:58:22 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/applicationType'
+
+23-06-2024T12:58:24 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/custemerType'
+
+23-06-2024T12:58:24 - [MESSAGE][PASSED] - Object 'Object Repository/BackOffice/EncoderWithWithout/sex' is clickable
+
+23-06-2024T12:58:25 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/BackOffice/EncoderWithWithout/sex'
+
+23-06-2024T12:58:25 - [MESSAGE][PASSED] - Object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/dateOfBirth' is clickable
+
+23-06-2024T12:58:26 - [MESSAGE][PASSED] - Text '15/05/1991' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/dateOfBirth'
+
+23-06-2024T12:58:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T12:58:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-06-2024T12:58:31 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_12_58_27.jpg]]
+
+23-06-2024T12:58:32 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/placeOfBirth'
+
+23-06-2024T12:58:32 - [MESSAGE][PASSED] - Object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/maritalStatus' is clickable
+
+23-06-2024T12:58:33 - [MESSAGE][PASSED] - All options with index in [4] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/maritalStatus'
+
+23-06-2024T12:58:33 - [MESSAGE][PASSED] - Object 'Object Repository/BackOffice/EncoderWithWithout/nationality' is clickable
+
+23-06-2024T12:58:34 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderWithWithout/nationality'
+
+23-06-2024T12:58:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T12:58:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-06-2024T12:58:39 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_12_58_35.jpg]]
+
+23-06-2024T12:58:39 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/numberOfYearsMarried'
+
+23-06-2024T12:58:40 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/numberOfDependents'
+
+23-06-2024T12:58:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T12:58:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-06-2024T12:58:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_12_58_41.jpg]]
+
+23-06-2024T12:58:48 - [MESSAGE][WARNING] - Object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/cifNumber' is not clickable after 2 second(s)
+
+23-06-2024T12:58:49 - [MESSAGE][PASSED] - Object 'Object Repository/BackOffice/EncoderWithWithout/idType' is clickable
+
+23-06-2024T12:58:51 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderWithWithout/idType'
+
+23-06-2024T12:58:52 - [MESSAGE][PASSED] - Object 'Object Repository/BackOffice/EncoderWithWithout/idNumber' is clickable
+
+23-06-2024T12:58:53 - [MESSAGE][PASSED] - Text '98357487654' is set on object 'Object Repository/BackOffice/EncoderWithWithout/idNumber'
+
+23-06-2024T12:58:53 - [MESSAGE][PASSED] - Object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/RCBCCurrentOrSavingAccountNumber' is clickable
+
+23-06-2024T12:58:55 - [MESSAGE][PASSED] - Text '0000000017517519' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/RCBCCurrentOrSavingAccountNumber'
+
+23-06-2024T12:58:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T12:58:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-06-2024T12:59:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_12_58_56.jpg]]
+
+23-06-2024T12:59:02 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/plusButtonForAddressDetail' is clicked on
+
+23-06-2024T12:59:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T12:59:04 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/typeOfAddress'
+
+23-06-2024T12:59:05 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/residenceOwnershipType'
+
+23-06-2024T12:59:06 - [MESSAGE][PASSED] - Text '4' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/lengthOfStayAtCurrentResidance'
+
+23-06-2024T12:59:10 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/country'
+
+23-06-2024T12:59:12 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/region'
+
+23-06-2024T12:59:13 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/provience'
+
+23-06-2024T12:59:14 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/townCityMuncipalities'
+
+23-06-2024T12:59:15 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/barangay'
+
+23-06-2024T12:59:16 - [MESSAGE][PASSED] - Text 'Mahape Road' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/StreetName'
+
+23-06-2024T12:59:17 - [MESSAGE][PASSED] - Text 'Rupa Solitaire' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/unitNumberBuildingName'
+
+23-06-2024T12:59:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T12:59:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-06-2024T12:59:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_12_59_18.jpg]]
+
+23-06-2024T12:59:23 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/saveAndClose' is clicked on
+
+23-06-2024T12:59:24 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/sourceOfWealth'
+
+23-06-2024T12:59:25 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/occupation'
+
+23-06-2024T12:59:26 - [MESSAGE][PASSED] - Text 'Mahesh' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/companyEmployerName'
+
+23-06-2024T12:59:27 - [MESSAGE][PASSED] - Text 'Test Engineer' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/jobTitle'
+
+23-06-2024T12:59:27 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/numberOfYearsInCurrentCompany'
+
+23-06-2024T12:59:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T12:59:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-06-2024T12:59:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_12_59_29.jpg]]
+
+23-06-2024T12:59:33 - [MESSAGE][PASSED] - Text '6' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/totalYearsOfExperince'
+
+23-06-2024T12:59:34 - [MESSAGE][PASSED] - Text '60000' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/declareMonthlyIncome'
+
+23-06-2024T12:59:36 - [MESSAGE][PASSED] - Text '(63) 9356986567' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/employerContactNumber'
+
+23-06-2024T12:59:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T12:59:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-06-2024T12:59:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_12_59_37.jpg]]
+
+23-06-2024T12:59:41 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/Industry'
+
+23-06-2024T12:59:43 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/subIndustry'
+
+23-06-2024T12:59:43 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/natureOfBusiness'
+
+23-06-2024T12:59:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T12:59:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-06-2024T12:59:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_12_59_44.jpg]]
+
+23-06-2024T12:59:56 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/saveChanges' is clicked on
+
+23-06-2024T13:00:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-06-2024T13:00:00 - [MESSAGE][PASSED] - tabSection.CustomerDetail.clientInformationForEncoderPaperBasedWith is PASSED
+
+23-06-2024T13:00:02 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Encoder/ClientInformationWithAPI' .
+
+23-06-2024T13:00:02 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Encoder/ClientInformationWithAPI' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CollateralInformationWith" time="18.44" classname="Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CollateralInformationWith" status="PASSED">
+         <system-out><![CDATA[23-06-2024T13:00:02 - [TEST_CASE][PASSED] - Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CollateralInformationWith: Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CollateralInformationWith
+
+23-06-2024T13:00:02 - [TEST_STEP][PASSED] - tabSection.CollateralInformation.collateralInformationForEncoderPaperBasedWith(): tabSection.CollateralInformation.collateralInformationForEncoderPaperBasedWith is PASSED
+
+23-06-2024T13:00:03 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/CollateralInformation' is clicked on
+
+23-06-2024T13:00:06 - [MESSAGE][PASSED] - All options with value 'HNHR20' are selected in object 'Object Repository/BackOfficePaperBase/EncoderCollateralInfoPaperbase/vehicleCodeType' 
+
+23-06-2024T13:00:07 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOfficePaperBase/EncoderCollateralInfoPaperbase/CarCondition'
+
+23-06-2024T13:00:08 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOfficePaperBase/EncoderCollateralInfoPaperbase/carBrand'
+
+23-06-2024T13:00:09 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOfficePaperBase/EncoderCollateralInfoPaperbase/carModel'
+
+23-06-2024T13:00:11 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOfficePaperBase/EncoderCollateralInfoPaperbase/subModel'
+
+23-06-2024T13:00:12 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOfficePaperBase/EncoderCollateralInfoPaperbase/yearModel'
+
+23-06-2024T13:00:13 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOfficePaperBase/EncoderCollateralInfoPaperbase/makeType'
+
+23-06-2024T13:00:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:00:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:00:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-06-2024T13:00:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_01_00_15.jpg]]
+
+23-06-2024T13:00:18 - [MESSAGE][PASSED] - tabSection.CollateralInformation.collateralInformationForEncoderPaperBasedWith is PASSED
+
+23-06-2024T13:00:20 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CollateralInformationWith' .
+
+23-06-2024T13:00:20 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CollateralInformationWith' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Paper_STPWithAndWithoutAPI/Encoder/LoanInformationWithAPI" time="85.326" classname="Test Cases/Paper_STPWithAndWithoutAPI/Encoder/LoanInformationWithAPI" status="PASSED">
+         <system-out><![CDATA[23-06-2024T13:00:21 - [TEST_CASE][PASSED] - Test Cases/Paper_STPWithAndWithoutAPI/Encoder/LoanInformationWithAPI: Test Cases/Paper_STPWithAndWithoutAPI/Encoder/LoanInformationWithAPI
+
+23-06-2024T13:00:21 - [TEST_STEP][PASSED] - tabSection.LoanInformation.loanInfoForEncoderPaperBased(marketingPromoCode, Downpayment_Amt, Actual_Cashout, loanTerm, insuranceType, loanPurpose, modeOfRelease, Scheduled_Unit_Release_Date, Actual_Unit_Release_Date, Total_CMFCollectedby_Dealer, Payment_Type, PaymentFrequency, Mode_Of_Payment): tabSection.LoanInformation.loanInfoForEncoderPaperBased is PASSED
+
+23-06-2024T13:00:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-06-2024T13:00:25 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/LoanInformation' is clicked on
+
+23-06-2024T13:00:27 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseLoanInformation/marketingPromoCode'
+
+23-06-2024T13:00:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:00:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:00:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-06-2024T13:00:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_01_00_29.jpg]]
+
+23-06-2024T13:00:33 - [MESSAGE][PASSED] - Text '500000' is set on object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseLoanInformation/Downpayment_Amt'
+
+23-06-2024T13:00:37 - [MESSAGE][PASSED] - Text '40' is set on object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseLoanInformation/Actual_Cashout'
+
+23-06-2024T13:00:43 - [MESSAGE][PASSED] - All options with index in [5] are selected on object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseLoanInformation/loanTerm'
+
+23-06-2024T13:00:57 - [MESSAGE][PASSED] - All options with index in [5] are selected on object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseLoanInformation/insuranceType'
+
+23-06-2024T13:00:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:00:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:01:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-06-2024T13:01:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_01_00_59.jpg]]
+
+23-06-2024T13:01:03 - [MESSAGE][PASSED] - All options with value 'AB' are selected in object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseLoanInformation/loanPurpose' 
+
+23-06-2024T13:01:04 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseLoanInformation/modeOfRelease'
+
+23-06-2024T13:01:05 - [MESSAGE][PASSED] - Text '19/07/24' is set on object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseLoanInformation/Scheduled_Unit_Release_Date'
+
+23-06-2024T13:01:06 - [MESSAGE][PASSED] - Text '25/07/24' is set on object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseLoanInformation/Actual_Unit_Release_Date'
+
+23-06-2024T13:01:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:01:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:01:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-06-2024T13:01:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_01_01_08.jpg]]
+
+23-06-2024T13:01:11 - [MESSAGE][PASSED] - Current window's index is: 1
+
+23-06-2024T13:01:14 - [MESSAGE][PASSED] - Object: 'Object Repository/LoanInformationPreRelease/calculateBtn' is clicked on
+
+23-06-2024T13:01:14 - [MESSAGE][PASSED] - Switched to window with index: '2'
+
+23-06-2024T13:01:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+23-06-2024T13:01:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:01:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-06-2024T13:01:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_01_01_20.jpg]]
+
+23-06-2024T13:01:24 - [MESSAGE][PASSED] - Object: 'Object Repository/LoanInformationPreRelease/WebSpredingSaveBtn' is clicked on
+
+23-06-2024T13:01:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-06-2024T13:01:26 - [MESSAGE][PASSED] - Window with index 2 is closed
+
+23-06-2024T13:01:26 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+23-06-2024T13:01:27 - [MESSAGE][PASSED] - Text '4000' is set on object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseLoanInformation/Total_CMFCollectedby_Dealer'
+
+23-06-2024T13:01:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:01:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:01:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-06-2024T13:01:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_01_01_29.jpg]]
+
+23-06-2024T13:01:35 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseLoanInformation/Payment_Type'
+
+23-06-2024T13:01:37 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseLoanInformation/PaymentFrequency'
+
+23-06-2024T13:01:38 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseLoanInformation/Mode_Of_Payment'
+
+23-06-2024T13:01:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:01:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:01:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-06-2024T13:01:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_01_01_40.jpg]]
+
+23-06-2024T13:01:44 - [MESSAGE][PASSED] - tabSection.LoanInformation.loanInfoForEncoderPaperBased is PASSED
+
+23-06-2024T13:01:46 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Encoder/LoanInformationWithAPI' .
+
+23-06-2024T13:01:46 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Encoder/LoanInformationWithAPI' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Paper_STPWithAndWithoutAPI/Encoder/DocumentChecklist" time="9.337" classname="Test Cases/Paper_STPWithAndWithoutAPI/Encoder/DocumentChecklist" status="PASSED">
+         <system-out><![CDATA[23-06-2024T13:01:46 - [TEST_CASE][PASSED] - Test Cases/Paper_STPWithAndWithoutAPI/Encoder/DocumentChecklist: Test Cases/Paper_STPWithAndWithoutAPI/Encoder/DocumentChecklist
+
+23-06-2024T13:01:46 - [TEST_STEP][PASSED] - tabSection.DocumentCheckList.documentCheckListForEncoderPaperBased(): tabSection.DocumentCheckList.documentCheckListForEncoderPaperBased is PASSED
+
+23-06-2024T13:01:48 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/DocumentCheclist' is clicked on
+
+23-06-2024T13:01:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:01:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:01:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-06-2024T13:01:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_01_01_50.jpg]]
+
+23-06-2024T13:01:53 - [MESSAGE][PASSED] - tabSection.DocumentCheckList.documentCheckListForEncoderPaperBased is PASSED
+
+23-06-2024T13:01:55 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Encoder/DocumentChecklist' .
+
+23-06-2024T13:01:55 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Encoder/DocumentChecklist' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CheckEligibility" time="220.275" classname="Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CheckEligibility" status="PASSED">
+         <system-out><![CDATA[23-06-2024T13:01:55 - [TEST_CASE][PASSED] - Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CheckEligibility: Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CheckEligibility
+
+23-06-2024T13:01:55 - [TEST_STEP][PASSED] - tabSection.CheckEligibility.checkEligibilityForEncoderPaperBased(): tabSection.CheckEligibility.checkEligibilityForEncoderPaperBased is PASSED
+
+23-06-2024T13:01:56 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/checkEligibility' is clicked on
+
+23-06-2024T13:01:58 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/DuplicateApplicationPrincipal' is clicked on
+
+23-06-2024T13:02:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:02:01 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/DuplicateApplicationCheckEligibility' is clicked on
+
+23-06-2024T13:02:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:02:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:02:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-06-2024T13:02:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_01_02_03.jpg]]
+
+23-06-2024T13:02:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:02:08 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/DuplicateApplicationOK' is clicked on
+
+23-06-2024T13:02:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:02:11 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/DuplicateApplicationSaveChanges' is clicked on
+
+23-06-2024T13:02:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:02:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:02:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-06-2024T13:02:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_01_02_13.jpg]]
+
+23-06-2024T13:02:17 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/RPTCheckPrincipal' is clicked on
+
+23-06-2024T13:02:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:02:19 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/RPTCheckCheckEligibility' is clicked on
+
+23-06-2024T13:02:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:02:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:02:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-06-2024T13:02:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_01_02_21.jpg]]
+
+23-06-2024T13:02:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:02:26 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/RPTCheckOK' is clicked on
+
+23-06-2024T13:02:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:02:30 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/RPTSaveChanges' is clicked on
+
+23-06-2024T13:02:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:02:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:02:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-06-2024T13:02:35 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_01_02_32.jpg]]
+
+23-06-2024T13:02:36 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/DOSRICheckPrincipal' is clicked on
+
+23-06-2024T13:02:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:02:39 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/DOSRICheckCheckEligibility' is clicked on
+
+23-06-2024T13:02:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:02:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:02:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-06-2024T13:02:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_01_02_41.jpg]]
+
+23-06-2024T13:02:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:02:46 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/DOSRICheckOK' is clicked on
+
+23-06-2024T13:02:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:02:49 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/DOSRICheckSaveChanges' is clicked on
+
+23-06-2024T13:02:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:02:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:02:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-06-2024T13:02:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_01_02_51.jpg]]
+
+23-06-2024T13:02:55 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/NegativeFileCheckPrincipal' is clicked on
+
+23-06-2024T13:02:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:02:58 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/NegativeFileCheckCheckEligibility' is clicked on
+
+23-06-2024T13:02:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:03:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:03:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-06-2024T13:03:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_01_03_00.jpg]]
+
+23-06-2024T13:03:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:03:05 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/NegativeFileCheckOK' is clicked on
+
+23-06-2024T13:03:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:03:08 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/NegativeFileCheckSaveChanges' is clicked on
+
+23-06-2024T13:03:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:03:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:03:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-06-2024T13:03:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_01_03_10.jpg]]
+
+23-06-2024T13:03:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:03:17 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/NTBOrETBCheckPrincipal' is clicked on
+
+23-06-2024T13:03:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:03:22 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/NTBOrETBCheckCheckEligibility' is clicked on
+
+23-06-2024T13:03:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:03:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:03:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-06-2024T13:03:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_01_03_24.jpg]]
+
+23-06-2024T13:03:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:03:29 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/NTBOrETBCheckOK' is clicked on
+
+23-06-2024T13:03:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:03:33 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/NTBOrETBCheckSaveChanges' is clicked on
+
+23-06-2024T13:03:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:03:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:03:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-06-2024T13:03:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_01_03_35.jpg]]
+
+23-06-2024T13:03:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:03:41 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/TransunionPrincipal' is clicked on
+
+23-06-2024T13:03:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:03:42 - [MESSAGE][PASSED] - Text 'Ok' is set on object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/transunionRemark'
+
+23-06-2024T13:03:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:03:50 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/TransunionCheckEligibility' is clicked on
+
+23-06-2024T13:03:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:03:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:03:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-06-2024T13:03:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_01_03_53.jpg]]
+
+23-06-2024T13:03:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-06-2024T13:03:59 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/transUnionOkButton' is clicked on
+
+23-06-2024T13:04:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-06-2024T13:04:02 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/TransuinionReport' is clicked on
+
+23-06-2024T13:04:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:04:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:04:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-06-2024T13:04:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_01_04_04.jpg]]
+
+23-06-2024T13:04:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-06-2024T13:04:10 - [MESSAGE][PASSED] - Object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/transUnionOkButton' is present
+
+23-06-2024T13:04:10 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/transUnionOkButton' is clicked on
+
+23-06-2024T13:04:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:04:13 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/TransunionSaveChanges' is clicked on
+
+23-06-2024T13:04:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:04:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:04:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-06-2024T13:04:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_01_04_15.jpg]]
+
+23-06-2024T13:04:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:04:20 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/AccutyPrincipal' is clicked on
+
+23-06-2024T13:04:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:04:55 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/AccutyCheckEligibility' is clicked on
+
+23-06-2024T13:04:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:04:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:05:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-06-2024T13:05:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_01_04_57.jpg]]
+
+23-06-2024T13:05:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:05:02 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/DOSRICheckOK' is clicked on
+
+23-06-2024T13:05:05 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[text()="×"]'. Please recheck the objects properties to make sure the desired element is located. 
+
+23-06-2024T13:05:05 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/crossButtonTemp'. Try using Self-healing.
+
+23-06-2024T13:05:06 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+23-06-2024T13:05:07 - [MESSAGE][WARNING] - [SELF-HEALING] javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression  because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression."}
+  (Session info: chrome=126.0.6478.114)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'QKNBK2037', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\Users\ADARSH~1.LOH\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65278}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 87ea2077092563f7ef4b3dacd2642f69
+*** Element info: {Using=xpath, value=}
+
+23-06-2024T13:05:07 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+23-06-2024T13:05:07 - [MESSAGE][WARNING] - Object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/crossButtonTemp' is not present after 2 second(s)
+
+23-06-2024T13:05:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:05:09 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/AccutyResult'
+
+23-06-2024T13:05:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:05:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:05:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-06-2024T13:05:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_01_05_11.jpg]]
+
+23-06-2024T13:05:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:05:18 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/AccutySaveChanges' is clicked on
+
+23-06-2024T13:05:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:05:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:05:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-06-2024T13:05:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_01_05_20.jpg]]
+
+23-06-2024T13:05:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:05:25 - [MESSAGE][PASSED] - Text '2000' is set on object 'Object Repository/BackOffice/EncoderNSTP/checkEligibility/quickCheckNumericalScore'
+
+23-06-2024T13:05:26 - [MESSAGE][PASSED] - All options with index in [6] are selected on object 'Object Repository/BackOffice/EncoderNSTP/checkEligibility/quickCheckRiskLevel'
+
+23-06-2024T13:05:27 - [MESSAGE][PASSED] - Text '3000' is set on object 'Object Repository/BackOffice/EncoderNSTP/checkEligibility/compreCheckNumricalScore'
+
+23-06-2024T13:05:28 - [MESSAGE][PASSED] - All options with index in [6] are selected on object 'Object Repository/BackOffice/EncoderNSTP/checkEligibility/compreCheckRiskLevel'
+
+23-06-2024T13:05:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:05:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:05:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-06-2024T13:05:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\Screenshots/Encoder23_06_2412_57_14/Regression23_06_24_01_05_30.jpg]]
+
+23-06-2024T13:05:33 - [MESSAGE][PASSED] - tabSection.CheckEligibility.checkEligibilityForEncoderPaperBased is PASSED
+
+23-06-2024T13:05:36 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CheckEligibility' .
+
+23-06-2024T13:05:36 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CheckEligibility' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CreditEvaluation" time="2.948" classname="Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CreditEvaluation" status="PASSED">
+         <system-out><![CDATA[23-06-2024T13:05:36 - [TEST_CASE][PASSED] - Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CreditEvaluation: Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CreditEvaluation
+
+23-06-2024T13:05:36 - [TEST_STEP][PASSED] - tabSection.CreditEvaluation.creditEvaluationForEncoderPaperBased(): tabSection.CreditEvaluation.creditEvaluationForEncoderPaperBased is PASSED
+
+23-06-2024T13:05:36 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/creditEvaluation' is clicked on
+
+23-06-2024T13:05:36 - [MESSAGE][PASSED] - tabSection.CreditEvaluation.creditEvaluationForEncoderPaperBased is PASSED
+
+23-06-2024T13:05:38 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CreditEvaluation' .
+
+23-06-2024T13:05:38 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CreditEvaluation' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CreditInvestigation" time="3.459" classname="Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CreditInvestigation" status="PASSED">
+         <system-out><![CDATA[23-06-2024T13:05:39 - [TEST_CASE][PASSED] - Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CreditInvestigation: Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CreditInvestigation
+
+23-06-2024T13:05:39 - [TEST_STEP][PASSED] - tabSection.CreditInvestigation.creditInvestigationForEncoderPaperbased(): tabSection.CreditInvestigation.creditInvestigationForEncoderPaperbased is PASSED
+
+23-06-2024T13:05:39 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/creditInvestigation' is clicked on
+
+23-06-2024T13:05:40 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/nextArrowButton' is clicked on
+
+23-06-2024T13:05:40 - [MESSAGE][PASSED] - tabSection.CreditInvestigation.creditInvestigationForEncoderPaperbased is PASSED
+
+23-06-2024T13:05:42 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CreditInvestigation' .
+
+23-06-2024T13:05:42 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CreditInvestigation' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Paper_STPWithAndWithoutAPI/Encoder/InsuranceInformation" time="3.471" classname="Test Cases/Paper_STPWithAndWithoutAPI/Encoder/InsuranceInformation" status="PASSED">
+         <system-out><![CDATA[23-06-2024T13:05:42 - [TEST_CASE][PASSED] - Test Cases/Paper_STPWithAndWithoutAPI/Encoder/InsuranceInformation: Test Cases/Paper_STPWithAndWithoutAPI/Encoder/InsuranceInformation
+
+23-06-2024T13:05:42 - [TEST_STEP][PASSED] - tabSection.InsuranceInformation.insuranceInformationForEncoderPaperBased(): tabSection.InsuranceInformation.insuranceInformationForEncoderPaperBased is PASSED
+
+23-06-2024T13:05:43 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/InsuranceInformation' is clicked on
+
+23-06-2024T13:05:43 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/nextArrowButton' is clicked on
+
+23-06-2024T13:05:43 - [MESSAGE][PASSED] - tabSection.InsuranceInformation.insuranceInformationForEncoderPaperBased is PASSED
+
+23-06-2024T13:05:45 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Encoder/InsuranceInformation' .
+
+23-06-2024T13:05:45 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Encoder/InsuranceInformation' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Paper_STPWithAndWithoutAPI/Encoder/DisbursementInformation" time="3.419" classname="Test Cases/Paper_STPWithAndWithoutAPI/Encoder/DisbursementInformation" status="PASSED">
+         <system-out><![CDATA[23-06-2024T13:05:45 - [TEST_CASE][PASSED] - Test Cases/Paper_STPWithAndWithoutAPI/Encoder/DisbursementInformation: Test Cases/Paper_STPWithAndWithoutAPI/Encoder/DisbursementInformation
+
+23-06-2024T13:05:46 - [TEST_STEP][PASSED] - tabSection.DisbursementInfo.disbursementInformationForEncoderPaperbased(): tabSection.DisbursementInfo.disbursementInformationForEncoderPaperbased is PASSED
+
+23-06-2024T13:05:46 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/DisbursementInformation' is clicked on
+
+23-06-2024T13:05:47 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/nextArrowButton' is clicked on
+
+23-06-2024T13:05:47 - [MESSAGE][PASSED] - tabSection.DisbursementInfo.disbursementInformationForEncoderPaperbased is PASSED
+
+23-06-2024T13:05:49 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Encoder/DisbursementInformation' .
+
+23-06-2024T13:05:49 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Encoder/DisbursementInformation' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Paper_STPWithAndWithoutAPI/Encoder/Action" time="25.891" classname="Test Cases/Paper_STPWithAndWithoutAPI/Encoder/Action" status="PASSED">
+         <system-out><![CDATA[23-06-2024T13:05:49 - [TEST_CASE][PASSED] - Test Cases/Paper_STPWithAndWithoutAPI/Encoder/Action: Test Cases/Paper_STPWithAndWithoutAPI/Encoder/Action
+
+23-06-2024T13:05:49 - [TEST_STEP][PASSED] - tabSection.Action.submitForAO(): tabSection.Action.submitForAO is PASSED
+
+23-06-2024T13:05:51 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/Action' is clicked on
+
+23-06-2024T13:05:52 - [MESSAGE][PASSED] - Object 'Object Repository/Action/Decision' is visible
+
+23-06-2024T13:05:52 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Action/Decision'
+
+23-06-2024T13:05:53 - [MESSAGE][PASSED] - Text 'OK' is set on object 'Object Repository/Action/Remarks'
+
+23-06-2024T13:05:53 - [MESSAGE][PASSED] - Current window's title is: 'Encoder : LOS-3358'
+
+23-06-2024T13:05:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/Action/referenceNumber' is: 'Encoder : LOS-3358'
+
+23-06-2024T13:05:53 - [MESSAGE][INFO] - LOS-3358
+
+23-06-2024T13:06:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Action/SubmitButton' is clicked on
+
+23-06-2024T13:06:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:06:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\1719128164370.png]]
+
+23-06-2024T13:06:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Action/confirmYes' is clicked on
+
+23-06-2024T13:06:11 - [MESSAGE][WARNING] - Unable to switch to window with title: 'LoanPortal' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to switch to window with title: 'LoanPortal'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword.switchToWindowTitle(SwitchToWindowTitleKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword.execute(SwitchToWindowTitleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowTitle(WebUiBuiltInKeywords.groovy:1809)
+	at tabSection.Action.submitForAO(Action.groovy:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Action.run(Action:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1719127380063.run(TempTestSuite1719127380063.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window
+  (Session info: chrome=126.0.6478.114)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'QKNBK2037', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\Users\ADARSH~1.LOH\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65278}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 87ea2077092563f7ef4b3dacd2642f69
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.window(RemoteWebDriver.java:903)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.switchToWindowUsingTitle(WebUiCommonHelper.java:113)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword$_switchToWindowTitle_closure1.doCall(SwitchToWindowTitleKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword$_switchToWindowTitle_closure1.call(SwitchToWindowTitleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword.switchToWindowTitle(SwitchToWindowTitleKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword.execute(SwitchToWindowTitleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowTitle(WebUiBuiltInKeywords.groovy:1809)
+	at tabSection.Action.submitForAO(Action.groovy:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1716354281867.run(Script1716354281867.groovy:20)
+	... 15 more
+)
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240623_125255\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240623_125300\\1719128171009.png]]
+
+23-06-2024T13:06:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-06-2024T13:06:13 - [MESSAGE][PASSED] - tabSection.Action.submitForAO is PASSED
+
+23-06-2024T13:06:15 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Encoder/Action' .
+
+23-06-2024T13:06:15 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Encoder/Action' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LogOut/logout" time="10.949" classname="Test Cases/LogOut/logout" status="PASSED">
+         <system-out><![CDATA[23-06-2024T13:06:15 - [TEST_CASE][PASSED] - Test Cases/LogOut/logout: Test Cases/LogOut/logout
+
+23-06-2024T13:06:15 - [TEST_STEP][PASSED] - signOutibps.SignOut.logout(): signOutibps.SignOut.logout is PASSED
+
+23-06-2024T13:06:15 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+23-06-2024T13:06:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:06:17 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/ibpsLogOut/selectProcess'
+
+23-06-2024T13:06:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+23-06-2024T13:06:19 - [MESSAGE][PASSED] - Object: 'Object Repository/ibpsLogOut/searchBar' is double clicked on
+
+23-06-2024T13:06:19 - [MESSAGE][PASSED] - Keys 'LOS-3358' sent to object: 'Object Repository/ibpsLogOut/searchBar'
+
+23-06-2024T13:06:19 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ibpsLogOut/searchBar'
+
+23-06-2024T13:06:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-06-2024T13:06:21 - [MESSAGE][PASSED] - Object: 'Object Repository/ibpsLogOut/label_QK_CO7' is clicked on
+
+23-06-2024T13:06:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-06-2024T13:06:24 - [MESSAGE][PASSED] - Object: 'Object Repository/ibpsLogOut/Logout' is clicked on
+
+23-06-2024T13:06:24 - [MESSAGE][PASSED] - signOutibps.SignOut.logout is PASSED
+
+23-06-2024T13:06:26 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/LogOut/logout' .
+
+23-06-2024T13:06:26 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/LogOut/logout' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[23-06-2024T12:56:58 - [TEST_SUITE][PASSED] - EncoderForWith: Test Cases/LogOut/logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

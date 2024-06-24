@@ -1,0 +1,54 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PreAndPost,Chrome 126.0.0.0,,,24-06-2024 10:41:54,24-06-2024 10:47:29,5m - 34.646s,PASSED
+,,,,,,,
+Test Cases/Paper_STPWithAndWithoutAPI/PreAndPostRelease/LoginPage,Chrome 126.0.0.0,,,24-06-2024 10:41:54,24-06-2024 10:42:13,19.104s,PASSED
+loginPage.LoginPage.login_Page(),Chrome 126.0.0.0,,,24-06-2024 10:41:55,24-06-2024 10:42:11,16.002s,PASSED
+Video,Chrome 126.0.0.0,,,24-06-2024 10:42:13,24-06-2024 10:42:13,0.002s,PASSED
+,,,,,,,
+Test Cases/Paper_STPWithAndWithoutAPI/PreAndPostRelease/homepage,Chrome 126.0.0.0,,,24-06-2024 10:42:13,24-06-2024 10:42:20,6.164s,PASSED
+autoLoanProtal.SelectManageLoans.selectToManageLoan(),Chrome 126.0.0.0,,,24-06-2024 10:42:14,24-06-2024 10:42:18,3.975s,PASSED
+Video,Chrome 126.0.0.0,,,24-06-2024 10:42:20,24-06-2024 10:42:20,0.001s,PASSED
+,,,,,,,
+Test Cases/Paper_STPWithAndWithoutAPI/PreAndPostRelease/ApplicationPageForPreAndPost,Chrome 126.0.0.0,,,24-06-2024 10:42:20,24-06-2024 10:43:37,1m - 17.285s,PASSED
+"tabSection.ApplicationSection.applicationSectionTab(show, sortBy)",Chrome 126.0.0.0,,,24-06-2024 10:42:20,24-06-2024 10:43:35,1m - 14.966s,PASSED
+Video,Chrome 126.0.0.0,,,24-06-2024 10:43:37,24-06-2024 10:43:37,0.002s,PASSED
+,,,,,,,
+Test Cases/Paper_STPWithAndWithoutAPI/PreAndPostRelease/CustomerDetailForPreRelease,Chrome 126.0.0.0,,,24-06-2024 10:43:37,24-06-2024 10:43:48,10.688s,PASSED
+tabSection.CustomerDetail.clientInformationForPreRelease(),Chrome 126.0.0.0,,,24-06-2024 10:43:37,24-06-2024 10:43:46,8.475s,PASSED
+Video,Chrome 126.0.0.0,,,24-06-2024 10:43:48,24-06-2024 10:43:48,0.002s,PASSED
+,,,,,,,
+Test Cases/Paper_STPWithAndWithoutAPI/PreAndPostRelease/LoanInformation,Chrome 126.0.0.0,,,24-06-2024 10:43:48,24-06-2024 10:44:05,16.913s,PASSED
+tabSection.LoanInformation.loanInfoForPrereleasePaperbasedWithWithout(),Chrome 126.0.0.0,,,24-06-2024 10:43:48,24-06-2024 10:44:03,14.731s,PASSED
+Video,Chrome 126.0.0.0,,,24-06-2024 10:44:05,24-06-2024 10:44:05,0.001s,PASSED
+,,,,,,,
+Test Cases/Paper_STPWithAndWithoutAPI/PreAndPostRelease/DocumentChecklist,Chrome 126.0.0.0,,,24-06-2024 10:44:05,24-06-2024 10:45:50,1m - 45.488s,PASSED
+tabSection.DocumentCheckList.documentCheckListForPreReleasePaperbased(),Chrome 126.0.0.0,,,24-06-2024 10:44:05,24-06-2024 10:45:48,1m - 42.846s,PASSED
+Video,Chrome 126.0.0.0,,,24-06-2024 10:45:50,24-06-2024 10:45:50,0.001s,PASSED
+,,,,,,,
+Test Cases/Paper_STPWithAndWithoutAPI/PreAndPostRelease/CollateralInfo,Chrome 126.0.0.0,,,24-06-2024 10:45:50,24-06-2024 10:45:56,5.884s,PASSED
+tabSection.CollateralInformation.collateralInformationForPrereleasePaperbased(),Chrome 126.0.0.0,,,24-06-2024 10:45:50,24-06-2024 10:45:54,3.705s,PASSED
+Video,Chrome 126.0.0.0,,,24-06-2024 10:45:56,24-06-2024 10:45:56,0.001s,PASSED
+,,,,,,,
+Test Cases/Paper_STPWithAndWithoutAPI/PreAndPostRelease/DisbursmentInfoNew,Chrome 126.0.0.0,,,24-06-2024 10:45:56,24-06-2024 10:46:16,19.672s,PASSED
+"click(findTestObject(""Object Repository/DisbursementInfoNew/DisbursementInfoAndSubmit/disbursementInformation""))",Chrome 126.0.0.0,,,24-06-2024 10:45:56,24-06-2024 10:45:57,0.426s,PASSED
+"click(findTestObject(""Object Repository/DisbursementInfoNew/DisbursementInfoAndSubmit/plusIcon""))",Chrome 126.0.0.0,,,24-06-2024 10:45:57,24-06-2024 10:45:59,1.837s,PASSED
+"selectOptionByIndex(findTestObject(""Object Repository/DisbursementInfoNew/DisbursementInfoAndSubmit/payeeName""), 1, STOP_ON_FAILURE)",Chrome 126.0.0.0,,,24-06-2024 10:45:59,24-06-2024 10:46:01,2.054s,PASSED
+"selectOptionByIndex(findTestObject(""Object Repository/DisbursementInfoNew/DisbursementInfoAndSubmit/modeOfDisbursement""), 1, STOP_ON_FAILURE)",Chrome 126.0.0.0,,,24-06-2024 10:46:01,24-06-2024 10:46:01,0.597s,PASSED
+"click(findTestObject(""Object Repository/DisbursementInfoNew/DisbursementInfoAndSubmit/saveAndClose""))",Chrome 126.0.0.0,,,24-06-2024 10:46:01,24-06-2024 10:46:03,1.668s,PASSED
+"click(findTestObject(""Object Repository/DisbursementInfoNew/DisbursementInfoAndSubmit/actionTab""))",Chrome 126.0.0.0,,,24-06-2024 10:46:03,24-06-2024 10:46:05,1.815s,PASSED
+"selectOptionByIndex(findTestObject(""Object Repository/DisbursementInfoNew/DisbursementInfoAndSubmit/selectSubmit""), 1, STOP_ON_FAILURE)",Chrome 126.0.0.0,,,24-06-2024 10:46:05,24-06-2024 10:46:05,0.734s,PASSED
+"setText(findTestObject(""Object Repository/DisbursementInfoNew/DisbursementInfoAndSubmit/decision""), ""ok"")",Chrome 126.0.0.0,,,24-06-2024 10:46:05,24-06-2024 10:46:06,0.413s,PASSED
+"click(findTestObject(""Object Repository/DisbursementInfoNew/DisbursementInfoAndSubmit/button_Submit""))",Chrome 126.0.0.0,,,24-06-2024 10:46:06,24-06-2024 10:46:07,1.034s,PASSED
+currentWindow = getWindowTitle(),Chrome 126.0.0.0,,,24-06-2024 10:46:07,24-06-2024 10:46:07,0.054s,PASSED
+"click(findTestObject(""Object Repository/Action/confirmYes""))",Chrome 126.0.0.0,,,24-06-2024 10:46:07,24-06-2024 10:46:12,4.711s,PASSED
+delay(2),Chrome 126.0.0.0,,,24-06-2024 10:46:12,24-06-2024 10:46:14,2.012s,PASSED
+"if (!(currentWindow.equalsIgnoreCase(""LoanPortal"")))",Chrome 126.0.0.0,,,24-06-2024 10:46:14,24-06-2024 10:46:14,0.039s,PASSED
+Video,Chrome 126.0.0.0,,,24-06-2024 10:46:16,24-06-2024 10:46:16,0.001s,PASSED
+,,,,,,,
+Test Cases/Paper_STPWithAndWithoutAPI/PreAndPostRelease/ApplicationPageForPreAndPost,Chrome 126.0.0.0,,,24-06-2024 10:46:16,24-06-2024 10:46:36,20.112s,PASSED
+"tabSection.ApplicationSection.applicationSectionTab(show, sortBy)",Chrome 126.0.0.0,,,24-06-2024 10:46:16,24-06-2024 10:46:34,17.987s,PASSED
+Video,Chrome 126.0.0.0,,,24-06-2024 10:46:36,24-06-2024 10:46:36,0.001s,PASSED
+,,,,,,,
+Test Cases/Paper_STPWithAndWithoutAPI/PreAndPostRelease/PostRelease,Chrome 126.0.0.0,,,24-06-2024 10:46:36,24-06-2024 10:47:29,52.878s,PASSED
+postRelease.PostReleaseSubmit.submit_post_release(),Chrome 126.0.0.0,,,24-06-2024 10:46:36,24-06-2024 10:47:27,50.511s,PASSED
+Video,Chrome 126.0.0.0,,,24-06-2024 10:47:29,24-06-2024 10:47:29,0.001s,PASSED

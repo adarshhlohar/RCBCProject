@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "8BD934D822E945114F2CC9E6A49371E2",
+  "keywordClasses": [
+    {
+      "name": "vouchingApprover.LoginForibpsCOApprover",
+      "keywordMethods": [
+        {
+          "name": "login",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

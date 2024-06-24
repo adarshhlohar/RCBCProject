@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "F0801FFD1D9C7B64321C710BDE1FCB12",
+  "keywordClasses": [
+    {
+      "name": "coMaker.HomePageForibpsEncoder",
+      "keywordMethods": [
+        {
+          "name": "selectResistration",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

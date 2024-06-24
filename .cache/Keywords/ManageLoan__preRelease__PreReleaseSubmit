@@ -1,0 +1,43 @@
+{
+  "keywordFileContentHash": "312D33841CDB2B3BD6D731D73043DA8A",
+  "keywordClasses": [
+    {
+      "name": "preRelease.PreReleaseSubmit",
+      "keywordMethods": [
+        {
+          "name": "submit",
+          "parameters": [
+            {
+              "name": "remarks",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "decision",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

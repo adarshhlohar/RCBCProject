@@ -1,0 +1,43 @@
+{
+  "keywordFileContentHash": "CBEA6C7758F55DA45486C91972A8FC21",
+  "keywordClasses": [
+    {
+      "name": "preRelease.ApplicationSection",
+      "keywordMethods": [
+        {
+          "name": "applicationSectionTab",
+          "parameters": [
+            {
+              "name": "show",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "sortBy",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>PaperBasedPotalNSTP</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>059cc922-d794-4dcc-bc53-ec6f9babdf83</testSuiteGuid>
+   <testCaseLink>
+      <guid>553cda38-1c61-41b8-b023-2464a1600b7f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Paper_STPWithAndWithoutAPI/Portal/LoginPage</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c838fec4-fa2c-4c2f-928c-d988e7f05868</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Paper_STPWithAndWithoutAPI/Portal/HomePage</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d4f126aa-b827-4b52-bc6b-df97f71a7ba9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Paper_STPWithAndWithoutAPI/Portal/SelectPaperBased</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3a6e5a55-c253-42fc-9448-9bfa3c19eed3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Paper_STPWithAndWithoutAPI/Portal/LetsgetStarted</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>473a27ba-65bd-4e5c-8d22-3be5c0745d9e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Paper_NSTP/Portal/BorrowerDetail</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>9495c501-ff05-48ab-ad69-77edd22f6f35</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/NSTPPaperbasedBorrowerDetail</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>9495c501-ff05-48ab-ad69-77edd22f6f35</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>fst_Name</value>
+         <variableId>95cb105a-bc67-4c95-a208-cd7cde283054</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9495c501-ff05-48ab-ad69-77edd22f6f35</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>mid_Name</value>
+         <variableId>e6fa0c2d-c04e-496e-9884-0dab6da6edfc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9495c501-ff05-48ab-ad69-77edd22f6f35</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>lst_Name</value>
+         <variableId>a6cf4497-52f7-4390-a46e-1e23949b1871</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9495c501-ff05-48ab-ad69-77edd22f6f35</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>suffix</value>
+         <variableId>379fb6ef-20ca-4333-8580-46eece9f5fcb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9495c501-ff05-48ab-ad69-77edd22f6f35</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>maritalStatus</value>
+         <variableId>db3a956e-d620-4bc5-b585-03309a045d61</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9495c501-ff05-48ab-ad69-77edd22f6f35</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>date</value>
+         <variableId>b0428203-c432-4104-b2a6-cd46428beffd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9495c501-ff05-48ab-ad69-77edd22f6f35</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>19bb5d4b-2444-4998-9932-2983ce1d2fc0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9495c501-ff05-48ab-ad69-77edd22f6f35</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>mob_Num</value>
+         <variableId>46a3c754-3f28-470f-9da3-cb3f80de8015</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9495c501-ff05-48ab-ad69-77edd22f6f35</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>residence</value>
+         <variableId>31fce8b3-d007-4d69-9aa6-38457e55a2e5</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5171c892-8e25-47ff-96be-c37f4a3c627e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Paper_NSTP/Portal/uploadDocument</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>95f52367-a9f5-467b-b425-0194e081656e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Paper_NSTP/Portal/SubmitPage</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "C4B7C5D1433A71450C2645A68E067A0A",
+  "keywordClasses": [
+    {
+      "name": "accountOffice.HomePageForibps",
+      "keywordMethods": [
+        {
+          "name": "selectResistration",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

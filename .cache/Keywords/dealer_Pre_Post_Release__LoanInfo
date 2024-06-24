@@ -1,0 +1,256 @@
+{
+  "keywordFileContentHash": "A33A2BB9971CD7791A70B9003773425E",
+  "keywordClasses": [
+    {
+      "name": "dealer_Pre_Post_Release.LoanInfo",
+      "keywordMethods": [
+        {
+          "name": "Loan_information",
+          "parameters": [
+            {
+              "name": "applicationNo",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "loanAccountNumber",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "applicationDate_date",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "applicationDate_month",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "applicationDate_year",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "productClass",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "productType",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "creditProgramCode",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "marketingPromoCode",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "autoLoanProgram",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "rcOfEncodingAO",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "rcOfEncodingAoPLCAo",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "rcOftheAccountPLCAccount",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "loanCalculation",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "loanApproval",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "unitReleaseDetails",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "loanStatus",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "promissoryNoteInformation_PromissoryNoteDetalis",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "promissoryNoteInformation_CMFBreakdown",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "promissoryNoteInformation_CommissionDetails",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "promissoryNoteInformation_Rates",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "promissoryNoteInformation_OthersDetails",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "promissoryNoteInformation_AmortizationPaymentSchedule",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "TotalCMF_PaymentScheme",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "BankChares_service_andFees",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "ModeOfPayment_ADA",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "ModeOfPayment_PDC",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

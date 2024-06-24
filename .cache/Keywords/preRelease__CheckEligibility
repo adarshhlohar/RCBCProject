@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "6ABF858933AE663B94A8EBD4A03DEB51",
+  "keywordClasses": [
+    {
+      "name": "preRelease.CheckEligibility",
+      "keywordMethods": [
+        {
+          "name": "checkEligibilityForAo",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

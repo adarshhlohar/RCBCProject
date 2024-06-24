@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>plusIcon</name>
+   <tag></tag>
+   <elementGuidId>acdb9ef0-d641-4062-bab0-ba5374c59021</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='add_Keymans_commision']/span/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#add_Keymans_commision > span > img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>c90d27de-9f1f-45e5-9321-fa747e7d4c84</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>./resources/images/AddIcon.png</value>
+      <webElementGuid>53abafb4-e5b9-4ec8-a5d4-660709239589</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;add_Keymans_commision&quot;)/span[1]/img[1]</value>
+      <webElementGuid>3a3be994-06f4-43db-b7b6-304299fb4556</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/DisbursementInfoNew/DisbursementInfoAndSubmit/iframe_Form_ngformIframe</value>
+      <webElementGuid>845aeaf0-4bf5-4949-a2da-7e21d2251146</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='add_Keymans_commision']/span/img</value>
+      <webElementGuid>52d68f6f-fe8a-4730-b8e9-c1acb4a40273</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[10]/div/div[3]/div/div[2]/div/div/div/div/button/span/img</value>
+      <webElementGuid>08871f0e-dc65-4b17-bd51-20c7e756262a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = './resources/images/AddIcon.png']</value>
+      <webElementGuid>9e573bfb-7967-4aba-bd86-8756ffb9c8fe</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

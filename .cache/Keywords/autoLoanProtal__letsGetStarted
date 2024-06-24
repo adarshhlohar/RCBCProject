@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "E92FDBE479DBDC0381DB8F7A14EE0407",
+  "keywordClasses": [
+    {
+      "name": "autoLoanProtal.letsGetStarted",
+      "keywordMethods": [
+        {
+          "name": "letsGetStartedBtnFun",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

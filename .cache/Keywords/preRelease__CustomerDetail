@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "B710072DD380D95882D87874AF56CFE0",
+  "keywordClasses": [
+    {
+      "name": "preRelease.CustomerDetail",
+      "keywordMethods": [
+        {
+          "name": "clientInformation",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "46D1D998485239A0F2ADA9EB4B752F90",
+  "keywordClasses": [
+    {
+      "name": "postRelease.PostReleaseSubmit",
+      "keywordMethods": [
+        {
+          "name": "submit_post_release",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

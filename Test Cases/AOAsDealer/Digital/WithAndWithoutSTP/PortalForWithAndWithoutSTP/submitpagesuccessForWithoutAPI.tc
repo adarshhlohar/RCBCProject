@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>submitpagesuccessForWithoutAPI</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>de6fe1c8-f97f-4bea-96f5-76a3c4a93f5f</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>InitalCheckingWithoutAPIPrequalified</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a4b5e7fb-8499-4570-a98e-7f81b88eb076</testCaseGuid>
+</TestCaseEntity>

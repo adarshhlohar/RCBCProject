@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PaperBasedPortal,Chrome 126.0.0.0,,,24-06-2024 11:50:54,24-06-2024 11:53:28,2m - 34.287s,PASSED
+,,,,,,,
+Test Cases/Paper_STPWithAndWithoutAPI/Portal/LoginPage,Chrome 126.0.0.0,,,24-06-2024 11:50:54,24-06-2024 11:51:19,24.667s,PASSED
+loginPage.LoginPage.login_Page(),Chrome 126.0.0.0,,,24-06-2024 11:50:55,24-06-2024 11:51:17,21.576s,PASSED
+Video,Chrome 126.0.0.0,,,24-06-2024 11:51:19,24-06-2024 11:51:19,0.002s,PASSED
+,,,,,,,
+Test Cases/Paper_STPWithAndWithoutAPI/Portal/HomePage,Chrome 126.0.0.0,,,24-06-2024 11:51:19,24-06-2024 11:51:26,6.433s,PASSED
+homePage.homePage.homepage(),Chrome 126.0.0.0,,,24-06-2024 11:51:19,24-06-2024 11:51:23,4.251s,PASSED
+Video,Chrome 126.0.0.0,,,24-06-2024 11:51:26,24-06-2024 11:51:26,0.001s,PASSED
+,,,,,,,
+Test Cases/Paper_STPWithAndWithoutAPI/Portal/SelectPaperBased,Chrome 126.0.0.0,,,24-06-2024 11:51:26,24-06-2024 11:51:36,10.487s,PASSED
+paperBasedPortal.SelectPaperBased.paperBased(),Chrome 126.0.0.0,,,24-06-2024 11:51:26,24-06-2024 11:51:34,8.319s,PASSED
+Video,Chrome 126.0.0.0,,,24-06-2024 11:51:36,24-06-2024 11:51:36,0.003s,PASSED
+,,,,,,,
+Test Cases/Paper_STPWithAndWithoutAPI/Portal/LetsgetStarted,Chrome 126.0.0.0,,,24-06-2024 11:51:36,24-06-2024 11:51:49,13.115s,PASSED
+paperBasedPortal.letsGetStarted.letsGetStartedBtnFun(),Chrome 126.0.0.0,,,24-06-2024 11:51:36,24-06-2024 11:51:47,10.850s,PASSED
+Video,Chrome 126.0.0.0,,,24-06-2024 11:51:49,24-06-2024 11:51:49,0.004s,PASSED
+,,,,,,,
+Test Cases/Paper_STPWithAndWithoutAPI/Portal/BorrowerDetail,Chrome 126.0.0.0,,,24-06-2024 11:51:49,24-06-2024 11:52:07,17.825s,PASSED
+"paperBasedPortal.Borrower_Detail.borrower_Details(fst_Name, mid_Name, lst_Name, email, mob_Num, date, maritalStatus, suffix, residence)",Chrome 126.0.0.0,,,24-06-2024 11:51:50,24-06-2024 11:52:05,15.446s,PASSED
+Video,Chrome 126.0.0.0,,,24-06-2024 11:52:07,24-06-2024 11:52:07,0.001s,PASSED
+,,,,,,,
+Test Cases/Paper_STPWithAndWithoutAPI/Portal/DocumentUploadPage,Chrome 126.0.0.0,,,24-06-2024 11:52:07,24-06-2024 11:53:16,1m - 9.303s,PASSED
+paperBasedPortal.UploadYourDocuments.uploadYourDocumentsPage(),Chrome 126.0.0.0,,,24-06-2024 11:52:07,24-06-2024 11:53:14,1m - 7.024s,PASSED
+Video,Chrome 126.0.0.0,,,24-06-2024 11:53:16,24-06-2024 11:53:16,0.002s,PASSED
+,,,,,,,
+Test Cases/Paper_STPWithAndWithoutAPI/Portal/SubmitPageForBackOffice,Chrome 126.0.0.0,,,24-06-2024 11:53:17,24-06-2024 11:53:28,11.922s,PASSED
+paperBasedPortal.SubmitPage.proceedToPreReleaseFun(),Chrome 126.0.0.0,,,24-06-2024 11:53:17,24-06-2024 11:53:26,9.709s,PASSED
+Video,Chrome 126.0.0.0,,,24-06-2024 11:53:28,24-06-2024 11:53:28,0.001s,PASSED

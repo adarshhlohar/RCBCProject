@@ -1,0 +1,4 @@
+1
+00:00:00,093 --> 00:00:07,210
+1. tabSection.DocumentCheckList.documentCheckListForEncoderPaperBased()
+

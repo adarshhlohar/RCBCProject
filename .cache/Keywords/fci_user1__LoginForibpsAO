@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "43A9B3E3AB99D2F7EEF676788C12D8DC",
+  "keywordClasses": [
+    {
+      "name": "fci_user1.LoginForibpsAO",
+      "keywordMethods": [
+        {
+          "name": "login",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

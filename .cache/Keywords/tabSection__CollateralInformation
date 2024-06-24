@@ -1,0 +1,121 @@
+{
+  "keywordFileContentHash": "29195C07C42DBE1BF46D59012E152B16",
+  "keywordClasses": [
+    {
+      "name": "tabSection.CollateralInformation",
+      "keywordMethods": [
+        {
+          "name": "collateralInformationForPreRelease",
+          "parameters": [
+            {
+              "name": "serialOrChessisNum",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "motorOrEngineNum",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "conductionSticker",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "collateralInformationForAo",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "collateralInformationForEncoder",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "collateralInformationForFullfillment",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "collateralInformationForCOApprover",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "collateralInformationForCOMAker",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "collateralInformationForEncoderPaperBasedWithout",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "collateralInformationForEncoderPaperBasedWith",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "collateralInformationForCOMAkerPaperbase",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "collateralInformationForCOApproverPaperbased",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "collateralInformationForPrereleasePaperbased",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "collateralInformationForAOPaperbase",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "collateralInformationForFullfillmentPaperbased",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "collateralInformationCommon",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

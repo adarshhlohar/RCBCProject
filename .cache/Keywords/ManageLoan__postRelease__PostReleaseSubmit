@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "0F78282EC6644D844E60D250969C5DE1",
+  "keywordClasses": [
+    {
+      "name": "postRelease.PostReleaseSubmit",
+      "keywordMethods": [
+        {
+          "name": "submit_post_release",
+          "parameters": [
+            {
+              "name": "remark",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

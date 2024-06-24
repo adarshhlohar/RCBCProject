@@ -1,0 +1,4 @@
+1
+00:00:00,346 --> 00:00:24,964
+1. paperBasedPortal.Borrower_Detail.borrower_Details(fst_Name, mid_Name, lst_Name, email, mob_Num, date, maritalStatus, suffix, residence)
+

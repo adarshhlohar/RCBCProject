@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "C85821647BE91CAF576BA9F5FE3A524D",
+  "keywordClasses": [
+    {
+      "name": "approver3.HomePageForibpsSD_Approver",
+      "keywordMethods": [
+        {
+          "name": "selectResistration",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

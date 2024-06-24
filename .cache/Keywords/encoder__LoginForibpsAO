@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "F9DF68E750E4602D299823DCA64D1510",
+  "keywordClasses": [
+    {
+      "name": "encoder.LoginForibpsAO",
+      "keywordMethods": [
+        {
+          "name": "login",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

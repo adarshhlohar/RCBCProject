@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "20D66DDC0C6CA8ACC52E980517BF56CE",
+  "keywordClasses": [
+    {
+      "name": "encoder.LoginForibpsEncoder",
+      "keywordMethods": [
+        {
+          "name": "login",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

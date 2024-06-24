@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "F3C14D6925A1768F3BB8EB87802AAD57",
+  "keywordClasses": [
+    {
+      "name": "paperBasedPortal.SelectPaperBased",
+      "keywordMethods": [
+        {
+          "name": "paperBased",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

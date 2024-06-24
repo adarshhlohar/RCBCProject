@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "5883473640EEBBC989763EA8C3B498F8",
+  "keywordClasses": [
+    {
+      "name": "fulfillment.LoginForibpsEncoder",
+      "keywordMethods": [
+        {
+          "name": "login",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

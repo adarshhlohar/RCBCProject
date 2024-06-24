@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "F38934FA31AC02D2DC39091EA0570FB0",
+  "keywordClasses": [
+    {
+      "name": "vouchingApprover.HomePageForibpsCOApprover",
+      "keywordMethods": [
+        {
+          "name": "selectResistration",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

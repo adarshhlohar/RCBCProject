@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "112E19F391E31333763356E64CD5F6CC",
+  "keywordClasses": [
+    {
+      "name": "backOffice.LoginForibps",
+      "keywordMethods": [
+        {
+          "name": "login",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

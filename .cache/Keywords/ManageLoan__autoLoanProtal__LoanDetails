@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "080032623E24078D36F58A7F475BD8A9",
+  "keywordClasses": [
+    {
+      "name": "autoLoanProtal.LoanDetails",
+      "keywordMethods": [
+        {
+          "name": "loanDetail",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

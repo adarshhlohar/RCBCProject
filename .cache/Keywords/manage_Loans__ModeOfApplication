@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "42F976B57D9F52466B09D011EFB94745",
+  "keywordClasses": [
+    {
+      "name": "manage_Loans.ModeOfApplication",
+      "keywordMethods": [
+        {
+          "name": "Mode_Of_Application",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

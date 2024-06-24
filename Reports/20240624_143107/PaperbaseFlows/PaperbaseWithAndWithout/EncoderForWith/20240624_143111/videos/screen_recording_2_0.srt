@@ -1,0 +1,4 @@
+1
+00:00:00,079 --> 00:00:25,458
+1. encoder.HomePageForibpsEncoder.selectResistration()
+

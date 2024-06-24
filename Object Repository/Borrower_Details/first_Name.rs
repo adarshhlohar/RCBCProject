@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>first_Name</name>
+   <tag></tag>
+   <elementGuidId>55f6a5bd-9d78-4290-ad3a-2f87a01fe562</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='QL_Borrower_Details_First_Name']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input['#QL_Borrower_Details_First_Name']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Frames/iframe_Form_ngformIframe</value>
+      <webElementGuid>9433849a-3ec2-4b95-817e-90a0fda79e37</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

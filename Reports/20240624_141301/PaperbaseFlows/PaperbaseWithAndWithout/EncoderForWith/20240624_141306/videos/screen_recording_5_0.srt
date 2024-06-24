@@ -1,0 +1,4 @@
+1
+00:00:00,444 --> 00:00:50,264
+1. tabSection.LoanInformation.loanInfoForEncoderPaperBased(marketingPromoCode, Downpayment_Amt, Actual_Cashout, loanTerm, insuranceType, loanPurpose, modeOfRelease, Scheduled_Unit_Release_Date, Actual_Unit_Release_Date, Total_CMFCollectedby_Dealer, Payment_Type, PaymentFrequency, Mode_Of_Payment)
+

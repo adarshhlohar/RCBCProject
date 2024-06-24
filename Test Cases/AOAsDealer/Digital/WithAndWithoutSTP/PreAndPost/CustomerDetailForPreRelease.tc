@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CustomerDetailForPreRelease</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6a329bb1-0ef9-4751-bc09-d6ea7c9beb6b</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CollateralInformationForPreRelease</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c8f6ef72-55a1-45b6-8d14-1461f26b8a7a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0d7f3c48-f7dc-436d-a3a2-3d6c54bba095</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6c924381-06e9-4798-b837-ebbc854b0094</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>715eca79-7ae2-4cdd-b1f9-74739f12e1f6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0d7f3c48-f7dc-436d-a3a2-3d6c54bba095</id>
+      <masked>false</masked>
+      <name>serialOrChessisNum</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6c924381-06e9-4798-b837-ebbc854b0094</id>
+      <masked>false</masked>
+      <name>motorOrEngineNum</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>715eca79-7ae2-4cdd-b1f9-74739f12e1f6</id>
+      <masked>false</masked>
+      <name>conductionSticker</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "48DDA64A5D5CCEC89A58541C7D78BFB3",
+  "keywordClasses": [
+    {
+      "name": "preRelease.InsuranceInformation",
+      "keywordMethods": [
+        {
+          "name": "insuranceInformationForAO",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

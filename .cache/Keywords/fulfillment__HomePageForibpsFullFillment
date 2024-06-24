@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "4EB8629DA04992010736CCA70F45E4CF",
+  "keywordClasses": [
+    {
+      "name": "fulfillment.HomePageForibpsFullFillment",
+      "keywordMethods": [
+        {
+          "name": "selectResistration",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

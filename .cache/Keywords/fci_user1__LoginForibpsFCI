@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "07DAD344F86B48F726CF1AD53087F8B3",
+  "keywordClasses": [
+    {
+      "name": "fci_user1.LoginForibpsFCI",
+      "keywordMethods": [
+        {
+          "name": "login",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,21 @@
+{
+  "keywordFileContentHash": "B15ADEDC9619FF2CE9AF0F5F797B4525",
+  "keywordClasses": [
+    {
+      "name": "preRelease.DocumentCheckList",
+      "keywordMethods": [
+        {
+          "name": "documentCheckListForPreRelease",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "documentCheckListForAo",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

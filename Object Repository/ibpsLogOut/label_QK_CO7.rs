@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_QK_CO7</name>
+   <tag></tag>
+   <elementGuidId>d6c17c18-37db-4a04-8725-7dd05075e1a6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>label.oacursorpointer</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='form:userInfoSettingPG']/tbody/tr/td[2]/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>8070d8cb-b722-4fc7-b3d0-00f72bb75dd9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>User's Settings</value>
+      <webElementGuid>81dfd216-8456-4b0f-ad5a-07c807f778d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>oacursorpointer</value>
+      <webElementGuid>70641330-b2bd-4243-93b3-bd19c43de46d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+QK_CO7</value>
+      <webElementGuid>aab1fcdc-dce2-4fb3-9be3-b1b156de2c90</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form:userInfoSettingPG&quot;)/tbody[1]/tr[1]/td[@class=&quot;oawidth0&quot;]/label[@class=&quot;oacursorpointer&quot;]</value>
+      <webElementGuid>0a9164e2-73cd-49aa-a294-50c2489021ab</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='form:userInfoSettingPG']/tbody/tr/td[2]/label</value>
+      <webElementGuid>00e59708-29cb-436d-a23b-20ecfbceba58</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='.'])[2]/following::label[3]</value>
+      <webElementGuid>a8405cf7-94d8-4c72-b761-365e2c5528b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='.'])[1]/following::label[3]</value>
+      <webElementGuid>8ff80985-0c82-4b0f-9940-c4206ff3f5b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cabinet'])[1]/preceding::label[1]</value>
+      <webElementGuid>43ba5c6e-b78a-4d29-a7d1-801e0cd1e30b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='rcbcuat'])[1]/preceding::label[2]</value>
+      <webElementGuid>c91cbd10-50b0-4ebc-9d3a-22f3a2fd61d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='QK_CO7']/parent::*</value>
+      <webElementGuid>cc5a1db7-e3c5-402d-9505-c84a414c5728</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]/label</value>
+      <webElementGuid>a7781f71-2df7-4d54-aca1-1eeaa936b3a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[@title = concat(&quot;User&quot; , &quot;'&quot; , &quot;s Settings&quot;) and (text() = '
+QK_CO7' or . = '
+QK_CO7')]</value>
+      <webElementGuid>7c014d7b-1cf6-41d8-922a-0c9909278879</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

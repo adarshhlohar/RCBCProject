@@ -1,0 +1,4 @@
+1
+00:00:00,201 --> 00:00:03,833
+1. tabSection.CollateralInformation.collateralInformationForPrereleasePaperbased()
+

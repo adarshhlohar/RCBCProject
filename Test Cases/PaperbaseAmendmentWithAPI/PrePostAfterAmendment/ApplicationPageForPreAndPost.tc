@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ApplicationPageForPreAndPost</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2cc93aa3-4c55-41c8-9afe-b079e5f85ec0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fd82f964-1f4a-4be8-a224-d085636867bd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fcd80059-4510-4356-8beb-3ba18cc7a859</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fd82f964-1f4a-4be8-a224-d085636867bd</id>
+      <masked>false</masked>
+      <name>show</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fcd80059-4510-4356-8beb-3ba18cc7a859</id>
+      <masked>false</masked>
+      <name>sortBy</name>
+   </variable>
+</TestCaseEntity>

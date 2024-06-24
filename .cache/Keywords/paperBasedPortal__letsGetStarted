@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "D29A80B03393EFC83579F846F04C7FF3",
+  "keywordClasses": [
+    {
+      "name": "paperBasedPortal.letsGetStarted",
+      "keywordMethods": [
+        {
+          "name": "letsGetStartedBtnFun",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,40 @@
+1
+00:00:00,125 --> 00:00:00,530
+1. click(findTestObject("Object Repository/DisbursementInfoNew/DisbursementInfoAndSubmit/disbursementInformation"))
+
+2
+00:00:00,535 --> 00:00:02,073
+5. click(findTestObject("Object Repository/DisbursementInfoNew/DisbursementInfoAndSubmit/plusIcon"))
+
+3
+00:00:02,078 --> 00:00:03,823
+9. selectOptionByIndex(findTestObject("Object Repository/DisbursementInfoNew/DisbursementInfoAndSubmit/payeeName"), 1, STOP_ON_FAILURE)
+
+4
+00:00:03,825 --> 00:00:04,324
+13. selectOptionByIndex(findTestObject("Object Repository/DisbursementInfoNew/DisbursementInfoAndSubmit/modeOfDisbursement"), 1, STOP_ON_FAILURE)
+
+5
+00:00:04,328 --> 00:00:05,805
+17. click(findTestObject("Object Repository/DisbursementInfoNew/DisbursementInfoAndSubmit/saveAndClose"))
+
+6
+00:00:05,811 --> 00:00:07,499
+21. click(findTestObject("Object Repository/DisbursementInfoNew/DisbursementInfoAndSubmit/actionTab"))
+
+7
+00:00:07,501 --> 00:00:08,587
+25. selectOptionByIndex(findTestObject("Object Repository/DisbursementInfoNew/DisbursementInfoAndSubmit/selectSubmit"), 1, STOP_ON_FAILURE)
+
+8
+00:00:08,589 --> 00:00:09,030
+29. setText(findTestObject("Object Repository/DisbursementInfoNew/DisbursementInfoAndSubmit/decision"), "ok")
+
+9
+00:00:09,034 --> 00:00:09,636
+33. click(findTestObject("Object Repository/DisbursementInfoNew/DisbursementInfoAndSubmit/button_Submit"))
+
+10
+00:00:09,637 --> 00:00:09,684
+37. currentWindow = getWindowTitle()
+

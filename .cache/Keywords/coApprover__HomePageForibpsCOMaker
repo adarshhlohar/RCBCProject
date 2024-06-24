@@ -1,0 +1,15 @@
+{
+  "keywordFileContentHash": "460463516289C30A99F8E040E257DD49",
+  "keywordClasses": [
+    {
+      "name": "coApprover.HomePageForibpsCOMaker",
+      "keywordMethods": [
+        {
+          "name": "selectResistration",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

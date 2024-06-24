@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "81FDC583E9C96443D801361531BF337A",
+  "keywordClasses": [
+    {
+      "name": "preRelease.CheckEvaluation",
+      "keywordMethods": [
+        {
+          "name": "checkEvaluationForAO",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

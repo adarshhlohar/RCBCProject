@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "E2D7CCE7E9361877B4AA9CC84DFA1F46",
+  "keywordClasses": [
+    {
+      "name": "sdApprover.LoginForibpsSD_Approver",
+      "keywordMethods": [
+        {
+          "name": "login",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,77 @@
+{
+  "keywordFileContentHash": "63F626765F37A3FAB40331424A2077AD",
+  "keywordClasses": [
+    {
+      "name": "globalVariableUtils.GlobalVariableUtil",
+      "keywordMethods": [
+        {
+          "name": "loadGlobalVariable",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "captureScreenShot",
+          "parameters": [
+            {
+              "name": "ScreenShotPath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "screenshot_name",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "createFolder",
+          "parameters": [
+            {
+              "name": "folderName",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "captureScreenShotWithTime",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "captureScreenShot",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,26 @@
+{
+  "keywordFileContentHash": "A7EAEEABA58BB90328D6891DF1DB658B",
+  "keywordClasses": [
+    {
+      "name": "autoLoanProtal.SubmitPage",
+      "keywordMethods": [
+        {
+          "name": "proceedToPreReleaseFun",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "proceedToPreReleaseFunWithout",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "proceedToPreReleaseFunNSTP",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

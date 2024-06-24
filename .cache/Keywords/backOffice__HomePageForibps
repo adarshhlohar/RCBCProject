@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "889AD5F6AEEDF8F8233E6B31402A190D",
+  "keywordClasses": [
+    {
+      "name": "backOffice.HomePageForibps",
+      "keywordMethods": [
+        {
+          "name": "selectResistration",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

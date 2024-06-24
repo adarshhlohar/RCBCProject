@@ -1,0 +1,21 @@
+{
+  "keywordFileContentHash": "AC6D5733D962405586ABABDFBE8C557A",
+  "keywordClasses": [
+    {
+      "name": "autoLoanProtal.UploadYourDocuments",
+      "keywordMethods": [
+        {
+          "name": "uploadYourDocumentsPage",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "uploadYourDocumentsPageForAmendment",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

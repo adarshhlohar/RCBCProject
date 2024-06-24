@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "1FA290D138C167AC96F3642F4D1C7CAF",
+  "keywordClasses": [
+    {
+      "name": "accountOfficerForPaper.HomePageForibpsAO",
+      "keywordMethods": [
+        {
+          "name": "selectResistration",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SubmitPageProceedToBackOffice</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c95b4e4e-002f-4f9d-a7b5-5fea4c32f29a</testCaseGuid>
+</TestCaseEntity>

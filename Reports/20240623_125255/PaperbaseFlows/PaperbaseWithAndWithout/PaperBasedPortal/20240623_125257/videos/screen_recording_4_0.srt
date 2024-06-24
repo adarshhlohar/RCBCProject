@@ -1,0 +1,4 @@
+1
+00:00:00,273 --> 00:00:18,256
+1. paperBasedPortal.letsGetStarted.letsGetStartedBtnFun()
+

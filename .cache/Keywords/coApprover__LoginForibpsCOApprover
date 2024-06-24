@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "5C026236F614F66E57660F6970762767",
+  "keywordClasses": [
+    {
+      "name": "coApprover.LoginForibpsCOApprover",
+      "keywordMethods": [
+        {
+          "name": "login",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

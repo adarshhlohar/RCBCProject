@@ -1,0 +1,26 @@
+{
+  "keywordFileContentHash": "5B166B95AD850418923E25A9BCDC0D2A",
+  "keywordClasses": [
+    {
+      "name": "paperBasedPortal.SubmitPage",
+      "keywordMethods": [
+        {
+          "name": "proceedToPreReleaseFun",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "proceedToPreReleaseFunWithout",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "proceedToPreReleaseFunNSTP",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

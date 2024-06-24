@@ -1,0 +1,4 @@
+1
+00:00:00,276 --> 00:00:14,304
+1. fulfillment.HomePageForibpsFullFillment.selectResistration()
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AdditionalPageWithAPI</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2bd6f0a4-bfce-491c-be9c-8b87264cf5e5</testCaseGuid>
+</TestCaseEntity>

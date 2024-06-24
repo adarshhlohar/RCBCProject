@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "70913021F2CE1FB129D312B85DA4E146",
+  "keywordClasses": [
+    {
+      "name": "fci_user1.HomePageForibpsAO",
+      "keywordMethods": [
+        {
+          "name": "selectResistration",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,56 @@
+{
+  "keywordFileContentHash": "2B461A1DDB82F99661DB34EE2C4F7C68",
+  "keywordClasses": [
+    {
+      "name": "tabSection.AlertsSummary",
+      "keywordMethods": [
+        {
+          "name": "alertsSummaryForAO",
+          "parameters": [],
+          "javadoc": "/**\r\n\t * This metnhod is for the AO Alert Summary\r\n\t * @return\r\n\t */"
+        },
+        {
+          "name": "alertsSummaryForFullfillment",
+          "parameters": [],
+          "javadoc": "/**\r\n\t * This metnhod is for the Fullfillment Alert Summary\r\n\t * @return\r\n\t */"
+        },
+        {
+          "name": "alertsSummaryForCOMaker",
+          "parameters": [],
+          "javadoc": "/**\r\n\t * This metnhod is for the COMaker Alert Summary\r\n\t * @return\r\n\t */"
+        },
+        {
+          "name": "alertsSummaryForCOApprover",
+          "parameters": [],
+          "javadoc": "/**\r\n\t * This method is for the COApprover Alert Summary\r\n\t * @return\r\n\t */"
+        },
+        {
+          "name": "alertsSummaryForCOMakerPaperbased",
+          "parameters": [],
+          "javadoc": "/**\r\n\t * This metnhod is for the COMaker Alert Summary paperbased\r\n\t * @return\r\n\t */"
+        },
+        {
+          "name": "alertsSummaryForCOApproverPaperbased",
+          "parameters": [],
+          "javadoc": "/**\r\n\t * This method is for the COApprover Alert Summary paper based\r\n\t * @return\r\n\t */"
+        },
+        {
+          "name": "alertsSummaryForAOPaperbase",
+          "parameters": [],
+          "javadoc": "/**\r\n\t * This metnhod is for the AO Alert Summary\r\n\t * @return\r\n\t */"
+        },
+        {
+          "name": "alertsSummaryForFullfillmentPaperbase",
+          "parameters": [],
+          "javadoc": "/**\r\n\t * This metnhod is for the Fullfillment Alert Summary\r\n\t * @return\r\n\t */"
+        },
+        {
+          "name": "alertsSummaryForCommon",
+          "parameters": [],
+          "javadoc": "/**\r\n\t * This metnhod is for the AO Alert Summary\r\n\t * @return\r\n\t */"
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

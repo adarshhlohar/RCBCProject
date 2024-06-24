@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "ACD0A4E204F34D8093F4E3D379AD9898",
+  "keywordClasses": [
+    {
+      "name": "coMaker.LoginForibpsCOMaker",
+      "keywordMethods": [
+        {
+          "name": "login",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

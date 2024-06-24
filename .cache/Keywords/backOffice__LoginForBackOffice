@@ -1,0 +1,15 @@
+{
+  "keywordFileContentHash": "F471566A8B44ED623C734D072A1D9E28",
+  "keywordClasses": [
+    {
+      "name": "backOffice.LoginForBackOffice",
+      "keywordMethods": [
+        {
+          "name": "login",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

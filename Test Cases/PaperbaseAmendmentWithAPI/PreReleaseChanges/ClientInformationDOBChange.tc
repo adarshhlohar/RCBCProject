@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ClientInformationDOBChange</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>aaa91d8d-65b8-4ea5-9f1f-83f0a9f61088</testCaseGuid>
+</TestCaseEntity>

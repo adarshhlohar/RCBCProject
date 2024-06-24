@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "17647F0D79D9576917535D2E57E7E3C6",
+  "keywordClasses": [
+    {
+      "name": "coMaker.LoginForibpsEncoder",
+      "keywordMethods": [
+        {
+          "name": "login",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

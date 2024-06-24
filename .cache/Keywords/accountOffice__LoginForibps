@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "4BAEDEB93CE195FE41027D30CD323CAD",
+  "keywordClasses": [
+    {
+      "name": "accountOffice.LoginForibps",
+      "keywordMethods": [
+        {
+          "name": "login",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

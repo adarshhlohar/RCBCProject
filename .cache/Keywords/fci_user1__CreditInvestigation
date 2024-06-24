@@ -1,0 +1,31 @@
+{
+  "keywordFileContentHash": "A58E0D1FC685DAABC55083265B75E452",
+  "keywordClasses": [
+    {
+      "name": "fci_user1.CreditInvestigation",
+      "keywordMethods": [
+        {
+          "name": "creditInvestigationdetail",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "creditInvestigationdetailEmp",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "creditInvestigationApproverEMP",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "creditInvestigationApprover",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

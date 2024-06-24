@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Portal</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>74632e51-c3a7-4ff7-914c-66d832737b55</testSuiteGuid>
+   <testCaseLink>
+      <guid>54674305-82a0-40a5-9cc1-6859819bdd6d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AOAsDealer/Paperbase/WithAndWithoutSTP/Portal/LoginPage</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2f79cf93-3fe9-474c-9fe4-829abcf51f62</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AOAsDealer/Paperbase/WithAndWithoutSTP/Portal/HomePage</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>de4d5733-457b-4653-bbb8-a5d5920c1186</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AOAsDealer/Paperbase/WithAndWithoutSTP/Portal/SelectPaperBased</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dbeb4be2-df5d-4318-b50b-7f405b8d0fbc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AOAsDealer/Paperbase/WithAndWithoutSTP/Portal/LetsgetStarted</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bbbedf47-387f-4427-a7b7-264fb3c4b531</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AOAsDealer/Paperbase/WithAndWithoutSTP/Portal/BorrowerDetail</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>05d5278e-3e74-48bb-a979-28a3be2c75c6</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/NSTPPaperbasedBorrowerDetail</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>05d5278e-3e74-48bb-a979-28a3be2c75c6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>fst_Name</value>
+         <variableId>8f43a260-a2c9-4d48-a6e1-3ac7b2cf7a23</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>05d5278e-3e74-48bb-a979-28a3be2c75c6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>mid_Name</value>
+         <variableId>c129397d-3f46-4815-b72b-2af2b2620c1f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>05d5278e-3e74-48bb-a979-28a3be2c75c6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>lst_Name</value>
+         <variableId>cd45af72-7bec-4d1e-bc60-0b5496358372</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>05d5278e-3e74-48bb-a979-28a3be2c75c6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>suffix</value>
+         <variableId>871d9aba-fc28-40d0-866e-f5eb996ece0a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>05d5278e-3e74-48bb-a979-28a3be2c75c6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>maritalStatus</value>
+         <variableId>a0665680-2110-4df5-8256-b89e8898349b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>05d5278e-3e74-48bb-a979-28a3be2c75c6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>date</value>
+         <variableId>63a0c0f8-e360-4550-8ab2-440aeb132910</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>05d5278e-3e74-48bb-a979-28a3be2c75c6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>aac388d6-e431-491c-a639-bf6fb0f92200</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>05d5278e-3e74-48bb-a979-28a3be2c75c6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>mob_Num</value>
+         <variableId>3a92f1d8-78c8-4e38-8151-012e78aa9f41</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>05d5278e-3e74-48bb-a979-28a3be2c75c6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>residence</value>
+         <variableId>bb61f6be-8419-4f6c-8631-af31695c1405</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>20132c2f-fc2e-46c6-9b30-bc3089621055</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AOAsDealer/Paperbase/WithAndWithoutSTP/Portal/DocumentUploadPage</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>df473aab-3591-49f4-8712-373424608a6f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AOAsDealer/Paperbase/WithAndWithoutSTP/Portal/SubmitPageForBackOffice</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+</TestSuiteEntity>

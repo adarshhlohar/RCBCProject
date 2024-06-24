@@ -1,0 +1,66 @@
+{
+  "keywordFileContentHash": "7030494EBE1D8505A7E239B7EDD2EE0C",
+  "keywordClasses": [
+    {
+      "name": "tabSection.CreditInvestigation",
+      "keywordMethods": [
+        {
+          "name": "creditInvestigationForAO",
+          "parameters": [],
+          "javadoc": "/**\r\n\t * This metnhod is for the AO credit Investigation\r\n\t * @return\r\n\t */"
+        },
+        {
+          "name": "creditInvestigationForEncoder",
+          "parameters": [],
+          "javadoc": "/**\r\n\t * This metnhod is for the Encoder credit Investigation\r\n\t * @return\r\n\t */"
+        },
+        {
+          "name": "creditInvestigationForFullfillment",
+          "parameters": [],
+          "javadoc": "/**\r\n\t * This metnhod is for the Fullfillment credit Investigation\r\n\t * @return\r\n\t */"
+        },
+        {
+          "name": "creditInvestigationCOMaker",
+          "parameters": [],
+          "javadoc": "/**\r\n\t * This metnhod is for the COMAker credit Investigation\r\n\t * @return\r\n\t */"
+        },
+        {
+          "name": "creditInvestigationCOApprover",
+          "parameters": [],
+          "javadoc": "/**\r\n\t * This metnhod is for the COApprover credit Investigation\r\n\t * @return\r\n\t */"
+        },
+        {
+          "name": "creditInvestigationForEncoderPaperbased",
+          "parameters": [],
+          "javadoc": "/**\r\n\t * This metnhod is for the Encoder credit Investigation\r\n\t * @return\r\n\t */"
+        },
+        {
+          "name": "creditInvestigationForCOMakerPaperbased",
+          "parameters": [],
+          "javadoc": "/**\r\n\t * This metnhod is for the Encoder credit Investigation\r\n\t * @return\r\n\t */"
+        },
+        {
+          "name": "creditInvestigationCOApproverPaperbased",
+          "parameters": [],
+          "javadoc": "/**\r\n\t * This metnhod is for the COApprover credit Investigation\r\n\t * @return\r\n\t */"
+        },
+        {
+          "name": "creditInvestigationForAOPaperbase",
+          "parameters": [],
+          "javadoc": "/**\r\n\t * This metnhod is for the AO credit Investigation\r\n\t * @return\r\n\t */"
+        },
+        {
+          "name": "creditInvestigationForFullfillmentPaperbased",
+          "parameters": [],
+          "javadoc": "/**\r\n\t * This metnhod is for the Fullfillment credit Investigation\r\n\t * @return\r\n\t */"
+        },
+        {
+          "name": "creditInvestigationForCommon",
+          "parameters": [],
+          "javadoc": "/**\r\n\t * This metnhod is for the Fullfillment credit Investigation\r\n\t * @return\r\n\t */"
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

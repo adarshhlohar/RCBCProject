@@ -1,0 +1,54 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+EncoderForWith,Chrome 126.0.0.0,,,24-06-2024 10:34:12,24-06-2024 10:41:43,7m - 31.358s,FAILED
+,,,,,,,
+Test Cases/Paper_STPWithAndWithoutAPI/Encoder/LoginPage,Chrome 126.0.0.0,,,24-06-2024 10:34:13,24-06-2024 10:34:32,19.860s,PASSED
+encoder.LoginForibpsEncoder.login(),Chrome 126.0.0.0,,,24-06-2024 10:34:15,24-06-2024 10:34:30,15.811s,PASSED
+Video,Chrome 126.0.0.0,,,24-06-2024 10:34:32,24-06-2024 10:34:32,0.002s,PASSED
+,,,,,,,
+Test Cases/Paper_STPWithAndWithoutAPI/Encoder/HomePage,Chrome 126.0.0.0,,,24-06-2024 10:34:32,24-06-2024 10:35:02,29.324s,PASSED
+encoder.HomePageForibpsEncoder.selectResistration(),Chrome 126.0.0.0,,,24-06-2024 10:34:33,24-06-2024 10:35:00,27.043s,PASSED
+Video,Chrome 126.0.0.0,,,24-06-2024 10:35:02,24-06-2024 10:35:02,0.001s,PASSED
+,,,,,,,
+Test Cases/Paper_STPWithAndWithoutAPI/Encoder/ClientInformationWithAPI,Chrome 126.0.0.0,,,24-06-2024 10:35:02,24-06-2024 10:36:19,1m - 17.646s,PASSED
+tabSection.CustomerDetail.clientInformationForEncoderPaperBasedWith(),Chrome 126.0.0.0,,,24-06-2024 10:35:02,24-06-2024 10:36:17,1m - 15.279s,PASSED
+Video,Chrome 126.0.0.0,,,24-06-2024 10:36:19,24-06-2024 10:36:19,0.002s,PASSED
+,,,,,,,
+Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CollateralInformationWith,Chrome 126.0.0.0,,,24-06-2024 10:36:19,24-06-2024 10:36:32,12.984s,PASSED
+tabSection.CollateralInformation.collateralInformationForEncoderPaperBasedWith(),Chrome 126.0.0.0,,,24-06-2024 10:36:20,24-06-2024 10:36:30,10.756s,PASSED
+Video,Chrome 126.0.0.0,,,24-06-2024 10:36:32,24-06-2024 10:36:32,0.001s,PASSED
+,,,,,,,
+Test Cases/Paper_STPWithAndWithoutAPI/Encoder/LoanInformationWithAPI,Chrome 126.0.0.0,,,24-06-2024 10:36:33,24-06-2024 10:37:28,55.020s,PASSED
+"tabSection.LoanInformation.loanInfoForEncoderPaperBased(marketingPromoCode, Downpayment_Amt, Actual_Cashout, loanTerm, insuranceType, loanPurpose, modeOfRelease, Scheduled_Unit_Release_Date, Actual_Unit_Release_Date, Total_CMFCollectedby_Dealer, Payment_Type, PaymentFrequency, Mode_Of_Payment)",Chrome 126.0.0.0,,,24-06-2024 10:36:33,24-06-2024 10:37:26,52.342s,PASSED
+Video,Chrome 126.0.0.0,,,24-06-2024 10:37:28,24-06-2024 10:37:28,0.001s,PASSED
+,,,,,,,
+Test Cases/Paper_STPWithAndWithoutAPI/Encoder/DocumentChecklist,Chrome 126.0.0.0,,,24-06-2024 10:37:28,24-06-2024 10:37:35,7.338s,PASSED
+tabSection.DocumentCheckList.documentCheckListForEncoderPaperBased(),Chrome 126.0.0.0,,,24-06-2024 10:37:28,24-06-2024 10:37:33,5.177s,PASSED
+Video,Chrome 126.0.0.0,,,24-06-2024 10:37:35,24-06-2024 10:37:35,0.001s,PASSED
+,,,,,,,
+Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CheckEligibility,Chrome 126.0.0.0,,,24-06-2024 10:37:35,24-06-2024 10:40:44,3m - 9.020s,FAILED
+tabSection.CheckEligibility.checkEligibilityForEncoderPaperBased(),Chrome 126.0.0.0,,,24-06-2024 10:37:35,24-06-2024 10:40:42,3m - 6.613s,FAILED
+Video,Chrome 126.0.0.0,,,24-06-2024 10:40:44,24-06-2024 10:40:44,0.002s,PASSED
+,,,,,,,
+Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CreditEvaluation,Chrome 126.0.0.0,,,24-06-2024 10:40:44,24-06-2024 10:40:47,2.802s,PASSED
+tabSection.CreditEvaluation.creditEvaluationForEncoderPaperBased(),Chrome 126.0.0.0,,,24-06-2024 10:40:44,24-06-2024 10:40:45,0.563s,PASSED
+Video,Chrome 126.0.0.0,,,24-06-2024 10:40:47,24-06-2024 10:40:47,0.001s,PASSED
+,,,,,,,
+Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CreditInvestigation,Chrome 126.0.0.0,,,24-06-2024 10:40:47,24-06-2024 10:40:53,6.131s,PASSED
+tabSection.CreditInvestigation.creditInvestigationForEncoderPaperbased(),Chrome 126.0.0.0,,,24-06-2024 10:40:47,24-06-2024 10:40:51,3.942s,PASSED
+Video,Chrome 126.0.0.0,,,24-06-2024 10:40:53,24-06-2024 10:40:53,0.001s,PASSED
+,,,,,,,
+Test Cases/Paper_STPWithAndWithoutAPI/Encoder/InsuranceInformation,Chrome 126.0.0.0,,,24-06-2024 10:40:53,24-06-2024 10:40:59,6.078s,PASSED
+tabSection.InsuranceInformation.insuranceInformationForEncoderPaperBased(),Chrome 126.0.0.0,,,24-06-2024 10:40:53,24-06-2024 10:40:57,3.942s,PASSED
+Video,Chrome 126.0.0.0,,,24-06-2024 10:40:59,24-06-2024 10:40:59,0.001s,PASSED
+,,,,,,,
+Test Cases/Paper_STPWithAndWithoutAPI/Encoder/DisbursementInformation,Chrome 126.0.0.0,,,24-06-2024 10:40:59,24-06-2024 10:41:05,6.163s,PASSED
+tabSection.DisbursementInfo.disbursementInformationForEncoderPaperbased(),Chrome 126.0.0.0,,,24-06-2024 10:40:59,24-06-2024 10:41:03,4.000s,PASSED
+Video,Chrome 126.0.0.0,,,24-06-2024 10:41:05,24-06-2024 10:41:05,0.001s,PASSED
+,,,,,,,
+Test Cases/Paper_STPWithAndWithoutAPI/Encoder/Action,Chrome 126.0.0.0,,,24-06-2024 10:41:05,24-06-2024 10:41:28,22.336s,PASSED
+tabSection.Action.submitForAO(),Chrome 126.0.0.0,,,24-06-2024 10:41:05,24-06-2024 10:41:25,20.130s,PASSED
+Video,Chrome 126.0.0.0,,,24-06-2024 10:41:28,24-06-2024 10:41:28,0.000s,PASSED
+,,,,,,,
+Test Cases/LogOut/logout,Chrome 126.0.0.0,,,24-06-2024 10:41:28,24-06-2024 10:41:43,15.922s,PASSED
+signOutibps.SignOut.logout(),Chrome 126.0.0.0,,,24-06-2024 10:41:28,24-06-2024 10:41:41,13.784s,PASSED
+Video,Chrome 126.0.0.0,,,24-06-2024 10:41:43,24-06-2024 10:41:43,0.001s,PASSED

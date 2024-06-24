@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "BD5019703E901B53AFD6A7B5470CF0FE",
+  "keywordClasses": [
+    {
+      "name": "encoder.HomePageForibpsEncoder",
+      "keywordMethods": [
+        {
+          "name": "selectResistration",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

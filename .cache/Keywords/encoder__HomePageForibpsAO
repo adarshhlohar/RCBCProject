@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "5E664721BB20B7F03B7A743B9D64F9D8",
+  "keywordClasses": [
+    {
+      "name": "encoder.HomePageForibpsAO",
+      "keywordMethods": [
+        {
+          "name": "selectResistration",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

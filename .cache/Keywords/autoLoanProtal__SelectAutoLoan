@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "7990B6EA82C9F646AA4ED1B47463E2F4",
+  "keywordClasses": [
+    {
+      "name": "autoLoanProtal.SelectAutoLoan",
+      "keywordMethods": [
+        {
+          "name": "clickToDigitalApplication",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

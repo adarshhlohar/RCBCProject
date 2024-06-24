@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "05429AB280B0423316B391EA48A9CD42",
+  "keywordClasses": [
+    {
+      "name": "coMaker.HomePageForibpsCOMaker",
+      "keywordMethods": [
+        {
+          "name": "selectResistration",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AO" time="182.048" tests="15" failures="0" errors="0">
+   <testsuite name="AO" tests="15" failures="0" errors="0" time="182.048" skipped="0" timestamp="24-06-2024T12:07:22" hostname="Adarsh.Lohar - QKNBK2037.qkcorp.qualitykiosk.com" id="Test Suites/PaperbaseFlows/PaperbaseWithAndWithout/AO">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_115032\\PaperbaseFlows\\PaperbaseWithAndWithout\\AO\\20240624_115042"/>
+         <property name="logFiles" value="D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_115032\\PaperbaseFlows\\PaperbaseWithAndWithout\\AO\\20240624_115042\\execution0.log"/>
+         <property name="attachments" value="D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_115032\\PaperbaseFlows\\PaperbaseWithAndWithout\\AO\\20240624_115042\\Screenshots/AccountOfficer24_06_2412_07_32/Regression24_06_24_12_07_33.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_115032\\PaperbaseFlows\\PaperbaseWithAndWithout\\AO\\20240624_115042\\Screenshots/AccountOfficer24_06_2412_07_32/Regression24_06_24_12_07_48.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_115032\\PaperbaseFlows\\PaperbaseWithAndWithout\\AO\\20240624_115042\\Screenshots/AccountOfficer24_06_2412_07_32/Regression24_06_24_12_08_01.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_115032\\PaperbaseFlows\\PaperbaseWithAndWithout\\AO\\20240624_115042\\Screenshots/AccountOfficer24_06_2412_07_32/Regression24_06_24_12_08_10.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_115032\\PaperbaseFlows\\PaperbaseWithAndWithout\\AO\\20240624_115042\\Screenshots/AccountOfficer24_06_2412_07_32/Regression24_06_24_12_08_17.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_115032\\PaperbaseFlows\\PaperbaseWithAndWithout\\AO\\20240624_115042\\Screenshots/AccountOfficer24_06_2412_07_32/Regression24_06_24_12_08_23.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_115032\\PaperbaseFlows\\PaperbaseWithAndWithout\\AO\\20240624_115042\\Screenshots/AccountOfficer24_06_2412_07_32/Regression24_06_24_12_08_29.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_115032\\PaperbaseFlows\\PaperbaseWithAndWithout\\AO\\20240624_115042\\Screenshots/AccountOfficer24_06_2412_07_32/Regression24_06_24_12_08_34.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_115032\\PaperbaseFlows\\PaperbaseWithAndWithout\\AO\\20240624_115042\\Screenshots/AccountOfficer24_06_2412_07_32/Regression24_06_24_12_08_40.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_115032\\PaperbaseFlows\\PaperbaseWithAndWithout\\AO\\20240624_115042\\Screenshots/AccountOfficer24_06_2412_07_32/Regression24_06_24_12_08_46.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_115032\\PaperbaseFlows\\PaperbaseWithAndWithout\\AO\\20240624_115042\\Screenshots/AccountOfficer24_06_2412_07_32/Regression24_06_24_12_08_52.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_115032\\PaperbaseFlows\\PaperbaseWithAndWithout\\AO\\20240624_115042\\Screenshots/AccountOfficer24_06_2412_07_32/Regression24_06_24_12_08_59.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_115032\\PaperbaseFlows\\PaperbaseWithAndWithout\\AO\\20240624_115042\\Screenshots/AccountOfficer24_06_2412_07_32/Regression24_06_24_12_09_03.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_115032\\PaperbaseFlows\\PaperbaseWithAndWithout\\AO\\20240624_115042\\Screenshots/AccountOfficer24_06_2412_07_32/Regression24_06_24_12_09_08.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_115032\\PaperbaseFlows\\PaperbaseWithAndWithout\\AO\\20240624_115042\\Screenshots/AccountOfficer24_06_2412_07_32/Regression24_06_24_12_09_14.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_115032\\PaperbaseFlows\\PaperbaseWithAndWithout\\AO\\20240624_115042\\1719211163445.png, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_115032\\PaperbaseFlows\\PaperbaseWithAndWithout\\AO\\20240624_115042\\Screenshots/AccountOfficer24_06_2412_07_32/Regression24_06_24_12_09_25.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_115032\\PaperbaseFlows\\PaperbaseWithAndWithout\\AO\\20240624_115042\\1719211203885.png, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_115032\\PaperbaseFlows\\PaperbaseWithAndWithout\\AO\\20240624_115042\\Screenshots/AccountOfficer24_06_2412_07_32/Regression24_06_24_12_10_13.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_115032\\PaperbaseFlows\\PaperbaseWithAndWithout\\AO\\20240624_115042\\Screenshots/AccountOfficer24_06_2412_07_32/Regression24_06_24_12_10_20.jpg"/>
+         <property name="hostName" value="Adarsh.Lohar - QKNBK2037.qkcorp.qualitykiosk.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="10.0.6.210"/>
+         <property name="sessionId" value="73ef30db2b94503f73eca89116ec8d1d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Paper_STPWithAndWithoutAPI/AO/LoginPageForAO" time="19.453" classname="Test Cases/Paper_STPWithAndWithoutAPI/AO/LoginPageForAO" status="PASSED">
+         <system-out><![CDATA[24-06-2024T12:07:22 - [TEST_CASE][PASSED] - Test Cases/Paper_STPWithAndWithoutAPI/AO/LoginPageForAO: Test Cases/Paper_STPWithAndWithoutAPI/AO/LoginPageForAO
+
+24-06-2024T12:07:23 - [TEST_STEP][PASSED] - accountOfficer.LoginForibpsAO.login(): accountOfficer.LoginForibpsAO.login is PASSED
+
+24-06-2024T12:07:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-06-2024T12:07:24 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito]']
+
+24-06-2024T12:07:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-06-2024T12:07:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+24-06-2024T12:07:27 - [MESSAGE][PASSED] - Current window maximized
+
+24-06-2024T12:07:30 - [MESSAGE][PASSED] - Navigate to 'https://rcbcuat.nonprodnmc.com/omniapp' successfully
+
+24-06-2024T12:07:30 - [MESSAGE][PASSED] - Text 'QK_AO7' is set on object 'Object Repository/BackOffice/ibpsLogin/userName'
+
+24-06-2024T12:07:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/BackOffice/ibpsLogin/password'
+
+24-06-2024T12:07:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:07:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:07:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:07:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_115032\\PaperbaseFlows\\PaperbaseWithAndWithout\\AO\\20240624_115042\\Screenshots/AccountOfficer24_06_2412_07_32/Regression24_06_24_12_07_33.jpg]]
+
+24-06-2024T12:07:34 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/ibpsLogin/loginButton' is clicked on
+
+24-06-2024T12:07:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+24-06-2024T12:07:39 - [MESSAGE][WARNING] - Object 'Object Repository/BackOffice/ibpsLogin/text' is not visible after 2 second(s)
+
+24-06-2024T12:07:39 - [MESSAGE][PASSED] - accountOfficer.LoginForibpsAO.login is PASSED
+
+24-06-2024T12:07:41 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/AO/LoginPageForAO' .
+
+24-06-2024T12:07:41 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/AO/LoginPageForAO' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Paper_STPWithAndWithoutAPI/AO/HomePageForAO" time="13.314" classname="Test Cases/Paper_STPWithAndWithoutAPI/AO/HomePageForAO" status="PASSED">
+         <system-out><![CDATA[24-06-2024T12:07:41 - [TEST_CASE][PASSED] - Test Cases/Paper_STPWithAndWithoutAPI/AO/HomePageForAO: Test Cases/Paper_STPWithAndWithoutAPI/AO/HomePageForAO
+
+24-06-2024T12:07:41 - [TEST_STEP][PASSED] - accountOfficerForPaper.HomePageForibpsAO.selectResistration(): accountOfficerForPaper.HomePageForibpsAO.selectResistration is PASSED
+
+24-06-2024T12:07:42 - [MESSAGE][PASSED] - Wait for page load successfully
+
+24-06-2024T12:07:42 - [MESSAGE][PASSED] - Object 'Object Repository/BackOffice/AO/ibpsHomePage/accountOfficer' is clickable
+
+24-06-2024T12:07:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+24-06-2024T12:07:45 - [MESSAGE][INFO] -  ******** LOS-3370
+
+24-06-2024T12:07:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+24-06-2024T12:07:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:07:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:07:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_115032\\PaperbaseFlows\\PaperbaseWithAndWithout\\AO\\20240624_115042\\Screenshots/AccountOfficer24_06_2412_07_32/Regression24_06_24_12_07_48.jpg]]
+
+24-06-2024T12:07:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+24-06-2024T12:07:52 - [MESSAGE][PASSED] - accountOfficerForPaper.HomePageForibpsAO.selectResistration is PASSED
+
+24-06-2024T12:07:55 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/AO/HomePageForAO' .
+
+24-06-2024T12:07:55 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/AO/HomePageForAO' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Paper_STPWithAndWithoutAPI/AO/CustomerDetailForAO" time="10.056" classname="Test Cases/Paper_STPWithAndWithoutAPI/AO/CustomerDetailForAO" status="PASSED">
+         <system-out><![CDATA[24-06-2024T12:07:55 - [TEST_CASE][PASSED] - Test Cases/Paper_STPWithAndWithoutAPI/AO/CustomerDetailForAO: Test Cases/Paper_STPWithAndWithoutAPI/AO/CustomerDetailForAO
+
+24-06-2024T12:07:55 - [TEST_STEP][PASSED] - tabSection.CustomerDetail.clientInformationForAOPaperbase(): tabSection.CustomerDetail.clientInformationForAOPaperbase is PASSED
+
+24-06-2024T12:07:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+24-06-2024T12:07:57 - [MESSAGE][PASSED] - Current window's index is: 0
+
+24-06-2024T12:07:57 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+24-06-2024T12:07:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+24-06-2024T12:08:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/Action/referenceNumber' is: 'AO SI DI : LOS-3370'
+
+24-06-2024T12:08:00 - [MESSAGE][INFO] - AO SI DI : LOS-3370 Contains LOS-3370
+
+24-06-2024T12:08:00 - [MESSAGE][INFO] - Ready to go....
+
+24-06-2024T12:08:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:08:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:08:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_115032\\PaperbaseFlows\\PaperbaseWithAndWithout\\AO\\20240624_115042\\Screenshots/AccountOfficer24_06_2412_07_32/Regression24_06_24_12_08_01.jpg]]
+
+24-06-2024T12:08:03 - [MESSAGE][PASSED] - tabSection.CustomerDetail.clientInformationForAOPaperbase is PASSED
+
+24-06-2024T12:08:05 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/AO/CustomerDetailForAO' .
+
+24-06-2024T12:08:05 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/AO/CustomerDetailForAO' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Paper_STPWithAndWithoutAPI/AO/Loan InformationForAO" time="8.682" classname="Test Cases/Paper_STPWithAndWithoutAPI/AO/Loan InformationForAO" status="PASSED">
+         <system-out><![CDATA[24-06-2024T12:08:05 - [TEST_CASE][PASSED] - Test Cases/Paper_STPWithAndWithoutAPI/AO/Loan InformationForAO: Test Cases/Paper_STPWithAndWithoutAPI/AO/Loan InformationForAO
+
+24-06-2024T12:08:05 - [TEST_STEP][PASSED] - tabSection.LoanInformation.loanInfoForAOWithoutPaperbase(): tabSection.LoanInformation.loanInfoForAOWithoutPaperbase is PASSED
+
+24-06-2024T12:08:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:08:07 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/LoanInformation' is clicked on
+
+24-06-2024T12:08:07 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/BackOffice/AO/LoanInfo/SIRate' successfully
+
+24-06-2024T12:08:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:08:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:08:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:08:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:08:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_115032\\PaperbaseFlows\\PaperbaseWithAndWithout\\AO\\20240624_115042\\Screenshots/AccountOfficer24_06_2412_07_32/Regression24_06_24_12_08_10.jpg]]
+
+24-06-2024T12:08:11 - [MESSAGE][PASSED] - tabSection.LoanInformation.loanInfoForAOWithoutPaperbase is PASSED
+
+24-06-2024T12:08:13 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/AO/Loan InformationForAO' .
+
+24-06-2024T12:08:13 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/AO/Loan InformationForAO' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Paper_STPWithAndWithoutAPI/AO/DocumentChecklistForAO" time="7.069" classname="Test Cases/Paper_STPWithAndWithoutAPI/AO/DocumentChecklistForAO" status="PASSED">
+         <system-out><![CDATA[24-06-2024T12:08:13 - [TEST_CASE][PASSED] - Test Cases/Paper_STPWithAndWithoutAPI/AO/DocumentChecklistForAO: Test Cases/Paper_STPWithAndWithoutAPI/AO/DocumentChecklistForAO
+
+24-06-2024T12:08:13 - [TEST_STEP][PASSED] - tabSection.DocumentCheckList.documentCheckListForAOpaperbase(): tabSection.DocumentCheckList.documentCheckListForAOpaperbase is PASSED
+
+24-06-2024T12:08:15 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/DocumentCheclist' is clicked on
+
+24-06-2024T12:08:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:08:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:08:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:08:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_115032\\PaperbaseFlows\\PaperbaseWithAndWithout\\AO\\20240624_115042\\Screenshots/AccountOfficer24_06_2412_07_32/Regression24_06_24_12_08_17.jpg]]
+
+24-06-2024T12:08:18 - [MESSAGE][PASSED] - tabSection.DocumentCheckList.documentCheckListForAOpaperbase is PASSED
+
+24-06-2024T12:08:20 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/AO/DocumentChecklistForAO' .
+
+24-06-2024T12:08:20 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/AO/DocumentChecklistForAO' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Paper_STPWithAndWithoutAPI/AO/CollateralInformationForAO" time="5.675" classname="Test Cases/Paper_STPWithAndWithoutAPI/AO/CollateralInformationForAO" status="PASSED">
+         <system-out><![CDATA[24-06-2024T12:08:20 - [TEST_CASE][PASSED] - Test Cases/Paper_STPWithAndWithoutAPI/AO/CollateralInformationForAO: Test Cases/Paper_STPWithAndWithoutAPI/AO/CollateralInformationForAO
+
+24-06-2024T12:08:20 - [TEST_STEP][PASSED] - tabSection.CollateralInformation.collateralInformationForAOPaperbase(): tabSection.CollateralInformation.collateralInformationForAOPaperbase is PASSED
+
+24-06-2024T12:08:21 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/CollateralInformation' is clicked on
+
+24-06-2024T12:08:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:08:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:08:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:08:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_115032\\PaperbaseFlows\\PaperbaseWithAndWithout\\AO\\20240624_115042\\Screenshots/AccountOfficer24_06_2412_07_32/Regression24_06_24_12_08_23.jpg]]
+
+24-06-2024T12:08:24 - [MESSAGE][PASSED] - tabSection.CollateralInformation.collateralInformationForAOPaperbase is PASSED
+
+24-06-2024T12:08:26 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/AO/CollateralInformationForAO' .
+
+24-06-2024T12:08:26 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/AO/CollateralInformationForAO' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Paper_STPWithAndWithoutAPI/AO/CheckEligibilityForAO" time="5.767" classname="Test Cases/Paper_STPWithAndWithoutAPI/AO/CheckEligibilityForAO" status="PASSED">
+         <system-out><![CDATA[24-06-2024T12:08:26 - [TEST_CASE][PASSED] - Test Cases/Paper_STPWithAndWithoutAPI/AO/CheckEligibilityForAO: Test Cases/Paper_STPWithAndWithoutAPI/AO/CheckEligibilityForAO
+
+24-06-2024T12:08:26 - [TEST_STEP][PASSED] - tabSection.CheckEligibility.checkEligibilityForAOPaperbase(): tabSection.CheckEligibility.checkEligibilityForAOPaperbase is PASSED
+
+24-06-2024T12:08:27 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/checkEligibility' is clicked on
+
+24-06-2024T12:08:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:08:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:08:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:08:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_115032\\PaperbaseFlows\\PaperbaseWithAndWithout\\AO\\20240624_115042\\Screenshots/AccountOfficer24_06_2412_07_32/Regression24_06_24_12_08_29.jpg]]
+
+24-06-2024T12:08:30 - [MESSAGE][PASSED] - tabSection.CheckEligibility.checkEligibilityForAOPaperbase is PASSED
+
+24-06-2024T12:08:32 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/AO/CheckEligibilityForAO' .
+
+24-06-2024T12:08:32 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/AO/CheckEligibilityForAO' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Paper_STPWithAndWithoutAPI/AO/CreditEvaluationForAO" time="5.686" classname="Test Cases/Paper_STPWithAndWithoutAPI/AO/CreditEvaluationForAO" status="PASSED">
+         <system-out><![CDATA[24-06-2024T12:08:32 - [TEST_CASE][PASSED] - Test Cases/Paper_STPWithAndWithoutAPI/AO/CreditEvaluationForAO: Test Cases/Paper_STPWithAndWithoutAPI/AO/CreditEvaluationForAO
+
+24-06-2024T12:08:32 - [TEST_STEP][PASSED] - tabSection.CreditEvaluation.creditEvaluationForAOPaperbase(): tabSection.CreditEvaluation.creditEvaluationForAOPaperbase is PASSED
+
+24-06-2024T12:08:32 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/creditEvaluation' is clicked on
+
+24-06-2024T12:08:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:08:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:08:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:08:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_115032\\PaperbaseFlows\\PaperbaseWithAndWithout\\AO\\20240624_115042\\Screenshots/AccountOfficer24_06_2412_07_32/Regression24_06_24_12_08_34.jpg]]
+
+24-06-2024T12:08:36 - [MESSAGE][PASSED] - tabSection.CreditEvaluation.creditEvaluationForAOPaperbase is PASSED
+
+24-06-2024T12:08:38 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/AO/CreditEvaluationForAO' .
+
+24-06-2024T12:08:38 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/AO/CreditEvaluationForAO' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Paper_STPWithAndWithoutAPI/AO/DevlationsForAO" time="5.679" classname="Test Cases/Paper_STPWithAndWithoutAPI/AO/DevlationsForAO" status="PASSED">
+         <system-out><![CDATA[24-06-2024T12:08:38 - [TEST_CASE][PASSED] - Test Cases/Paper_STPWithAndWithoutAPI/AO/DevlationsForAO: Test Cases/Paper_STPWithAndWithoutAPI/AO/DevlationsForAO
+
+24-06-2024T12:08:38 - [TEST_STEP][PASSED] - tabSection.Deviation.deviationForAOPaperbase(): tabSection.Deviation.deviationForAOPaperbase is PASSED
+
+24-06-2024T12:08:38 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/Devlations' is clicked on
+
+24-06-2024T12:08:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:08:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:08:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:08:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_115032\\PaperbaseFlows\\PaperbaseWithAndWithout\\AO\\20240624_115042\\Screenshots/AccountOfficer24_06_2412_07_32/Regression24_06_24_12_08_40.jpg]]
+
+24-06-2024T12:08:41 - [MESSAGE][PASSED] - tabSection.Deviation.deviationForAOPaperbase is PASSED
+
+24-06-2024T12:08:43 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/AO/DevlationsForAO' .
+
+24-06-2024T12:08:43 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/AO/DevlationsForAO' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Paper_STPWithAndWithoutAPI/AO/CreditInvestigationForAO" time="6.037" classname="Test Cases/Paper_STPWithAndWithoutAPI/AO/CreditInvestigationForAO" status="PASSED">
+         <system-out><![CDATA[24-06-2024T12:08:43 - [TEST_CASE][PASSED] - Test Cases/Paper_STPWithAndWithoutAPI/AO/CreditInvestigationForAO: Test Cases/Paper_STPWithAndWithoutAPI/AO/CreditInvestigationForAO
+
+24-06-2024T12:08:43 - [TEST_STEP][PASSED] - tabSection.CreditInvestigation.creditInvestigationForAOPaperbase(): tabSection.CreditInvestigation.creditInvestigationForAOPaperbase is PASSED
+
+24-06-2024T12:08:44 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/creditInvestigation' is clicked on
+
+24-06-2024T12:08:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:08:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:08:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:08:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_115032\\PaperbaseFlows\\PaperbaseWithAndWithout\\AO\\20240624_115042\\Screenshots/AccountOfficer24_06_2412_07_32/Regression24_06_24_12_08_46.jpg]]
+
+24-06-2024T12:08:47 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/nextArrowButton' is clicked on
+
+24-06-2024T12:08:47 - [MESSAGE][PASSED] - tabSection.CreditInvestigation.creditInvestigationForAOPaperbase is PASSED
+
+24-06-2024T12:08:49 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/AO/CreditInvestigationForAO' .
+
+24-06-2024T12:08:49 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/AO/CreditInvestigationForAO' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Paper_STPWithAndWithoutAPI/AO/InsuranceInformationForAO" time="6.013" classname="Test Cases/Paper_STPWithAndWithoutAPI/AO/InsuranceInformationForAO" status="PASSED">
+         <system-out><![CDATA[24-06-2024T12:08:49 - [TEST_CASE][PASSED] - Test Cases/Paper_STPWithAndWithoutAPI/AO/InsuranceInformationForAO: Test Cases/Paper_STPWithAndWithoutAPI/AO/InsuranceInformationForAO
+
+24-06-2024T12:08:49 - [TEST_STEP][PASSED] - tabSection.InsuranceInformation.insuranceInformationForAOPaperbase(): tabSection.InsuranceInformation.insuranceInformationForAOPaperbase is PASSED
+
+24-06-2024T12:08:50 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/InsuranceInformation' is clicked on
+
+24-06-2024T12:08:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:08:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:08:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:08:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_115032\\PaperbaseFlows\\PaperbaseWithAndWithout\\AO\\20240624_115042\\Screenshots/AccountOfficer24_06_2412_07_32/Regression24_06_24_12_08_52.jpg]]
+
+24-06-2024T12:08:53 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/nextArrowButton' is clicked on
+
+24-06-2024T12:08:53 - [MESSAGE][PASSED] - tabSection.InsuranceInformation.insuranceInformationForAOPaperbase is PASSED
+
+24-06-2024T12:08:55 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/AO/InsuranceInformationForAO' .
+
+24-06-2024T12:08:55 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/AO/InsuranceInformationForAO' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Paper_STPWithAndWithoutAPI/AO/DisbursmentInformationForAO" time="16.399" classname="Test Cases/Paper_STPWithAndWithoutAPI/AO/DisbursmentInformationForAO" status="PASSED">
+         <system-out><![CDATA[24-06-2024T12:08:55 - [TEST_CASE][PASSED] - Test Cases/Paper_STPWithAndWithoutAPI/AO/DisbursmentInformationForAO: Test Cases/Paper_STPWithAndWithoutAPI/AO/DisbursmentInformationForAO
+
+24-06-2024T12:08:55 - [TEST_STEP][PASSED] - tabSection.DisbursementInfo.disbursementInformationForAOPaperbase(): tabSection.DisbursementInfo.disbursementInformationForAOPaperbase is PASSED
+
+24-06-2024T12:08:56 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/DisbursementInformation' is clicked on
+
+24-06-2024T12:08:57 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOfficePaperBase/Fullfillment/DisbursementInfo/modeOfDisbursement'
+
+24-06-2024T12:08:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:08:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:09:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:09:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_115032\\PaperbaseFlows\\PaperbaseWithAndWithout\\AO\\20240624_115042\\Screenshots/AccountOfficer24_06_2412_07_32/Regression24_06_24_12_08_59.jpg]]
+
+24-06-2024T12:09:01 - [MESSAGE][PASSED] - Text '465657575' is set on object 'Object Repository/BackOfficePaperBase/Fullfillment/DisbursementInfo/accountNumber'
+
+24-06-2024T12:09:01 - [MESSAGE][PASSED] - Text 'Axis' is set on object 'Object Repository/BackOfficePaperBase/Fullfillment/DisbursementInfo/bankName'
+
+24-06-2024T12:09:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:09:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:09:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:09:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_115032\\PaperbaseFlows\\PaperbaseWithAndWithout\\AO\\20240624_115042\\Screenshots/AccountOfficer24_06_2412_07_32/Regression24_06_24_12_09_03.jpg]]
+
+24-06-2024T12:09:05 - [MESSAGE][PASSED] - Text '50000' is set on object 'Object Repository/BackOfficePaperBase/AO/DisbursementInfo/GrossAmount'
+
+24-06-2024T12:09:06 - [MESSAGE][PASSED] - Text 'done' is set on object 'Object Repository/BackOfficePaperBase/AO/DisbursementInfo/AORemark'
+
+24-06-2024T12:09:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:09:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:09:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:09:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_115032\\PaperbaseFlows\\PaperbaseWithAndWithout\\AO\\20240624_115042\\Screenshots/AccountOfficer24_06_2412_07_32/Regression24_06_24_12_09_08.jpg]]
+
+24-06-2024T12:09:10 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/nextArrowButton' is clicked on
+
+24-06-2024T12:09:10 - [MESSAGE][PASSED] - tabSection.DisbursementInfo.disbursementInformationForAOPaperbase is PASSED
+
+24-06-2024T12:09:12 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/AO/DisbursmentInformationForAO' .
+
+24-06-2024T12:09:12 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/AO/DisbursmentInformationForAO' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Paper_STPWithAndWithoutAPI/AO/AlertSummaryForAO" time="6.136" classname="Test Cases/Paper_STPWithAndWithoutAPI/AO/AlertSummaryForAO" status="PASSED">
+         <system-out><![CDATA[24-06-2024T12:09:12 - [TEST_CASE][PASSED] - Test Cases/Paper_STPWithAndWithoutAPI/AO/AlertSummaryForAO: Test Cases/Paper_STPWithAndWithoutAPI/AO/AlertSummaryForAO
+
+24-06-2024T12:09:12 - [TEST_STEP][PASSED] - tabSection.AlertsSummary.alertsSummaryForAOPaperbase(): tabSection.AlertsSummary.alertsSummaryForAOPaperbase is PASSED
+
+24-06-2024T12:09:12 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/AlertSummary' is clicked on
+
+24-06-2024T12:09:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:09:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:09:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:09:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_115032\\PaperbaseFlows\\PaperbaseWithAndWithout\\AO\\20240624_115042\\Screenshots/AccountOfficer24_06_2412_07_32/Regression24_06_24_12_09_14.jpg]]
+
+24-06-2024T12:09:16 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/nextArrowButton' is clicked on
+
+24-06-2024T12:09:16 - [MESSAGE][PASSED] - tabSection.AlertsSummary.alertsSummaryForAOPaperbase is PASSED
+
+24-06-2024T12:09:18 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/AO/AlertSummaryForAO' .
+
+24-06-2024T12:09:18 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/AO/AlertSummaryForAO' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Paper_STPWithAndWithoutAPI/AO/Action" time="49.747" classname="Test Cases/Paper_STPWithAndWithoutAPI/AO/Action" status="PASSED">
+         <system-out><![CDATA[24-06-2024T12:09:18 - [TEST_CASE][PASSED] - Test Cases/Paper_STPWithAndWithoutAPI/AO/Action: Test Cases/Paper_STPWithAndWithoutAPI/AO/Action
+
+24-06-2024T12:09:18 - [TEST_STEP][PASSED] - tabSection.Action.submitForAO(): tabSection.Action.submitForAO is PASSED
+
+24-06-2024T12:09:20 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/Action' is clicked on
+
+24-06-2024T12:09:20 - [MESSAGE][PASSED] - Object 'Object Repository/Action/Decision' is visible
+
+24-06-2024T12:09:22 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Action/Decision'
+
+24-06-2024T12:09:22 - [MESSAGE][PASSED] - Text 'OK' is set on object 'Object Repository/Action/Remarks'
+
+24-06-2024T12:09:22 - [MESSAGE][PASSED] - Current window's title is: 'AO SI DI : LOS-3370'
+
+24-06-2024T12:09:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/Action/referenceNumber' is: 'AO SI DI : LOS-3370'
+
+24-06-2024T12:09:22 - [MESSAGE][INFO] - LOS-3370
+
+24-06-2024T12:09:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Action/SubmitButton' is clicked on
+
+24-06-2024T12:09:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_115032\\PaperbaseFlows\\PaperbaseWithAndWithout\\AO\\20240624_115042\\1719211163445.png]]
+
+24-06-2024T12:09:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:09:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:09:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:09:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_115032\\PaperbaseFlows\\PaperbaseWithAndWithout\\AO\\20240624_115042\\Screenshots/AccountOfficer24_06_2412_07_32/Regression24_06_24_12_09_25.jpg]]
+
+24-06-2024T12:09:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Action/confirmYes' is clicked on
+
+24-06-2024T12:10:04 - [MESSAGE][WARNING] - Cannot find window with title: 'LoanPortal' (Root cause: com.kms.katalon.core.exception.StepFailedException: Cannot find window with title: 'LoanPortal'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword$_switchToWindowTitle_closure1.doCall(SwitchToWindowTitleKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword$_switchToWindowTitle_closure1.call(SwitchToWindowTitleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword.switchToWindowTitle(SwitchToWindowTitleKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword.execute(SwitchToWindowTitleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowTitle(WebUiBuiltInKeywords.groovy:1809)
+	at tabSection.Action.submitForAO(Action.groovy:64)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Action.run(Action:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1719210042880.run(TempTestSuite1719210042880.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_115032\\PaperbaseFlows\\PaperbaseWithAndWithout\\AO\\20240624_115042\\1719211203885.png]]
+
+24-06-2024T12:10:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+24-06-2024T12:10:06 - [MESSAGE][PASSED] - tabSection.Action.submitForAO is PASSED
+
+24-06-2024T12:10:08 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/AO/Action' .
+
+24-06-2024T12:10:08 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/AO/Action' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LogOut/logout" time="15.982" classname="Test Cases/LogOut/logout" status="PASSED">
+         <system-out><![CDATA[24-06-2024T12:10:08 - [TEST_CASE][PASSED] - Test Cases/LogOut/logout: Test Cases/LogOut/logout
+
+24-06-2024T12:10:08 - [TEST_STEP][PASSED] - signOutibps.SignOut.logout(): signOutibps.SignOut.logout is PASSED
+
+24-06-2024T12:10:08 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+24-06-2024T12:10:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:10:09 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/ibpsLogOut/selectProcess'
+
+24-06-2024T12:10:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:10:10 - [MESSAGE][PASSED] - Object: 'Object Repository/ibpsLogOut/searchBar' is double clicked on
+
+24-06-2024T12:10:11 - [MESSAGE][PASSED] - Keys 'LOS-3370' sent to object: 'Object Repository/ibpsLogOut/searchBar'
+
+24-06-2024T12:10:11 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ibpsLogOut/searchBar'
+
+24-06-2024T12:10:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:10:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:10:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:10:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_115032\\PaperbaseFlows\\PaperbaseWithAndWithout\\AO\\20240624_115042\\Screenshots/AccountOfficer24_06_2412_07_32/Regression24_06_24_12_10_13.jpg]]
+
+24-06-2024T12:10:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+24-06-2024T12:10:16 - [MESSAGE][PASSED] - Object: 'Object Repository/ibpsLogOut/label_QK_CO7' is clicked on
+
+24-06-2024T12:10:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+24-06-2024T12:10:18 - [MESSAGE][PASSED] - Object: 'Object Repository/ibpsLogOut/Logout' is clicked on
+
+24-06-2024T12:10:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:10:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:10:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T12:10:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_115032\\PaperbaseFlows\\PaperbaseWithAndWithout\\AO\\20240624_115042\\Screenshots/AccountOfficer24_06_2412_07_32/Regression24_06_24_12_10_20.jpg]]
+
+24-06-2024T12:10:22 - [MESSAGE][PASSED] - signOutibps.SignOut.logout is PASSED
+
+24-06-2024T12:10:24 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/LogOut/logout' .
+
+24-06-2024T12:10:24 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/LogOut/logout' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[24-06-2024T12:07:22 - [TEST_SUITE][PASSED] - AO: Test Cases/LogOut/logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

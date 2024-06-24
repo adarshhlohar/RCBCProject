@@ -1,0 +1,4 @@
+1
+00:00:00,127 --> 00:00:06,614
+1. tabSection.CreditInvestigation.creditInvestigationForEncoderPaperbased()
+

@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "CDC964F37C4C22285863882477E02A46",
+  "keywordClasses": [
+    {
+      "name": "preRelease.CreditInvestigation",
+      "keywordMethods": [
+        {
+          "name": "creditInvestigationForAO",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

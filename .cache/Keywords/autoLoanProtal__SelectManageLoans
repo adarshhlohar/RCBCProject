@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "E1324B17FD6FB19EF7CB9D1A0C2EE59B",
+  "keywordClasses": [
+    {
+      "name": "autoLoanProtal.SelectManageLoans",
+      "keywordMethods": [
+        {
+          "name": "selectToManageLoan",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

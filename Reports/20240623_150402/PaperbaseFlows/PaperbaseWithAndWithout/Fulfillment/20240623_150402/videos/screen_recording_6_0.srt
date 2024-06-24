@@ -1,0 +1,4 @@
+1
+00:00:00,299 --> 00:00:04,411
+1. tabSection.CollateralInformation.collateralInformationForFullfillmentPaperbased()
+

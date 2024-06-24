@@ -1,0 +1,4 @@
+1
+00:00:00,091 --> 00:01:21,139
+1. tabSection.CustomerDetail.clientInformationForEncoderPaperBased()
+

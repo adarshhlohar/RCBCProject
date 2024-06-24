@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "F433102A8F62CAC98EFA61B9FF3F89AE",
+  "keywordClasses": [
+    {
+      "name": "autoLoanProtal.confirmationPage",
+      "keywordMethods": [
+        {
+          "name": "editOnConfirmationPage",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

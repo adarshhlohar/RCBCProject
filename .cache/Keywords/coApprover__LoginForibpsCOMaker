@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "CBC8AF323D8F6C51F8D658F59058ECF2",
+  "keywordClasses": [
+    {
+      "name": "coApprover.LoginForibpsCOMaker",
+      "keywordMethods": [
+        {
+          "name": "login",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

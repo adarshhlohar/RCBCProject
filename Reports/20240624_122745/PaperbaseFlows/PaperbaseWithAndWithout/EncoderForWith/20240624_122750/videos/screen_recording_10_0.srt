@@ -1,0 +1,4 @@
+1
+00:00:00,085 --> 00:00:04,129
+1. tabSection.InsuranceInformation.insuranceInformationForEncoderPaperBased()
+

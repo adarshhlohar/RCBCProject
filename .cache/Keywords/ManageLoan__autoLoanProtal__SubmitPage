@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "A7C4643D8B39040052155628A4A83DBB",
+  "keywordClasses": [
+    {
+      "name": "autoLoanProtal.SubmitPage",
+      "keywordMethods": [
+        {
+          "name": "proceedToPreReleaseFun",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

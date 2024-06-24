@@ -1,0 +1,21 @@
+{
+  "keywordFileContentHash": "F34AF20F6181CB4EF3A1182FB36AA981",
+  "keywordClasses": [
+    {
+      "name": "fci_user1.HomePageForibpsFCI",
+      "keywordMethods": [
+        {
+          "name": "selectResistration",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "selectResistrationForCI2",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

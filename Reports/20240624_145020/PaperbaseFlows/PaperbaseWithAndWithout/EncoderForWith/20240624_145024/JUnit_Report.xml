@@ -1,0 +1,1846 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="EncoderForWith" time="442.992" tests="13" failures="1" errors="0">
+   <testsuite name="EncoderForWith" tests="13" failures="1" errors="0" time="442.992" skipped="0" timestamp="24-06-2024T14:53:13" hostname="Adarsh.Lohar - QKNBK2037.qkcorp.qualitykiosk.com" id="Test Suites/PaperbaseFlows/PaperbaseWithAndWithout/EncoderForWith">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024"/>
+         <property name="logFiles" value="D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\execution0.log"/>
+         <property name="attachments" value="D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_53_25.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_53_45.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_53_50.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_53_55.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_54_14.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_54_22.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_54_27.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_54_30.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_54_37.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_54_51.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_54_58.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_55_02.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_55_06.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_55_28.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_55_38.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_55_55.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_56_01.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_56_10.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_56_16.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_56_22.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_56_29.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_56_37.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_56_44.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_56_50.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_56_57.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_57_03.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_57_10.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_57_16.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_57_23.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_57_32.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_57_40.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_57_57.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_58_08.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_58_33.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\1719221316837.png, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_58_40.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_58_47.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_58_53.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_59_02.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_59_08.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_59_14.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\1719221367100.png, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_59_29.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\1719221416993.png, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_03_00_26.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_03_00_33.jpg"/>
+         <property name="hostName" value="Adarsh.Lohar - QKNBK2037.qkcorp.qualitykiosk.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="10.0.6.210"/>
+         <property name="sessionId" value="03b87149ccd559815f486c16bc04da67"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Paper_STPWithAndWithoutAPI/Encoder/LoginPage" time="21.95" classname="Test Cases/Paper_STPWithAndWithoutAPI/Encoder/LoginPage" status="PASSED">
+         <system-out><![CDATA[24-06-2024T14:53:14 - [TEST_CASE][PASSED] - Test Cases/Paper_STPWithAndWithoutAPI/Encoder/LoginPage: Test Cases/Paper_STPWithAndWithoutAPI/Encoder/LoginPage
+
+24-06-2024T14:53:15 - [TEST_STEP][PASSED] - encoder.LoginForibpsEncoder.login(): encoder.LoginForibpsEncoder.login is PASSED
+
+24-06-2024T14:53:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-06-2024T14:53:15 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito]']
+
+24-06-2024T14:53:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-06-2024T14:53:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+24-06-2024T14:53:20 - [MESSAGE][PASSED] - Current window maximized
+
+24-06-2024T14:53:22 - [MESSAGE][PASSED] - Navigate to 'https://rcbcuat.nonprodnmc.com/omniapp' successfully
+
+24-06-2024T14:53:22 - [MESSAGE][PASSED] - Text 'QK_Encoder7' is set on object 'Object Repository/BackOffice/ibpsLogin/userName'
+
+24-06-2024T14:53:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/BackOffice/ibpsLogin/password'
+
+24-06-2024T14:53:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:53:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:53:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:53:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_53_25.jpg]]
+
+24-06-2024T14:53:26 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/ibpsLogin/loginButton' is clicked on
+
+24-06-2024T14:53:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+24-06-2024T14:53:32 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id="oaloginform:contloginbtn"]'. Please recheck the objects properties to make sure the desired element is located. 
+
+24-06-2024T14:53:32 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/BackOffice/ibpsLogin/yesLogin'. Try using Self-healing.
+
+24-06-2024T14:53:33 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+24-06-2024T14:53:34 - [MESSAGE][WARNING] - [SELF-HEALING] javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression  because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression."}
+  (Session info: chrome=126.0.6478.114)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'QKNBK2037', ip: '10.0.6.210', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\Users\ADARSH~1.LOH\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54950}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 03b87149ccd559815f486c16bc04da67
+*** Element info: {Using=xpath, value=}
+
+24-06-2024T14:53:34 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+24-06-2024T14:53:34 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/BackOffice/ibpsLogin/yesLogin' located by '//input[@id="oaloginform:contloginbtn"]' not found
+
+24-06-2024T14:53:34 - [MESSAGE][PASSED] - encoder.LoginForibpsEncoder.login is PASSED
+
+24-06-2024T14:53:36 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Encoder/LoginPage' .
+
+24-06-2024T14:53:36 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Encoder/LoginPage' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Paper_STPWithAndWithoutAPI/Encoder/HomePage" time="27.504" classname="Test Cases/Paper_STPWithAndWithoutAPI/Encoder/HomePage" status="PASSED">
+         <system-out><![CDATA[24-06-2024T14:53:36 - [TEST_CASE][PASSED] - Test Cases/Paper_STPWithAndWithoutAPI/Encoder/HomePage: Test Cases/Paper_STPWithAndWithoutAPI/Encoder/HomePage
+
+24-06-2024T14:53:36 - [TEST_STEP][PASSED] - encoder.HomePageForibpsEncoder.selectResistration(): encoder.HomePageForibpsEncoder.selectResistration is PASSED
+
+24-06-2024T14:53:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+24-06-2024T14:53:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+24-06-2024T14:53:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+24-06-2024T14:53:41 - [MESSAGE][INFO] -  ******** LOS-3381
+
+24-06-2024T14:53:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+24-06-2024T14:53:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:53:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:53:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:53:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_53_45.jpg]]
+
+24-06-2024T14:53:48 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/EncoderNSTP/ibpsHomePage/encoder' is clicked on
+
+24-06-2024T14:53:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:53:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:53:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:53:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_53_50.jpg]]
+
+24-06-2024T14:53:52 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/COMaker/ibpsHomePage/resistrationNo' is clicked on
+
+24-06-2024T14:53:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:53:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:53:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:53:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:53:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_53_55.jpg]]
+
+24-06-2024T14:53:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+24-06-2024T14:54:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+24-06-2024T14:54:01 - [MESSAGE][PASSED] - encoder.HomePageForibpsEncoder.selectResistration is PASSED
+
+24-06-2024T14:54:03 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Encoder/HomePage' .
+
+24-06-2024T14:54:03 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Encoder/HomePage' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Paper_STPWithAndWithoutAPI/Encoder/ClientInformationWithAPI" time="74.406" classname="Test Cases/Paper_STPWithAndWithoutAPI/Encoder/ClientInformationWithAPI" status="PASSED">
+         <system-out><![CDATA[24-06-2024T14:54:03 - [TEST_CASE][PASSED] - Test Cases/Paper_STPWithAndWithoutAPI/Encoder/ClientInformationWithAPI: Test Cases/Paper_STPWithAndWithoutAPI/Encoder/ClientInformationWithAPI
+
+24-06-2024T14:54:03 - [TEST_STEP][PASSED] - tabSection.CustomerDetail.clientInformationForEncoderPaperBasedWith(): tabSection.CustomerDetail.clientInformationForEncoderPaperBasedWith is PASSED
+
+24-06-2024T14:54:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:54:04 - [MESSAGE][PASSED] - Current window's index is: 0
+
+24-06-2024T14:54:04 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+24-06-2024T14:54:13 - [MESSAGE][PASSED] - Attribute 'title' of object 'Object Repository/ClientInformationPreRelease/creditProgram' is: ''
+
+24-06-2024T14:54:13 - [MESSAGE][PASSED] - Text of object 'Object Repository/Action/referenceNumber' is: 'Encoder : LOS-3381'
+
+24-06-2024T14:54:13 - [MESSAGE][INFO] - Encoder : LOS-3381 Contains LOS-3381
+
+24-06-2024T14:54:13 - [MESSAGE][INFO] - Ready to go....
+
+24-06-2024T14:54:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:54:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:54:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_54_14.jpg]]
+
+24-06-2024T14:54:17 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/principal' is clicked on
+
+24-06-2024T14:54:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+24-06-2024T14:54:19 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/borrowerType'
+
+24-06-2024T14:54:20 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/applicationType'
+
+24-06-2024T14:54:20 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/custemerType'
+
+24-06-2024T14:54:20 - [MESSAGE][PASSED] - Object 'Object Repository/BackOffice/EncoderWithWithout/sex' is clickable
+
+24-06-2024T14:54:21 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/BackOffice/EncoderWithWithout/sex'
+
+24-06-2024T14:54:21 - [MESSAGE][PASSED] - Object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/dateOfBirth' is clickable
+
+24-06-2024T14:54:21 - [MESSAGE][PASSED] - Text '15/05/1991' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/dateOfBirth'
+
+24-06-2024T14:54:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:54:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:54:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_54_22.jpg]]
+
+24-06-2024T14:54:25 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/placeOfBirth'
+
+24-06-2024T14:54:25 - [MESSAGE][PASSED] - Object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/maritalStatus' is clickable
+
+24-06-2024T14:54:25 - [MESSAGE][PASSED] - All options with index in [4] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/maritalStatus'
+
+24-06-2024T14:54:25 - [MESSAGE][PASSED] - Object 'Object Repository/BackOffice/EncoderWithWithout/nationality' is clickable
+
+24-06-2024T14:54:26 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderWithWithout/nationality'
+
+24-06-2024T14:54:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:54:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:54:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_54_27.jpg]]
+
+24-06-2024T14:54:28 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/numberOfYearsMarried'
+
+24-06-2024T14:54:29 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/numberOfDependents'
+
+24-06-2024T14:54:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:54:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:54:31 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_54_30.jpg]]
+
+24-06-2024T14:54:34 - [MESSAGE][WARNING] - Object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/cifNumber' is not clickable after 2 second(s)
+
+24-06-2024T14:54:34 - [MESSAGE][PASSED] - Object 'Object Repository/BackOffice/EncoderWithWithout/idType' is clickable
+
+24-06-2024T14:54:35 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderWithWithout/idType'
+
+24-06-2024T14:54:35 - [MESSAGE][PASSED] - Object 'Object Repository/BackOffice/EncoderWithWithout/idNumber' is clickable
+
+24-06-2024T14:54:35 - [MESSAGE][PASSED] - Text '98357487654' is set on object 'Object Repository/BackOffice/EncoderWithWithout/idNumber'
+
+24-06-2024T14:54:35 - [MESSAGE][PASSED] - Object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/RCBCCurrentOrSavingAccountNumber' is clickable
+
+24-06-2024T14:54:36 - [MESSAGE][PASSED] - Text '0000000017517519' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/RCBCCurrentOrSavingAccountNumber'
+
+24-06-2024T14:54:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:54:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:54:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_54_37.jpg]]
+
+24-06-2024T14:54:39 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/plusButtonForAddressDetail' is clicked on
+
+24-06-2024T14:54:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:54:41 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/typeOfAddress'
+
+24-06-2024T14:54:41 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/residenceOwnershipType'
+
+24-06-2024T14:54:42 - [MESSAGE][PASSED] - Text '4' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/lengthOfStayAtCurrentResidance'
+
+24-06-2024T14:54:44 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/country'
+
+24-06-2024T14:54:45 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/region'
+
+24-06-2024T14:54:46 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/provience'
+
+24-06-2024T14:54:47 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/townCityMuncipalities'
+
+24-06-2024T14:54:49 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/barangay'
+
+24-06-2024T14:54:49 - [MESSAGE][PASSED] - Text 'Mahape Road' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/StreetName'
+
+24-06-2024T14:54:50 - [MESSAGE][PASSED] - Text 'Rupa Solitaire' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/unitNumberBuildingName'
+
+24-06-2024T14:54:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:54:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:54:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_54_51.jpg]]
+
+24-06-2024T14:54:54 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/saveAndClose' is clicked on
+
+24-06-2024T14:54:54 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/sourceOfWealth'
+
+24-06-2024T14:54:55 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/occupation'
+
+24-06-2024T14:54:55 - [MESSAGE][PASSED] - Text 'Mahesh' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/companyEmployerName'
+
+24-06-2024T14:54:56 - [MESSAGE][PASSED] - Text 'Test Engineer' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/jobTitle'
+
+24-06-2024T14:54:57 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/numberOfYearsInCurrentCompany'
+
+24-06-2024T14:54:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:54:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:54:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_54_58.jpg]]
+
+24-06-2024T14:54:59 - [MESSAGE][PASSED] - Text '6' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/totalYearsOfExperince'
+
+24-06-2024T14:55:00 - [MESSAGE][PASSED] - Text '60000' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/declareMonthlyIncome'
+
+24-06-2024T14:55:01 - [MESSAGE][PASSED] - Text '(63) 9356986567' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/employerContactNumber'
+
+24-06-2024T14:55:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:55:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:55:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_55_02.jpg]]
+
+24-06-2024T14:55:04 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/Industry'
+
+24-06-2024T14:55:05 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/subIndustry'
+
+24-06-2024T14:55:05 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/natureOfBusiness'
+
+24-06-2024T14:55:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:55:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:55:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_55_06.jpg]]
+
+24-06-2024T14:55:13 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/saveChanges' is clicked on
+
+24-06-2024T14:55:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+24-06-2024T14:55:16 - [MESSAGE][PASSED] - tabSection.CustomerDetail.clientInformationForEncoderPaperBasedWith is PASSED
+
+24-06-2024T14:55:18 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Encoder/ClientInformationWithAPI' .
+
+24-06-2024T14:55:18 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Encoder/ClientInformationWithAPI' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CollateralInformationWith" time="13.16" classname="Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CollateralInformationWith" status="PASSED">
+         <system-out><![CDATA[24-06-2024T14:55:18 - [TEST_CASE][PASSED] - Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CollateralInformationWith: Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CollateralInformationWith
+
+24-06-2024T14:55:18 - [TEST_STEP][PASSED] - tabSection.CollateralInformation.collateralInformationForEncoderPaperBasedWith(): tabSection.CollateralInformation.collateralInformationForEncoderPaperBasedWith is PASSED
+
+24-06-2024T14:55:18 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/CollateralInformation' is clicked on
+
+24-06-2024T14:55:20 - [MESSAGE][PASSED] - All options with value 'HNHR20' are selected in object 'Object Repository/BackOfficePaperBase/EncoderCollateralInfoPaperbase/vehicleCodeType' 
+
+24-06-2024T14:55:20 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOfficePaperBase/EncoderCollateralInfoPaperbase/CarCondition'
+
+24-06-2024T14:55:22 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOfficePaperBase/EncoderCollateralInfoPaperbase/carBrand'
+
+24-06-2024T14:55:23 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOfficePaperBase/EncoderCollateralInfoPaperbase/carModel'
+
+24-06-2024T14:55:24 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOfficePaperBase/EncoderCollateralInfoPaperbase/subModel'
+
+24-06-2024T14:55:25 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOfficePaperBase/EncoderCollateralInfoPaperbase/yearModel'
+
+24-06-2024T14:55:26 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOfficePaperBase/EncoderCollateralInfoPaperbase/makeType'
+
+24-06-2024T14:55:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:55:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:55:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:55:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_55_28.jpg]]
+
+24-06-2024T14:55:29 - [MESSAGE][PASSED] - tabSection.CollateralInformation.collateralInformationForEncoderPaperBasedWith is PASSED
+
+24-06-2024T14:55:31 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CollateralInformationWith' .
+
+24-06-2024T14:55:31 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CollateralInformationWith' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Paper_STPWithAndWithoutAPI/Encoder/LoanInformationWithAPI" time="53.754" classname="Test Cases/Paper_STPWithAndWithoutAPI/Encoder/LoanInformationWithAPI" status="PASSED">
+         <system-out><![CDATA[24-06-2024T14:55:31 - [TEST_CASE][PASSED] - Test Cases/Paper_STPWithAndWithoutAPI/Encoder/LoanInformationWithAPI: Test Cases/Paper_STPWithAndWithoutAPI/Encoder/LoanInformationWithAPI
+
+24-06-2024T14:55:32 - [TEST_STEP][PASSED] - tabSection.LoanInformation.loanInfoForEncoderPaperBased(marketingPromoCode, Downpayment_Amt, Actual_Cashout, loanTerm, insuranceType, loanPurpose, modeOfRelease, Scheduled_Unit_Release_Date, Actual_Unit_Release_Date, Total_CMFCollectedby_Dealer, Payment_Type, PaymentFrequency, Mode_Of_Payment): tabSection.LoanInformation.loanInfoForEncoderPaperBased is PASSED
+
+24-06-2024T14:55:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+24-06-2024T14:55:35 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/LoanInformation' is clicked on
+
+24-06-2024T14:55:36 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseLoanInformation/marketingPromoCode'
+
+24-06-2024T14:55:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:55:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:55:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:55:39 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_55_38.jpg]]
+
+24-06-2024T14:55:39 - [MESSAGE][PASSED] - Text '500000' is set on object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseLoanInformation/Downpayment_Amt'
+
+24-06-2024T14:55:41 - [MESSAGE][PASSED] - Text '40000' is set on object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseLoanInformation/Actual_Cashout'
+
+24-06-2024T14:55:46 - [MESSAGE][PASSED] - All options with index in [5] are selected on object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseLoanInformation/loanTerm'
+
+24-06-2024T14:55:53 - [MESSAGE][PASSED] - All options with index in [5] are selected on object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseLoanInformation/insuranceType'
+
+24-06-2024T14:55:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:55:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:55:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:55:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_55_55.jpg]]
+
+24-06-2024T14:55:57 - [MESSAGE][PASSED] - All options with value 'AB' are selected in object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseLoanInformation/loanPurpose' 
+
+24-06-2024T14:55:58 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseLoanInformation/modeOfRelease'
+
+24-06-2024T14:55:58 - [MESSAGE][PASSED] - Text '19/07/24' is set on object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseLoanInformation/Scheduled_Unit_Release_Date'
+
+24-06-2024T14:55:59 - [MESSAGE][PASSED] - Text '25/07/24' is set on object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseLoanInformation/Actual_Unit_Release_Date'
+
+24-06-2024T14:56:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:56:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:56:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:56:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_56_01.jpg]]
+
+24-06-2024T14:56:02 - [MESSAGE][PASSED] - Current window's index is: 1
+
+24-06-2024T14:56:04 - [MESSAGE][PASSED] - Object: 'Object Repository/LoanInformationPreRelease/calculateBtn' is clicked on
+
+24-06-2024T14:56:04 - [MESSAGE][PASSED] - Switched to window with index: '2'
+
+24-06-2024T14:56:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+24-06-2024T14:56:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:56:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:56:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_56_10.jpg]]
+
+24-06-2024T14:56:11 - [MESSAGE][PASSED] - Object: 'Object Repository/LoanInformationPreRelease/WebSpredingSaveBtn' is clicked on
+
+24-06-2024T14:56:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+24-06-2024T14:56:13 - [MESSAGE][PASSED] - Window with index 2 is closed
+
+24-06-2024T14:56:13 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+24-06-2024T14:56:14 - [MESSAGE][PASSED] - Text '4000' is set on object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseLoanInformation/Total_CMFCollectedby_Dealer'
+
+24-06-2024T14:56:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:56:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:56:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:56:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_56_16.jpg]]
+
+24-06-2024T14:56:18 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseLoanInformation/Payment_Type'
+
+24-06-2024T14:56:19 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseLoanInformation/PaymentFrequency'
+
+24-06-2024T14:56:20 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseLoanInformation/Mode_Of_Payment'
+
+24-06-2024T14:56:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:56:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:56:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:56:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_56_22.jpg]]
+
+24-06-2024T14:56:23 - [MESSAGE][PASSED] - tabSection.LoanInformation.loanInfoForEncoderPaperBased is PASSED
+
+24-06-2024T14:56:25 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Encoder/LoanInformationWithAPI' .
+
+24-06-2024T14:56:25 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Encoder/LoanInformationWithAPI' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Paper_STPWithAndWithoutAPI/Encoder/DocumentChecklist" time="7.191" classname="Test Cases/Paper_STPWithAndWithoutAPI/Encoder/DocumentChecklist" status="PASSED">
+         <system-out><![CDATA[24-06-2024T14:56:25 - [TEST_CASE][PASSED] - Test Cases/Paper_STPWithAndWithoutAPI/Encoder/DocumentChecklist: Test Cases/Paper_STPWithAndWithoutAPI/Encoder/DocumentChecklist
+
+24-06-2024T14:56:25 - [TEST_STEP][PASSED] - tabSection.DocumentCheckList.documentCheckListForEncoderPaperBased(): tabSection.DocumentCheckList.documentCheckListForEncoderPaperBased is PASSED
+
+24-06-2024T14:56:27 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/DocumentCheclist' is clicked on
+
+24-06-2024T14:56:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:56:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:56:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:56:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_56_29.jpg]]
+
+24-06-2024T14:56:30 - [MESSAGE][PASSED] - tabSection.DocumentCheckList.documentCheckListForEncoderPaperBased is PASSED
+
+24-06-2024T14:56:32 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Encoder/DocumentChecklist' .
+
+24-06-2024T14:56:32 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Encoder/DocumentChecklist' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CheckEligibility" time="144.626" classname="Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CheckEligibility" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CheckEligibility FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/crossButtonTemp' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/crossButtonTemp'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)&#xa;	at tabSection.CheckEligibility.checkEligibilityForPaperBased(CheckEligibility.groovy:277)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at tabSection.CheckEligibility.checkEligibilityForEncoderPaperBased(CheckEligibility.groovy:426)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)&#xa;	at CheckEligibility.run(CheckEligibility:20)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1719220824974.run(TempTestSuite1719220824974.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame&#xa;  (Session info: chrome=126.0.6478.114)&#xa;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html&#xa;Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'&#xa;System info: host: 'QKNBK2037', ip: '10.0.6.210', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'&#xa;Driver info: com.kms.katalon.selenium.driver.CChromeDriver&#xa;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\Users\ADARSH~1.LOH\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54950}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#xa;Session ID: 03b87149ccd559815f486c16bc04da67&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xa;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xa;	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)&#xa;	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)&#xa;	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)&#xa;	at org.openqa.selenium.WebElement$click.call(Unknown Source)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)&#xa;	at jdk.internal.reflect.GeneratedMethodAccessor30.invoke(Unknown Source)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)&#xa;	at tabSection.CheckEligibility.checkEligibilityForPaperBased(CheckEligibility.groovy:277)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at tabSection.CheckEligibility.checkEligibilityForEncoderPaperBased(CheckEligibility.groovy:426)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)&#xa;	at Script1716354281890.run(Script1716354281890.groovy:20)&#xa;	... 15 more&#xa;)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)&#xa;	at tabSection.CheckEligibility.checkEligibilityForPaperBased(CheckEligibility.groovy:277)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at tabSection.CheckEligibility.checkEligibilityForEncoderPaperBased(CheckEligibility.groovy:426)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)&#xa;	at CheckEligibility.run(CheckEligibility:20)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1719220824974.run(TempTestSuite1719220824974.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/crossButtonTemp'&#xa;	... 31 more&#xa;Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame&#xa;  (Session info: chrome=126.0.6478.114)&#xa;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html&#xa;Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'&#xa;System info: host: 'QKNBK2037', ip: '10.0.6.210', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'&#xa;Driver info: com.kms.katalon.selenium.driver.CChromeDriver&#xa;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\Users\ADARSH~1.LOH\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54950}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#xa;Session ID: 03b87149ccd559815f486c16bc04da67&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xa;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xa;	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)&#xa;	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)&#xa;	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)&#xa;	at org.openqa.selenium.WebElement$click.call(Unknown Source)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)&#xa;	at jdk.internal.reflect.GeneratedMethodAccessor30.invoke(Unknown Source)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 29 more&#xa;"/>
+         <system-out><![CDATA[24-06-2024T14:56:32 - [TEST_CASE][FAILED] - Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CheckEligibility: Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CheckEligibility FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/crossButtonTemp' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/crossButtonTemp'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at tabSection.CheckEligibility.checkEligibilityForPaperBased(CheckEligibility.groovy:277)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at tabSection.CheckEligibility.checkEligibilityForEncoderPaperBased(CheckEligibility.groovy:426)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at CheckEligibility.run(CheckEligibility:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1719220824974.run(TempTestSuite1719220824974.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=126.0.6478.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'QKNBK2037', ip: '10.0.6.210', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\Users\ADARSH~1.LOH\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54950}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 03b87149ccd559815f486c16bc04da67
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor30.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at tabSection.CheckEligibility.checkEligibilityForPaperBased(CheckEligibility.groovy:277)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at tabSection.CheckEligibility.checkEligibilityForEncoderPaperBased(CheckEligibility.groovy:426)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1716354281890.run(Script1716354281890.groovy:20)
+	... 15 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at tabSection.CheckEligibility.checkEligibilityForPaperBased(CheckEligibility.groovy:277)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at tabSection.CheckEligibility.checkEligibilityForEncoderPaperBased(CheckEligibility.groovy:426)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at CheckEligibility.run(CheckEligibility:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1719220824974.run(TempTestSuite1719220824974.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/crossButtonTemp'
+	... 31 more
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=126.0.6478.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'QKNBK2037', ip: '10.0.6.210', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\Users\ADARSH~1.LOH\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54950}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 03b87149ccd559815f486c16bc04da67
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor30.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 29 more
+
+
+24-06-2024T14:56:32 - [TEST_STEP][FAILED] - tabSection.CheckEligibility.checkEligibilityForEncoderPaperBased(): com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/crossButtonTemp' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/crossButtonTemp'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at tabSection.CheckEligibility.checkEligibilityForPaperBased(CheckEligibility.groovy:277)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at tabSection.CheckEligibility.checkEligibilityForEncoderPaperBased(CheckEligibility.groovy:426)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at CheckEligibility.run(CheckEligibility:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1719220824974.run(TempTestSuite1719220824974.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=126.0.6478.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'QKNBK2037', ip: '10.0.6.210', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\Users\ADARSH~1.LOH\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54950}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 03b87149ccd559815f486c16bc04da67
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor30.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at tabSection.CheckEligibility.checkEligibilityForPaperBased(CheckEligibility.groovy:277)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at tabSection.CheckEligibility.checkEligibilityForEncoderPaperBased(CheckEligibility.groovy:426)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1716354281890.run(Script1716354281890.groovy:20)
+	... 15 more
+)
+
+24-06-2024T14:56:32 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/checkEligibility' is clicked on
+
+24-06-2024T14:56:33 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/DuplicateApplicationPrincipal' is clicked on
+
+24-06-2024T14:56:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:56:35 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/DuplicateApplicationCheckEligibility' is clicked on
+
+24-06-2024T14:56:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:56:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:56:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:56:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_56_37.jpg]]
+
+24-06-2024T14:56:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:56:40 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/DuplicateApplicationOK' is clicked on
+
+24-06-2024T14:56:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:56:42 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/DuplicateApplicationSaveChanges' is clicked on
+
+24-06-2024T14:56:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:56:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:56:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:56:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_56_44.jpg]]
+
+24-06-2024T14:56:46 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/RPTCheckPrincipal' is clicked on
+
+24-06-2024T14:56:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:56:48 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/RPTCheckCheckEligibility' is clicked on
+
+24-06-2024T14:56:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:56:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:56:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:56:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_56_50.jpg]]
+
+24-06-2024T14:56:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:56:53 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/RPTCheckOK' is clicked on
+
+24-06-2024T14:56:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:56:55 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/RPTSaveChanges' is clicked on
+
+24-06-2024T14:56:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:56:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:56:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:56:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_56_57.jpg]]
+
+24-06-2024T14:56:59 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/DOSRICheckPrincipal' is clicked on
+
+24-06-2024T14:57:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:57:01 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/DOSRICheckCheckEligibility' is clicked on
+
+24-06-2024T14:57:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:57:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:57:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:57:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_57_03.jpg]]
+
+24-06-2024T14:57:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:57:05 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/DOSRICheckOK' is clicked on
+
+24-06-2024T14:57:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:57:08 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/DOSRICheckSaveChanges' is clicked on
+
+24-06-2024T14:57:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:57:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:57:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:57:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_57_10.jpg]]
+
+24-06-2024T14:57:12 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/NegativeFileCheckPrincipal' is clicked on
+
+24-06-2024T14:57:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:57:14 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/NegativeFileCheckCheckEligibility' is clicked on
+
+24-06-2024T14:57:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:57:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:57:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:57:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_57_16.jpg]]
+
+24-06-2024T14:57:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:57:18 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/NegativeFileCheckOK' is clicked on
+
+24-06-2024T14:57:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:57:21 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/NegativeFileCheckSaveChanges' is clicked on
+
+24-06-2024T14:57:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:57:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:57:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:57:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_57_23.jpg]]
+
+24-06-2024T14:57:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:57:26 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/NTBOrETBCheckPrincipal' is clicked on
+
+24-06-2024T14:57:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:57:30 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/NTBOrETBCheckCheckEligibility' is clicked on
+
+24-06-2024T14:57:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:57:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:57:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:57:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_57_32.jpg]]
+
+24-06-2024T14:57:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:57:36 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/NTBOrETBCheckOK' is clicked on
+
+24-06-2024T14:57:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:57:38 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/NTBOrETBCheckSaveChanges' is clicked on
+
+24-06-2024T14:57:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:57:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:57:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:57:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_57_40.jpg]]
+
+24-06-2024T14:57:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:57:43 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/TransunionPrincipal' is clicked on
+
+24-06-2024T14:57:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:57:44 - [MESSAGE][PASSED] - Text 'Ok' is set on object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/transunionRemark'
+
+24-06-2024T14:57:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:57:54 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/TransunionCheckEligibility' is clicked on
+
+24-06-2024T14:57:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:57:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:57:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:57:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_57_57.jpg]]
+
+24-06-2024T14:58:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+24-06-2024T14:58:01 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/transUnionOkButton' is clicked on
+
+24-06-2024T14:58:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+24-06-2024T14:58:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:58:06 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/TransunionSaveChanges' is clicked on
+
+24-06-2024T14:58:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:58:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:58:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:58:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_58_08.jpg]]
+
+24-06-2024T14:58:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:58:11 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/AccutyPrincipal' is clicked on
+
+24-06-2024T14:58:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:58:31 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/AccutyCheckEligibility' is clicked on
+
+24-06-2024T14:58:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:58:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:58:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:58:35 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_58_33.jpg]]
+
+24-06-2024T14:58:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:58:36 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/DOSRICheckOK' is clicked on
+
+24-06-2024T14:58:36 - [MESSAGE][PASSED] - Object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/crossButtonTemp' is clickable
+
+24-06-2024T14:58:37 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/crossButtonTemp' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/crossButtonTemp'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at tabSection.CheckEligibility.checkEligibilityForPaperBased(CheckEligibility.groovy:277)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at tabSection.CheckEligibility.checkEligibilityForEncoderPaperBased(CheckEligibility.groovy:426)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at CheckEligibility.run(CheckEligibility:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1719220824974.run(TempTestSuite1719220824974.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=126.0.6478.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'QKNBK2037', ip: '10.0.6.210', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\Users\ADARSH~1.LOH\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54950}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 03b87149ccd559815f486c16bc04da67
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor30.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at tabSection.CheckEligibility.checkEligibilityForPaperBased(CheckEligibility.groovy:277)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at tabSection.CheckEligibility.checkEligibilityForEncoderPaperBased(CheckEligibility.groovy:426)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1716354281890.run(Script1716354281890.groovy:20)
+	... 15 more
+)
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\1719221316837.png]]
+
+24-06-2024T14:58:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:58:38 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/AccutyResult'
+
+24-06-2024T14:58:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:58:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:58:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:58:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_58_40.jpg]]
+
+24-06-2024T14:58:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:58:45 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/AccutySaveChanges' is clicked on
+
+24-06-2024T14:58:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:58:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:58:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:58:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_58_47.jpg]]
+
+24-06-2024T14:58:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:58:49 - [MESSAGE][PASSED] - Text '2000' is set on object 'Object Repository/BackOffice/EncoderNSTP/checkEligibility/quickCheckNumericalScore'
+
+24-06-2024T14:58:50 - [MESSAGE][PASSED] - All options with index in [6] are selected on object 'Object Repository/BackOffice/EncoderNSTP/checkEligibility/quickCheckRiskLevel'
+
+24-06-2024T14:58:51 - [MESSAGE][PASSED] - Text '3000' is set on object 'Object Repository/BackOffice/EncoderNSTP/checkEligibility/compreCheckNumricalScore'
+
+24-06-2024T14:58:51 - [MESSAGE][PASSED] - All options with index in [6] are selected on object 'Object Repository/BackOffice/EncoderNSTP/checkEligibility/compreCheckRiskLevel'
+
+24-06-2024T14:58:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:58:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:58:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:58:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_58_53.jpg]]
+
+24-06-2024T14:58:54 - [MESSAGE][FAILED] - com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/crossButtonTemp' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/crossButtonTemp'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at tabSection.CheckEligibility.checkEligibilityForPaperBased(CheckEligibility.groovy:277)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at tabSection.CheckEligibility.checkEligibilityForEncoderPaperBased(CheckEligibility.groovy:426)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at CheckEligibility.run(CheckEligibility:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1719220824974.run(TempTestSuite1719220824974.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=126.0.6478.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'QKNBK2037', ip: '10.0.6.210', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\Users\ADARSH~1.LOH\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54950}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 03b87149ccd559815f486c16bc04da67
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor30.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at tabSection.CheckEligibility.checkEligibilityForPaperBased(CheckEligibility.groovy:277)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at tabSection.CheckEligibility.checkEligibilityForEncoderPaperBased(CheckEligibility.groovy:426)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1716354281890.run(Script1716354281890.groovy:20)
+	... 15 more
+)
+
+24-06-2024T14:58:57 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CheckEligibility' .
+
+24-06-2024T14:58:57 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CheckEligibility' .]]></system-out>
+         <system-err><![CDATA[24-06-2024T14:56:32 - [TEST_CASE][FAILED] - Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CheckEligibility: Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CheckEligibility FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/crossButtonTemp' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/crossButtonTemp'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at tabSection.CheckEligibility.checkEligibilityForPaperBased(CheckEligibility.groovy:277)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at tabSection.CheckEligibility.checkEligibilityForEncoderPaperBased(CheckEligibility.groovy:426)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at CheckEligibility.run(CheckEligibility:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1719220824974.run(TempTestSuite1719220824974.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=126.0.6478.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'QKNBK2037', ip: '10.0.6.210', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\Users\ADARSH~1.LOH\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54950}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 03b87149ccd559815f486c16bc04da67
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor30.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at tabSection.CheckEligibility.checkEligibilityForPaperBased(CheckEligibility.groovy:277)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at tabSection.CheckEligibility.checkEligibilityForEncoderPaperBased(CheckEligibility.groovy:426)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1716354281890.run(Script1716354281890.groovy:20)
+	... 15 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at tabSection.CheckEligibility.checkEligibilityForPaperBased(CheckEligibility.groovy:277)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at tabSection.CheckEligibility.checkEligibilityForEncoderPaperBased(CheckEligibility.groovy:426)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at CheckEligibility.run(CheckEligibility:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1719220824974.run(TempTestSuite1719220824974.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/crossButtonTemp'
+	... 31 more
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=126.0.6478.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'QKNBK2037', ip: '10.0.6.210', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\Users\ADARSH~1.LOH\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54950}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 03b87149ccd559815f486c16bc04da67
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor30.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 29 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CreditEvaluation" time="2.582" classname="Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CreditEvaluation" status="PASSED">
+         <system-out><![CDATA[24-06-2024T14:58:57 - [TEST_CASE][PASSED] - Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CreditEvaluation: Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CreditEvaluation
+
+24-06-2024T14:58:57 - [TEST_STEP][PASSED] - tabSection.CreditEvaluation.creditEvaluationForEncoderPaperBased(): tabSection.CreditEvaluation.creditEvaluationForEncoderPaperBased is PASSED
+
+24-06-2024T14:58:57 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/creditEvaluation' is clicked on
+
+24-06-2024T14:58:57 - [MESSAGE][PASSED] - tabSection.CreditEvaluation.creditEvaluationForEncoderPaperBased is PASSED
+
+24-06-2024T14:58:59 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CreditEvaluation' .
+
+24-06-2024T14:58:59 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CreditEvaluation' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CreditInvestigation" time="6.017" classname="Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CreditInvestigation" status="PASSED">
+         <system-out><![CDATA[24-06-2024T14:58:59 - [TEST_CASE][PASSED] - Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CreditInvestigation: Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CreditInvestigation
+
+24-06-2024T14:58:59 - [TEST_STEP][PASSED] - tabSection.CreditInvestigation.creditInvestigationForEncoderPaperbased(): tabSection.CreditInvestigation.creditInvestigationForEncoderPaperbased is PASSED
+
+24-06-2024T14:59:00 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/creditInvestigation' is clicked on
+
+24-06-2024T14:59:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:59:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:59:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:59:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_59_02.jpg]]
+
+24-06-2024T14:59:03 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/nextArrowButton' is clicked on
+
+24-06-2024T14:59:03 - [MESSAGE][PASSED] - tabSection.CreditInvestigation.creditInvestigationForEncoderPaperbased is PASSED
+
+24-06-2024T14:59:05 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CreditInvestigation' .
+
+24-06-2024T14:59:05 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CreditInvestigation' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Paper_STPWithAndWithoutAPI/Encoder/InsuranceInformation" time="6.015" classname="Test Cases/Paper_STPWithAndWithoutAPI/Encoder/InsuranceInformation" status="PASSED">
+         <system-out><![CDATA[24-06-2024T14:59:05 - [TEST_CASE][PASSED] - Test Cases/Paper_STPWithAndWithoutAPI/Encoder/InsuranceInformation: Test Cases/Paper_STPWithAndWithoutAPI/Encoder/InsuranceInformation
+
+24-06-2024T14:59:05 - [TEST_STEP][PASSED] - tabSection.InsuranceInformation.insuranceInformationForEncoderPaperBased(): tabSection.InsuranceInformation.insuranceInformationForEncoderPaperBased is PASSED
+
+24-06-2024T14:59:06 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/InsuranceInformation' is clicked on
+
+24-06-2024T14:59:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:59:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:59:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:59:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_59_08.jpg]]
+
+24-06-2024T14:59:09 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/nextArrowButton' is clicked on
+
+24-06-2024T14:59:09 - [MESSAGE][PASSED] - tabSection.InsuranceInformation.insuranceInformationForEncoderPaperBased is PASSED
+
+24-06-2024T14:59:11 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Encoder/InsuranceInformation' .
+
+24-06-2024T14:59:11 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Encoder/InsuranceInformation' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Paper_STPWithAndWithoutAPI/Encoder/DisbursementInformation" time="5.969" classname="Test Cases/Paper_STPWithAndWithoutAPI/Encoder/DisbursementInformation" status="PASSED">
+         <system-out><![CDATA[24-06-2024T14:59:11 - [TEST_CASE][PASSED] - Test Cases/Paper_STPWithAndWithoutAPI/Encoder/DisbursementInformation: Test Cases/Paper_STPWithAndWithoutAPI/Encoder/DisbursementInformation
+
+24-06-2024T14:59:11 - [TEST_STEP][PASSED] - tabSection.DisbursementInfo.disbursementInformationForEncoderPaperbased(): tabSection.DisbursementInfo.disbursementInformationForEncoderPaperbased is PASSED
+
+24-06-2024T14:59:12 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/DisbursementInformation' is clicked on
+
+24-06-2024T14:59:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:59:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:59:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:59:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_59_14.jpg]]
+
+24-06-2024T14:59:15 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/nextArrowButton' is clicked on
+
+24-06-2024T14:59:15 - [MESSAGE][PASSED] - tabSection.DisbursementInfo.disbursementInformationForEncoderPaperbased is PASSED
+
+24-06-2024T14:59:17 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Encoder/DisbursementInformation' .
+
+24-06-2024T14:59:17 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Encoder/DisbursementInformation' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Paper_STPWithAndWithoutAPI/Encoder/Action" time="63.437" classname="Test Cases/Paper_STPWithAndWithoutAPI/Encoder/Action" status="PASSED">
+         <system-out><![CDATA[24-06-2024T14:59:17 - [TEST_CASE][PASSED] - Test Cases/Paper_STPWithAndWithoutAPI/Encoder/Action: Test Cases/Paper_STPWithAndWithoutAPI/Encoder/Action
+
+24-06-2024T14:59:17 - [TEST_STEP][PASSED] - tabSection.Action.submitForAO(): tabSection.Action.submitForAO is PASSED
+
+24-06-2024T14:59:19 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/Action' is clicked on
+
+24-06-2024T14:59:20 - [MESSAGE][PASSED] - Object 'Object Repository/Action/Decision' is visible
+
+24-06-2024T14:59:20 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Action/Decision'
+
+24-06-2024T14:59:21 - [MESSAGE][PASSED] - Text 'OK' is set on object 'Object Repository/Action/Remarks'
+
+24-06-2024T14:59:21 - [MESSAGE][PASSED] - Current window's title is: 'Encoder : LOS-3381'
+
+24-06-2024T14:59:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/Action/referenceNumber' is: 'Encoder : LOS-3381'
+
+24-06-2024T14:59:21 - [MESSAGE][INFO] - LOS-3381
+
+24-06-2024T14:59:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Action/SubmitButton' is clicked on
+
+24-06-2024T14:59:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\1719221367100.png]]
+
+24-06-2024T14:59:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:59:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:59:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T14:59:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_02_59_29.jpg]]
+
+24-06-2024T14:59:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Action/confirmYes' is clicked on
+
+24-06-2024T15:00:17 - [MESSAGE][WARNING] - Cannot find window with title: 'LoanPortal' (Root cause: com.kms.katalon.core.exception.StepFailedException: Cannot find window with title: 'LoanPortal'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword$_switchToWindowTitle_closure1.doCall(SwitchToWindowTitleKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword$_switchToWindowTitle_closure1.call(SwitchToWindowTitleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword.switchToWindowTitle(SwitchToWindowTitleKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowTitleKeyword.execute(SwitchToWindowTitleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowTitle(WebUiBuiltInKeywords.groovy:1809)
+	at tabSection.Action.submitForAO(Action.groovy:64)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Action.run(Action:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1719220824974.run(TempTestSuite1719220824974.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\1719221416993.png]]
+
+24-06-2024T15:00:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+24-06-2024T15:00:19 - [MESSAGE][PASSED] - tabSection.Action.submitForAO is PASSED
+
+24-06-2024T15:00:21 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Encoder/Action' .
+
+24-06-2024T15:00:21 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Encoder/Action' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LogOut/logout" time="15.796" classname="Test Cases/LogOut/logout" status="PASSED">
+         <system-out><![CDATA[24-06-2024T15:00:21 - [TEST_CASE][PASSED] - Test Cases/LogOut/logout: Test Cases/LogOut/logout
+
+24-06-2024T15:00:21 - [TEST_STEP][PASSED] - signOutibps.SignOut.logout(): signOutibps.SignOut.logout is PASSED
+
+24-06-2024T15:00:21 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+24-06-2024T15:00:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T15:00:22 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/ibpsLogOut/selectProcess'
+
+24-06-2024T15:00:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T15:00:23 - [MESSAGE][PASSED] - Object: 'Object Repository/ibpsLogOut/searchBar' is double clicked on
+
+24-06-2024T15:00:24 - [MESSAGE][PASSED] - Keys 'LOS-3381' sent to object: 'Object Repository/ibpsLogOut/searchBar'
+
+24-06-2024T15:00:24 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ibpsLogOut/searchBar'
+
+24-06-2024T15:00:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T15:00:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T15:00:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T15:00:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_03_00_26.jpg]]
+
+24-06-2024T15:00:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+24-06-2024T15:00:29 - [MESSAGE][PASSED] - Object: 'Object Repository/ibpsLogOut/label_QK_CO7' is clicked on
+
+24-06-2024T15:00:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+24-06-2024T15:00:31 - [MESSAGE][PASSED] - Object: 'Object Repository/ibpsLogOut/Logout' is clicked on
+
+24-06-2024T15:00:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T15:00:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T15:00:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T15:00:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240624_145020\\PaperbaseFlows\\PaperbaseWithAndWithout\\EncoderForWith\\20240624_145024\\Screenshots/Encoder24_06_2402_53_24/Regression24_06_24_03_00_33.jpg]]
+
+24-06-2024T15:00:34 - [MESSAGE][PASSED] - signOutibps.SignOut.logout is PASSED
+
+24-06-2024T15:00:36 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/LogOut/logout' .
+
+24-06-2024T15:00:36 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/LogOut/logout' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[24-06-2024T14:53:13 - [TEST_SUITE][FAILED] - EncoderForWith: Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CheckEligibility FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/crossButtonTemp' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/crossButtonTemp'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at tabSection.CheckEligibility.checkEligibilityForPaperBased(CheckEligibility.groovy:277)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at tabSection.CheckEligibility.checkEligibilityForEncoderPaperBased(CheckEligibility.groovy:426)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at CheckEligibility.run(CheckEligibility:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1719220824974.run(TempTestSuite1719220824974.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=126.0.6478.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'QKNBK2037', ip: '10.0.6.210', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\Users\ADARSH~1.LOH\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54950}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 03b87149ccd559815f486c16bc04da67
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor30.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at tabSection.CheckEligibility.checkEligibilityForPaperBased(CheckEligibility.groovy:277)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at tabSection.CheckEligibility.checkEligibilityForEncoderPaperBased(CheckEligibility.groovy:426)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1716354281890.run(Script1716354281890.groovy:20)
+	... 15 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at tabSection.CheckEligibility.checkEligibilityForPaperBased(CheckEligibility.groovy:277)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at tabSection.CheckEligibility.checkEligibilityForEncoderPaperBased(CheckEligibility.groovy:426)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at CheckEligibility.run(CheckEligibility:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1719220824974.run(TempTestSuite1719220824974.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/crossButtonTemp'
+	... 31 more
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=126.0.6478.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'QKNBK2037', ip: '10.0.6.210', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\Users\ADARSH~1.LOH\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54950}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 03b87149ccd559815f486c16bc04da67
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor30.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 29 more]]></system-out>
+      <system-err><![CDATA[24-06-2024T14:53:13 - [TEST_SUITE][FAILED] - EncoderForWith: Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CheckEligibility FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/crossButtonTemp' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/crossButtonTemp'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at tabSection.CheckEligibility.checkEligibilityForPaperBased(CheckEligibility.groovy:277)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at tabSection.CheckEligibility.checkEligibilityForEncoderPaperBased(CheckEligibility.groovy:426)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at CheckEligibility.run(CheckEligibility:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1719220824974.run(TempTestSuite1719220824974.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=126.0.6478.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'QKNBK2037', ip: '10.0.6.210', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\Users\ADARSH~1.LOH\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54950}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 03b87149ccd559815f486c16bc04da67
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor30.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at tabSection.CheckEligibility.checkEligibilityForPaperBased(CheckEligibility.groovy:277)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at tabSection.CheckEligibility.checkEligibilityForEncoderPaperBased(CheckEligibility.groovy:426)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1716354281890.run(Script1716354281890.groovy:20)
+	... 15 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at tabSection.CheckEligibility.checkEligibilityForPaperBased(CheckEligibility.groovy:277)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at tabSection.CheckEligibility.checkEligibilityForEncoderPaperBased(CheckEligibility.groovy:426)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at CheckEligibility.run(CheckEligibility:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1719220824974.run(TempTestSuite1719220824974.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/crossButtonTemp'
+	... 31 more
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=126.0.6478.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'QKNBK2037', ip: '10.0.6.210', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\Users\ADARSH~1.LOH\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54950}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 03b87149ccd559815f486c16bc04da67
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor30.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 29 more]]></system-err>
+   </testsuite>
+</testsuites>

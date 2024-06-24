@@ -1,0 +1,71 @@
+{
+  "keywordFileContentHash": "88FF54B88E5DCE933CC89F08B7750F92",
+  "keywordClasses": [
+    {
+      "name": "tabSection.CheckEligibility",
+      "keywordMethods": [
+        {
+          "name": "checkEligibilityForAo",
+          "parameters": []
+        },
+        {
+          "name": "checkEligibilityForEncoderWithAndWithout",
+          "parameters": []
+        },
+        {
+          "name": "checkEligibilityForEncoderNSTP",
+          "parameters": []
+        },
+        {
+          "name": "checkEligibilityForEncoderNSTPVouching",
+          "parameters": []
+        },
+        {
+          "name": "checkEligibilityForFullfillment",
+          "parameters": []
+        },
+        {
+          "name": "checkEligibilityForCOMaker",
+          "parameters": []
+        },
+        {
+          "name": "checkEligibilityForCOApprover",
+          "parameters": []
+        },
+        {
+          "name": "checkEligibilityForEncoderPaperBased",
+          "parameters": []
+        },
+        {
+          "name": "checkEligibilityForCOMakerPaperBased",
+          "parameters": []
+        },
+        {
+          "name": "checkEligibilityForCOApproverPaperbased",
+          "parameters": []
+        },
+        {
+          "name": "checkEligibilityForAOPaperbase",
+          "parameters": []
+        },
+        {
+          "name": "checkEligibilityForFullfillmentPaperbase",
+          "parameters": []
+        },
+        {
+          "name": "checkEligibilityCommon",
+          "parameters": []
+        },
+        {
+          "name": "checkEligibilityForEncoderPaperbaseNSTP",
+          "parameters": []
+        },
+        {
+          "name": "checkEligibilityForEncoderNSTPAccuity",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

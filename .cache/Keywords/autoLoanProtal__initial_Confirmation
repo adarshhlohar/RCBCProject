@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "0A2B71FDA13FF785B4A208CD4C3ACB75",
+  "keywordClasses": [
+    {
+      "name": "autoLoanProtal.initial_Confirmation",
+      "keywordMethods": [
+        {
+          "name": "initial_conf",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
