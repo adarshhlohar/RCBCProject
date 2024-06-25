@@ -1,4 +1,0 @@
-1
-00:00:00,114 --> 00:01:12,572
-1. tabSection.CustomerDetail.clientInformationForEncoderPaperBasedWith()
-

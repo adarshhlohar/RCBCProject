@@ -242,6 +242,8 @@ public class UploadYourDocuments {
 			//			//Clicking on next button
 			//			WebUI.click(findTestObject('Object Repository/UploadYourDocuments/nextBtn'))
 
+			WebUI.verifyElementPresent(findTestObject("Object Repository/UploadYourDocuments/uploadYourDocumentText"), 2, FailureHandling.CONTINUE_ON_FAILURE)
+			
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 			//Getting window index

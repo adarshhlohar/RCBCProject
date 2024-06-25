@@ -1,4 +1,0 @@
-1
-00:00:00,068 --> 00:00:00,784
-1. tabSection.CreditInvestigation.creditInvestigationForEncoderPaperbased()
-

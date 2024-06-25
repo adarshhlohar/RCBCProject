@@ -26,38 +26,168 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>13f0573e-b428-4d71-97cd-c57461f7308a</guid>
+      <guid>c5a108a0-7822-4c12-8efd-4c1693051e36</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Base_Scripts/TestCaseForPreAndPost/ApplicationPageForPreAndPost</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>8b864f8e-cc55-45d5-8d32-3ae1d264ddf0</id>
+         <id>25970eab-fac0-4a77-aee2-b9a95912bc81</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/ApplicationSecPostData</testDataId>
+         <testDataId>Data Files/ApplicationSecPreData</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>8b864f8e-cc55-45d5-8d32-3ae1d264ddf0</testDataLinkId>
+         <testDataLinkId>25970eab-fac0-4a77-aee2-b9a95912bc81</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>show</value>
          <variableId>af30113b-81a4-47fc-badb-cbb347acd1d0</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>8b864f8e-cc55-45d5-8d32-3ae1d264ddf0</testDataLinkId>
+         <testDataLinkId>25970eab-fac0-4a77-aee2-b9a95912bc81</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>sortBy</value>
          <variableId>7c438659-261b-4040-a509-eec3fd080cf5</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>2ffcd3f9-dd9c-4add-be7e-6510a26c9db9</guid>
+      <guid>69f857d5-8480-406e-a259-3d0f2987cc5e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Base_Scripts/TestCaseForPreAndPost/PostReleaseSubmit</testCaseId>
+      <testCaseId>Test Cases/Base_Scripts/TestCaseForPreAndPost/CustomerDetailForPreRelease</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7f06fd8c-d754-4b6f-9577-aaeb7912b893</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Base_Scripts/TestCaseForPreAndPost/LoanInformationForPreRelease</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>b78379a4-e4bf-4dc5-b26e-25e4d239946c</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/loanInformationForPreRelease</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>b78379a4-e4bf-4dc5-b26e-25e4d239946c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>marketingPromoCode</value>
+         <variableId>7ea9113b-a4e2-42f2-b010-ebaa86476942</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b78379a4-e4bf-4dc5-b26e-25e4d239946c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>loanPurpose</value>
+         <variableId>cccd40d3-844c-40c6-8c57-3c327eeb4c79</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b78379a4-e4bf-4dc5-b26e-25e4d239946c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>modeOfRelease</value>
+         <variableId>1d64916c-27ae-4c7d-b471-b872dff09c35</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b78379a4-e4bf-4dc5-b26e-25e4d239946c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>scheduleUnitReleaseDate</value>
+         <variableId>13281907-eb91-455b-b210-4bf877477894</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b78379a4-e4bf-4dc5-b26e-25e4d239946c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>actualUnitReleaseDate</value>
+         <variableId>68264b98-57f2-46d8-97d6-78f6abd52cff</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b78379a4-e4bf-4dc5-b26e-25e4d239946c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>paymentType</value>
+         <variableId>55981167-f0a6-4029-8833-e3c62d756e1d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b78379a4-e4bf-4dc5-b26e-25e4d239946c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>paymentFrequecy</value>
+         <variableId>f3cc6c4f-53b1-4f4a-8eb8-99d9d61585e4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b78379a4-e4bf-4dc5-b26e-25e4d239946c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>modeOfPayment</value>
+         <variableId>8092ce41-2be0-405f-9b27-b75e0bd0ea49</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b78379a4-e4bf-4dc5-b26e-25e4d239946c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>effectiveDateOfAda</value>
+         <variableId>f401b8a3-5544-4c6b-8e3d-728ab654dbd3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b78379a4-e4bf-4dc5-b26e-25e4d239946c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>accountNumber</value>
+         <variableId>df09e952-ec66-420e-ada0-3099d6546b1a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b78379a4-e4bf-4dc5-b26e-25e4d239946c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>accountName</value>
+         <variableId>d788b0b4-e6d1-4e17-90b8-b48c4b4bd8f5</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>31b1ecf0-1b7e-4a80-bdbb-d4d1f96ddb86</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Base_Scripts/TestCaseForPreAndPost/DocumentCheckListForPreRelease</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>84eb7b69-5d66-4626-a6e6-60f26f737270</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Base_Scripts/TestCaseForPreAndPost/CollateralInformationForPreRelease</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>5162edc5-f53e-42c6-a4b4-398b1cb1ef16</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CollateralInfoForPreRelease</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>5162edc5-f53e-42c6-a4b4-398b1cb1ef16</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>serialOrChessisNum</value>
+         <variableId>0d7f3c48-f7dc-436d-a3a2-3d6c54bba095</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>5162edc5-f53e-42c6-a4b4-398b1cb1ef16</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>motorOrEngineNum</value>
+         <variableId>6c924381-06e9-4798-b837-ebbc854b0094</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>5162edc5-f53e-42c6-a4b4-398b1cb1ef16</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>conductionSticker</value>
+         <variableId>715eca79-7ae2-4cdd-b1f9-74739f12e1f6</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f18f7a75-1bf5-4a3b-8ca6-32670c003cc4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Base_Scripts/TestCaseForPreAndPost/DisbursmentInfoNew</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

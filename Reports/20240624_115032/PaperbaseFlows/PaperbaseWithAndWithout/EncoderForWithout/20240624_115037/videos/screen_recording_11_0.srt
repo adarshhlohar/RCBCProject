@@ -1,4 +1,0 @@
-1
-00:00:00,076 --> 00:00:04,003
-1. tabSection.DisbursementInfo.disbursementInformationForEncoderPaperbased()
-

@@ -1,4 +1,0 @@
-1
-00:00:00,343 --> 00:00:14,290
-1. encoder.LoginForibpsEncoder.login()
-

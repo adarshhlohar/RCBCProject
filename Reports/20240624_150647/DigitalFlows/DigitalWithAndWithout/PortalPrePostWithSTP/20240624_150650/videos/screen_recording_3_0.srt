@@ -1,4 +1,0 @@
-1
-00:00:00,266 --> 00:00:09,329
-1. autoLoanProtal.SelectAutoLoan.clickToDigitalApplication()
-

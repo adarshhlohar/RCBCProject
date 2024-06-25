@@ -179,173 +179,117 @@ public class UploadYourDocuments {
 
 	@Keyword
 	def uploadYourDocumentsPageForAmendment() {
-		
+
 		/*try {
-
-			//Getting window index
-			def currentWindow = WebUI.getWindowIndex()
-
-			//Getting window title
-			String title = WebUI.getWindowTitle()
-
-			WebUI.verifyElementPresent(findTestObject("Object Repository/UploadYourDocuments/uploadYourDocumentText"), 2, FailureHandling.CONTINUE_ON_FAILURE)
-
-			//Selecting Id type
-			WebUI.selectOptionByIndex(findTestObject('Object Repository/UploadYourDocuments/validId_selectIdType'), 1)
-
-			//Clicking on upload file button
-			WebUI.click(findTestObject('Object Repository/UploadYourDocuments/uploadFile_Btn'))
-
-			//Providing delay
-			WebUI.delay(1)
-
-			//Switching windows
-			WebUI.switchToWindowIndex(currentWindow + 1)
-
-			//Providing delay
-			WebUI.delay(1)
-
-			//Uploading file from system
-			fileUploadFromCompu()
-
-			//Providing delay
-			WebUI.delay(1)
-
-			//Clicking on document type
-			WebUI.click(findTestObject('Object Repository/UploadYourDocuments/ValidID/documentType'))
-
-			//Selecting the document type by index
-			WebUI.selectOptionByValue(findTestObject('Object Repository/UploadYourDocuments/ValidID/documentType'), "ID Type Documents",false)
-
-			//Clicking on upload button
-			WebUI.click(findTestObject('Object Repository/UploadYourDocuments/ValidID/uploadBtn'))
-
-			WebUI.delay(3)
-
-			//Waiting for element present check
-			//			WebUI.waitForElementPresent(findTestObject('Object Repository/UploadYourDocuments/SuccessMesg'), 30)
-
-			//Closing window
-			WebUI.closeWindowIndex(2)
-
-			//Switching to default
-			//			WebUI.switchToDefaultContent()
-			WebUI.switchToWindowIndex(currentWindow)
-
-			//Selecting the income document type
-			WebUI.selectOptionByIndex(findTestObject('Object Repository/UploadYourDocuments/incomeDocument_selectIdType'), 1)
-
-			WebUI.delay(1)
-
-
-			//Clicking on income document upload
-			WebUI.click(findTestObject('Object Repository/UploadYourDocuments/uploadFile_Btn1'))
-
-			//Providing delay
-			WebUI.delay(1)
-
-
-			//Switching to different window
-			WebUI.switchToWindowIndex(currentWindow + 1)
-
-			//Providing delay
-			WebUI.delay(1)
-
-			//Uploading file from system
-			fileUploadFromCompu()
-
-			//Providing delay
-			WebUI.delay(1)
-
-			//Selecting income document type
-			WebUI.selectOptionByValue(findTestObject('Object Repository/UploadYourDocuments/ValidID/documentType'), "Income Documents",false)
-
-			WebUI.delay(2)
-
-			//Clicking on upload
-			WebUI.click(findTestObject('Object Repository/UploadYourDocuments/IncomeDocument/uploadBtn'))
-
-			WebUI.delay(4)
-
-			//Waiting for element present check
-			//			WebUI.waitForElementPresent(findTestObject('Object Repository/UploadYourDocuments/SuccessMesg'), 30)
-
-			//Closing window
-			WebUI.closeWindowIndex(2)
-
-			//Switching to default
-			//			WebUI.switchToDefaultContent()
-			WebUI.switchToWindowIndex(currentWindow)
-
-			//Providing delay
-			//			WebUI.delay(3)
-			//Scrolling to next button
-			WebUI.scrollToElement(findTestObject('Object Repository/UploadYourDocuments/nextBtn'), 3)
-
-			//Providing delay
-			WebUI.delay(1)
-
-
-
-
-			//This is for the application
-			//Clicking on upload file button
-			WebUI.click(findTestObject('Object Repository/UploadYourDocuments/uploadFile_Btn2'))
-
-			//Providing delay
-			WebUI.delay(1)
-
-			//Switching windows
-			WebUI.switchToWindowIndex(currentWindow + 1)
-
-			//Providing delay
-			WebUI.delay(1)
-
-			//Uploading file from system
-			fileUploadFromCompu()
-
-			//Providing delay
-			WebUI.delay(1)
-
-			//Clicking on document type
-			WebUI.click(findTestObject('Object Repository/UploadYourDocuments/ValidID/documentType'))
-
-			//Selecting the document type by index
-			WebUI.selectOptionByValue(findTestObject('Object Repository/UploadYourDocuments/ValidID/documentType'), "Loan Application Documents",false)
-
-			WebUI.delay(1)
-
-			//Clicking on upload button
-			WebUI.click(findTestObject('Object Repository/UploadYourDocuments/ValidID/uploadBtn'))
-
-			//Waiting for element present check
-			//			WebUI.waitForElementPresent(findTestObject('Object Repository/UploadYourDocuments/SuccessMesg'), 30)
-
-			WebUI.delay(3)
-			//Closing window
-			WebUI.closeWindowIndex(2)
-
-			//Switching to default
-			//WebUI.switchToDefaultContent()
-			WebUI.switchToWindowIndex(currentWindow)
+		 //Getting window index
+		 def currentWindow = WebUI.getWindowIndex()
+		 //Getting window title
+		 String title = WebUI.getWindowTitle()
+		 WebUI.verifyElementPresent(findTestObject("Object Repository/UploadYourDocuments/uploadYourDocumentText"), 2, FailureHandling.CONTINUE_ON_FAILURE)
+		 //Selecting Id type
+		 WebUI.selectOptionByIndex(findTestObject('Object Repository/UploadYourDocuments/validId_selectIdType'), 1)
+		 //Clicking on upload file button
+		 WebUI.click(findTestObject('Object Repository/UploadYourDocuments/uploadFile_Btn'))
+		 //Providing delay
+		 WebUI.delay(1)
+		 //Switching windows
+		 WebUI.switchToWindowIndex(currentWindow + 1)
+		 //Providing delay
+		 WebUI.delay(1)
+		 //Uploading file from system
+		 fileUploadFromCompu()
+		 //Providing delay
+		 WebUI.delay(1)
+		 //Clicking on document type
+		 WebUI.click(findTestObject('Object Repository/UploadYourDocuments/ValidID/documentType'))
+		 //Selecting the document type by index
+		 WebUI.selectOptionByValue(findTestObject('Object Repository/UploadYourDocuments/ValidID/documentType'), "ID Type Documents",false)
+		 //Clicking on upload button
+		 WebUI.click(findTestObject('Object Repository/UploadYourDocuments/ValidID/uploadBtn'))
+		 WebUI.delay(3)
+		 //Waiting for element present check
+		 //			WebUI.waitForElementPresent(findTestObject('Object Repository/UploadYourDocuments/SuccessMesg'), 30)
+		 //Closing window
+		 WebUI.closeWindowIndex(2)
+		 //Switching to default
+		 //			WebUI.switchToDefaultContent()
+		 WebUI.switchToWindowIndex(currentWindow)
+		 //Selecting the income document type
+		 WebUI.selectOptionByIndex(findTestObject('Object Repository/UploadYourDocuments/incomeDocument_selectIdType'), 1)
+		 WebUI.delay(1)
+		 //Clicking on income document upload
+		 WebUI.click(findTestObject('Object Repository/UploadYourDocuments/uploadFile_Btn1'))
+		 //Providing delay
+		 WebUI.delay(1)
+		 //Switching to different window
+		 WebUI.switchToWindowIndex(currentWindow + 1)
+		 //Providing delay
+		 WebUI.delay(1)
+		 //Uploading file from system
+		 fileUploadFromCompu()
+		 //Providing delay
+		 WebUI.delay(1)
+		 //Selecting income document type
+		 WebUI.selectOptionByValue(findTestObject('Object Repository/UploadYourDocuments/ValidID/documentType'), "Income Documents",false)
+		 WebUI.delay(2)
+		 //Clicking on upload
+		 WebUI.click(findTestObject('Object Repository/UploadYourDocuments/IncomeDocument/uploadBtn'))
+		 WebUI.delay(4)
+		 //Waiting for element present check
+		 //			WebUI.waitForElementPresent(findTestObject('Object Repository/UploadYourDocuments/SuccessMesg'), 30)
+		 //Closing window
+		 WebUI.closeWindowIndex(2)
+		 //Switching to default
+		 //			WebUI.switchToDefaultContent()
+		 WebUI.switchToWindowIndex(currentWindow)
+		 //Providing delay
+		 //			WebUI.delay(3)
+		 //Scrolling to next button
+		 WebUI.scrollToElement(findTestObject('Object Repository/UploadYourDocuments/nextBtn'), 3)
+		 //Providing delay
+		 WebUI.delay(1)
+		 //This is for the application
+		 //Clicking on upload file button
+		 WebUI.click(findTestObject('Object Repository/UploadYourDocuments/uploadFile_Btn2'))
+		 //Providing delay
+		 WebUI.delay(1)
+		 //Switching windows
+		 WebUI.switchToWindowIndex(currentWindow + 1)
+		 //Providing delay
+		 WebUI.delay(1)
+		 //Uploading file from system
+		 fileUploadFromCompu()
+		 //Providing delay
+		 WebUI.delay(1)
+		 //Clicking on document type
+		 WebUI.click(findTestObject('Object Repository/UploadYourDocuments/ValidID/documentType'))
+		 //Selecting the document type by index
+		 WebUI.selectOptionByValue(findTestObject('Object Repository/UploadYourDocuments/ValidID/documentType'), "Loan Application Documents",false)
+		 WebUI.delay(1)
+		 //Clicking on upload button
+		 WebUI.click(findTestObject('Object Repository/UploadYourDocuments/ValidID/uploadBtn'))
+		 //Waiting for element present check
+		 //			WebUI.waitForElementPresent(findTestObject('Object Repository/UploadYourDocuments/SuccessMesg'), 30)
+		 WebUI.delay(3)
+		 //Closing window
+		 WebUI.closeWindowIndex(2)
+		 //Switching to default
+		 //WebUI.switchToDefaultContent()
+		 WebUI.switchToWindowIndex(currentWindow)
+		 //Verifying whether the back button is clickable or not
+		 WebUI.verifyElementClickable(findTestObject("Object Repository/UploadYourDocuments/backBtn"),FailureHandling.CONTINUE_ON_FAILURE)
+		 //Clicking on next button
+		 WebUI.click(findTestObject('Object Repository/UploadYourDocuments/nextBtn'))
+		 }catch(Exception e) {
+		 //If the execution fails, screenshot will be captured
+		 WebUI.takeScreenshot()
+		 println("getting execution error"+ e.toString())
+		 }
+		 */
 
 
-			//Verifying whether the back button is clickable or not
-			WebUI.verifyElementClickable(findTestObject("Object Repository/UploadYourDocuments/backBtn"),FailureHandling.CONTINUE_ON_FAILURE)
 
-			//Clicking on next button
-			WebUI.click(findTestObject('Object Repository/UploadYourDocuments/nextBtn'))
-		}catch(Exception e) {
 
-			//If the execution fails, screenshot will be captured
-			WebUI.takeScreenshot()
-			println("getting execution error"+ e.toString())
-		}
-		*/
-		
-		
-		
-		
 		try {
 			WebUI.verifyElementPresent(findTestObject("Object Repository/UploadYourDocuments/uploadYourDocumentText"), 2, FailureHandling.CONTINUE_ON_FAILURE)
 

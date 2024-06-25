@@ -1,4 +1,0 @@
-1
-00:00:00,070 --> 00:00:00,840
-1. tabSection.DisbursementInfo.disbursementInformationForEncoder()
-

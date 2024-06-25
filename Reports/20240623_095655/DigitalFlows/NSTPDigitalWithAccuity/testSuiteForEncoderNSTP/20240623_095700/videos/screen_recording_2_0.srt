@@ -1,4 +1,0 @@
-1
-00:00:00,082 --> 00:00:16,789
-1. encoder.HomePageForibpsEncoder.selectResistration()
-

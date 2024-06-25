@@ -1,4 +1,0 @@
-1
-00:00:00,079 --> 00:01:47,342
-1. tabSection.DocumentCheckList.documentCheckListForPreReleasePaperbased()
-

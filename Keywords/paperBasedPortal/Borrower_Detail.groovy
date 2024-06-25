@@ -3,6 +3,7 @@ package paperBasedPortal
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 import com.kms.katalon.core.annotation.Keyword
+import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 import globalVariableUtils.GlobalVariableUtil
@@ -24,6 +25,7 @@ public class Borrower_Detail {
 		WebUI.waitForPageLoad(10)
 
 		try {
+			WebUI.verifyElementPresent(findTestObject('Object Repository/Borrower_Details/borrowerInformation'), 2,FailureHandling.CONTINUE_ON_FAILURE)
 			String  result ="LOS-"
 			//Here we generating a random character for different user
 			int rnd = (int) (Math.random() * 52);

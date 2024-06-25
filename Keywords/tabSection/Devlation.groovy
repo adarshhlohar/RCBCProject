@@ -23,7 +23,6 @@ public class Deviation {
 			WebUI.click(findTestObject("Object Repository/TabSection/Devlations"))
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
-
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -43,7 +42,6 @@ public class Deviation {
 			WebUI.click(findTestObject("Object Repository/TabSection/Devlations"))
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
-
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -64,7 +62,6 @@ public class Deviation {
 			WebUI.click(findTestObject("Object Repository/TabSection/Devlations"))
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
-
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -85,7 +82,6 @@ public class Deviation {
 			WebUI.click(findTestObject("Object Repository/TabSection/Devlations"))
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
-
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -106,7 +102,6 @@ public class Deviation {
 			WebUI.click(findTestObject("Object Repository/TabSection/Devlations"))
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
-
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -127,7 +122,6 @@ public class Deviation {
 			WebUI.click(findTestObject("Object Repository/TabSection/Devlations"))
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
-
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -148,7 +142,6 @@ public class Deviation {
 			WebUI.click(findTestObject("Object Repository/TabSection/Devlations"))
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
-
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -169,7 +162,6 @@ public class Deviation {
 			WebUI.click(findTestObject("Object Repository/TabSection/Devlations"))
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
-
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -191,7 +183,6 @@ public class Deviation {
 			WebUI.click(findTestObject("Object Repository/TabSection/Devlations"))
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
-
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -213,7 +204,7 @@ public class Deviation {
 		try {
 			//clicking on the deviations tab
 			WebUI.click(findTestObject("Object Repository/TabSection/Devlations"))
-			
+
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
@@ -227,21 +218,22 @@ public class Deviation {
 			WebUI.delay(1)
 
 			WebUI.click(findTestObject("Object Repository/FulfillmentDeviation/saveChanges"))
-			
+
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 
+			if(WebUI.waitForElementPresent(findTestObject("Object Repository/FulfillmentDeviation/salesDeviation2"), 2)) {
+				WebUI.click(findTestObject("Object Repository/FulfillmentDeviation/salesDeviation2"))
 
-			//			WebUI.click(findTestObject("Object Repository/FulfillmentDeviation/salesDeviation2"))
-			//
-			//			WebUI.delay(1)
-			//
-			//			WebUI.click(findTestObject("Object Repository/FulfillmentDeviation/Approve"))
-			//
-			//			WebUI.delay(1)
-			//
-			//			WebUI.click(findTestObject("Object Repository/FulfillmentDeviation/saveChanges"))
+				WebUI.delay(1)
+
+				WebUI.click(findTestObject("Object Repository/FulfillmentDeviation/Approve"))
+
+				WebUI.delay(1)
+
+				WebUI.click(findTestObject("Object Repository/FulfillmentDeviation/saveChanges"))
+			}
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -266,7 +258,6 @@ public class Deviation {
 				GlobalVariableUtil.captureScreenShotWithTime()
 				WebUI.delay(1)
 				WebUI.click(findTestObject("Object Repository/BackOffice/Deviation/saveChanges"))
-	
 			}
 
 
@@ -278,8 +269,6 @@ public class Deviation {
 				WebUI.delay(1)
 				GlobalVariableUtil.captureScreenShotWithTime()
 				WebUI.click(findTestObject("Object Repository/BackOffice/Deviation/saveChanges"))
-				
-	
 			}
 
 

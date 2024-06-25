@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "F980B809D7C47A6FC61C0CFCAC912BB8",
+  "keywordFileContentHash": "9140D1CFA9B1CB394C697D72A60B28C5",
   "keywordClasses": [
     {
       "name": "paperBasedPortal.Borrower_Detail",
@@ -124,8 +124,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": "/**\r\n\t * 1.This is the borrower detail page in paper based\r\n\t * 2.@Params : fst_Name,mid_Name,lst_Name,email,mob_Num,date,maritalStatus,suffix,residence\r\n\t * 3.The data inside for params we using a data driven\r\n\t */"
+          ]
         },
         {
           "name": "borrower_DetailsAOLogin",
@@ -247,8 +246,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": "/**\r\n\t * 1.This is the borrower detail page in paper based\r\n\t * 2.@Params : fst_Name,mid_Name,lst_Name,email,mob_Num,date,maritalStatus,suffix,residence\r\n\t * 3.The data inside for params we using a data driven\r\n\t */"
+          ]
         },
         {
           "name": "borrower_DetailsNSTP",
@@ -370,8 +368,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": "/**\r\n\t * 1.This is the borrower detail page in paper based\r\n\t * 2.@Params : fst_Name,mid_Name,lst_Name,email,mob_Num,date,maritalStatus,suffix,residence\r\n\t * 3.The data inside for params we using a data driven\r\n\t */"
+          ]
         },
         {
           "name": "borrower_DetailsNSTPAOLogin",
@@ -493,11 +490,10 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

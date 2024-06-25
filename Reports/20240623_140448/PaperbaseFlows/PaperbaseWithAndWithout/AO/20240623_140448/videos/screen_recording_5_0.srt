@@ -1,4 +1,0 @@
-1
-00:00:00,167 --> 00:00:06,678
-1. tabSection.DocumentCheckList.documentCheckListForAOpaperbase()
-

@@ -1,4 +1,0 @@
-1
-00:00:00,068 --> 00:00:03,965
-1. tabSection.InsuranceInformation.insuranceInformationForAOPaperbase()
-

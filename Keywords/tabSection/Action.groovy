@@ -60,9 +60,9 @@ public class Action {
 
 			WebUI.click(findTestObject("Object Repository/Action/confirmYes"))
 
-//			if (!(currentWindow.equalsIgnoreCase('LoanPortal'))) {
-//				WebUI.switchToWindowTitle('LoanPortal',FailureHandling.OPTIONAL)
-//			}
+			//			if (!(currentWindow.equalsIgnoreCase('LoanPortal'))) {
+			//				WebUI.switchToWindowTitle('LoanPortal',FailureHandling.OPTIONAL)
+			//			}
 
 			WebUI.delay(2)
 		}catch(Exception e) {

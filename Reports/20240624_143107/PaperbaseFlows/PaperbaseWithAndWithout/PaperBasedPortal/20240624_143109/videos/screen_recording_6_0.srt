@@ -1,4 +1,0 @@
-1
-00:00:00,101 --> 00:01:03,780
-1. paperBasedPortal.UploadYourDocuments.uploadYourDocumentsPage()
-

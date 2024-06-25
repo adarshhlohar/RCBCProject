@@ -248,13 +248,13 @@ public class CheckEligibility {
 		WebUI.delay(3)
 		WebUI.click(findTestObject("Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/transUnionOkButton"))
 		WebUI.delay(2)
-//		WebUI.click(findTestObject("Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/TransuinionReport"))
-//		WebUI.delay(1)
-//		GlobalVariableUtil.captureScreenShotWithTime()
-//		WebUI.delay(2)
-//		if(WebUI.waitForElementPresent(findTestObject("Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/transUnionOkButton"), 2)) {
-//			WebUI.click(findTestObject("Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/transUnionOkButton"))
-//		}
+		//		WebUI.click(findTestObject("Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/TransuinionReport"))
+		//		WebUI.delay(1)
+		//		GlobalVariableUtil.captureScreenShotWithTime()
+		//		WebUI.delay(2)
+		//		if(WebUI.waitForElementPresent(findTestObject("Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/transUnionOkButton"), 2)) {
+		//			WebUI.click(findTestObject("Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/transUnionOkButton"))
+		//		}
 		//		WebUI.delay(1)
 		//		WebUI.click(findTestObject("Object Repository/BackOfficePaperBase/EncoderPaperbaseCheckEligibility/RPTCheckOK"))
 		WebUI.delay(1)

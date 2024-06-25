@@ -187,7 +187,8 @@ class LoanDetails {
 		WebUI.waitForPageLoad(10)
 
 		try {
-			WebUI.verifyTextPresent("Loan Details", false, FailureHandling.CONTINUE_ON_FAILURE)
+			WebUI.verifyElementPresent(findTestObject("Object Repository/Loan Details/loanDetail"), 2, FailureHandling.CONTINUE_ON_FAILURE)
+
 			WebUI.selectOptionByIndex(findTestObject("Object Repository/AOAsDealer/LoanInformation/dealership"), 1)
 
 			//Verifying whether the 'used' button is clickable or not.
@@ -207,6 +208,10 @@ class LoanDetails {
 
 			//Selecting the loan term of the vehicle
 			WebUI.selectOptionByValue(findTestObject('Object Repository/Loan Details/LoanTerm'), loanTerm, true)
+
+			WebUI.delay(1)
+
+			GlobalVariableUtil.captureScreenShotWithTime()
 
 			//Clicking on the down payment value of the vehicle
 			WebUI.click(findTestObject('Object Repository/Loan Details/DownpaymentValue'))

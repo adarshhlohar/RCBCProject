@@ -1,4 +1,0 @@
-1
-00:00:00,295 --> 00:00:04,223
-1. tabSection.Deviation.deviationForFullfillmentPaperbased()
-

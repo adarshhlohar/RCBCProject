@@ -44,83 +44,92 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Paper_STPWithAndWithoutAPI/Encoder/LoanInformationWithoutAPI</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>18de7999-db95-4dd9-b7ec-fa61f957e376</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/PaperbaseLoanInformationWithoutSTP</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>18de7999-db95-4dd9-b7ec-fa61f957e376</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>marketingPromoCode</value>
          <variableId>5a2db45d-dbb7-45b3-ad68-16e33e1fc867</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>18de7999-db95-4dd9-b7ec-fa61f957e376</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Downpayment_Amt</value>
          <variableId>35a67b93-c10a-463a-800c-fbc6de7094b6</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>18de7999-db95-4dd9-b7ec-fa61f957e376</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Actual_Cashout</value>
          <variableId>8b8b9ff8-aba1-420e-819b-67c7dc843883</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>18de7999-db95-4dd9-b7ec-fa61f957e376</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>loanTerm</value>
          <variableId>7c81578d-c3c2-4c98-9269-d13ce1806a38</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>18de7999-db95-4dd9-b7ec-fa61f957e376</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>insuranceType</value>
          <variableId>3449433c-e232-4761-b88e-2b8b944ca532</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>18de7999-db95-4dd9-b7ec-fa61f957e376</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>loanPurpose</value>
          <variableId>e005adc6-77b6-4518-8944-bdab9d55f1e3</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>18de7999-db95-4dd9-b7ec-fa61f957e376</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>modeOfRelease</value>
          <variableId>d5495358-2054-48c7-921f-015a92addbc3</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>18de7999-db95-4dd9-b7ec-fa61f957e376</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Scheduled_Unit_Release_Date</value>
          <variableId>d62c730f-ef08-4c5f-b24f-d30e1db1bcff</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>18de7999-db95-4dd9-b7ec-fa61f957e376</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Actual_Unit_Release_Date</value>
          <variableId>5598c66e-5b88-4704-a702-e22d8f324717</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>18de7999-db95-4dd9-b7ec-fa61f957e376</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Total_CMFCollectedby_Dealer</value>
          <variableId>5ac09198-a445-4cb0-aa97-36f3c91a49af</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>18de7999-db95-4dd9-b7ec-fa61f957e376</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Payment_Type</value>
          <variableId>5c761d6a-ef2a-4174-8a63-8d06156e6859</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>18de7999-db95-4dd9-b7ec-fa61f957e376</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>PaymentFrequency</value>
          <variableId>f6584d10-dc6a-4b6f-8f61-b2c69ef3b6f0</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>18de7999-db95-4dd9-b7ec-fa61f957e376</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Mode_Of_Payment</value>
          <variableId>8671a836-82ae-4f62-a519-6c9f85ce75fd</variableId>
       </variableLink>
    </testCaseLink>

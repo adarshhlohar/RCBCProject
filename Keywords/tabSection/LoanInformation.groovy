@@ -67,7 +67,12 @@ public class LoanInformation {
 
 			currentIndex = currentIndex - 1
 
+			WebUI.delay(2)
+
 			WebUI.click(findTestObject("Object Repository/LoanInformationPreRelease/updateBtn"))
+			//			WebUI.sendKeys(findTestObject("Object Repository/LoanInformationPreRelease/updateBtn"), Keys.chord(Keys.ENTER))
+			WebUI.delay(2)
+
 
 			WebUI.selectOptionByValue(findTestObject('Object Repository/LoanInformationPreRelease/paymentType'),paymentType,false)
 
@@ -118,18 +123,18 @@ public class LoanInformation {
 
 			GlobalVariableUtil.captureScreenShotWithTime()
 			if(modeOfPayment.equalsIgnoreCase("OTC")) {
-
 				WebUI.selectOptionByValue(findTestObject('Object Repository/LoanInformationPreRelease/modeOfPayment'),modeOfPayment,true)
 				//				WebUI.delay(2)
-			}else {
+			}else if(modeOfPayment.equalsIgnoreCase("ADA")){
 				WebUI.delay(2)
 				WebUI.selectOptionByValue(findTestObject('Object Repository/LoanInformationPreRelease/modeOfPayment'),modeOfPayment,true)
-				WebUI.setText(findTestObject('Object Repository/DealerPreRelease/LoanInformation/effectiveDateOfAda'),effectiveDateOfAda,true)
-				WebUI.setText(findTestObject('Object Repository/DealerPreRelease/LoanInformation/accountNumber'),accountNumber)
-				WebUI.setText(findTestObject('Object Repository/DealerPreRelease/LoanInformation/accountName'), accountName)
+				WebUI.setText(findTestObject('Object Repository/LoanInformationPreRelease/ModeOfPaymentADA/effectiveDateOfAda'),effectiveDateOfAda)
+				WebUI.setText(findTestObject('Object Repository/LoanInformationPreRelease/ModeOfPaymentADA/accountNumber'),accountNumber)
+				WebUI.setText(findTestObject('Object Repository/LoanInformationPreRelease/ModeOfPaymentADA/accountName'), accountName)
 			}
-
 			WebUI.click(findTestObject("Object Repository/LoanInformationPreRelease/Save"))
+			WebUI.delay(2)
+			WebUI.click(findTestObject("Object Repository/LoanInformationPreRelease/updateBtn"))
 			WebUI.delay(2)
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
@@ -458,12 +463,12 @@ public class LoanInformation {
 			if(modeOfPayment.equalsIgnoreCase("OTC")) {
 				WebUI.selectOptionByValue(findTestObject('Object Repository/LoanInformationPreRelease/modeOfPayment'),modeOfPayment,true)
 				//				WebUI.delay(2)
-			}else {
+			}else if(modeOfPayment.equalsIgnoreCase("ADA")){
 				WebUI.delay(2)
 				WebUI.selectOptionByValue(findTestObject('Object Repository/LoanInformationPreRelease/modeOfPayment'),modeOfPayment,true)
-				WebUI.setText(findTestObject('Object Repository/DealerPreRelease/LoanInformation/effectiveDateOfAda'),effectiveDateOfAda,true)
-				WebUI.setText(findTestObject('Object Repository/DealerPreRelease/LoanInformation/accountNumber'),accountNumber)
-				WebUI.setText(findTestObject('Object Repository/DealerPreRelease/LoanInformation/accountName'), accountName)
+				WebUI.setText(findTestObject('Object Repository/LoanInformationPreRelease/ModeOfPaymentADA/effectiveDateOfAda'),effectiveDateOfAda)
+				WebUI.setText(findTestObject('Object Repository/LoanInformationPreRelease/ModeOfPaymentADA/accountNumber'),accountNumber)
+				WebUI.setText(findTestObject('Object Repository/LoanInformationPreRelease/ModeOfPaymentADA/accountName'), accountName)
 			}
 
 			WebUI.click(findTestObject("Object Repository/LoanInformationPreRelease/Save"))
@@ -486,6 +491,25 @@ public class LoanInformation {
 	@Keyword
 	def loanInfoForAo(){
 		try {
+			//			WebUI.delay(2)
+			//			//clicking on loan information tab
+			//			WebUI.click(findTestObject('Object Repository/TabSection/LoanInformation'))
+			//
+			//			WebUI.scrollToElement(findTestObject("Object Repository/BackOffice/AO/LoanInfo/DIRate"), 2)
+			//
+			//			WebUI.delay(1)
+			//			String oldSIRate = WebUI.getAttribute(findTestObject("Object Repository/BackOffice/AO/LoanInfo/SIRate"), "title")
+			//			GlobalVariableUtil.saveGlobalVariable("OldSIRate", oldSIRate)
+			//			String oldDIRate = WebUI.getAttribute(findTestObject("Object Repository/BackOffice/AO/LoanInfo/DIRate"), "title")
+			//			GlobalVariableUtil.saveGlobalVariable("OldDIRate", oldDIRate)
+			//			//			WebUI.setText(findTestObject("Object Repository/BackOffice/AO/LoanInfo/SIRate"),"8")
+			//			//			WebUI.setText(findTestObject("Object Repository/BackOffice/AO/LoanInfo/DIRate"), "18")
+			//			WebUI.delay(1)
+			//			GlobalVariableUtil.captureScreenShotWithTime()
+
+
+
+
 			WebUI.delay(2)
 			//clicking on loan information tab
 			WebUI.click(findTestObject('Object Repository/TabSection/LoanInformation'))
@@ -497,14 +521,32 @@ public class LoanInformation {
 			GlobalVariableUtil.saveGlobalVariable("OldSIRate", oldSIRate)
 			String oldDIRate = WebUI.getAttribute(findTestObject("Object Repository/BackOffice/AO/LoanInfo/DIRate"), "title")
 			GlobalVariableUtil.saveGlobalVariable("OldDIRate", oldDIRate)
+
+			Float oldSINum = Float.parseFloat(oldSIRate)
+
+			Float oldDINum = Float.parseFloat(oldDIRate)
+
+//			oldSINum = oldSINum + 0.1;
+
+//			oldDINum = oldDINum + 0.1;
+
+//			def newSIRate = oldSINum.toString()
+//			def newDIRate = oldDINum.toString()
+			def newSIRate = 8;
+			def newDIRate = 18;
+			
+//			println("*** String -> " + oldDIRate + " *** Number -> " + oldDINum + " *** String -> " + newDIRate + " **** String -> " + oldSIRate + "  **** Number -> " + oldSINum + " **** String " + newSIRate)
+			GlobalVariableUtil.saveGlobalVariable("NEWDIRate", newDIRate)
+			GlobalVariableUtil.saveGlobalVariable("NewSIRate", newSIRate)
 			
 
-			//			WebUI.setText(findTestObject("Object Repository/BackOffice/AO/LoanInfo/SIRate"),"8")
-
-
-			//			WebUI.setText(findTestObject("Object Repository/BackOffice/AO/LoanInfo/DIRate"), "18")
+			GlobalVariableUtil.captureScreenShotWithTime()
+			WebUI.setText(findTestObject("Object Repository/BackOffice/AO/LoanInfo/SIRate"),newSIRate)
+			WebUI.setText(findTestObject("Object Repository/BackOffice/AO/LoanInfo/DIRate"),newDIRate)
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
+			WebUI.delay(2)
+			WebUI.click(findTestObject("Object Repository/LoanInformationPreRelease/updateBtn"))
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -535,11 +577,29 @@ public class LoanInformation {
 			String oldDIRate = WebUI.getAttribute(findTestObject("Object Repository/BackOffice/AO/LoanInfo/DIRate"), "title")
 			GlobalVariableUtil.saveGlobalVariable("OldDIRate", oldDIRate)
 			
-					//			WebUI.setText(findTestObject("Object Repository/BackOffice/AO/LoanInfo/SIRate"),"8")
+//			float oldSINum = Float.parseFloat(oldSIRate)
+//
+//			float oldDINum = Float.parseFloat(oldDIRate)
 
-					//			WebUI.setText(findTestObject("Object Repository/BackOffice/AO/LoanInfo/DIRate"), "18")
+//			oldSINum = oldSINum + 0.1;
+//			oldDINum = oldDINum + 0.1;
+			def newSIRate = 8;
+			def newDIRate = 18;
+			
+//			def newSIRate = oldSINum.toString()
+//			def newDIRate = oldDINum.toString()
+
+//			println("*** String -> " + oldDIRate + " *** Number -> " + oldDINum + " *** String -> " + newDIRate + " **** String -> " + oldSIRate + "  **** Number -> " + oldSINum + " **** String " + newSIRate)
+			GlobalVariableUtil.saveGlobalVariable("NewSIRate", newSIRate)
+			GlobalVariableUtil.saveGlobalVariable("NewDIRate", newDIRate)
+
+			GlobalVariableUtil.captureScreenShotWithTime()
+			WebUI.setText(findTestObject("Object Repository/BackOffice/AO/LoanInfo/SIRate"),newSIRate)
+			WebUI.setText(findTestObject("Object Repository/BackOffice/AO/LoanInfo/DIRate"),newDIRate)
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
+			WebUI.delay(2)
+			WebUI.click(findTestObject("Object Repository/LoanInformationPreRelease/updateBtn"))
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -723,10 +783,10 @@ public class LoanInformation {
 
 		WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOfficePaperBase/EncoderPaperbaseLoanInformation/insuranceType"), insuranceType)
 
+		WebUI.selectOptionByValue(findTestObject("Object Repository/BackOfficePaperBase/EncoderPaperbaseLoanInformation/loanPurpose"), loanPurpose,true)
+
 		WebUI.delay(1)
 		GlobalVariableUtil.captureScreenShotWithTime()
-
-		WebUI.selectOptionByValue(findTestObject("Object Repository/BackOfficePaperBase/EncoderPaperbaseLoanInformation/loanPurpose"), loanPurpose,false)
 
 		WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOfficePaperBase/EncoderPaperbaseLoanInformation/modeOfRelease"), modeOfRelease)
 
@@ -1120,7 +1180,7 @@ public class LoanInformation {
 			GlobalVariableUtil.saveGlobalVariable("OldSIRate", oldSIRate)
 			String oldDIRate = WebUI.getAttribute(findTestObject("Object Repository/BackOffice/AO/LoanInfo/DIRate"), "title")
 			GlobalVariableUtil.saveGlobalVariable("OldDIRate", oldDIRate)
-			
+
 
 			//			WebUI.setText(findTestObject("Object Repository/BackOffice/AO/LoanInfo/SIRate"),"8")
 
@@ -1148,16 +1208,16 @@ public class LoanInformation {
 			WebUI.click(findTestObject('Object Repository/TabSection/LoanInformation'))
 
 			WebUI.setText(findTestObject("Object Repository/BackOffice/Fulfillment/LoanInformationWithoutAPI/FundTransferPricing"), "40000")
-//
-//			WebUI.setText(findTestObject("Object Repository/BackOffice/PreReleasePaperbaseLoanInfo/advancePayment6"), "0")
-//
-//			WebUI.setText(findTestObject("Object Repository/BackOffice/PreReleasePaperbaseLoanInfo/cmfPayment6"), "0")
-//
-//			WebUI.setText(findTestObject("Object Repository/BackOffice/PreReleasePaperbaseLoanInfo/excessEMF6"), "0")
-//
-//			WebUI.setText(findTestObject("Object Repository/BackOffice/PreReleasePaperbaseLoanInfo/lto6"), "0")
-//
-//			WebUI.setText(findTestObject("Object Repository/BackOffice/PreReleasePaperbaseLoanInfo/motorCarInsurance6"), "0")
+			//
+			//			WebUI.setText(findTestObject("Object Repository/BackOffice/PreReleasePaperbaseLoanInfo/advancePayment6"), "0")
+			//
+			//			WebUI.setText(findTestObject("Object Repository/BackOffice/PreReleasePaperbaseLoanInfo/cmfPayment6"), "0")
+			//
+			//			WebUI.setText(findTestObject("Object Repository/BackOffice/PreReleasePaperbaseLoanInfo/excessEMF6"), "0")
+			//
+			//			WebUI.setText(findTestObject("Object Repository/BackOffice/PreReleasePaperbaseLoanInfo/lto6"), "0")
+			//
+			//			WebUI.setText(findTestObject("Object Repository/BackOffice/PreReleasePaperbaseLoanInfo/motorCarInsurance6"), "0")
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 		}catch(Exception e) {

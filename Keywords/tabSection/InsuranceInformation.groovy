@@ -105,11 +105,11 @@ public class InsuranceInformation {
 			GlobalVariableUtil.captureScreenShotWithTime()
 			WebUI.delay(1)
 
-			WebUI.setText(findTestObject("Object Repository/BackOffice/Fulfillment/InsuranceInformationWithoutAPI/effectiveDateOfADA"),"05/06/2024")
-
-			WebUI.setText(findTestObject("Object Repository/BackOffice/Fulfillment/InsuranceInformationWithoutAPI/accountNumber"), "565756644")
-
-			WebUI.setText(findTestObject("Object Repository/BackOffice/Fulfillment/InsuranceInformationWithoutAPI/accountName"), "Adarsh")
+//			WebUI.setText(findTestObject("Object Repository/BackOffice/Fulfillment/InsuranceInformationWithoutAPI/effectiveDateOfADA"),"05/06/2024")
+//
+//			WebUI.setText(findTestObject("Object Repository/BackOffice/Fulfillment/InsuranceInformationWithoutAPI/accountNumber"), "565756644")
+//
+//			WebUI.setText(findTestObject("Object Repository/BackOffice/Fulfillment/InsuranceInformationWithoutAPI/accountName"), "Adarsh")
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
@@ -158,11 +158,11 @@ public class InsuranceInformation {
 			GlobalVariableUtil.captureScreenShotWithTime()
 			WebUI.delay(1)
 
-			WebUI.setText(findTestObject("Object Repository/BackOffice/Fulfillment/InsuranceInformationWithoutAPI/effectiveDateOfADA"),"06/06/2024")
-
-			WebUI.setText(findTestObject("Object Repository/BackOffice/Fulfillment/InsuranceInformationWithoutAPI/accountNumber"), "565756644")
-
-			WebUI.setText(findTestObject("Object Repository/BackOffice/Fulfillment/InsuranceInformationWithoutAPI/accountName"), "Adarsh")
+//			WebUI.setText(findTestObject("Object Repository/BackOffice/Fulfillment/InsuranceInformationWithoutAPI/effectiveDateOfADA"),"06/06/2024")
+//
+//			WebUI.setText(findTestObject("Object Repository/BackOffice/Fulfillment/InsuranceInformationWithoutAPI/accountNumber"), "565756644")
+//
+//			WebUI.setText(findTestObject("Object Repository/BackOffice/Fulfillment/InsuranceInformationWithoutAPI/accountName"), "Adarsh")
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/Fulfillment/InsuranceInformationWithoutAPI/paymentFrequency"), 1)
