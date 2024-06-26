@@ -6,10 +6,11 @@
       "keywordMethods": [
         {
           "name": "uploadYourDocumentsPage",
-          "parameters": []
+          "parameters": [],
+          "javadoc": "/**\r\n\t * This method is for the upload document page   \r\n\t */"
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

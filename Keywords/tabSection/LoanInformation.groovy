@@ -131,6 +131,7 @@ public class LoanInformation {
 				WebUI.setText(findTestObject('Object Repository/LoanInformationPreRelease/ModeOfPaymentADA/effectiveDateOfAda'),effectiveDateOfAda)
 				WebUI.setText(findTestObject('Object Repository/LoanInformationPreRelease/ModeOfPaymentADA/accountNumber'),accountNumber)
 				WebUI.setText(findTestObject('Object Repository/LoanInformationPreRelease/ModeOfPaymentADA/accountName'), accountName)
+				GlobalVariableUtil.captureScreenShotWithTime()
 			}
 			WebUI.click(findTestObject("Object Repository/LoanInformationPreRelease/Save"))
 			WebUI.delay(2)
@@ -526,25 +527,28 @@ public class LoanInformation {
 
 			Float oldDINum = Float.parseFloat(oldDIRate)
 
-//			oldSINum = oldSINum + 0.1;
+			def newSIRate = "8";
+			def newDIRate = "18";
 
-//			oldDINum = oldDINum + 0.1;
-
-//			def newSIRate = oldSINum.toString()
-//			def newDIRate = oldDINum.toString()
-			def newSIRate = 8;
-			def newDIRate = 18;
-			
-//			println("*** String -> " + oldDIRate + " *** Number -> " + oldDINum + " *** String -> " + newDIRate + " **** String -> " + oldSIRate + "  **** Number -> " + oldSINum + " **** String " + newSIRate)
+			//			println("*** String -> " + oldDIRate + " *** Number -> " + oldDINum + " *** String -> " + newDIRate + " **** String -> " + oldSIRate + "  **** Number -> " + oldSINum + " **** String " + newSIRate)
 			GlobalVariableUtil.saveGlobalVariable("NEWDIRate", newDIRate)
 			GlobalVariableUtil.saveGlobalVariable("NewSIRate", newSIRate)
-			
 
-			GlobalVariableUtil.captureScreenShotWithTime()
-			WebUI.setText(findTestObject("Object Repository/BackOffice/AO/LoanInfo/SIRate"),newSIRate)
-			WebUI.setText(findTestObject("Object Repository/BackOffice/AO/LoanInfo/DIRate"),newDIRate)
-			WebUI.delay(1)
-			GlobalVariableUtil.captureScreenShotWithTime()
+			def isDeviation = false
+
+			if(!isDeviation) {
+				isDeviation = true
+				GlobalVariableUtil.captureScreenShotWithTime()
+				WebUI.setText(findTestObject("Object Repository/BackOffice/AO/LoanInfo/SIRate"),newSIRate)
+				WebUI.setText(findTestObject("Object Repository/BackOffice/AO/LoanInfo/DIRate"),newDIRate)
+				WebUI.delay(1)
+				GlobalVariableUtil.captureScreenShotWithTime()
+			}
+
+			String isDeviationStr = isDeviation.toString()
+			println(" ******* " + isDeviation + " ***** " + isDeviationStr)
+			GlobalVariableUtil.saveGlobalVariable("isDeviation", isDeviationStr)
+
 			WebUI.delay(2)
 			WebUI.click(findTestObject("Object Repository/LoanInformationPreRelease/updateBtn"))
 		}catch(Exception e) {
@@ -576,28 +580,37 @@ public class LoanInformation {
 			GlobalVariableUtil.saveGlobalVariable("OldSIRate", oldSIRate)
 			String oldDIRate = WebUI.getAttribute(findTestObject("Object Repository/BackOffice/AO/LoanInfo/DIRate"), "title")
 			GlobalVariableUtil.saveGlobalVariable("OldDIRate", oldDIRate)
-			
-//			float oldSINum = Float.parseFloat(oldSIRate)
-//
-//			float oldDINum = Float.parseFloat(oldDIRate)
 
-//			oldSINum = oldSINum + 0.1;
-//			oldDINum = oldDINum + 0.1;
-			def newSIRate = 8;
-			def newDIRate = 18;
-			
-//			def newSIRate = oldSINum.toString()
-//			def newDIRate = oldDINum.toString()
+			//			float oldSINum = Float.parseFloat(oldSIRate)
+			//
+			//			float oldDINum = Float.parseFloat(oldDIRate)
 
-//			println("*** String -> " + oldDIRate + " *** Number -> " + oldDINum + " *** String -> " + newDIRate + " **** String -> " + oldSIRate + "  **** Number -> " + oldSINum + " **** String " + newSIRate)
+			//			oldSINum = oldSINum + 0.1;
+			//			oldDINum = oldDINum + 0.1;
+			def newSIRate = "9";
+			def newDIRate = "17";
+
+			//						def newSIRate = oldSINum.toString()
+			//						def newDIRate = oldDINum.toString()
+
+			//			println("*** String -> " + oldDIRate + " *** Number -> " + oldDINum + " *** String -> " + newDIRate + " **** String -> " + oldSIRate + "  **** Number -> " + oldSINum + " **** String " + newSIRate)
 			GlobalVariableUtil.saveGlobalVariable("NewSIRate", newSIRate)
 			GlobalVariableUtil.saveGlobalVariable("NewDIRate", newDIRate)
 
-			GlobalVariableUtil.captureScreenShotWithTime()
-			WebUI.setText(findTestObject("Object Repository/BackOffice/AO/LoanInfo/SIRate"),newSIRate)
-			WebUI.setText(findTestObject("Object Repository/BackOffice/AO/LoanInfo/DIRate"),newDIRate)
-			WebUI.delay(1)
-			GlobalVariableUtil.captureScreenShotWithTime()
+			def isDeviation = false
+
+			if(!isDeviation) {
+				isDeviation = true
+				GlobalVariableUtil.captureScreenShotWithTime()
+				WebUI.setText(findTestObject("Object Repository/BackOffice/AO/LoanInfo/SIRate"),newSIRate)
+				WebUI.setText(findTestObject("Object Repository/BackOffice/AO/LoanInfo/DIRate"),newDIRate)
+				WebUI.delay(1)
+				GlobalVariableUtil.captureScreenShotWithTime()
+			}
+
+			String isDeviationStr = isDeviation.toString()
+			println(" ******* " + isDeviation + " ***** " + isDeviationStr)
+			GlobalVariableUtil.saveGlobalVariable("isDeviation", isDeviationStr)
 			WebUI.delay(2)
 			WebUI.click(findTestObject("Object Repository/LoanInformationPreRelease/updateBtn"))
 		}catch(Exception e) {
@@ -1169,7 +1182,21 @@ public class LoanInformation {
 	@Keyword
 	def loanInfoForAOWithoutPaperbase(){
 		try {
-			WebUI.delay(1)
+			//			WebUI.delay(1)
+			//			//clicking on loan information tab
+			//			WebUI.click(findTestObject('Object Repository/TabSection/LoanInformation'))
+			//
+			//			WebUI.scrollToElement(findTestObject("Object Repository/BackOffice/AO/LoanInfo/DIRate"), 2)
+			//
+			//			WebUI.delay(1)
+			//			String oldSIRate = WebUI.getAttribute(findTestObject("Object Repository/BackOffice/AO/LoanInfo/SIRate"), "title")
+			//			GlobalVariableUtil.saveGlobalVariable("OldSIRate", oldSIRate)
+			//			String oldDIRate = WebUI.getAttribute(findTestObject("Object Repository/BackOffice/AO/LoanInfo/DIRate"), "title")
+			//			GlobalVariableUtil.saveGlobalVariable("OldDIRate", oldDIRate)
+
+
+
+			WebUI.delay(2)
 			//clicking on loan information tab
 			WebUI.click(findTestObject('Object Repository/TabSection/LoanInformation'))
 
@@ -1181,10 +1208,31 @@ public class LoanInformation {
 			String oldDIRate = WebUI.getAttribute(findTestObject("Object Repository/BackOffice/AO/LoanInfo/DIRate"), "title")
 			GlobalVariableUtil.saveGlobalVariable("OldDIRate", oldDIRate)
 
+			Float oldSINum = Float.parseFloat(oldSIRate)
 
-			//			WebUI.setText(findTestObject("Object Repository/BackOffice/AO/LoanInfo/SIRate"),"8")
+			Float oldDINum = Float.parseFloat(oldDIRate)
 
-			//			WebUI.setText(findTestObject("Object Repository/BackOffice/AO/LoanInfo/DIRate"), "18")
+			//			oldSINum = oldSINum + 0.1;
+
+			//			oldDINum = oldDINum + 0.1;
+
+			//			def newSIRate = oldSINum.toString()
+			//			def newDIRate = oldDINum.toString()
+			def newSIRate = "8";
+			def newDIRate = "18";
+
+			//			println("*** String -> " + oldDIRate + " *** Number -> " + oldDINum + " *** String -> " + newDIRate + " **** String -> " + oldSIRate + "  **** Number -> " + oldSINum + " **** String " + newSIRate)
+			GlobalVariableUtil.saveGlobalVariable("NEWDIRate", newDIRate)
+			GlobalVariableUtil.saveGlobalVariable("NewSIRate", newSIRate)
+
+
+			GlobalVariableUtil.captureScreenShotWithTime()
+			WebUI.setText(findTestObject("Object Repository/BackOffice/AO/LoanInfo/SIRate"),newSIRate)
+			WebUI.setText(findTestObject("Object Repository/BackOffice/AO/LoanInfo/DIRate"),newDIRate)
+			WebUI.delay(1)
+			GlobalVariableUtil.captureScreenShotWithTime()
+			WebUI.delay(2)
+			WebUI.click(findTestObject("Object Repository/LoanInformationPreRelease/updateBtn"))
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 		}catch(Exception e) {

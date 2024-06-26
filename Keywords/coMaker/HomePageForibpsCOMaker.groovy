@@ -4,6 +4,7 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 import org.openqa.selenium.By
 import org.openqa.selenium.WebDriver
+import org.openqa.selenium.WebElement
 
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.webui.driver.DriverFactory
@@ -23,8 +24,9 @@ public class HomePageForibpsCOMaker {
 		WebUI.delay(2)
 
 		if(WebUI.waitForElementClickable(findTestObject("Object Repository/BackOffice/COMaker/ibpsHomePage/COMaker"), 3)) {
-			//clicking on encoder
-			WebUI.click(findTestObject("Object Repository/BackOffice/COMaker/ibpsHomePage/COMaker"))
+
+			//			//sorting by the latest first
+			//			WebUI.click(findTestObject("Object Repository/BackOffice/COMaker/ibpsHomePage/resistrationNo"))
 
 
 			GlobalVariableUtil.loadGlobalVariable();
@@ -36,8 +38,6 @@ public class HomePageForibpsCOMaker {
 
 			WebUI.comment(" ******** " + GlobalVariable.LOSID)
 
-			//sorting by the latest first
-			WebUI.click(findTestObject("Object Repository/BackOffice/COMaker/ibpsHomePage/resistrationNo"))
 
 			WebUI.delay(2)
 
@@ -50,10 +50,35 @@ public class HomePageForibpsCOMaker {
 
 			Thread.sleep(100)
 
-			driver.findElement(By.xpath(xpath)).click()
+			List<WebElement> elements =  driver.findElements(By.xpath(xpath))
 
-			//clicking on resistration
-			//			WebUI.click(findTestObject("Object Repository/BackOffice/AO/ibpsHomePage/resistrationNumberFirst"))
+			println(elements.size())
+
+			if(elements.size() > 0) {
+				GlobalVariableUtil.captureScreenShotWithTime()
+				driver.findElement(By.xpath(xpath)).click()
+
+				WebUI.delay(2)
+			}else {
+				driver.switchTo().defaultContent()
+				GlobalVariableUtil.captureScreenShotWithTime()
+
+				//clicking on encoder
+				WebUI.click(findTestObject("Object Repository/BackOffice/COMaker/ibpsHomePage/COMaker"))
+				WebUI.delay(1)
+
+				GlobalVariableUtil.captureScreenShotWithTime()
+				//sorting by the latest first
+				WebUI.click(findTestObject("Object Repository/BackOffice/COMaker/ibpsHomePage/resistrationNo"))
+
+				driver.switchTo().frame("iframe_Int42")
+
+				Thread.sleep(100)
+
+				driver.findElement(By.xpath(xpath)).click()
+
+				WebUI.delay(2)
+			}
 		}else {
 			WebUI.delay(1)
 			WebUI.click(findTestObject("Object Repository/ibpsLogOut/label_QK_CO7"))
@@ -61,24 +86,6 @@ public class HomePageForibpsCOMaker {
 			WebUI.click(findTestObject("Object Repository/ibpsLogOut/label_User Desktop"))
 			WebUI.delay(2)
 
-			WebUI.click(findTestObject("Object Repository/BackOffice/COMaker/ibpsHomePage/COMaker"))
-
-			WebUI.delay(2)
-
-			GlobalVariableUtil.loadGlobalVariable();
-
-			WebUI.delay(3)
-
-
-			println(" ******* " + GlobalVariable.LOSID)
-
-			WebUI.comment(" ******** " + GlobalVariable.LOSID)
-
-
-			//sorting by the latest first
-			WebUI.click(findTestObject("Object Repository/BackOffice/COMaker/ibpsHomePage/resistrationNo"))
-
-			WebUI.delay(2)
 
 			String xpath = "//label[text()='" + GlobalVariable.LOSID + "']"
 
@@ -89,10 +96,35 @@ public class HomePageForibpsCOMaker {
 
 			Thread.sleep(100)
 
-			driver.findElement(By.xpath(xpath)).click()
+			List<WebElement> elements =  driver.findElements(By.xpath(xpath))
 
-			//clicking on resistration
-			//			WebUI.click(findTestObject("Object Repository/BackOffice/AO/ibpsHomePage/resistrationNumberFirst"))
+			println(elements.size())
+
+			if(elements.size() > 0) {
+				GlobalVariableUtil.captureScreenShotWithTime()
+				driver.findElement(By.xpath(xpath)).click()
+
+				WebUI.delay(2)
+			}else {
+				driver.switchTo().defaultContent()
+				GlobalVariableUtil.captureScreenShotWithTime()
+
+				//clicking on encoder
+				WebUI.click(findTestObject("Object Repository/BackOffice/COMaker/ibpsHomePage/COMaker"))
+				WebUI.delay(1)
+
+				GlobalVariableUtil.captureScreenShotWithTime()
+				//sorting by the latest first
+				WebUI.click(findTestObject("Object Repository/BackOffice/COMaker/ibpsHomePage/resistrationNo"))
+
+				driver.switchTo().frame("iframe_Int42")
+
+				Thread.sleep(100)
+
+				driver.findElement(By.xpath(xpath)).click()
+
+				WebUI.delay(2)
+			}
 		}
 	}
 }

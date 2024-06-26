@@ -6,6 +6,7 @@ import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 import globalVariableUtils.GlobalVariableUtil
+import internal.GlobalVariable
 
 
 
@@ -100,6 +101,16 @@ public class DisbursementInfo {
 			//clicking on the Disbursement Info Tab
 			WebUI.click(findTestObject("Object Repository/TabSection/DisbursementInformation"))
 
+
+			String isDeviationStr = GlobalVariable.isDeviation
+
+			if(isDeviationStr.equalsIgnoreCase("true")) {
+				WebUI.click(findTestObject("Object Repository/BackOffice/AO/DisbursmentInfoForAO/payeeName"))
+				WebUI.setText(findTestObject("Object Repository/BackOffice/AO/DisbursmentInfoForAO/newSIRate"), GlobalVariable.NewSIRate)
+				GlobalVariableUtil.captureScreenShotWithTime()
+				WebUI.click(findTestObject("Object Repository/BackOffice/AO/DisbursmentInfoForAO/saveChanges"))
+			}
+
 			WebUI.setText(findTestObject("Object Repository/BackOffice/AO/DisbursmentInfoForAO/remarks/aoRemarks"),"OK")
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
@@ -123,6 +134,11 @@ public class DisbursementInfo {
 		try {
 			//clicking on the Disbursement Info Tab
 			WebUI.click(findTestObject("Object Repository/TabSection/DisbursementInformation"))
+
+			//			WebUI.click(findTestObject("Object Repository/BackOffice/AO/DisbursmentInfoForAO/payeeName"))
+			//			WebUI.setText(findTestObject("Object Repository/BackOffice/AO/DisbursmentInfoForAO/newSIRate"), GlobalVariable.NewSIRate)
+			//			GlobalVariableUtil.captureScreenShotWithTime()
+			//			WebUI.click(findTestObject("Object Repository/BackOffice/AO/DisbursmentInfoForAO/saveChanges"))
 
 			WebUI.setText(findTestObject("Object Repository/BackOffice/AO/DisbursmentInfoForAO/remarks/aoRemarks"), "done")
 
@@ -169,7 +185,7 @@ public class DisbursementInfo {
 			WebUI.setText(findTestObject("Object Repository/BackOffice/Fulfillment/DisbursementInformationWithoutAPI/preferredDueDate"), "01/06/2024")
 
 			WebUI.setText(findTestObject("Object Repository/BackOffice/Fulfillment/DisbursementInformationWithoutAPI/instructionToLOD"),"OK")
-			
+
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
