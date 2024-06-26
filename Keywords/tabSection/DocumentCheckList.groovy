@@ -187,7 +187,10 @@ public class DocumentCheckList {
 			viewDocument(viewDoc5)
 			String viewDoc6 = "Object Repository/DocumentCheckListForPreRelease/OutwardDocument/viewBtn6"
 			viewDocument(viewDoc6)
-
+			String viewDoc7 = "Object Repository/DocumentCheckListForPreRelease/OutwardDocument/viewBtn7"
+			if(WebUI.waitForElementClickable(findTestObject(viewDoc7), 2)) {
+				viewDocument(viewDoc7)
+			}
 
 
 			String testObject1 = "Object Repository/DocumentCheckListForPreRelease/InwardDocument/button1"
@@ -538,6 +541,12 @@ public class DocumentCheckList {
 			viewDocument(viewDoc5)
 			String viewDoc6 = "Object Repository/DocumentCheckListForPreRelease/OutwardDocument/viewBtn6"
 			viewDocument(viewDoc6)
+
+			String viewDoc7 = "Object Repository/DocumentCheckListForPreRelease/OutwardDocument/viewBtn7"
+
+			if(WebUI.waitForElementClickable(findTestObject(viewDoc7), 2)) {
+				viewDocument(viewDoc7)
+			}
 
 
 			String testObject1="Object Repository/DocumentCheckListForPreRelease/InwardDocument/button1"

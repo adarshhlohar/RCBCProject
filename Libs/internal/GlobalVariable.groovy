@@ -64,6 +64,11 @@ public class GlobalVariable {
      */
     public static Object NewDIRate
      
+    /**
+     * <p></p>
+     */
+    public static Object isDeviation
+     
 
     static {
         try {
@@ -82,6 +87,7 @@ public class GlobalVariable {
             NewSIRate = selectedVariables['NewSIRate']
             OldDIRate = selectedVariables['OldDIRate']
             NewDIRate = selectedVariables['NewDIRate']
+            isDeviation = selectedVariables['isDeviation']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)
