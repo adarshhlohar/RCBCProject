@@ -12,6 +12,11 @@ def static "coApprover.HomePageForibpsCOApprover.selectResistration"() {
 }
 
 
+def static "coApprover.HomePageForibpsCOApprover.COApproverCMG"() {
+    (new coApprover.HomePageForibpsCOApprover()).COApproverCMG()
+}
+
+
 def static "encoder.HomePageForibpsEncoder.selectResistration"() {
     (new encoder.HomePageForibpsEncoder()).selectResistration()
 }
@@ -105,6 +110,11 @@ def static "globalVariableUtils.GlobalVariableUtil.captureScreenShotWithTime"() 
 
 def static "globalVariableUtils.GlobalVariableUtil.captureScreenShot"() {
     (new globalVariableUtils.GlobalVariableUtil()).captureScreenShot()
+}
+
+
+def static "booking.HomePageForibpsFullFillment.selectResistration"() {
+    (new booking.HomePageForibpsFullFillment()).selectResistration()
 }
 
  /**
@@ -209,6 +219,11 @@ def static "tabSection.vouching.vouchingDeatilForSD_Approver"() {
 }
 
 
+def static "tabSection.vouching.vouchingApproverCMG"() {
+    (new tabSection.vouching()).vouchingApproverCMG()
+}
+
+
 def static "tabSection.vouching.vouchingDeatilForSD_ApproverWithAndWithoutPaperbase"() {
     (new tabSection.vouching()).vouchingDeatilForSD_ApproverWithAndWithoutPaperbase()
 }
@@ -256,6 +271,11 @@ def static "sdApprover.LoginForibpsSD_Approver.login"() {
 
 def static "sdApprover.HomePageForibpsSD_Approver.selectResistration"() {
     (new sdApprover.HomePageForibpsSD_Approver()).selectResistration()
+}
+
+
+def static "sdApprover.HomePageForibpsSD_Approver.SDApproverVouching"() {
+    (new sdApprover.HomePageForibpsSD_Approver()).SDApproverVouching()
 }
 
  /**
@@ -1307,6 +1327,11 @@ def static "tabSection.CustomerDetail.clientInformationCommon"() {
 	 */ 
 def static "tabSection.CustomerDetail.clientInformationCommonAfterAmendment"() {
     (new tabSection.CustomerDetail()).clientInformationCommonAfterAmendment()
+}
+
+
+def static "tabSection.CustomerDetail.clientInformationBooking"() {
+    (new tabSection.CustomerDetail()).clientInformationBooking()
 }
 
  /**

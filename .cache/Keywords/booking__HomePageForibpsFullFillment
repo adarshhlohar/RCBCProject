@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "2F77CA0E51AAEB977A84D28BD1ABE753",
+  "keywordClasses": [
+    {
+      "name": "booking.HomePageForibpsFullFillment",
+      "keywordMethods": [
+        {
+          "name": "selectResistration",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

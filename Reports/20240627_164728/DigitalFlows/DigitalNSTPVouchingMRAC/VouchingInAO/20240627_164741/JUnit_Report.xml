@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="VouchingInAO" time="94.046" tests="6" failures="0" errors="0">
+   <testsuite name="VouchingInAO" tests="6" failures="0" errors="0" time="94.046" skipped="0" timestamp="27-06-2024T16:57:32" hostname="Adarsh.Lohar - QKNBK2037.qkcorp.qualitykiosk.com" id="Test Suites/DigitalFlows/DigitalNSTPVouchingMRAC/VouchingInAO">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_164728\\DigitalFlows\\DigitalNSTPVouchingMRAC\\VouchingInAO\\20240627_164741"/>
+         <property name="logFiles" value="D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_164728\\DigitalFlows\\DigitalNSTPVouchingMRAC\\VouchingInAO\\20240627_164741\\execution0.log"/>
+         <property name="attachments" value="D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_164728\\DigitalFlows\\DigitalNSTPVouchingMRAC\\VouchingInAO\\20240627_164741\\Screenshots/AccountOfficer27_06_2404_57_43/Regression27_06_24_04_57_44.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_164728\\DigitalFlows\\DigitalNSTPVouchingMRAC\\VouchingInAO\\20240627_164741\\Screenshots/AccountOfficer27_06_2404_57_43/Regression27_06_24_04_58_01.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_164728\\DigitalFlows\\DigitalNSTPVouchingMRAC\\VouchingInAO\\20240627_164741\\Screenshots/AccountOfficer27_06_2404_57_43/Regression27_06_24_04_58_15.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_164728\\DigitalFlows\\DigitalNSTPVouchingMRAC\\VouchingInAO\\20240627_164741\\Screenshots/AccountOfficer27_06_2404_57_43/Regression27_06_24_04_58_27.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_164728\\DigitalFlows\\DigitalNSTPVouchingMRAC\\VouchingInAO\\20240627_164741\\Screenshots/AccountOfficer27_06_2404_57_43/Regression27_06_24_04_58_31.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_164728\\DigitalFlows\\DigitalNSTPVouchingMRAC\\VouchingInAO\\20240627_164741\\1719487720423.png, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_164728\\DigitalFlows\\DigitalNSTPVouchingMRAC\\VouchingInAO\\20240627_164741\\Screenshots/AccountOfficer27_06_2404_57_43/Regression27_06_24_04_58_42.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_164728\\DigitalFlows\\DigitalNSTPVouchingMRAC\\VouchingInAO\\20240627_164741\\Screenshots/AccountOfficer27_06_2404_57_43/Regression27_06_24_04_58_56.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_164728\\DigitalFlows\\DigitalNSTPVouchingMRAC\\VouchingInAO\\20240627_164741\\Screenshots/AccountOfficer27_06_2404_57_43/Regression27_06_24_04_59_03.jpg"/>
+         <property name="hostName" value="Adarsh.Lohar - QKNBK2037.qkcorp.qualitykiosk.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="10.0.6.77"/>
+         <property name="sessionId" value="b2ed941902cf3b07b4efabf76506ee6d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/NSTP_VouchingMRAC/Vouching/loginPage" time="20.115" classname="Test Cases/NSTP_VouchingMRAC/Vouching/loginPage" status="PASSED">
+         <system-out><![CDATA[27-06-2024T16:57:33 - [TEST_CASE][PASSED] - Test Cases/NSTP_VouchingMRAC/Vouching/loginPage: Test Cases/NSTP_VouchingMRAC/Vouching/loginPage
+
+27-06-2024T16:57:34 - [TEST_STEP][PASSED] - accountOfficer.LoginForibpsAO.login(): accountOfficer.LoginForibpsAO.login is PASSED
+
+27-06-2024T16:57:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+27-06-2024T16:57:34 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito]']
+
+27-06-2024T16:57:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-06-2024T16:57:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+27-06-2024T16:57:37 - [MESSAGE][PASSED] - Current window maximized
+
+27-06-2024T16:57:41 - [MESSAGE][PASSED] - Navigate to 'https://rcbcuat.nonprodnmc.com/omniapp' successfully
+
+27-06-2024T16:57:41 - [MESSAGE][PASSED] - Text 'QK_AO7' is set on object 'Object Repository/BackOffice/ibpsLogin/userName'
+
+27-06-2024T16:57:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/BackOffice/ibpsLogin/password'
+
+27-06-2024T16:57:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T16:57:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T16:57:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T16:57:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_164728\\DigitalFlows\\DigitalNSTPVouchingMRAC\\VouchingInAO\\20240627_164741\\Screenshots/AccountOfficer27_06_2404_57_43/Regression27_06_24_04_57_44.jpg]]
+
+27-06-2024T16:57:45 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/ibpsLogin/loginButton' is clicked on
+
+27-06-2024T16:57:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-06-2024T16:57:51 - [MESSAGE][WARNING] - Object 'Object Repository/BackOffice/ibpsLogin/text' is not visible after 2 second(s)
+
+27-06-2024T16:57:51 - [MESSAGE][PASSED] - accountOfficer.LoginForibpsAO.login is PASSED
+
+27-06-2024T16:57:53 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/NSTP_VouchingMRAC/Vouching/loginPage' .
+
+27-06-2024T16:57:53 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/NSTP_VouchingMRAC/Vouching/loginPage' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NSTP_VouchingMRAC/Vouching/HomePage" time="16.068" classname="Test Cases/NSTP_VouchingMRAC/Vouching/HomePage" status="PASSED">
+         <system-out><![CDATA[27-06-2024T16:57:53 - [TEST_CASE][PASSED] - Test Cases/NSTP_VouchingMRAC/Vouching/HomePage: Test Cases/NSTP_VouchingMRAC/Vouching/HomePage
+
+27-06-2024T16:57:53 - [TEST_STEP][PASSED] - accountOfficer.HomePageForibpsAO.selectResistration(): accountOfficer.HomePageForibpsAO.selectResistration is PASSED
+
+27-06-2024T16:57:53 - [MESSAGE][PASSED] - Wait for page load successfully
+
+27-06-2024T16:57:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-06-2024T16:57:55 - [MESSAGE][PASSED] - Object 'Object Repository/BackOffice/AO/ibpsHomePage/accountOfficer' is clickable
+
+27-06-2024T16:57:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-06-2024T16:57:58 - [MESSAGE][INFO] -  ******** LOS-3539
+
+27-06-2024T16:58:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-06-2024T16:58:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T16:58:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T16:58:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_164728\\DigitalFlows\\DigitalNSTPVouchingMRAC\\VouchingInAO\\20240627_164741\\Screenshots/AccountOfficer27_06_2404_57_43/Regression27_06_24_04_58_01.jpg]]
+
+27-06-2024T16:58:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-06-2024T16:58:07 - [MESSAGE][PASSED] - accountOfficer.HomePageForibpsAO.selectResistration is PASSED
+
+27-06-2024T16:58:09 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/NSTP_VouchingMRAC/Vouching/HomePage' .
+
+27-06-2024T16:58:09 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/NSTP_VouchingMRAC/Vouching/HomePage' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NSTP_VouchingMRAC/Vouching/clientInfo" time="11.541" classname="Test Cases/NSTP_VouchingMRAC/Vouching/clientInfo" status="PASSED">
+         <system-out><![CDATA[27-06-2024T16:58:09 - [TEST_CASE][PASSED] - Test Cases/NSTP_VouchingMRAC/Vouching/clientInfo: Test Cases/NSTP_VouchingMRAC/Vouching/clientInfo
+
+27-06-2024T16:58:09 - [TEST_STEP][PASSED] - tabSection.CustomerDetail.clientInformationCommon(): tabSection.CustomerDetail.clientInformationCommon is PASSED
+
+27-06-2024T16:58:09 - [MESSAGE][PASSED] - Wait for page load successfully
+
+27-06-2024T16:58:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T16:58:10 - [MESSAGE][PASSED] - Current window's index is: 0
+
+27-06-2024T16:58:10 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+27-06-2024T16:58:14 - [MESSAGE][PASSED] - Attribute 'title' of object 'Object Repository/ClientInformationPreRelease/creditProgram' is: ''
+
+27-06-2024T16:58:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/Action/referenceNumber' is: 'Vouching : LOS-3539'
+
+27-06-2024T16:58:14 - [MESSAGE][INFO] - Vouching : LOS-3539 Contains LOS-3539
+
+27-06-2024T16:58:14 - [MESSAGE][INFO] - Ready to go....
+
+27-06-2024T16:58:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T16:58:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T16:58:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_164728\\DigitalFlows\\DigitalNSTPVouchingMRAC\\VouchingInAO\\20240627_164741\\Screenshots/AccountOfficer27_06_2404_57_43/Regression27_06_24_04_58_15.jpg]]
+
+27-06-2024T16:58:18 - [MESSAGE][PASSED] - tabSection.CustomerDetail.clientInformationCommon is PASSED
+
+27-06-2024T16:58:20 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/NSTP_VouchingMRAC/Vouching/clientInfo' .
+
+27-06-2024T16:58:20 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/NSTP_VouchingMRAC/Vouching/clientInfo' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NSTP_VouchingMRAC/Vouching/Vouching" time="14.234" classname="Test Cases/NSTP_VouchingMRAC/Vouching/Vouching" status="PASSED">
+         <system-out><![CDATA[27-06-2024T16:58:20 - [TEST_CASE][PASSED] - Test Cases/NSTP_VouchingMRAC/Vouching/Vouching: Test Cases/NSTP_VouchingMRAC/Vouching/Vouching
+
+27-06-2024T16:58:20 - [TEST_STEP][PASSED] - tabSection.vouching.VouchingForAll(): tabSection.vouching.VouchingForAll is PASSED
+
+27-06-2024T16:58:21 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/Vouching' is clicked on
+
+27-06-2024T16:58:22 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Vouching/resisdenceCategory'
+
+27-06-2024T16:58:23 - [MESSAGE][PASSED] - Text '22/05/1996' is set on object 'Object Repository/Vouching/BorrowerSpouseDateOfBirth'
+
+27-06-2024T16:58:23 - [MESSAGE][PASSED] - Text '70000' is set on object 'Object Repository/Vouching/BorrowerGrossMonthlyIncome'
+
+27-06-2024T16:58:24 - [MESSAGE][PASSED] - Text '0' is set on object 'Object Repository/Vouching/SpouseGrossMonthlyIncome'
+
+27-06-2024T16:58:25 - [MESSAGE][PASSED] - Text '0' is set on object 'Object Repository/Vouching/CoBorrowerGrossMonthlyIncome'
+
+27-06-2024T16:58:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T16:58:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T16:58:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T16:58:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_164728\\DigitalFlows\\DigitalNSTPVouchingMRAC\\VouchingInAO\\20240627_164741\\Screenshots/AccountOfficer27_06_2404_57_43/Regression27_06_24_04_58_27.jpg]]
+
+27-06-2024T16:58:29 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Vouching/vehicleCategory'
+
+27-06-2024T16:58:29 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Vouching/recommendation'
+
+27-06-2024T16:58:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T16:58:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T16:58:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T16:58:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_164728\\DigitalFlows\\DigitalNSTPVouchingMRAC\\VouchingInAO\\20240627_164741\\Screenshots/AccountOfficer27_06_2404_57_43/Regression27_06_24_04_58_31.jpg]]
+
+27-06-2024T16:58:33 - [MESSAGE][PASSED] - tabSection.vouching.VouchingForAll is PASSED
+
+27-06-2024T16:58:35 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/NSTP_VouchingMRAC/Vouching/Vouching' .
+
+27-06-2024T16:58:35 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/NSTP_VouchingMRAC/Vouching/Vouching' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NSTP_VouchingMRAC/Vouching/Action" time="16.057" classname="Test Cases/NSTP_VouchingMRAC/Vouching/Action" status="PASSED">
+         <system-out><![CDATA[27-06-2024T16:58:35 - [TEST_CASE][PASSED] - Test Cases/NSTP_VouchingMRAC/Vouching/Action: Test Cases/NSTP_VouchingMRAC/Vouching/Action
+
+27-06-2024T16:58:35 - [TEST_STEP][PASSED] - tabSection.Action.submitForAO(): tabSection.Action.submitForAO is PASSED
+
+27-06-2024T16:58:37 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/Action' is clicked on
+
+27-06-2024T16:58:38 - [MESSAGE][PASSED] - Object 'Object Repository/Action/Decision' is visible
+
+27-06-2024T16:58:39 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Action/Decision'
+
+27-06-2024T16:58:39 - [MESSAGE][PASSED] - Text 'OK' is set on object 'Object Repository/Action/Remarks'
+
+27-06-2024T16:58:39 - [MESSAGE][PASSED] - Current window's title is: 'Vouching : LOS-3539'
+
+27-06-2024T16:58:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/Action/referenceNumber' is: 'Vouching : LOS-3539'
+
+27-06-2024T16:58:39 - [MESSAGE][INFO] - LOS-3539
+
+27-06-2024T16:58:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Action/SubmitButton' is clicked on
+
+27-06-2024T16:58:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_164728\\DigitalFlows\\DigitalNSTPVouchingMRAC\\VouchingInAO\\20240627_164741\\1719487720423.png]]
+
+27-06-2024T16:58:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T16:58:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T16:58:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T16:58:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_164728\\DigitalFlows\\DigitalNSTPVouchingMRAC\\VouchingInAO\\20240627_164741\\Screenshots/AccountOfficer27_06_2404_57_43/Regression27_06_24_04_58_42.jpg]]
+
+27-06-2024T16:58:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Action/confirmYes' is clicked on
+
+27-06-2024T16:58:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-06-2024T16:58:49 - [MESSAGE][PASSED] - tabSection.Action.submitForAO is PASSED
+
+27-06-2024T16:58:51 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/NSTP_VouchingMRAC/Vouching/Action' .
+
+27-06-2024T16:58:51 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/NSTP_VouchingMRAC/Vouching/Action' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LogOut/logout" time="15.778" classname="Test Cases/LogOut/logout" status="PASSED">
+         <system-out><![CDATA[27-06-2024T16:58:51 - [TEST_CASE][PASSED] - Test Cases/LogOut/logout: Test Cases/LogOut/logout
+
+27-06-2024T16:58:51 - [TEST_STEP][PASSED] - signOutibps.SignOut.logout(): signOutibps.SignOut.logout is PASSED
+
+27-06-2024T16:58:51 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+27-06-2024T16:58:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T16:58:52 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/ibpsLogOut/selectProcess'
+
+27-06-2024T16:58:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T16:58:53 - [MESSAGE][PASSED] - Object: 'Object Repository/ibpsLogOut/searchBar' is double clicked on
+
+27-06-2024T16:58:54 - [MESSAGE][PASSED] - Keys 'LOS-3539' sent to object: 'Object Repository/ibpsLogOut/searchBar'
+
+27-06-2024T16:58:54 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ibpsLogOut/searchBar'
+
+27-06-2024T16:58:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T16:58:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T16:58:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T16:58:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_164728\\DigitalFlows\\DigitalNSTPVouchingMRAC\\VouchingInAO\\20240627_164741\\Screenshots/AccountOfficer27_06_2404_57_43/Regression27_06_24_04_58_56.jpg]]
+
+27-06-2024T16:58:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-06-2024T16:58:59 - [MESSAGE][PASSED] - Object: 'Object Repository/ibpsLogOut/label_QK_CO7' is clicked on
+
+27-06-2024T16:59:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-06-2024T16:59:01 - [MESSAGE][PASSED] - Object: 'Object Repository/ibpsLogOut/Logout' is clicked on
+
+27-06-2024T16:59:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T16:59:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T16:59:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T16:59:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_164728\\DigitalFlows\\DigitalNSTPVouchingMRAC\\VouchingInAO\\20240627_164741\\Screenshots/AccountOfficer27_06_2404_57_43/Regression27_06_24_04_59_03.jpg]]
+
+27-06-2024T16:59:04 - [MESSAGE][PASSED] - signOutibps.SignOut.logout is PASSED
+
+27-06-2024T16:59:06 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/LogOut/logout' .
+
+27-06-2024T16:59:06 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/LogOut/logout' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[27-06-2024T16:57:32 - [TEST_SUITE][PASSED] - VouchingInAO: Test Cases/LogOut/logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

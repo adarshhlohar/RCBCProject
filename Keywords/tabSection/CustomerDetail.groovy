@@ -71,7 +71,7 @@ public class CustomerDetail {
 		}
 
 		GlobalVariableUtil.captureScreenShotWithTime()
-		
+
 		if(WebUI.waitForElementClickable(findTestObject("Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/isAddressPresent"), 2)) {
 			WebUI.click(findTestObject("Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/isAddressPresent"))
 			WebUI.click(findTestObject("Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/deleteAddress"))
@@ -772,5 +772,10 @@ public class CustomerDetail {
 			//printing the reason in console
 			println(e.toString())
 		}
+	}
+	
+	@Keyword
+	def clientInformationBooking() {
+		
 	}
 }

@@ -1,0 +1,4 @@
+1
+00:00:00,089 --> 00:00:11,598
+1. tabSection.CollateralInformation.collateralInformationForEncoderPaperBasedWith()
+

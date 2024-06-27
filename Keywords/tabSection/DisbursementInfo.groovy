@@ -135,10 +135,14 @@ public class DisbursementInfo {
 			//clicking on the Disbursement Info Tab
 			WebUI.click(findTestObject("Object Repository/TabSection/DisbursementInformation"))
 
-			//			WebUI.click(findTestObject("Object Repository/BackOffice/AO/DisbursmentInfoForAO/payeeName"))
-			//			WebUI.setText(findTestObject("Object Repository/BackOffice/AO/DisbursmentInfoForAO/newSIRate"), GlobalVariable.NewSIRate)
-			//			GlobalVariableUtil.captureScreenShotWithTime()
-			//			WebUI.click(findTestObject("Object Repository/BackOffice/AO/DisbursmentInfoForAO/saveChanges"))
+			String isDeviationStr = GlobalVariable.isDeviation
+
+			if(isDeviationStr.equalsIgnoreCase("true")) {
+				WebUI.click(findTestObject("Object Repository/BackOffice/AO/DisbursmentInfoForAO/payeeName"))
+				WebUI.setText(findTestObject("Object Repository/BackOffice/AO/DisbursmentInfoForAO/newSIRate"), GlobalVariable.NewSIRate)
+				GlobalVariableUtil.captureScreenShotWithTime()
+				WebUI.click(findTestObject("Object Repository/BackOffice/AO/DisbursmentInfoForAO/saveChanges"))
+			}
 
 			WebUI.setText(findTestObject("Object Repository/BackOffice/AO/DisbursmentInfoForAO/remarks/aoRemarks"), "done")
 

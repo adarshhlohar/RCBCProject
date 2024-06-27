@@ -1,0 +1,13 @@
+{"testCaseName":"Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/LoginPage","testCaseId":"Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/LoginPage","iterationVariableName":""}
+{"testCaseName":"Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/HomePage","testCaseId":"Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/HomePage","iterationVariableName":""}
+{"testCaseName":"Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/ClientInformation","testCaseId":"Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/ClientInformation","iterationVariableName":""}
+{"testCaseName":"Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/LoanInformation","testCaseId":"Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/LoanInformation","iterationVariableName":""}
+{"testCaseName":"Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/DocumentChecklist","testCaseId":"Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/DocumentChecklist","iterationVariableName":""}
+{"testCaseName":"Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/CollateralInformation","testCaseId":"Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/CollateralInformation","iterationVariableName":""}
+{"testCaseName":"Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/CheckEligibility","testCaseId":"Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/CheckEligibility","iterationVariableName":""}
+{"testCaseName":"Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/CreditEvaluation","testCaseId":"Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/CreditEvaluation","iterationVariableName":""}
+{"testCaseName":"Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/CreditInvestigation","testCaseId":"Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/CreditInvestigation","iterationVariableName":""}
+{"testCaseName":"Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/InsuranceInformation","testCaseId":"Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/InsuranceInformation","iterationVariableName":""}
+{"testCaseName":"Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/DisbursementInformation","testCaseId":"Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/DisbursementInformation","iterationVariableName":""}
+{"testCaseName":"Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/Action","testCaseId":"Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/Action","iterationVariableName":""}
+{"testCaseName":"Test Cases/LogOut/logout","testCaseId":"Test Cases/LogOut/logout","iterationVariableName":""}

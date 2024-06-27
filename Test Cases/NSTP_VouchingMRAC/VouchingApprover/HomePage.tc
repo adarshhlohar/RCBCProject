@@ -4,5 +4,6 @@
    <name>HomePage</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>7685ee70-5c06-4b6f-b4b1-def8559a581b</testCaseGuid>
 </TestCaseEntity>

@@ -1,0 +1,54 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+EncoderForVouching,Chrome 126.0.0.0,,,27-06-2024 16:53:19,27-06-2024 16:57:26,4m - 6.723s,PASSED
+,,,,,,,
+Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/LoginPage,Chrome 126.0.0.0,,,27-06-2024 16:53:19,27-06-2024 16:53:41,21.902s,PASSED
+encoder.LoginForibpsEncoder.login(),Chrome 126.0.0.0,,,27-06-2024 16:53:20,27-06-2024 16:53:39,18.990s,PASSED
+Video,Chrome 126.0.0.0,,,27-06-2024 16:53:41,27-06-2024 16:53:41,0.002s,PASSED
+,,,,,,,
+Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/HomePage,Chrome 126.0.0.0,,,27-06-2024 16:53:41,27-06-2024 16:54:09,28.041s,PASSED
+encoder.HomePageForibpsEncoder.selectResistration(),Chrome 126.0.0.0,,,27-06-2024 16:53:41,27-06-2024 16:54:07,25.834s,PASSED
+Video,Chrome 126.0.0.0,,,27-06-2024 16:54:09,27-06-2024 16:54:09,0.002s,PASSED
+,,,,,,,
+Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/ClientInformation,Chrome 126.0.0.0,,,27-06-2024 16:54:09,27-06-2024 16:56:01,1m - 52.000s,PASSED
+tabSection.CustomerDetail.clientInformationForEncoderNSTP(),Chrome 126.0.0.0,,,27-06-2024 16:54:09,27-06-2024 16:55:59,1m - 49.721s,PASSED
+Video,Chrome 126.0.0.0,,,27-06-2024 16:56:01,27-06-2024 16:56:01,0.001s,PASSED
+,,,,,,,
+Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/LoanInformation,Chrome 126.0.0.0,,,27-06-2024 16:56:01,27-06-2024 16:56:04,2.663s,PASSED
+tabSection.LoanInformation.loanInfoForEncoder(),Chrome 126.0.0.0,,,27-06-2024 16:56:01,27-06-2024 16:56:02,0.549s,PASSED
+Video,Chrome 126.0.0.0,,,27-06-2024 16:56:04,27-06-2024 16:56:04,0.001s,PASSED
+,,,,,,,
+Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/DocumentChecklist,Chrome 126.0.0.0,,,27-06-2024 16:56:04,27-06-2024 16:56:11,6.941s,PASSED
+tabSection.DocumentCheckList.documentCheckListForEncoder(),Chrome 126.0.0.0,,,27-06-2024 16:56:04,27-06-2024 16:56:09,4.819s,PASSED
+Video,Chrome 126.0.0.0,,,27-06-2024 16:56:11,27-06-2024 16:56:11,0.001s,PASSED
+,,,,,,,
+Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/CollateralInformation,Chrome 126.0.0.0,,,27-06-2024 16:56:11,27-06-2024 16:56:17,5.701s,PASSED
+tabSection.CollateralInformation.collateralInformationForEncoder(),Chrome 126.0.0.0,,,27-06-2024 16:56:11,27-06-2024 16:56:15,3.604s,PASSED
+Video,Chrome 126.0.0.0,,,27-06-2024 16:56:17,27-06-2024 16:56:17,0.001s,PASSED
+,,,,,,,
+Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/CheckEligibility,Chrome 126.0.0.0,,,27-06-2024 16:56:17,27-06-2024 16:56:25,8.478s,PASSED
+tabSection.CheckEligibility.checkEligibilityForEncoderNSTPVouching(),Chrome 126.0.0.0,,,27-06-2024 16:56:17,27-06-2024 16:56:23,6.368s,PASSED
+Video,Chrome 126.0.0.0,,,27-06-2024 16:56:25,27-06-2024 16:56:25,0.001s,PASSED
+,,,,,,,
+Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/CreditEvaluation,Chrome 126.0.0.0,,,27-06-2024 16:56:25,27-06-2024 16:56:31,5.740s,PASSED
+tabSection.CreditEvaluation.creditEvaluationForEncoderNSTP(),Chrome 126.0.0.0,,,27-06-2024 16:56:25,27-06-2024 16:56:29,3.611s,PASSED
+Video,Chrome 126.0.0.0,,,27-06-2024 16:56:31,27-06-2024 16:56:31,0.002s,PASSED
+,,,,,,,
+Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/CreditInvestigation,Chrome 126.0.0.0,,,27-06-2024 16:56:31,27-06-2024 16:56:37,5.958s,PASSED
+tabSection.CreditInvestigation.creditInvestigationForEncoder(),Chrome 126.0.0.0,,,27-06-2024 16:56:31,27-06-2024 16:56:35,3.851s,PASSED
+Video,Chrome 126.0.0.0,,,27-06-2024 16:56:37,27-06-2024 16:56:37,0.001s,PASSED
+,,,,,,,
+Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/InsuranceInformation,Chrome 126.0.0.0,,,27-06-2024 16:56:37,27-06-2024 16:56:43,6.032s,PASSED
+tabSection.InsuranceInformation.insuranceInformationForEncoder(),Chrome 126.0.0.0,,,27-06-2024 16:56:37,27-06-2024 16:56:41,3.889s,PASSED
+Video,Chrome 126.0.0.0,,,27-06-2024 16:56:43,27-06-2024 16:56:43,0.002s,PASSED
+,,,,,,,
+Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/DisbursementInformation,Chrome 126.0.0.0,,,27-06-2024 16:56:43,27-06-2024 16:56:49,6.089s,PASSED
+tabSection.DisbursementInfo.disbursementInformationForEncoder(),Chrome 126.0.0.0,,,27-06-2024 16:56:43,27-06-2024 16:56:47,3.938s,PASSED
+Video,Chrome 126.0.0.0,,,27-06-2024 16:56:49,27-06-2024 16:56:49,0.001s,PASSED
+,,,,,,,
+Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/Action,Chrome 126.0.0.0,,,27-06-2024 16:56:49,27-06-2024 16:57:10,21.087s,PASSED
+tabSection.Action.submitForAO(),Chrome 126.0.0.0,,,27-06-2024 16:56:49,27-06-2024 16:57:08,18.969s,PASSED
+Video,Chrome 126.0.0.0,,,27-06-2024 16:57:10,27-06-2024 16:57:10,0.001s,PASSED
+,,,,,,,
+Test Cases/LogOut/logout,Chrome 126.0.0.0,,,27-06-2024 16:57:10,27-06-2024 16:57:26,15.791s,PASSED
+signOutibps.SignOut.logout(),Chrome 126.0.0.0,,,27-06-2024 16:57:10,27-06-2024 16:57:24,13.665s,PASSED
+Video,Chrome 126.0.0.0,,,27-06-2024 16:57:26,27-06-2024 16:57:26,0.001s,PASSED

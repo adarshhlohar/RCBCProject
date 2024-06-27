@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="EncoderForVouching" time="246.696" tests="13" failures="0" errors="0">
+   <testsuite name="EncoderForVouching" tests="13" failures="0" errors="0" time="246.696" skipped="0" timestamp="27-06-2024T18:00:49" hostname="Adarsh.Lohar - QKNBK2037.qkcorp.qualitykiosk.com" id="Test Suites/DigitalFlows/DigitalNSTPVouchingMRAC/EncoderForVouching">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528"/>
+         <property name="logFiles" value="D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\execution0.log"/>
+         <property name="attachments" value="D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_01_01.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_01_18.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_01_22.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_01_27.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_01_40.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_01_54.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_02_02.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_02_05.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_02_17.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_02_33.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_02_39.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_02_43.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_02_48.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_03_06.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_03_09.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_03_16.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_03_21.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_03_39.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_03_45.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_03_53.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_03_59.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_04_05.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_04_11.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_04_17.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\1719491665599.png, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_04_27.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_04_45.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_04_53.jpg"/>
+         <property name="hostName" value="Adarsh.Lohar - QKNBK2037.qkcorp.qualitykiosk.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="10.0.6.77"/>
+         <property name="sessionId" value="9a3daefe13f7fda2a0d33464eb9a2d46"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/LoginPage" time="17.52" classname="Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/LoginPage" status="PASSED">
+         <system-out><![CDATA[27-06-2024T18:00:50 - [TEST_CASE][PASSED] - Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/LoginPage: Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/LoginPage
+
+27-06-2024T18:00:51 - [TEST_STEP][PASSED] - encoder.LoginForibpsEncoder.login(): encoder.LoginForibpsEncoder.login is PASSED
+
+27-06-2024T18:00:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+27-06-2024T18:00:51 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito]']
+
+27-06-2024T18:00:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-06-2024T18:00:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+27-06-2024T18:00:56 - [MESSAGE][PASSED] - Current window maximized
+
+27-06-2024T18:00:58 - [MESSAGE][PASSED] - Navigate to 'https://rcbcuat.nonprodnmc.com/omniapp' successfully
+
+27-06-2024T18:00:59 - [MESSAGE][PASSED] - Text 'QK_Encoder7' is set on object 'Object Repository/BackOffice/ibpsLogin/userName'
+
+27-06-2024T18:00:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/BackOffice/ibpsLogin/password'
+
+27-06-2024T18:01:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:01:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:01:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:01:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_01_01.jpg]]
+
+27-06-2024T18:01:03 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/ibpsLogin/loginButton' is clicked on
+
+27-06-2024T18:01:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-06-2024T18:01:05 - [MESSAGE][PASSED] - Object 'Object Repository/BackOffice/ibpsLogin/yesLogin' is clickable
+
+27-06-2024T18:01:05 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/ibpsLogin/yesLogin' is clicked on
+
+27-06-2024T18:01:05 - [MESSAGE][PASSED] - encoder.LoginForibpsEncoder.login is PASSED
+
+27-06-2024T18:01:07 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/LoginPage' .
+
+27-06-2024T18:01:07 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/LoginPage' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/HomePage" time="28.108" classname="Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/HomePage" status="PASSED">
+         <system-out><![CDATA[27-06-2024T18:01:07 - [TEST_CASE][PASSED] - Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/HomePage: Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/HomePage
+
+27-06-2024T18:01:07 - [TEST_STEP][PASSED] - encoder.HomePageForibpsEncoder.selectResistration(): encoder.HomePageForibpsEncoder.selectResistration is PASSED
+
+27-06-2024T18:01:09 - [MESSAGE][PASSED] - Wait for page load successfully
+
+27-06-2024T18:01:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-06-2024T18:01:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-06-2024T18:01:14 - [MESSAGE][INFO] -  ******** LOS-3546
+
+27-06-2024T18:01:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-06-2024T18:01:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:01:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:01:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:01:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_01_18.jpg]]
+
+27-06-2024T18:01:20 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/EncoderNSTP/ibpsHomePage/encoder' is clicked on
+
+27-06-2024T18:01:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:01:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:01:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:01:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_01_22.jpg]]
+
+27-06-2024T18:01:23 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/COMaker/ibpsHomePage/resistrationNo' is clicked on
+
+27-06-2024T18:01:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:01:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:01:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:01:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:01:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_01_27.jpg]]
+
+27-06-2024T18:01:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-06-2024T18:01:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-06-2024T18:01:33 - [MESSAGE][PASSED] - encoder.HomePageForibpsEncoder.selectResistration is PASSED
+
+27-06-2024T18:01:35 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/HomePage' .
+
+27-06-2024T18:01:35 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/HomePage' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/ClientInformation" time="116.488" classname="Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/ClientInformation" status="PASSED">
+         <system-out><![CDATA[27-06-2024T18:01:35 - [TEST_CASE][PASSED] - Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/ClientInformation: Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/ClientInformation
+
+27-06-2024T18:01:36 - [TEST_STEP][PASSED] - tabSection.CustomerDetail.clientInformationForEncoderNSTP(): tabSection.CustomerDetail.clientInformationForEncoderNSTP is PASSED
+
+27-06-2024T18:01:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:01:39 - [MESSAGE][PASSED] - Current window's index is: 0
+
+27-06-2024T18:01:39 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+27-06-2024T18:01:39 - [MESSAGE][PASSED] - Attribute 'title' of object 'Object Repository/ClientInformationPreRelease/creditProgram' is: ''
+
+27-06-2024T18:01:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/Action/referenceNumber' is: 'Encoder : LOS-3546'
+
+27-06-2024T18:01:39 - [MESSAGE][INFO] - Encoder : LOS-3546 Contains LOS-3546
+
+27-06-2024T18:01:39 - [MESSAGE][INFO] - Ready to go....
+
+27-06-2024T18:01:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:01:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:01:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_01_40.jpg]]
+
+27-06-2024T18:01:44 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/principal' is clicked on
+
+27-06-2024T18:01:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-06-2024T18:01:46 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/borrowerType'
+
+27-06-2024T18:01:47 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/applicationType'
+
+27-06-2024T18:01:48 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/custemerType'
+
+27-06-2024T18:01:50 - [MESSAGE][WARNING] - Object 'Object Repository/BackOffice/EncoderWithWithout/sex' is not clickable after 2 second(s)
+
+27-06-2024T18:01:53 - [MESSAGE][WARNING] - Object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/dateOfBirth' is not clickable after 2 second(s)
+
+27-06-2024T18:01:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:01:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:01:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_01_54.jpg]]
+
+27-06-2024T18:01:56 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/placeOfBirth'
+
+27-06-2024T18:01:58 - [MESSAGE][WARNING] - Object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/maritalStatus' is not clickable after 2 second(s)
+
+27-06-2024T18:02:00 - [MESSAGE][WARNING] - Object 'Object Repository/BackOffice/EncoderWithWithout/nationality' is not clickable after 2 second(s)
+
+27-06-2024T18:02:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:02:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:02:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_02_02.jpg]]
+
+27-06-2024T18:02:03 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/numberOfYearsMarried'
+
+27-06-2024T18:02:04 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/numberOfDependents'
+
+27-06-2024T18:02:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:02:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:02:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_02_05.jpg]]
+
+27-06-2024T18:02:09 - [MESSAGE][WARNING] - Object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/cifNumber' is not clickable after 2 second(s)
+
+27-06-2024T18:02:11 - [MESSAGE][WARNING] - Object 'Object Repository/BackOffice/EncoderWithWithout/idType' is not clickable after 2 second(s)
+
+27-06-2024T18:02:13 - [MESSAGE][WARNING] - Object 'Object Repository/BackOffice/EncoderWithWithout/idNumber' is not clickable after 2 second(s)
+
+27-06-2024T18:02:16 - [MESSAGE][WARNING] - Object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/RCBCCurrentOrSavingAccountNumber' is not clickable after 2 second(s)
+
+27-06-2024T18:02:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:02:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:02:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_02_17.jpg]]
+
+27-06-2024T18:02:18 - [MESSAGE][PASSED] - Object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/isAddressPresent' is clickable
+
+27-06-2024T18:02:19 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/isAddressPresent' is clicked on
+
+27-06-2024T18:02:20 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/deleteAddress' is clicked on
+
+27-06-2024T18:02:21 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/plusButtonForAddressDetail' is clicked on
+
+27-06-2024T18:02:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:02:23 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/typeOfAddress'
+
+27-06-2024T18:02:23 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/residenceOwnershipType'
+
+27-06-2024T18:02:23 - [MESSAGE][PASSED] - Text '4' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/lengthOfStayAtCurrentResidance'
+
+27-06-2024T18:02:25 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/country'
+
+27-06-2024T18:02:27 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/region'
+
+27-06-2024T18:02:28 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/provience'
+
+27-06-2024T18:02:30 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/townCityMuncipalities'
+
+27-06-2024T18:02:31 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/barangay'
+
+27-06-2024T18:02:31 - [MESSAGE][PASSED] - Text 'Mahape Road' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/StreetName'
+
+27-06-2024T18:02:32 - [MESSAGE][PASSED] - Text 'Rupa Solitaire' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/unitNumberBuildingName'
+
+27-06-2024T18:02:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:02:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:02:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_02_33.jpg]]
+
+27-06-2024T18:02:36 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/saveAndClose' is clicked on
+
+27-06-2024T18:02:36 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/sourceOfWealth'
+
+27-06-2024T18:02:37 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/occupation'
+
+27-06-2024T18:02:37 - [MESSAGE][PASSED] - Text 'Mahesh' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/companyEmployerName'
+
+27-06-2024T18:02:38 - [MESSAGE][PASSED] - Text 'Test Engineer' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/jobTitle'
+
+27-06-2024T18:02:38 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/numberOfYearsInCurrentCompany'
+
+27-06-2024T18:02:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:02:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:02:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_02_39.jpg]]
+
+27-06-2024T18:02:41 - [MESSAGE][PASSED] - Text '6' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/totalYearsOfExperince'
+
+27-06-2024T18:02:42 - [MESSAGE][PASSED] - Text '60000' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/declareMonthlyIncome'
+
+27-06-2024T18:02:42 - [MESSAGE][PASSED] - Text '(63) 9356986567' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/employerContactNumber'
+
+27-06-2024T18:02:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:02:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:02:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_02_43.jpg]]
+
+27-06-2024T18:02:46 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/Industry'
+
+27-06-2024T18:02:47 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/subIndustry'
+
+27-06-2024T18:02:47 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/natureOfBusiness'
+
+27-06-2024T18:02:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:02:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:02:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_02_48.jpg]]
+
+27-06-2024T18:02:56 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/saveChanges' is clicked on
+
+27-06-2024T18:02:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-06-2024T18:03:01 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/CoBorrowerDetail/coBorrower' is clicked on
+
+27-06-2024T18:03:01 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/CoBorrowerDetail/sex'
+
+27-06-2024T18:03:02 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/CoBorrowerDetail/dob' is clicked on
+
+27-06-2024T18:03:02 - [MESSAGE][PASSED] - Text '01/01/1994' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/CoBorrowerDetail/dob'
+
+27-06-2024T18:03:03 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/CoBorrowerDetail/placeOfBirth'
+
+27-06-2024T18:03:04 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/CoBorrowerDetail/nationality'
+
+27-06-2024T18:03:04 - [MESSAGE][PASSED] - All options with index in [4] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/CoBorrowerDetail/maritialStatus'
+
+27-06-2024T18:03:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:03:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:03:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_03_06.jpg]]
+
+27-06-2024T18:03:08 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/CoBorrowerDetail/idType'
+
+27-06-2024T18:03:08 - [MESSAGE][PASSED] - Text '4464675758758' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/CoBorrowerDetail/idNumber'
+
+27-06-2024T18:03:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:03:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:03:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_03_09.jpg]]
+
+27-06-2024T18:03:11 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/CoBorrowerDetail/sourceOfWealth'
+
+27-06-2024T18:03:12 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/CoBorrowerDetail/occupation'
+
+27-06-2024T18:03:12 - [MESSAGE][PASSED] - Text 'QK' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/CoBorrowerDetail/company'
+
+27-06-2024T18:03:13 - [MESSAGE][PASSED] - Text 'Automation Engineer' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/CoBorrowerDetail/jobTitle'
+
+27-06-2024T18:03:13 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/CoBorrowerDetail/yearsInCompany'
+
+27-06-2024T18:03:14 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/CoBorrowerDetail/totalYearsOfExperience'
+
+27-06-2024T18:03:15 - [MESSAGE][PASSED] - Text '(63) 8787456356' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/CoBorrowerDetail/employerContactNumber'
+
+27-06-2024T18:03:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:03:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:03:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_03_16.jpg]]
+
+27-06-2024T18:03:18 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/CoBorrowerDetail/industry'
+
+27-06-2024T18:03:19 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/CoBorrowerDetail/subIndustry'
+
+27-06-2024T18:03:20 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/CoBorrowerDetail/natureOfBussiness'
+
+27-06-2024T18:03:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:03:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:03:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_03_21.jpg]]
+
+27-06-2024T18:03:27 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/CoBorrowerDetail/save' is clicked on
+
+27-06-2024T18:03:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-06-2024T18:03:30 - [MESSAGE][PASSED] - tabSection.CustomerDetail.clientInformationForEncoderNSTP is PASSED
+
+27-06-2024T18:03:32 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/ClientInformation' .
+
+27-06-2024T18:03:32 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/ClientInformation' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/LoanInformation" time="3.177" classname="Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/LoanInformation" status="PASSED">
+         <system-out><![CDATA[27-06-2024T18:03:32 - [TEST_CASE][PASSED] - Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/LoanInformation: Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/LoanInformation
+
+27-06-2024T18:03:32 - [TEST_STEP][PASSED] - tabSection.LoanInformation.loanInfoForEncoder(): tabSection.LoanInformation.loanInfoForEncoder is PASSED
+
+27-06-2024T18:03:33 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/LoanInformation' is clicked on
+
+27-06-2024T18:03:33 - [MESSAGE][PASSED] - tabSection.LoanInformation.loanInfoForEncoder is PASSED
+
+27-06-2024T18:03:35 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/LoanInformation' .
+
+27-06-2024T18:03:35 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/LoanInformation' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/DocumentChecklist" time="7.328" classname="Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/DocumentChecklist" status="PASSED">
+         <system-out><![CDATA[27-06-2024T18:03:35 - [TEST_CASE][PASSED] - Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/DocumentChecklist: Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/DocumentChecklist
+
+27-06-2024T18:03:35 - [TEST_STEP][PASSED] - tabSection.DocumentCheckList.documentCheckListForEncoder(): tabSection.DocumentCheckList.documentCheckListForEncoder is PASSED
+
+27-06-2024T18:03:37 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/DocumentCheclist' is clicked on
+
+27-06-2024T18:03:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:03:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:03:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:03:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_03_39.jpg]]
+
+27-06-2024T18:03:40 - [MESSAGE][PASSED] - tabSection.DocumentCheckList.documentCheckListForEncoder is PASSED
+
+27-06-2024T18:03:42 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/DocumentChecklist' .
+
+27-06-2024T18:03:42 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/DocumentChecklist' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/CollateralInformation" time="5.717" classname="Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/CollateralInformation" status="PASSED">
+         <system-out><![CDATA[27-06-2024T18:03:42 - [TEST_CASE][PASSED] - Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/CollateralInformation: Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/CollateralInformation
+
+27-06-2024T18:03:42 - [TEST_STEP][PASSED] - tabSection.CollateralInformation.collateralInformationForEncoder(): tabSection.CollateralInformation.collateralInformationForEncoder is PASSED
+
+27-06-2024T18:03:43 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/CollateralInformation' is clicked on
+
+27-06-2024T18:03:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:03:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:03:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:03:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_03_45.jpg]]
+
+27-06-2024T18:03:46 - [MESSAGE][PASSED] - tabSection.CollateralInformation.collateralInformationForEncoder is PASSED
+
+27-06-2024T18:03:48 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/CollateralInformation' .
+
+27-06-2024T18:03:48 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/CollateralInformation' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/CheckEligibility" time="8.662" classname="Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/CheckEligibility" status="PASSED">
+         <system-out><![CDATA[27-06-2024T18:03:48 - [TEST_CASE][PASSED] - Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/CheckEligibility: Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/CheckEligibility
+
+27-06-2024T18:03:48 - [TEST_STEP][PASSED] - tabSection.CheckEligibility.checkEligibilityForEncoderNSTPVouching(): tabSection.CheckEligibility.checkEligibilityForEncoderNSTPVouching is PASSED
+
+27-06-2024T18:03:49 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/checkEligibility' is clicked on
+
+27-06-2024T18:03:49 - [MESSAGE][PASSED] - Text '2000' is set on object 'Object Repository/BackOffice/EncoderNSTP/checkEligibility/quickCheckNumericalScore'
+
+27-06-2024T18:03:50 - [MESSAGE][PASSED] - All options with index in [5] are selected on object 'Object Repository/BackOffice/EncoderNSTP/checkEligibility/quickCheckRiskLevel'
+
+27-06-2024T18:03:50 - [MESSAGE][PASSED] - Text '3000' is set on object 'Object Repository/BackOffice/EncoderNSTP/checkEligibility/compreCheckNumricalScore'
+
+27-06-2024T18:03:51 - [MESSAGE][PASSED] - All options with index in [5] are selected on object 'Object Repository/BackOffice/EncoderNSTP/checkEligibility/compreCheckRiskLevel'
+
+27-06-2024T18:03:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:03:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:03:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:03:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_03_53.jpg]]
+
+27-06-2024T18:03:55 - [MESSAGE][PASSED] - tabSection.CheckEligibility.checkEligibilityForEncoderNSTPVouching is PASSED
+
+27-06-2024T18:03:57 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/CheckEligibility' .
+
+27-06-2024T18:03:57 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/CheckEligibility' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/CreditEvaluation" time="5.889" classname="Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/CreditEvaluation" status="PASSED">
+         <system-out><![CDATA[27-06-2024T18:03:57 - [TEST_CASE][PASSED] - Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/CreditEvaluation: Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/CreditEvaluation
+
+27-06-2024T18:03:57 - [TEST_STEP][PASSED] - tabSection.CreditEvaluation.creditEvaluationForEncoderNSTP(): tabSection.CreditEvaluation.creditEvaluationForEncoderNSTP is PASSED
+
+27-06-2024T18:03:57 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/creditEvaluation' is clicked on
+
+27-06-2024T18:03:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:03:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:04:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:04:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_03_59.jpg]]
+
+27-06-2024T18:04:01 - [MESSAGE][PASSED] - tabSection.CreditEvaluation.creditEvaluationForEncoderNSTP is PASSED
+
+27-06-2024T18:04:03 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/CreditEvaluation' .
+
+27-06-2024T18:04:03 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/CreditEvaluation' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/CreditInvestigation" time="6.084" classname="Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/CreditInvestigation" status="PASSED">
+         <system-out><![CDATA[27-06-2024T18:04:03 - [TEST_CASE][PASSED] - Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/CreditInvestigation: Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/CreditInvestigation
+
+27-06-2024T18:04:03 - [TEST_STEP][PASSED] - tabSection.CreditInvestigation.creditInvestigationForEncoder(): tabSection.CreditInvestigation.creditInvestigationForEncoder is PASSED
+
+27-06-2024T18:04:03 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/creditInvestigation' is clicked on
+
+27-06-2024T18:04:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:04:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:04:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:04:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_04_05.jpg]]
+
+27-06-2024T18:04:07 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/nextArrowButton' is clicked on
+
+27-06-2024T18:04:07 - [MESSAGE][PASSED] - tabSection.CreditInvestigation.creditInvestigationForEncoder is PASSED
+
+27-06-2024T18:04:09 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/CreditInvestigation' .
+
+27-06-2024T18:04:09 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/CreditInvestigation' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/InsuranceInformation" time="6.041" classname="Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/InsuranceInformation" status="PASSED">
+         <system-out><![CDATA[27-06-2024T18:04:09 - [TEST_CASE][PASSED] - Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/InsuranceInformation: Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/InsuranceInformation
+
+27-06-2024T18:04:09 - [TEST_STEP][PASSED] - tabSection.InsuranceInformation.insuranceInformationForEncoder(): tabSection.InsuranceInformation.insuranceInformationForEncoder is PASSED
+
+27-06-2024T18:04:09 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/InsuranceInformation' is clicked on
+
+27-06-2024T18:04:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:04:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:04:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:04:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_04_11.jpg]]
+
+27-06-2024T18:04:13 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/nextArrowButton' is clicked on
+
+27-06-2024T18:04:13 - [MESSAGE][PASSED] - tabSection.InsuranceInformation.insuranceInformationForEncoder is PASSED
+
+27-06-2024T18:04:15 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/InsuranceInformation' .
+
+27-06-2024T18:04:15 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/InsuranceInformation' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/DisbursementInformation" time="6.107" classname="Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/DisbursementInformation" status="PASSED">
+         <system-out><![CDATA[27-06-2024T18:04:15 - [TEST_CASE][PASSED] - Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/DisbursementInformation: Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/DisbursementInformation
+
+27-06-2024T18:04:15 - [TEST_STEP][PASSED] - tabSection.DisbursementInfo.disbursementInformationForEncoder(): tabSection.DisbursementInfo.disbursementInformationForEncoder is PASSED
+
+27-06-2024T18:04:15 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/DisbursementInformation' is clicked on
+
+27-06-2024T18:04:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:04:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:04:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:04:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_04_17.jpg]]
+
+27-06-2024T18:04:19 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/nextArrowButton' is clicked on
+
+27-06-2024T18:04:19 - [MESSAGE][PASSED] - tabSection.DisbursementInfo.disbursementInformationForEncoder is PASSED
+
+27-06-2024T18:04:21 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/DisbursementInformation' .
+
+27-06-2024T18:04:21 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/DisbursementInformation' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/Action" time="18.781" classname="Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/Action" status="PASSED">
+         <system-out><![CDATA[27-06-2024T18:04:21 - [TEST_CASE][PASSED] - Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/Action: Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/Action
+
+27-06-2024T18:04:21 - [TEST_STEP][PASSED] - tabSection.Action.submitForAO(): tabSection.Action.submitForAO is PASSED
+
+27-06-2024T18:04:23 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/Action' is clicked on
+
+27-06-2024T18:04:23 - [MESSAGE][PASSED] - Object 'Object Repository/Action/Decision' is visible
+
+27-06-2024T18:04:24 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Action/Decision'
+
+27-06-2024T18:04:24 - [MESSAGE][PASSED] - Text 'OK' is set on object 'Object Repository/Action/Remarks'
+
+27-06-2024T18:04:24 - [MESSAGE][PASSED] - Current window's title is: 'Encoder : LOS-3546'
+
+27-06-2024T18:04:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/Action/referenceNumber' is: 'Encoder : LOS-3546'
+
+27-06-2024T18:04:24 - [MESSAGE][INFO] - LOS-3546
+
+27-06-2024T18:04:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Action/SubmitButton' is clicked on
+
+27-06-2024T18:04:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\1719491665599.png]]
+
+27-06-2024T18:04:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:04:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:04:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:04:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_04_27.jpg]]
+
+27-06-2024T18:04:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Action/confirmYes' is clicked on
+
+27-06-2024T18:04:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-06-2024T18:04:37 - [MESSAGE][PASSED] - tabSection.Action.submitForAO is PASSED
+
+27-06-2024T18:04:40 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/Action' .
+
+27-06-2024T18:04:40 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/NSTP_VouchingMRAC/testCaseForEncoderNSTP/Action' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LogOut/logout" time="16.091" classname="Test Cases/LogOut/logout" status="PASSED">
+         <system-out><![CDATA[27-06-2024T18:04:40 - [TEST_CASE][PASSED] - Test Cases/LogOut/logout: Test Cases/LogOut/logout
+
+27-06-2024T18:04:40 - [TEST_STEP][PASSED] - signOutibps.SignOut.logout(): signOutibps.SignOut.logout is PASSED
+
+27-06-2024T18:04:40 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+27-06-2024T18:04:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:04:41 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/ibpsLogOut/selectProcess'
+
+27-06-2024T18:04:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:04:43 - [MESSAGE][PASSED] - Object: 'Object Repository/ibpsLogOut/searchBar' is double clicked on
+
+27-06-2024T18:04:43 - [MESSAGE][PASSED] - Keys 'LOS-3546' sent to object: 'Object Repository/ibpsLogOut/searchBar'
+
+27-06-2024T18:04:43 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ibpsLogOut/searchBar'
+
+27-06-2024T18:04:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:04:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:04:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:04:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_04_45.jpg]]
+
+27-06-2024T18:04:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-06-2024T18:04:48 - [MESSAGE][PASSED] - Object: 'Object Repository/ibpsLogOut/label_QK_CO7' is clicked on
+
+27-06-2024T18:04:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-06-2024T18:04:51 - [MESSAGE][PASSED] - Object: 'Object Repository/ibpsLogOut/Logout' is clicked on
+
+27-06-2024T18:04:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:04:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:04:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T18:04:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_175523\\DigitalFlows\\DigitalNSTPVouchingMRAC\\EncoderForVouching\\20240627_175528\\Screenshots/Encoder27_06_2406_01_00/Regression27_06_24_06_04_53.jpg]]
+
+27-06-2024T18:04:54 - [MESSAGE][PASSED] - signOutibps.SignOut.logout is PASSED
+
+27-06-2024T18:04:56 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/LogOut/logout' .
+
+27-06-2024T18:04:56 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/LogOut/logout' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[27-06-2024T18:00:49 - [TEST_SUITE][PASSED] - EncoderForVouching: Test Cases/LogOut/logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

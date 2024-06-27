@@ -4,5 +4,6 @@
    <name>Vouching</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>9213071b-24ff-4e12-876d-01c34c2911bb</testCaseGuid>
 </TestCaseEntity>

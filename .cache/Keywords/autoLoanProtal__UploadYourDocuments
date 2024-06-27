@@ -6,14 +6,16 @@
       "keywordMethods": [
         {
           "name": "uploadYourDocumentsPage",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "uploadYourDocumentsPageForAmendment",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+VouchingInAO,Chrome 126.0.0.0,,,27-06-2024 18:14:24,27-06-2024 18:16:07,1m - 42.210s,PASSED
+,,,,,,,
+Test Cases/NSTP_VouchingMRAC/Vouching/loginPage,Chrome 126.0.0.0,,,27-06-2024 18:14:25,27-06-2024 18:14:47,22.374s,PASSED
+accountOfficer.LoginForibpsAO.login(),Chrome 126.0.0.0,,,27-06-2024 18:14:26,27-06-2024 18:14:45,18.636s,PASSED
+Video,Chrome 126.0.0.0,,,27-06-2024 18:14:47,27-06-2024 18:14:47,0.001s,PASSED
+,,,,,,,
+Test Cases/NSTP_VouchingMRAC/Vouching/HomePage,Chrome 126.0.0.0,,,27-06-2024 18:14:47,27-06-2024 18:15:02,15.378s,PASSED
+accountOfficer.HomePageForibpsAO.selectResistration(),Chrome 126.0.0.0,,,27-06-2024 18:14:47,27-06-2024 18:15:00,13.170s,PASSED
+Video,Chrome 126.0.0.0,,,27-06-2024 18:15:02,27-06-2024 18:15:02,0.001s,PASSED
+,,,,,,,
+Test Cases/NSTP_VouchingMRAC/Vouching/clientInfo,Chrome 126.0.0.0,,,27-06-2024 18:15:02,27-06-2024 18:15:14,11.970s,PASSED
+tabSection.CustomerDetail.clientInformationCommon(),Chrome 126.0.0.0,,,27-06-2024 18:15:03,27-06-2024 18:15:12,9.804s,PASSED
+Video,Chrome 126.0.0.0,,,27-06-2024 18:15:14,27-06-2024 18:15:14,0.001s,PASSED
+,,,,,,,
+Test Cases/NSTP_VouchingMRAC/Vouching/LoanInformation,Chrome 126.0.0.0,,,27-06-2024 18:15:14,27-06-2024 18:15:22,7.937s,PASSED
+tabSection.LoanInformation.loanInfoCommon(),Chrome 126.0.0.0,,,27-06-2024 18:15:14,27-06-2024 18:15:20,5.765s,PASSED
+Video,Chrome 126.0.0.0,,,27-06-2024 18:15:22,27-06-2024 18:15:22,0.001s,PASSED
+,,,,,,,
+Test Cases/NSTP_VouchingMRAC/Vouching/Vouching,Chrome 126.0.0.0,,,27-06-2024 18:15:22,27-06-2024 18:15:36,13.775s,PASSED
+tabSection.vouching.VouchingForAll(),Chrome 126.0.0.0,,,27-06-2024 18:15:22,27-06-2024 18:15:34,11.630s,PASSED
+Video,Chrome 126.0.0.0,,,27-06-2024 18:15:36,27-06-2024 18:15:36,0.001s,PASSED
+,,,,,,,
+Test Cases/NSTP_VouchingMRAC/Vouching/Action,Chrome 126.0.0.0,,,27-06-2024 18:15:36,27-06-2024 18:15:50,14.155s,PASSED
+tabSection.Action.submitForAO(),Chrome 126.0.0.0,,,27-06-2024 18:15:36,27-06-2024 18:15:48,11.993s,PASSED
+Video,Chrome 126.0.0.0,,,27-06-2024 18:15:50,27-06-2024 18:15:50,0.001s,PASSED
+,,,,,,,
+Test Cases/LogOut/logout,Chrome 126.0.0.0,,,27-06-2024 18:15:50,27-06-2024 18:16:07,16.315s,PASSED
+signOutibps.SignOut.logout(),Chrome 126.0.0.0,,,27-06-2024 18:15:50,27-06-2024 18:16:05,14.149s,PASSED
+Video,Chrome 126.0.0.0,,,27-06-2024 18:16:07,27-06-2024 18:16:07,0.001s,PASSED

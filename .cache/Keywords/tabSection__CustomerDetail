@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "696B0D415E9C6528B33604E0996EDD10",
+  "keywordFileContentHash": "DCD691971A914C44C6430FD961AB58A6",
   "keywordClasses": [
     {
       "name": "tabSection.CustomerDetail",
@@ -103,6 +103,11 @@
           "name": "clientInformationCommonAfterAmendment",
           "parameters": [],
           "javadoc": "/**\n\t * This metnhod is for the common\n\t * @return\n\t */"
+        },
+        {
+          "name": "clientInformationBooking",
+          "parameters": [],
+          "javadoc": ""
         }
       ]
     }

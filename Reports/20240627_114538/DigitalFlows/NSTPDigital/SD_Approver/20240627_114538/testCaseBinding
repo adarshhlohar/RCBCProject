@@ -1,0 +1,17 @@
+{"testCaseName":"Test Cases/Digital_NSTP/testCaseForSD_Approver/LoginPage","testCaseId":"Test Cases/Digital_NSTP/testCaseForSD_Approver/LoginPage","iterationVariableName":""}
+{"testCaseName":"Test Cases/Digital_NSTP/testCaseForSD_Approver/HomePage","testCaseId":"Test Cases/Digital_NSTP/testCaseForSD_Approver/HomePage","iterationVariableName":""}
+{"testCaseName":"Test Cases/Digital_NSTP/testCaseForSD_Approver/ClientInformation","testCaseId":"Test Cases/Digital_NSTP/testCaseForSD_Approver/ClientInformation","iterationVariableName":""}
+{"testCaseName":"Test Cases/Digital_NSTP/testCaseForSD_Approver/LoanInformation","testCaseId":"Test Cases/Digital_NSTP/testCaseForSD_Approver/LoanInformation","iterationVariableName":""}
+{"testCaseName":"Test Cases/Digital_NSTP/testCaseForSD_Approver/DocumentChecklist","testCaseId":"Test Cases/Digital_NSTP/testCaseForSD_Approver/DocumentChecklist","iterationVariableName":""}
+{"testCaseName":"Test Cases/Digital_NSTP/testCaseForSD_Approver/CollateralInformation","testCaseId":"Test Cases/Digital_NSTP/testCaseForSD_Approver/CollateralInformation","iterationVariableName":""}
+{"testCaseName":"Test Cases/Digital_NSTP/testCaseForSD_Approver/CheckEligibility","testCaseId":"Test Cases/Digital_NSTP/testCaseForSD_Approver/CheckEligibility","iterationVariableName":""}
+{"testCaseName":"Test Cases/Digital_NSTP/testCaseForSD_Approver/CreditEvaluation","testCaseId":"Test Cases/Digital_NSTP/testCaseForSD_Approver/CreditEvaluation","iterationVariableName":""}
+{"testCaseName":"Test Cases/Digital_NSTP/testCaseForSD_Approver/Deviations","testCaseId":"Test Cases/Digital_NSTP/testCaseForSD_Approver/Deviations","iterationVariableName":""}
+{"testCaseName":"Test Cases/Digital_NSTP/testCaseForSD_Approver/CreditInvestigation","testCaseId":"Test Cases/Digital_NSTP/testCaseForSD_Approver/CreditInvestigation","iterationVariableName":""}
+{"testCaseName":"Test Cases/Digital_NSTP/testCaseForSD_Approver/InsuranceInformation","testCaseId":"Test Cases/Digital_NSTP/testCaseForSD_Approver/InsuranceInformation","iterationVariableName":""}
+{"testCaseName":"Test Cases/Digital_NSTP/testCaseForSD_Approver/DisbursementInformation","testCaseId":"Test Cases/Digital_NSTP/testCaseForSD_Approver/DisbursementInformation","iterationVariableName":""}
+{"testCaseName":"Test Cases/Digital_NSTP/testCaseForSD_Approver/SystemInterfaceStatus","testCaseId":"Test Cases/Digital_NSTP/testCaseForSD_Approver/SystemInterfaceStatus","iterationVariableName":""}
+{"testCaseName":"Test Cases/Digital_NSTP/testCaseForSD_Approver/AlertSummary","testCaseId":"Test Cases/Digital_NSTP/testCaseForSD_Approver/AlertSummary","iterationVariableName":""}
+{"testCaseName":"Test Cases/Digital_NSTP/testCaseForSD_Approver/Vouching","testCaseId":"Test Cases/Digital_NSTP/testCaseForSD_Approver/Vouching","iterationVariableName":""}
+{"testCaseName":"Test Cases/Digital_NSTP/testCaseForSD_Approver/Action","testCaseId":"Test Cases/Digital_NSTP/testCaseForSD_Approver/Action","iterationVariableName":""}
+{"testCaseName":"Test Cases/LogOut/logout","testCaseId":"Test Cases/LogOut/logout","iterationVariableName":""}
