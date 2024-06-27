@@ -33,6 +33,13 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>d090384f-ed49-468b-a1ed-1fa74e216f4d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/NSTP_VouchingMRAC/Vouching/LoanInformation</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>c56e9953-a571-4e56-8013-51701cfbc659</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

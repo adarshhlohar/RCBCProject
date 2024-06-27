@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PaperBasedPotalNSTP" time="153.468" tests="7" failures="0" errors="0">
+   <testsuite name="PaperBasedPotalNSTP" tests="7" failures="0" errors="0" time="153.468" skipped="0" timestamp="27-06-2024T17:41:44" hostname="Adarsh.Lohar - QKNBK2037.qkcorp.qualitykiosk.com" id="Test Suites/PaperbaseFlows/NSTPPaperbase/PaperBasedPotalNSTP">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_174108\\PaperbaseFlows\\NSTPPaperbase\\PaperBasedPotalNSTP\\20240627_174111"/>
+         <property name="logFiles" value="D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_174108\\PaperbaseFlows\\NSTPPaperbase\\PaperBasedPotalNSTP\\20240627_174111\\execution0.log"/>
+         <property name="attachments" value="D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_174108\\PaperbaseFlows\\NSTPPaperbase\\PaperBasedPotalNSTP\\20240627_174111\\Screenshots/Portal27_06_2405_42_00/Regression27_06_24_05_42_01.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_174108\\PaperbaseFlows\\NSTPPaperbase\\PaperBasedPotalNSTP\\20240627_174111\\Screenshots/Portal27_06_2405_42_00/Regression27_06_24_05_42_08.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_174108\\PaperbaseFlows\\NSTPPaperbase\\PaperBasedPotalNSTP\\20240627_174111\\Screenshots/Portal27_06_2405_42_00/Regression27_06_24_05_42_18.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_174108\\PaperbaseFlows\\NSTPPaperbase\\PaperBasedPotalNSTP\\20240627_174111\\Screenshots/Portal27_06_2405_42_00/Regression27_06_24_05_42_29.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_174108\\PaperbaseFlows\\NSTPPaperbase\\PaperBasedPotalNSTP\\20240627_174111\\Screenshots/Portal27_06_2405_42_00/Regression27_06_24_05_42_56.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_174108\\PaperbaseFlows\\NSTPPaperbase\\PaperBasedPotalNSTP\\20240627_174111\\Screenshots/Portal27_06_2405_42_00/Regression27_06_24_05_43_12.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_174108\\PaperbaseFlows\\NSTPPaperbase\\PaperBasedPotalNSTP\\20240627_174111\\Screenshots/Portal27_06_2405_42_00/Regression27_06_24_05_43_32.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_174108\\PaperbaseFlows\\NSTPPaperbase\\PaperBasedPotalNSTP\\20240627_174111\\Screenshots/Portal27_06_2405_42_00/Regression27_06_24_05_43_51.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_174108\\PaperbaseFlows\\NSTPPaperbase\\PaperBasedPotalNSTP\\20240627_174111\\Screenshots/Portal27_06_2405_42_00/Regression27_06_24_05_43_57.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_174108\\PaperbaseFlows\\NSTPPaperbase\\PaperBasedPotalNSTP\\20240627_174111\\Screenshots/Portal27_06_2405_42_00/Regression27_06_24_05_44_07.jpg"/>
+         <property name="hostName" value="Adarsh.Lohar - QKNBK2037.qkcorp.qualitykiosk.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="10.0.6.77"/>
+         <property name="sessionId" value="55ecb0cd08ea53d37fac3dd8330ce5de"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Paper_STPWithAndWithoutAPI/Portal/LoginPage" time="21.727" classname="Test Cases/Paper_STPWithAndWithoutAPI/Portal/LoginPage" status="PASSED">
+         <system-out><![CDATA[27-06-2024T17:41:45 - [TEST_CASE][PASSED] - Test Cases/Paper_STPWithAndWithoutAPI/Portal/LoginPage: Test Cases/Paper_STPWithAndWithoutAPI/Portal/LoginPage
+
+27-06-2024T17:41:46 - [TEST_STEP][PASSED] - loginPage.LoginPage.login_Page(): loginPage.LoginPage.login_Page is PASSED
+
+27-06-2024T17:41:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+27-06-2024T17:41:46 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito]']
+
+27-06-2024T17:41:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-06-2024T17:41:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+27-06-2024T17:41:52 - [MESSAGE][PASSED] - Current window maximized
+
+27-06-2024T17:41:53 - [MESSAGE][PASSED] - Navigate to 'https://rcbcuat.nonprodnmc.com/LoanPortal' successfully
+
+27-06-2024T17:41:58 - [MESSAGE][PASSED] - Text 'QK_Dealer7' is set on object 'Object Repository/LoginPage/email'
+
+27-06-2024T17:41:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginPage/password'
+
+27-06-2024T17:42:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T17:42:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T17:42:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T17:42:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_174108\\PaperbaseFlows\\NSTPPaperbase\\PaperBasedPotalNSTP\\20240627_174111\\Screenshots/Portal27_06_2405_42_00/Regression27_06_24_05_42_01.jpg]]
+
+27-06-2024T17:42:03 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/log_in' is clicked on
+
+27-06-2024T17:42:04 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Auto_Loan_Portal' is present
+
+27-06-2024T17:42:04 - [MESSAGE][INFO] - We are in Home Page
+
+27-06-2024T17:42:04 - [MESSAGE][PASSED] - loginPage.LoginPage.login_Page is PASSED
+
+27-06-2024T17:42:06 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Portal/LoginPage' .
+
+27-06-2024T17:42:06 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Portal/LoginPage' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Paper_STPWithAndWithoutAPI/Portal/HomePage" time="8.972" classname="Test Cases/Paper_STPWithAndWithoutAPI/Portal/HomePage" status="PASSED">
+         <system-out><![CDATA[27-06-2024T17:42:06 - [TEST_CASE][PASSED] - Test Cases/Paper_STPWithAndWithoutAPI/Portal/HomePage: Test Cases/Paper_STPWithAndWithoutAPI/Portal/HomePage
+
+27-06-2024T17:42:07 - [TEST_STEP][PASSED] - homePage.homePage.homepage(): homePage.homePage.homepage is PASSED
+
+27-06-2024T17:42:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+27-06-2024T17:42:07 - [MESSAGE][PASSED] - Text 'What system would you like to access?' is present on page 
+
+27-06-2024T17:42:07 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/ManageLoans' is clickable
+
+27-06-2024T17:42:07 - [MESSAGE][PASSED] - Object 'Object Repository/SignOutButton/exitIcon' is clickable
+
+27-06-2024T17:42:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T17:42:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T17:42:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_174108\\PaperbaseFlows\\NSTPPaperbase\\PaperBasedPotalNSTP\\20240627_174111\\Screenshots/Portal27_06_2405_42_00/Regression27_06_24_05_42_08.jpg]]
+
+27-06-2024T17:42:12 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Auto_Loan_Portal' is clicked on
+
+27-06-2024T17:42:13 - [MESSAGE][PASSED] - Object 'Object Repository/ModeOfApplication/digitalApplication' is present
+
+27-06-2024T17:42:13 - [MESSAGE][INFO] - We are getting two options
+
+27-06-2024T17:42:13 - [MESSAGE][PASSED] - homePage.homePage.homepage is PASSED
+
+27-06-2024T17:42:15 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Portal/HomePage' .
+
+27-06-2024T17:42:15 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Portal/HomePage' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Paper_STPWithAndWithoutAPI/Portal/SelectPaperBased" time="10.713" classname="Test Cases/Paper_STPWithAndWithoutAPI/Portal/SelectPaperBased" status="PASSED">
+         <system-out><![CDATA[27-06-2024T17:42:15 - [TEST_CASE][PASSED] - Test Cases/Paper_STPWithAndWithoutAPI/Portal/SelectPaperBased: Test Cases/Paper_STPWithAndWithoutAPI/Portal/SelectPaperBased
+
+27-06-2024T17:42:16 - [TEST_STEP][PASSED] - paperBasedPortal.SelectPaperBased.paperBased(): paperBasedPortal.SelectPaperBased.paperBased is PASSED
+
+27-06-2024T17:42:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T17:42:17 - [MESSAGE][PASSED] - Text 'Mode of Application' is present on page 
+
+27-06-2024T17:42:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T17:42:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T17:42:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_174108\\PaperbaseFlows\\NSTPPaperbase\\PaperBasedPotalNSTP\\20240627_174111\\Screenshots/Portal27_06_2405_42_00/Regression27_06_24_05_42_18.jpg]]
+
+27-06-2024T17:42:24 - [MESSAGE][PASSED] - Object: 'Object Repository/ModeOfApplication/paperBased' is clicked on
+
+27-06-2024T17:42:24 - [MESSAGE][PASSED] - paperBasedPortal.SelectPaperBased.paperBased is PASSED
+
+27-06-2024T17:42:26 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Portal/SelectPaperBased' .
+
+27-06-2024T17:42:26 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Portal/SelectPaperBased' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Paper_STPWithAndWithoutAPI/Portal/LetsgetStarted" time="13.826" classname="Test Cases/Paper_STPWithAndWithoutAPI/Portal/LetsgetStarted" status="PASSED">
+         <system-out><![CDATA[27-06-2024T17:42:26 - [TEST_CASE][PASSED] - Test Cases/Paper_STPWithAndWithoutAPI/Portal/LetsgetStarted: Test Cases/Paper_STPWithAndWithoutAPI/Portal/LetsgetStarted
+
+27-06-2024T17:42:26 - [TEST_STEP][PASSED] - paperBasedPortal.letsGetStarted.letsGetStartedBtnFun(): paperBasedPortal.letsGetStarted.letsGetStartedBtnFun is PASSED
+
+27-06-2024T17:42:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T17:42:28 - [MESSAGE][PASSED] - Text 'Quick & easy Auto Loan Application with RCBC' is present on page 
+
+27-06-2024T17:42:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T17:42:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T17:42:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_174108\\PaperbaseFlows\\NSTPPaperbase\\PaperBasedPotalNSTP\\20240627_174111\\Screenshots/Portal27_06_2405_42_00/Regression27_06_24_05_42_29.jpg]]
+
+27-06-2024T17:42:36 - [MESSAGE][PASSED] - Object: 'Object Repository/LetsGetStarted/lets_get_started' is clicked on
+
+27-06-2024T17:42:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-06-2024T17:42:38 - [MESSAGE][PASSED] - paperBasedPortal.letsGetStarted.letsGetStartedBtnFun is PASSED
+
+27-06-2024T17:42:40 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Portal/LetsgetStarted' .
+
+27-06-2024T17:42:40 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Paper_STPWithAndWithoutAPI/Portal/LetsgetStarted' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Paper_NSTP/Portal/BorrowerDetail" time="11.884" classname="Test Cases/Paper_NSTP/Portal/BorrowerDetail" status="PASSED">
+         <system-out><![CDATA[27-06-2024T17:42:40 - [TEST_CASE][PASSED] - Test Cases/Paper_NSTP/Portal/BorrowerDetail: Test Cases/Paper_NSTP/Portal/BorrowerDetail
+
+27-06-2024T17:42:41 - [TEST_STEP][PASSED] - paperBasedPortal.Borrower_Detail.borrower_DetailsNSTP(fst_Name, mid_Name, lst_Name, email, mob_Num, date, maritalStatus, suffix, residence): paperBasedPortal.Borrower_Detail.borrower_DetailsNSTP is PASSED
+
+27-06-2024T17:42:41 - [MESSAGE][PASSED] - Wait for page load successfully
+
+27-06-2024T17:42:41 - [MESSAGE][PASSED] - Text 'viratt' is set on object 'Object Repository/Borrower_Details/first_Name'
+
+27-06-2024T17:42:42 - [MESSAGE][PASSED] - Text 'sudhakarr' is set on object 'Object Repository/Borrower_Details/middle_Name'
+
+27-06-2024T17:42:43 - [MESSAGE][PASSED] - Text 'kohlii' is set on object 'Object Repository/Borrower_Details/last_Name'
+
+27-06-2024T17:42:44 - [MESSAGE][PASSED] - All options with value 'SF2' are selected in object 'Object Repository/Borrower_Details/suffix'  using regular expression
+
+27-06-2024T17:42:44 - [MESSAGE][PASSED] - All options with value 'M' are selected in object 'Object Repository/Borrower_Details/marital_Status' 
+
+27-06-2024T17:42:45 - [MESSAGE][PASSED] - Text 'bond@gmail.com' is set on object 'Object Repository/Borrower_Details/email'
+
+27-06-2024T17:42:46 - [MESSAGE][PASSED] - Text '(63) 9356986587' is set on object 'Object Repository/Borrower_Details/mobile_Number'
+
+27-06-2024T17:42:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-06-2024T17:42:48 - [MESSAGE][PASSED] - Current window's title is: 'Portal_PB : LOS-3544'
+
+27-06-2024T17:42:48 - [MESSAGE][INFO] - LOS-3544
+
+27-06-2024T17:42:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrower_Details/continue' is clicked on
+
+27-06-2024T17:42:50 - [MESSAGE][PASSED] - paperBasedPortal.Borrower_Detail.borrower_DetailsNSTP is PASSED
+
+27-06-2024T17:42:52 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Paper_NSTP/Portal/BorrowerDetail' .
+
+27-06-2024T17:42:52 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Paper_NSTP/Portal/BorrowerDetail' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Paper_NSTP/Portal/uploadDocument" time="71.024" classname="Test Cases/Paper_NSTP/Portal/uploadDocument" status="PASSED">
+         <system-out><![CDATA[27-06-2024T17:42:52 - [TEST_CASE][PASSED] - Test Cases/Paper_NSTP/Portal/uploadDocument: Test Cases/Paper_NSTP/Portal/uploadDocument
+
+27-06-2024T17:42:52 - [TEST_STEP][PASSED] - paperBasedPortal.UploadYourDocuments.uploadYourDocumentsPage(): paperBasedPortal.UploadYourDocuments.uploadYourDocumentsPage is PASSED
+
+27-06-2024T17:42:54 - [MESSAGE][PASSED] - Object 'Object Repository/UploadYourDocuments/uploadYourDocumentText' is present
+
+27-06-2024T17:42:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T17:42:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T17:42:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_174108\\PaperbaseFlows\\NSTPPaperbase\\PaperBasedPotalNSTP\\20240627_174111\\Screenshots/Portal27_06_2405_42_00/Regression27_06_24_05_42_56.jpg]]
+
+27-06-2024T17:42:57 - [MESSAGE][PASSED] - Current window's index is: 0
+
+27-06-2024T17:42:57 - [MESSAGE][PASSED] - Current window's title is: 'Portal_PB : LOS-3544'
+
+27-06-2024T17:42:58 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/UploadYourDocuments/validId_selectIdType'
+
+27-06-2024T17:42:59 - [MESSAGE][PASSED] - Object: 'Object Repository/UploadYourDocuments/uploadFile_Btn' is clicked on
+
+27-06-2024T17:43:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T17:43:00 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+27-06-2024T17:43:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T17:43:02 - [MESSAGE][PASSED] - File 'D:\newRCBCProject\RCBCLOS_Automation\Document\Katalon_WebObjects.pdf' sent to object: 'Object Repository/UploadYourDocuments/browseFile'
+
+27-06-2024T17:43:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T17:43:03 - [MESSAGE][PASSED] - Object: 'Object Repository/UploadYourDocuments/ValidID/documentType' is clicked on
+
+27-06-2024T17:43:03 - [MESSAGE][PASSED] - All options with value 'ID Type Documents' are selected in object 'Object Repository/UploadYourDocuments/ValidID/documentType' 
+
+27-06-2024T17:43:04 - [MESSAGE][PASSED] - Object: 'Object Repository/UploadYourDocuments/ValidID/uploadBtn' is clicked on
+
+27-06-2024T17:43:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-06-2024T17:43:07 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+27-06-2024T17:43:08 - [MESSAGE][PASSED] - Object: 'Object Repository/UploadYourDocuments/IdDocViewButton' is clicked on
+
+27-06-2024T17:43:08 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+27-06-2024T17:43:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-06-2024T17:43:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T17:43:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T17:43:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_174108\\PaperbaseFlows\\NSTPPaperbase\\PaperBasedPotalNSTP\\20240627_174111\\Screenshots/Portal27_06_2405_42_00/Regression27_06_24_05_43_12.jpg]]
+
+27-06-2024T17:43:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-06-2024T17:43:17 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+27-06-2024T17:43:18 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/UploadYourDocuments/incomeDocument_selectIdType'
+
+27-06-2024T17:43:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T17:43:19 - [MESSAGE][PASSED] - Object: 'Object Repository/UploadYourDocuments/uploadFile_Btn1' is clicked on
+
+27-06-2024T17:43:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T17:43:20 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+27-06-2024T17:43:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T17:43:21 - [MESSAGE][PASSED] - File 'D:\newRCBCProject\RCBCLOS_Automation\Document\Katalon_WebObjects.pdf' sent to object: 'Object Repository/UploadYourDocuments/browseFile'
+
+27-06-2024T17:43:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T17:43:23 - [MESSAGE][PASSED] - Object: 'Object Repository/UploadYourDocuments/ValidID/documentType' is clicked on
+
+27-06-2024T17:43:23 - [MESSAGE][PASSED] - All options with value 'Income Documents' are selected in object 'Object Repository/UploadYourDocuments/ValidID/documentType' 
+
+27-06-2024T17:43:24 - [MESSAGE][PASSED] - Object: 'Object Repository/UploadYourDocuments/ValidID/uploadBtn' is clicked on
+
+27-06-2024T17:43:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-06-2024T17:43:27 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+27-06-2024T17:43:28 - [MESSAGE][PASSED] - Object: 'Object Repository/UploadYourDocuments/IncomeDocViewBtn' is clicked on
+
+27-06-2024T17:43:28 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+27-06-2024T17:43:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-06-2024T17:43:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T17:43:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T17:43:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_174108\\PaperbaseFlows\\NSTPPaperbase\\PaperBasedPotalNSTP\\20240627_174111\\Screenshots/Portal27_06_2405_42_00/Regression27_06_24_05_43_32.jpg]]
+
+27-06-2024T17:43:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-06-2024T17:43:36 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+27-06-2024T17:43:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/UploadYourDocuments/nextBtn' successfully
+
+27-06-2024T17:43:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T17:43:38 - [MESSAGE][PASSED] - Object: 'Object Repository/UploadYourDocuments/uploadFile_Btn2' is clicked on
+
+27-06-2024T17:43:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T17:43:39 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+27-06-2024T17:43:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T17:43:41 - [MESSAGE][PASSED] - File 'D:\newRCBCProject\RCBCLOS_Automation\Document\Katalon_WebObjects.pdf' sent to object: 'Object Repository/UploadYourDocuments/browseFile'
+
+27-06-2024T17:43:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T17:43:42 - [MESSAGE][PASSED] - Object: 'Object Repository/UploadYourDocuments/ValidID/documentType' is clicked on
+
+27-06-2024T17:43:42 - [MESSAGE][PASSED] - All options with value 'Loan Application Documents' are selected in object 'Object Repository/UploadYourDocuments/ValidID/documentType' 
+
+27-06-2024T17:43:43 - [MESSAGE][PASSED] - Object: 'Object Repository/UploadYourDocuments/ValidID/uploadBtn' is clicked on
+
+27-06-2024T17:43:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-06-2024T17:43:46 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+27-06-2024T17:43:47 - [MESSAGE][PASSED] - Object: 'Object Repository/UploadYourDocuments/LoanApplicationDocViewBtn' is clicked on
+
+27-06-2024T17:43:47 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+27-06-2024T17:43:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-06-2024T17:43:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T17:43:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T17:43:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_174108\\PaperbaseFlows\\NSTPPaperbase\\PaperBasedPotalNSTP\\20240627_174111\\Screenshots/Portal27_06_2405_42_00/Regression27_06_24_05_43_51.jpg]]
+
+27-06-2024T17:43:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-06-2024T17:43:55 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+27-06-2024T17:43:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T17:43:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T17:43:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T17:43:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_174108\\PaperbaseFlows\\NSTPPaperbase\\PaperBasedPotalNSTP\\20240627_174111\\Screenshots/Portal27_06_2405_42_00/Regression27_06_24_05_43_57.jpg]]
+
+27-06-2024T17:43:59 - [MESSAGE][PASSED] - Object 'Object Repository/UploadYourDocuments/backBtn' is clickable
+
+27-06-2024T17:44:01 - [MESSAGE][PASSED] - Object: 'Object Repository/UploadYourDocuments/nextBtn' is clicked on
+
+27-06-2024T17:44:01 - [MESSAGE][PASSED] - paperBasedPortal.UploadYourDocuments.uploadYourDocumentsPage is PASSED
+
+27-06-2024T17:44:03 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Paper_NSTP/Portal/uploadDocument' .
+
+27-06-2024T17:44:03 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Paper_NSTP/Portal/uploadDocument' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Paper_NSTP/Portal/SubmitPage" time="14.703" classname="Test Cases/Paper_NSTP/Portal/SubmitPage" status="PASSED">
+         <system-out><![CDATA[27-06-2024T17:44:03 - [TEST_CASE][PASSED] - Test Cases/Paper_NSTP/Portal/SubmitPage: Test Cases/Paper_NSTP/Portal/SubmitPage
+
+27-06-2024T17:44:03 - [TEST_STEP][PASSED] - paperBasedPortal.SubmitPage.proceedToPreReleaseFunNSTP(): paperBasedPortal.SubmitPage.proceedToPreReleaseFunNSTP is PASSED
+
+27-06-2024T17:44:05 - [MESSAGE][PASSED] - Wait for page load successfully
+
+27-06-2024T17:44:05 - [MESSAGE][PASSED] - Object 'Object Repository/SubmitPage/submitPageNSTP' is present
+
+27-06-2024T17:44:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T17:44:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T17:44:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-06-2024T17:44:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240627_174108\\PaperbaseFlows\\NSTPPaperbase\\PaperBasedPotalNSTP\\20240627_174111\\Screenshots/Portal27_06_2405_42_00/Regression27_06_24_05_44_07.jpg]]
+
+27-06-2024T17:44:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-06-2024T17:44:11 - [MESSAGE][PASSED] - Object: 'Object Repository/SubmitPage/paperBasedSubmitGoToBackOffice' is clicked on
+
+27-06-2024T17:44:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+27-06-2024T17:44:16 - [MESSAGE][PASSED] - paperBasedPortal.SubmitPage.proceedToPreReleaseFunNSTP is PASSED
+
+27-06-2024T17:44:18 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Paper_NSTP/Portal/SubmitPage' .
+
+27-06-2024T17:44:18 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Paper_NSTP/Portal/SubmitPage' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[27-06-2024T17:41:44 - [TEST_SUITE][PASSED] - PaperBasedPotalNSTP: Test Cases/Paper_NSTP/Portal/SubmitPage]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

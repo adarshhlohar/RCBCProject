@@ -1,0 +1,13 @@
+{"testCaseName":"Test Cases/Paper_STPWithAndWithoutAPI/Encoder/LoginPage","testCaseId":"Test Cases/Paper_STPWithAndWithoutAPI/Encoder/LoginPage","iterationVariableName":""}
+{"testCaseName":"Test Cases/Paper_STPWithAndWithoutAPI/Encoder/HomePage","testCaseId":"Test Cases/Paper_STPWithAndWithoutAPI/Encoder/HomePage","iterationVariableName":""}
+{"testCaseName":"Test Cases/Paper_STPWithAndWithoutAPI/Encoder/ClientInformation","testCaseId":"Test Cases/Paper_STPWithAndWithoutAPI/Encoder/ClientInformation","iterationVariableName":""}
+{"testCaseName":"Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CollateralInformationWithout","testCaseId":"Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CollateralInformationWithout","iterationVariableName":""}
+{"testCaseName":"Test Cases/Paper_STPWithAndWithoutAPI/Encoder/LoanInformationWithoutAPI","testCaseId":"Test Cases/Paper_STPWithAndWithoutAPI/Encoder/LoanInformationWithoutAPI","iterationVariableName":""}
+{"testCaseName":"Test Cases/Paper_STPWithAndWithoutAPI/Encoder/DocumentChecklist","testCaseId":"Test Cases/Paper_STPWithAndWithoutAPI/Encoder/DocumentChecklist","iterationVariableName":""}
+{"testCaseName":"Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CheckEligibility","testCaseId":"Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CheckEligibility","iterationVariableName":""}
+{"testCaseName":"Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CreditEvaluation","testCaseId":"Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CreditEvaluation","iterationVariableName":""}
+{"testCaseName":"Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CreditInvestigation","testCaseId":"Test Cases/Paper_STPWithAndWithoutAPI/Encoder/CreditInvestigation","iterationVariableName":""}
+{"testCaseName":"Test Cases/Paper_STPWithAndWithoutAPI/Encoder/InsuranceInformation","testCaseId":"Test Cases/Paper_STPWithAndWithoutAPI/Encoder/InsuranceInformation","iterationVariableName":""}
+{"testCaseName":"Test Cases/Paper_STPWithAndWithoutAPI/Encoder/DisbursementInformation","testCaseId":"Test Cases/Paper_STPWithAndWithoutAPI/Encoder/DisbursementInformation","iterationVariableName":""}
+{"testCaseName":"Test Cases/Paper_STPWithAndWithoutAPI/Encoder/Action","testCaseId":"Test Cases/Paper_STPWithAndWithoutAPI/Encoder/Action","iterationVariableName":""}
+{"testCaseName":"Test Cases/LogOut/logout","testCaseId":"Test Cases/LogOut/logout","iterationVariableName":""}

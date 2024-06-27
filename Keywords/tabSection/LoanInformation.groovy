@@ -531,7 +531,7 @@ public class LoanInformation {
 			def newDIRate = "18";
 
 			//			println("*** String -> " + oldDIRate + " *** Number -> " + oldDINum + " *** String -> " + newDIRate + " **** String -> " + oldSIRate + "  **** Number -> " + oldSINum + " **** String " + newSIRate)
-			GlobalVariableUtil.saveGlobalVariable("NEWDIRate", newDIRate)
+			GlobalVariableUtil.saveGlobalVariable("NewDIRate", newDIRate)
 			GlobalVariableUtil.saveGlobalVariable("NewSIRate", newSIRate)
 
 			def isDeviation = false
@@ -1222,7 +1222,7 @@ public class LoanInformation {
 			def newDIRate = "18";
 
 			//			println("*** String -> " + oldDIRate + " *** Number -> " + oldDINum + " *** String -> " + newDIRate + " **** String -> " + oldSIRate + "  **** Number -> " + oldSINum + " **** String " + newSIRate)
-			GlobalVariableUtil.saveGlobalVariable("NEWDIRate", newDIRate)
+			GlobalVariableUtil.saveGlobalVariable("NewDIRate", newDIRate)
 			GlobalVariableUtil.saveGlobalVariable("NewSIRate", newSIRate)
 
 

@@ -1,0 +1,16 @@
+{"testCaseName":"Test Cases/Paper_STPWithAndWithoutAPI/Fullfillment/LoginPage","testCaseId":"Test Cases/Paper_STPWithAndWithoutAPI/Fullfillment/LoginPage","iterationVariableName":""}
+{"testCaseName":"Test Cases/Paper_STPWithAndWithoutAPI/Fullfillment/HomePage","testCaseId":"Test Cases/Paper_STPWithAndWithoutAPI/Fullfillment/HomePage","iterationVariableName":""}
+{"testCaseName":"Test Cases/Paper_STPWithAndWithoutAPI/Fullfillment/ClientInformation","testCaseId":"Test Cases/Paper_STPWithAndWithoutAPI/Fullfillment/ClientInformation","iterationVariableName":""}
+{"testCaseName":"Test Cases/Paper_STPWithAndWithoutAPI/Fullfillment/LoanInformation","testCaseId":"Test Cases/Paper_STPWithAndWithoutAPI/Fullfillment/LoanInformation","iterationVariableName":""}
+{"testCaseName":"Test Cases/Paper_STPWithAndWithoutAPI/Fullfillment/DocumentChecklist","testCaseId":"Test Cases/Paper_STPWithAndWithoutAPI/Fullfillment/DocumentChecklist","iterationVariableName":""}
+{"testCaseName":"Test Cases/Paper_STPWithAndWithoutAPI/Fullfillment/CollateralInformation","testCaseId":"Test Cases/Paper_STPWithAndWithoutAPI/Fullfillment/CollateralInformation","iterationVariableName":""}
+{"testCaseName":"Test Cases/Paper_STPWithAndWithoutAPI/Fullfillment/CheckEligibility","testCaseId":"Test Cases/Paper_STPWithAndWithoutAPI/Fullfillment/CheckEligibility","iterationVariableName":""}
+{"testCaseName":"Test Cases/Paper_STPWithAndWithoutAPI/Fullfillment/CreditEvaluation","testCaseId":"Test Cases/Paper_STPWithAndWithoutAPI/Fullfillment/CreditEvaluation","iterationVariableName":""}
+{"testCaseName":"Test Cases/Paper_STPWithAndWithoutAPI/Fullfillment/Deviations","testCaseId":"Test Cases/Paper_STPWithAndWithoutAPI/Fullfillment/Deviations","iterationVariableName":""}
+{"testCaseName":"Test Cases/Paper_STPWithAndWithoutAPI/Fullfillment/CreditInvestigation","testCaseId":"Test Cases/Paper_STPWithAndWithoutAPI/Fullfillment/CreditInvestigation","iterationVariableName":""}
+{"testCaseName":"Test Cases/Paper_STPWithAndWithoutAPI/Fullfillment/InsuranceInformation","testCaseId":"Test Cases/Paper_STPWithAndWithoutAPI/Fullfillment/InsuranceInformation","iterationVariableName":""}
+{"testCaseName":"Test Cases/Paper_STPWithAndWithoutAPI/Fullfillment/DisbursementInformation","testCaseId":"Test Cases/Paper_STPWithAndWithoutAPI/Fullfillment/DisbursementInformation","iterationVariableName":""}
+{"testCaseName":"Test Cases/Paper_STPWithAndWithoutAPI/Fullfillment/SystemInterfaceStatus","testCaseId":"Test Cases/Paper_STPWithAndWithoutAPI/Fullfillment/SystemInterfaceStatus","iterationVariableName":""}
+{"testCaseName":"Test Cases/Paper_STPWithAndWithoutAPI/Fullfillment/AlertSummary","testCaseId":"Test Cases/Paper_STPWithAndWithoutAPI/Fullfillment/AlertSummary","iterationVariableName":""}
+{"testCaseName":"Test Cases/Paper_STPWithAndWithoutAPI/Fullfillment/Action","testCaseId":"Test Cases/Paper_STPWithAndWithoutAPI/Fullfillment/Action","iterationVariableName":""}
+{"testCaseName":"Test Cases/LogOut/logout","testCaseId":"Test Cases/LogOut/logout","iterationVariableName":""}

@@ -30,6 +30,15 @@ public class vouching {
 	}
 
 
+	@Keyword
+	def vouchingApproverCMG() {
+		WebUI.click(findTestObject("Object Repository/TabSection/Vouching"))
+		WebUI.delay(1)
+		WebUI.selectOptionByLabel(findTestObject("Object Repository/Vouching/recommendation"), "Endorse for Approval", false,FailureHandling.OPTIONAL)
+		GlobalVariableUtil.captureScreenShotWithTime()
+	}
+
+
 
 	@Keyword
 	def vouchingDeatilForSD_ApproverWithAndWithoutPaperbase() {

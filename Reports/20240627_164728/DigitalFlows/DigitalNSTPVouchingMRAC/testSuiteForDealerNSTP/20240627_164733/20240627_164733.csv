@@ -1,0 +1,48 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+testSuiteForDealerNSTP,Chrome 126.0.0.0,,,27-06-2024 16:48:14,27-06-2024 16:53:12,4m - 57.268s,PASSED
+,,,,,,,
+Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/LoginPage,Chrome 126.0.0.0,,,27-06-2024 16:48:50,27-06-2024 16:49:08,17.847s,PASSED
+loginPage.LoginPage.login_Page(),Chrome 126.0.0.0,,,27-06-2024 16:48:50,27-06-2024 16:49:06,15.724s,PASSED
+Video,Chrome 126.0.0.0,,,27-06-2024 16:49:08,27-06-2024 16:49:08,0.001s,PASSED
+,,,,,,,
+Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/HomePage,Chrome 126.0.0.0,,,27-06-2024 16:49:08,27-06-2024 16:49:14,6.668s,PASSED
+homePage.homePage.homepage(),Chrome 126.0.0.0,,,27-06-2024 16:49:08,27-06-2024 16:49:12,4.511s,PASSED
+Video,Chrome 126.0.0.0,,,27-06-2024 16:49:14,27-06-2024 16:49:14,0.001s,PASSED
+,,,,,,,
+Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/SelectAutoLoan,Chrome 126.0.0.0,,,27-06-2024 16:49:14,27-06-2024 16:49:24,9.947s,PASSED
+autoLoanProtal.SelectAutoLoan.clickToDigitalApplication(),Chrome 126.0.0.0,,,27-06-2024 16:49:14,27-06-2024 16:49:22,7.813s,PASSED
+Video,Chrome 126.0.0.0,,,27-06-2024 16:49:24,27-06-2024 16:49:24,0.001s,PASSED
+,,,,,,,
+Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/LetsgetStarted,Chrome 126.0.0.0,,,27-06-2024 16:49:24,27-06-2024 16:49:44,19.973s,PASSED
+autoLoanProtal.letsGetStarted.letsGetStartedBtnFun(),Chrome 126.0.0.0,,,27-06-2024 16:49:24,27-06-2024 16:49:42,17.818s,PASSED
+Video,Chrome 126.0.0.0,,,27-06-2024 16:49:44,27-06-2024 16:49:44,0.001s,PASSED
+,,,,,,,
+Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/LoanDetails,Chrome 126.0.0.0,,,27-06-2024 16:49:44,27-06-2024 16:50:19,34.857s,PASSED
+"autoLoanProtal.LoanDetails.loanDetail(brand, unitDescription, loanTerm, downpaymentValue, actualCashOut, insuranceType)",Chrome 126.0.0.0,,,27-06-2024 16:49:45,27-06-2024 16:50:17,32.521s,PASSED
+Video,Chrome 126.0.0.0,,,27-06-2024 16:50:19,27-06-2024 16:50:19,0.001s,PASSED
+,,,,,,,
+Test Cases/Digital_NSTP/NSTPPortal/BorrowerDetailNSTP,Chrome 126.0.0.0,,,27-06-2024 16:50:19,27-06-2024 16:50:36,16.587s,PASSED
+"autoLoanProtal.Borrower_Detail.borrower_DetailsForNSTP(fst_Name, mid_Name, lst_Name, email, mob_Num, date, maritalStatus, suffix, residence)",Chrome 126.0.0.0,,,27-06-2024 16:50:20,27-06-2024 16:50:34,14.332s,PASSED
+Video,Chrome 126.0.0.0,,,27-06-2024 16:50:36,27-06-2024 16:50:36,0.001s,PASSED
+,,,,,,,
+Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/ConfirmationPage,Chrome 126.0.0.0,,,27-06-2024 16:50:36,27-06-2024 16:50:45,8.591s,PASSED
+autoLoanProtal.confirmationPage.editOnConfirmationPage(),Chrome 126.0.0.0,,,27-06-2024 16:50:36,27-06-2024 16:50:43,6.425s,PASSED
+Video,Chrome 126.0.0.0,,,27-06-2024 16:50:45,27-06-2024 16:50:45,0.001s,PASSED
+,,,,,,,
+Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/InitialCheckingWithAPI,Chrome 126.0.0.0,,,27-06-2024 16:50:45,27-06-2024 16:50:52,7.391s,PASSED
+autoLoanProtal.initial_Confirmation.initial_conf(),Chrome 126.0.0.0,,,27-06-2024 16:50:45,27-06-2024 16:50:50,5.100s,PASSED
+Video,Chrome 126.0.0.0,,,27-06-2024 16:50:52,27-06-2024 16:50:52,0.001s,PASSED
+,,,,,,,
+Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/AdditionalPageWithAPI,Chrome 126.0.0.0,,,27-06-2024 16:50:52,27-06-2024 16:51:25,33.053s,PASSED
+"autoLoanProtal.AdditionalInformationWithAPI.borrowersDetail(nationality, visaType, sex, occupation, idType, idNumber, accountNumber)",Chrome 126.0.0.0,,,27-06-2024 16:50:52,27-06-2024 16:50:59,6.444s,PASSED
+"autoLoanProtal.AdditionalInformationWithAPI.homeAddress(country, region, province, townCityMunicipality, barangay, streetName, unitNoBldgNameBldgNoVillageSubdivision)",Chrome 126.0.0.0,,,27-06-2024 16:50:59,27-06-2024 16:51:11,11.568s,PASSED
+"autoLoanProtal.AdditionalInformationWithAPI.coBorrowersDetails(coBorrowerRelationshipWithBorrower, coBorrowerFirstName, coBorrowerMiddleName, coBorrowerLastName, coBorrowerSuffix)",Chrome 126.0.0.0,,,27-06-2024 16:51:11,27-06-2024 16:51:23,12.652s,PASSED
+Video,Chrome 126.0.0.0,,,27-06-2024 16:51:25,27-06-2024 16:51:25,0.001s,PASSED
+,,,,,,,
+Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/DocumentUploadPageWithout,Chrome 126.0.0.0,,,27-06-2024 16:51:25,27-06-2024 16:52:58,1m - 33.213s,PASSED
+autoLoanProtal.UploadYourDocuments.uploadYourDocumentsPage(),Chrome 126.0.0.0,,,27-06-2024 16:51:25,27-06-2024 16:52:56,1m - 30.970s,PASSED
+Video,Chrome 126.0.0.0,,,27-06-2024 16:52:58,27-06-2024 16:52:58,0.001s,PASSED
+,,,,,,,
+Test Cases/Digital_NSTP/NSTPPortal/SubmitPageProceedToBackOffice,Chrome 126.0.0.0,,,27-06-2024 16:52:58,27-06-2024 16:53:12,13.272s,PASSED
+autoLoanProtal.SubmitPage.proceedToPreReleaseFunNSTP(),Chrome 126.0.0.0,,,27-06-2024 16:52:59,27-06-2024 16:53:10,11.147s,PASSED
+Video,Chrome 126.0.0.0,,,27-06-2024 16:53:12,27-06-2024 16:53:12,0.001s,PASSED

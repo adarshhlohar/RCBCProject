@@ -1,11 +1,16 @@
 {
-  "keywordFileContentHash": "946FDECF57E7CC3781AE15FABE403C5E",
+  "keywordFileContentHash": "F2B1794D5370FDA24D751739D12FD54F",
   "keywordClasses": [
     {
       "name": "tabSection.vouching",
       "keywordMethods": [
         {
           "name": "vouchingDeatilForSD_Approver",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "vouchingApproverCMG",
           "parameters": [],
           "javadoc": ""
         },

@@ -15,7 +15,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/DigitalFlows/NSTPDigital/testSuiteForPortalNSTP</testSuiteEntity>
+         <testSuiteEntity>Test Suites/DigitalFlows/NSTPDigital/PortalNSTP</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -25,7 +25,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/DigitalFlows/NSTPDigital/testSuiteForEncoderNSTP</testSuiteEntity>
+         <testSuiteEntity>Test Suites/DigitalFlows/NSTPDigital/EncoderNSTP</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -35,7 +35,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/DigitalFlows/NSTPDigital/testSuiteForCOMakerNSTP</testSuiteEntity>
+         <testSuiteEntity>Test Suites/DigitalFlows/NSTPDigital/COMakerNSTP</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -45,7 +45,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/DigitalFlows/NSTPDigital/testSuiteForCOApproverNSTP</testSuiteEntity>
+         <testSuiteEntity>Test Suites/DigitalFlows/NSTPDigital/COApproverNSTP</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -95,7 +95,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/DigitalFlows/NSTPDigital/testSuiteNSTPPreAndPost</testSuiteEntity>
+         <testSuiteEntity>Test Suites/DigitalFlows/NSTPDigital/NSTPPreAndPost</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -105,7 +105,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/DigitalFlows/NSTPDigital/testSuiteForAONSTP</testSuiteEntity>
+         <testSuiteEntity>Test Suites/DigitalFlows/NSTPDigital/AONSTP</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -114,7 +114,7 @@
             <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
-         <runEnabled>false</runEnabled>
+         <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/DigitalFlows/NSTPDigital/SD_Approver</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -125,7 +125,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/DigitalFlows/NSTPDigital/testSuiteForFullfillmentNSTP</testSuiteEntity>
+         <testSuiteEntity>Test Suites/DigitalFlows/NSTPDigital/FullfillmentNSTP</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

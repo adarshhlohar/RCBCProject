@@ -95,4 +95,79 @@ public class HomePageForibpsSD_Approver {
 			WebUI.delay(2)
 		}
 	}
+	
+	
+	@Keyword
+	def SDApproverVouching() {
+		WebUI.waitForPageLoad(5)
+
+		WebUI.delay(1)
+
+		if(WebUI.waitForElementClickable(findTestObject("Object Repository/BackOffice/SDApprover/ibpsHomePage/SDApprover5"), 2)) {
+			//clicking on encoder
+			WebUI.click(findTestObject("Object Repository/BackOffice/SDApprover/ibpsHomePage/vouchingApproverCLG"))
+
+			WebUI.delay(2)
+			GlobalVariableUtil.loadGlobalVariable();
+
+			WebUI.delay(3)
+
+			println(" ******* " + GlobalVariable.LOSID)
+
+			WebUI.comment(" ******** " + GlobalVariable.LOSID)
+
+			String xpath = "//label[text()='" + GlobalVariable.LOSID + "']"
+
+			WebDriver driver = DriverFactory.getWebDriver()
+
+
+			driver.switchTo().frame("iframe_Int42")
+
+			Thread.sleep(100)
+			WebUI.delay(1)
+			GlobalVariableUtil.captureScreenShotWithTime()
+
+			driver.findElement(By.xpath(xpath)).click()
+
+			//clicking on resistration
+			//			WebUI.click(findTestObject("Object Repository/BackOffice/AO/ibpsHomePage/resistrationNumberFirst"))
+		}else {
+			WebUI.delay(1)
+			WebUI.click(findTestObject("Object Repository/ibpsLogOut/label_QK_CO7"))
+			WebUI.delay(1)
+			WebUI.click(findTestObject("Object Repository/ibpsLogOut/label_User Desktop"))
+			WebUI.delay(2)
+			//clicking on encoder
+			WebUI.click(findTestObject("Object Repository/BackOffice/SDApprover/ibpsHomePage/vouchingApproverCLG"))
+
+
+			GlobalVariableUtil.loadGlobalVariable();
+
+			WebUI.delay(3)
+
+			println(" ******* " + GlobalVariable.LOSID)
+
+			WebUI.comment(" ******** " + GlobalVariable.LOSID)
+
+			WebUI.delay(1)
+
+			String xpath = "//label[text()='" + GlobalVariable.LOSID + "']"
+
+			WebDriver driver = DriverFactory.getWebDriver()
+
+
+			driver.switchTo().frame("iframe_Int42")
+
+			Thread.sleep(100)
+			WebUI.delay(1)
+			GlobalVariableUtil.captureScreenShotWithTime()
+
+			driver.findElement(By.xpath(xpath)).click()
+
+			//clicking on resistration
+			//			WebUI.click(findTestObject("Object Repository/BackOffice/AO/ibpsHomePage/resistrationNumberFirst"))
+
+			WebUI.delay(2)
+		}
+	}
 }

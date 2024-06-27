@@ -1,0 +1,16 @@
+{"testCaseName":"Test Cases/Digital_STPWithAndWithoutAPI/testCaseForFullfillmentWithAndWithout/LoginPage","testCaseId":"Test Cases/Digital_STPWithAndWithoutAPI/testCaseForFullfillmentWithAndWithout/LoginPage","iterationVariableName":""}
+{"testCaseName":"Test Cases/Digital_STPWithAndWithoutAPI/testCaseForFullfillmentWithAndWithout/HomePage","testCaseId":"Test Cases/Digital_STPWithAndWithoutAPI/testCaseForFullfillmentWithAndWithout/HomePage","iterationVariableName":""}
+{"testCaseName":"Test Cases/Digital_NSTP/testCaseForFullfillmentNSTP/ClientInformation","testCaseId":"Test Cases/Digital_NSTP/testCaseForFullfillmentNSTP/ClientInformation","iterationVariableName":""}
+{"testCaseName":"Test Cases/Digital_NSTP/testCaseForFullfillmentNSTP/LoanInformation","testCaseId":"Test Cases/Digital_NSTP/testCaseForFullfillmentNSTP/LoanInformation","iterationVariableName":""}
+{"testCaseName":"Test Cases/Digital_NSTP/testCaseForFullfillmentNSTP/DocumentChecklist","testCaseId":"Test Cases/Digital_NSTP/testCaseForFullfillmentNSTP/DocumentChecklist","iterationVariableName":""}
+{"testCaseName":"Test Cases/Digital_NSTP/testCaseForFullfillmentNSTP/CollateralInformation","testCaseId":"Test Cases/Digital_NSTP/testCaseForFullfillmentNSTP/CollateralInformation","iterationVariableName":""}
+{"testCaseName":"Test Cases/Digital_NSTP/testCaseForFullfillmentNSTP/CheckEligibility","testCaseId":"Test Cases/Digital_NSTP/testCaseForFullfillmentNSTP/CheckEligibility","iterationVariableName":""}
+{"testCaseName":"Test Cases/Digital_NSTP/testCaseForFullfillmentNSTP/CreditEvaluation","testCaseId":"Test Cases/Digital_NSTP/testCaseForFullfillmentNSTP/CreditEvaluation","iterationVariableName":""}
+{"testCaseName":"Test Cases/Digital_NSTP/testCaseForFullfillmentNSTP/Deviations","testCaseId":"Test Cases/Digital_NSTP/testCaseForFullfillmentNSTP/Deviations","iterationVariableName":""}
+{"testCaseName":"Test Cases/Digital_NSTP/testCaseForFullfillmentNSTP/CreditInvestigation","testCaseId":"Test Cases/Digital_NSTP/testCaseForFullfillmentNSTP/CreditInvestigation","iterationVariableName":""}
+{"testCaseName":"Test Cases/Digital_NSTP/testCaseForFullfillmentNSTP/InsuranceInformation","testCaseId":"Test Cases/Digital_NSTP/testCaseForFullfillmentNSTP/InsuranceInformation","iterationVariableName":""}
+{"testCaseName":"Test Cases/Digital_NSTP/testCaseForFullfillmentNSTP/DisbursementInformation","testCaseId":"Test Cases/Digital_NSTP/testCaseForFullfillmentNSTP/DisbursementInformation","iterationVariableName":""}
+{"testCaseName":"Test Cases/Digital_NSTP/testCaseForFullfillmentNSTP/SystemInterfaceStatus","testCaseId":"Test Cases/Digital_NSTP/testCaseForFullfillmentNSTP/SystemInterfaceStatus","iterationVariableName":""}
+{"testCaseName":"Test Cases/Digital_NSTP/testCaseForFullfillmentNSTP/AlertSummary","testCaseId":"Test Cases/Digital_NSTP/testCaseForFullfillmentNSTP/AlertSummary","iterationVariableName":""}
+{"testCaseName":"Test Cases/Digital_NSTP/testCaseForFullfillmentNSTP/Action","testCaseId":"Test Cases/Digital_NSTP/testCaseForFullfillmentNSTP/Action","iterationVariableName":""}
+{"testCaseName":"Test Cases/LogOut/logout","testCaseId":"Test Cases/LogOut/logout","iterationVariableName":""}

@@ -1,0 +1,4 @@
+1
+00:00:00,130 --> 00:02:26,490
+1. tabSection.CustomerDetail.clientInformationForEncoderPaperBasedNSTP()
+

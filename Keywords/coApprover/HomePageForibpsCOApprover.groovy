@@ -94,4 +94,36 @@ public class HomePageForibpsCOApprover {
 			WebUI.delay(2)
 		}
 	}
+
+
+	@Keyword
+	def COApproverCMG(){
+		WebUI.waitForPageLoad(5)
+
+
+		if(WebUI.waitForElementClickable(findTestObject("Object Repository/BackOffice/COApprover/ibpsHomePage/COApprover"), 2)) {
+			WebUI.click(findTestObject("Object Repository/BackOffice/COApprover/ibpsHomePage/COApproverCMG"))
+
+			GlobalVariableUtil.loadGlobalVariable();
+			WebUI.delay(2)
+
+			println(" ******* " + GlobalVariable.LOSID)
+
+			WebUI.comment(" ******** " + GlobalVariable.LOSID)
+
+
+			String xpath = "//label[text()='" + GlobalVariable.LOSID + "']"
+
+			WebDriver driver = DriverFactory.getWebDriver()
+
+
+			driver.switchTo().frame("iframe_Int42")
+
+			Thread.sleep(100)
+
+			WebUI.delay(1)
+			GlobalVariableUtil.captureScreenShotWithTime()
+			driver.findElement(By.xpath(xpath)).click()
+		}
+	}
 }

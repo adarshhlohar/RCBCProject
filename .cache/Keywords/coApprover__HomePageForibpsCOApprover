@@ -1,11 +1,16 @@
 {
-  "keywordFileContentHash": "01BA5E31D4AE0A2B1881C20123B4CE76",
+  "keywordFileContentHash": "D74F3F8033852EF903F3B7E78823F6F5",
   "keywordClasses": [
     {
       "name": "coApprover.HomePageForibpsCOApprover",
       "keywordMethods": [
         {
           "name": "selectResistration",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "COApproverCMG",
           "parameters": [],
           "javadoc": ""
         }

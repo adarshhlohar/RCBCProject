@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+VouchingApproverCO,Chrome 126.0.0.0,,,27-06-2024 17:36:19,27-06-2024 17:38:19,2m - 0.030s,PASSED
+,,,,,,,
+Test Cases/NSTP_VouchingMRAC/VouchingApprover/loginPage,Chrome 126.0.0.0,,,27-06-2024 17:36:19,27-06-2024 17:37:06,46.664s,PASSED
+vouchingApprover.LoginForibpsCOApprover.login(),Chrome 126.0.0.0,,,27-06-2024 17:36:23,27-06-2024 17:37:03,40.366s,PASSED
+Video,Chrome 126.0.0.0,,,27-06-2024 17:37:06,27-06-2024 17:37:06,0.005s,PASSED
+,,,,,,,
+Test Cases/NSTP_VouchingMRAC/VouchingApprover/HomePage,Chrome 126.0.0.0,,,27-06-2024 17:37:06,27-06-2024 17:37:22,16.145s,PASSED
+coApprover.HomePageForibpsCOApprover.COApproverCMG(),Chrome 126.0.0.0,,,27-06-2024 17:37:07,27-06-2024 17:37:20,13.215s,PASSED
+Video,Chrome 126.0.0.0,,,27-06-2024 17:37:22,27-06-2024 17:37:22,0.004s,PASSED
+,,,,,,,
+Test Cases/NSTP_VouchingMRAC/VouchingApprover/clientInfo,Chrome 126.0.0.0,,,27-06-2024 17:37:22,27-06-2024 17:37:39,16.465s,PASSED
+tabSection.CustomerDetail.clientInformationCommon(),Chrome 126.0.0.0,,,27-06-2024 17:37:23,27-06-2024 17:37:37,14.036s,PASSED
+Video,Chrome 126.0.0.0,,,27-06-2024 17:37:39,27-06-2024 17:37:39,0.001s,PASSED
+,,,,,,,
+Test Cases/NSTP_VouchingMRAC/VouchingApprover/Vouching,Chrome 126.0.0.0,,,27-06-2024 17:37:39,27-06-2024 17:37:46,6.960s,PASSED
+tabSection.vouching.vouchingApproverCMG(),Chrome 126.0.0.0,,,27-06-2024 17:37:39,27-06-2024 17:37:44,4.674s,PASSED
+Video,Chrome 126.0.0.0,,,27-06-2024 17:37:46,27-06-2024 17:37:46,0.002s,PASSED
+,,,,,,,
+Test Cases/NSTP_VouchingMRAC/VouchingApprover/Action,Chrome 126.0.0.0,,,27-06-2024 17:37:46,27-06-2024 17:38:02,15.740s,PASSED
+tabSection.Action.submitForAO(),Chrome 126.0.0.0,,,27-06-2024 17:37:46,27-06-2024 17:38:00,13.567s,PASSED
+Video,Chrome 126.0.0.0,,,27-06-2024 17:38:02,27-06-2024 17:38:02,0.001s,PASSED
+,,,,,,,
+Test Cases/LogOut/logout,Chrome 126.0.0.0,,,27-06-2024 17:38:02,27-06-2024 17:38:19,16.950s,PASSED
+signOutibps.SignOut.logout(),Chrome 126.0.0.0,,,27-06-2024 17:38:02,27-06-2024 17:38:17,14.727s,PASSED
+Video,Chrome 126.0.0.0,,,27-06-2024 17:38:19,27-06-2024 17:38:19,0.002s,PASSED

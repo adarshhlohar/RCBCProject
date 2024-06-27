@@ -1,4 +1,0 @@
-1
-00:00:00,109 --> 00:00:09,177
-1. paperBasedPortal.SubmitPage.proceedToPreReleaseFun()
-
