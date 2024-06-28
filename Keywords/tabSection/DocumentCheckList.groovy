@@ -118,6 +118,57 @@ public class DocumentCheckList {
 		WebUI.switchToWindowIndex(currentWindow - 1)
 	}
 
+
+
+	def viewDocumentCallAtTime(){
+
+		String viewIDType = "Object Repository/DocumentCheckListForPreRelease/KycDocuments/viewIdTypeDocument"
+		if(WebUI.waitForElementPresent(findTestObject(viewIDType), 1)) {
+			viewDocument(viewIDType)
+		}
+
+		String viewIncomeDocument = "Object Repository/DocumentCheckListForPreRelease/FinancialDocument/viewIncomeDocument"
+		if(WebUI.waitForElementPresent(findTestObject(viewIncomeDocument), 1)) {
+			viewDocument(viewIncomeDocument)
+		}
+
+		String viewDoc1 = "Object Repository/DocumentCheckListForPreRelease/OutwardDocument/viewBtn1"
+		if(WebUI.waitForElementPresent(findTestObject(viewDoc1), 1)) {
+			viewDocument(viewDoc1)
+		}
+
+		String viewDoc2 = "Object Repository/DocumentCheckListForPreRelease/OutwardDocument/viewBtn2"
+		if(WebUI.waitForElementPresent(findTestObject(viewDoc2), 1)) {
+			viewDocument(viewDoc2)
+		}
+		String viewDoc3 = "Object Repository/DocumentCheckListForPreRelease/OutwardDocument/viewBtn3"
+		if(WebUI.waitForElementPresent(findTestObject(viewDoc3), 1)) {
+			viewDocument(viewDoc3)
+		}
+
+		String viewDoc4 = "Object Repository/DocumentCheckListForPreRelease/OutwardDocument/viewBtn4"
+		if(WebUI.waitForElementPresent(findTestObject(viewDoc4), 1)) {
+			viewDocument(viewDoc4)
+		}
+
+
+		String viewDoc5 = "Object Repository/DocumentCheckListForPreRelease/OutwardDocument/viewBtn5"
+		if(WebUI.waitForElementPresent(findTestObject(viewDoc5), 1)) {
+			viewDocument(viewDoc5)
+		}
+
+
+		String viewDoc6 = "Object Repository/DocumentCheckListForPreRelease/OutwardDocument/viewBtn6"
+		if(WebUI.waitForElementPresent(findTestObject(viewDoc6), 1)) {
+			viewDocument(viewDoc6)
+		}
+
+		String viewDoc7 = "Object Repository/DocumentCheckListForPreRelease/OutwardDocument/viewBtn7"
+		if(WebUI.waitForElementClickable(findTestObject(viewDoc7), 1)) {
+			viewDocument(viewDoc7)
+		}
+	}
+
 	/*
 	 * This is the method for document checklist in PreRelease
 	 */
@@ -348,6 +399,7 @@ public class DocumentCheckList {
 		try {
 			//clicking on the document checklist tab
 			WebUI.click(findTestObject('Object Repository/TabSection/DocumentCheclist'))
+			
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 		}catch(Exception e) {
@@ -424,6 +476,7 @@ public class DocumentCheckList {
 			//clicking on the document checklist tab
 			WebUI.click(findTestObject('Object Repository/TabSection/DocumentCheclist'))
 			WebUI.delay(1)
+			viewDocumentCallAtTime()
 			GlobalVariableUtil.captureScreenShotWithTime()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
@@ -631,6 +684,26 @@ public class DocumentCheckList {
 			WebUI.click(findTestObject('Object Repository/TabSection/DocumentCheclist'))
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
+		}catch(Exception e) {
+			//If the script is fail it will take the ScreenShot Where the Script is failed
+			WebUI.takeScreenshot()
+			//printing the reason in console
+			println(e.toString())
+		}
+	}
+
+
+	/*
+	 * This is the method for document Checklist Booking
+	 */
+	@Keyword
+	def documentCheckListBooking() {
+		try {
+			//clicking on the document checklist tab
+			WebUI.click(findTestObject('Object Repository/TabSection/DocumentCheclist'))
+			WebUI.delay(1)
+			GlobalVariableUtil.captureScreenShotWithTime()
+			viewDocumentCallAtTime()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()

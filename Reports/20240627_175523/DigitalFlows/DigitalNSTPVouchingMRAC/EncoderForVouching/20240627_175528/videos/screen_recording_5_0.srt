@@ -1,4 +1,0 @@
-1
-00:00:00,106 --> 00:00:05,211
-1. tabSection.DocumentCheckList.documentCheckListForEncoder()
-

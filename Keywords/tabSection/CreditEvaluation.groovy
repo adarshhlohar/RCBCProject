@@ -3,6 +3,7 @@ package tabSection
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 import com.kms.katalon.core.annotation.Keyword
+import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 import globalVariableUtils.GlobalVariableUtil
@@ -11,6 +12,20 @@ import globalVariableUtils.GlobalVariableUtil
 
 
 public class CreditEvaluation {
+	
+	
+	
+	def checkALL() {
+		if(WebUI.verifyElementPresent(findTestObject("Object Repository/BackOffice/CreditEvaluation/otherCreditCheckings"), 1,FailureHandling.OPTIONAL)) {
+			WebUI.scrollToElement(findTestObject("Object Repository/BackOffice/CreditEvaluation/otherCreditCheckings"), 1,FailureHandling.OPTIONAL)
+			GlobalVariableUtil.captureScreenShotWithTime()
+		}
+		
+		if(WebUI.verifyElementPresent(findTestObject("Object Repository/BackOffice/CreditEvaluation/NTBBankCheck"), 1,FailureHandling.OPTIONAL)) {
+			WebUI.scrollToElement(findTestObject("Object Repository/BackOffice/CreditEvaluation/NTBBankCheck"), 1,FailureHandling.OPTIONAL)
+			GlobalVariableUtil.captureScreenShotWithTime()
+		}
+	}
 
 	def enterNTBBankCheck() {
 
@@ -37,7 +52,7 @@ public class CreditEvaluation {
 
 	def otherExistingLoanCheck() {
 
-		
+
 		WebUI.click(findTestObject("Object Repository/BackOffice/EncoderNSTP/creditEvaluation/OtherExistingLoanCheck/plusIcon"))
 
 		WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/EncoderNSTP/creditEvaluation/OtherExistingLoanCheck/typeOfLoan"), 1)
@@ -53,7 +68,7 @@ public class CreditEvaluation {
 		WebUI.setText(findTestObject("Object Repository/BackOffice/EncoderNSTP/creditEvaluation/OtherExistingLoanCheck/monthlyAmortization"),"69000")
 
 		WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/EncoderNSTP/creditEvaluation/OtherExistingLoanCheck/loanRating"), 1)
-		
+
 		WebUI.delay(1)
 		GlobalVariableUtil.captureScreenShotWithTime()
 
@@ -116,7 +131,6 @@ public class CreditEvaluation {
 			WebUI.click(findTestObject("Object Repository/TabSection/creditEvaluation"))
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
-
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -136,7 +150,6 @@ public class CreditEvaluation {
 			WebUI.click(findTestObject("Object Repository/TabSection/creditEvaluation"))
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
-
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -320,7 +333,6 @@ public class CreditEvaluation {
 			WebUI.click(findTestObject("Object Repository/TabSection/creditEvaluation"))
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
-
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -340,7 +352,6 @@ public class CreditEvaluation {
 			WebUI.click(findTestObject("Object Repository/TabSection/creditEvaluation"))
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
-
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -385,7 +396,6 @@ public class CreditEvaluation {
 			WebUI.click(findTestObject("Object Repository/TabSection/creditEvaluation"))
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
-
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -393,4 +403,25 @@ public class CreditEvaluation {
 			println(e.toString())
 		}
 	}
+	
+	
+	
+	@Keyword
+	def creditEvaluationBooking() {
+		try {
+			//clicking on the credit evaluation tab
+			WebUI.click(findTestObject("Object Repository/TabSection/creditEvaluation"))
+			WebUI.delay(1)
+			GlobalVariableUtil.captureScreenShotWithTime()
+			checkALL()
+		}catch(Exception e) {
+			//If the script is fail it will take the ScreenShot Where the Script is failed
+			WebUI.takeScreenshot()
+			//printing the reason in console
+			println(e.toString())
+		}
+	}
+	
+	
+	
 }

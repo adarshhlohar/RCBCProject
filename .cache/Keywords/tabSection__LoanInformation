@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "E48D40216664001A3C1A31F2B22B1B86",
+  "keywordFileContentHash": "7CF679A7496E2033E81EB460C26BD2C5",
   "keywordClasses": [
     {
       "name": "tabSection.LoanInformation",
@@ -859,6 +859,11 @@
           "name": "loanInfoCommonForAfterAmendment",
           "parameters": [],
           "javadoc": "/**\r\n\t * This method is for PreRelease Loan Information Paper based\r\n\t * @return\r\n\t */"
+        },
+        {
+          "name": "LoanInformationForBooking",
+          "parameters": [],
+          "javadoc": ""
         }
       ]
     }

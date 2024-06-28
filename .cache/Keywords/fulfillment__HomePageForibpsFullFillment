@@ -1,11 +1,16 @@
 {
-  "keywordFileContentHash": "4EB8629DA04992010736CCA70F45E4CF",
+  "keywordFileContentHash": "BD7B2E4B82EF895CCE1F776828CC6DE6",
   "keywordClasses": [
     {
       "name": "fulfillment.HomePageForibpsFullFillment",
       "keywordMethods": [
         {
           "name": "selectResistration",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "selectResistrationForBooking",
           "parameters": [],
           "javadoc": ""
         }

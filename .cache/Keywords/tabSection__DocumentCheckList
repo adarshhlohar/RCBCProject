@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "C0FE152FF525DA23BC50827C1DE6E309",
+  "keywordFileContentHash": "01B4A97FFDF84377C3374395EEB730C8",
   "keywordClasses": [
     {
       "name": "tabSection.DocumentCheckList",
@@ -71,6 +71,11 @@
         },
         {
           "name": "documentCheckListCommon",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "documentCheckListBooking",
           "parameters": [],
           "javadoc": ""
         }

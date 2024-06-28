@@ -425,6 +425,7 @@ public class CheckEligibility {
 
 			checkEligibilityForPaperBased()
 
+			checkEligibilityForCoBorrower()
 			WebUI.setText(findTestObject("Object Repository/BackOffice/EncoderNSTP/checkEligibility/quickCheckNumericalScore"), "2000")
 
 			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/EncoderNSTP/checkEligibility/quickCheckRiskLevel"),6)
@@ -623,6 +624,20 @@ public class CheckEligibility {
 			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/EncoderNSTP/checkEligibility/compreCheckRiskLevel"),6)
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
+		}catch(Exception e) {
+			//If the script is fail it will take the ScreenShot Where the Script is failed
+			WebUI.takeScreenshot()
+			//printing the reason in console
+			println(e.toString())
+		}
+	}
+
+
+	@Keyword
+	checkEligibilityForBooking(){
+		try {
+			//clicking on the check eligibilty tab
+			WebUI.click(findTestObject("Object Repository/TabSection/checkEligibility"))
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()

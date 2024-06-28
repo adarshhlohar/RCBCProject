@@ -534,6 +534,8 @@ public class CustomerDetail {
 			matchReferenceNumber()
 
 			enterPricipalDetail()
+
+			enterCoBorrowerDetailNSTPPaperbase()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -773,9 +775,32 @@ public class CustomerDetail {
 			println(e.toString())
 		}
 	}
-	
+
 	@Keyword
 	def clientInformationBooking() {
-		
+		try {
+			WebUI.waitForPageLoad(10)
+			WebUI.delay(1)
+			def parentWindowId = WebUI.getWindowIndex()
+
+			WebUI.switchToWindowIndex(parentWindowId+1)
+
+			matchReferenceNumber()
+
+			WebUI.click(findTestObject("Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/principal"))
+			WebUI.scrollToElement(findTestObject("Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/cifNumber"), 1)
+			String accountNumber = WebUI.getAttribute(findTestObject("Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/RCBCCurrentOrSavingAccountNumber"), "title")
+			String cifNumber = WebUI.getAttribute(findTestObject("Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/cifNumber"), "title")
+
+			GlobalVariableUtil.saveGlobalVariable("AccountNumber", accountNumber)
+			GlobalVariableUtil.saveGlobalVariable("CIFNumber", cifNumber)
+			GlobalVariableUtil.captureScreenShotWithTime()
+			WebUI.click(findTestObject("Object Repository/ClientInformationPreRelease/saveChanges"))
+		}catch(Exception e) {
+			//If the script is fail it will take the ScreenShot Where the Script is failed
+			WebUI.takeScreenshot()
+			//printing the reason in console
+			println(e.toString())
+		}
 	}
 }

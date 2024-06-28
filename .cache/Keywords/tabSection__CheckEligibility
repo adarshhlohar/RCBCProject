@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "49F4BDAEEE1AB5AF8E0F3F650D0CB8B2",
+  "keywordFileContentHash": "FDDA1D0E1898961AC407412A9C21662F",
   "keywordClasses": [
     {
       "name": "tabSection.CheckEligibility",
@@ -78,6 +78,11 @@
           "name": "checkEligibilityForEncoderNSTPAccuity",
           "parameters": [],
           "javadoc": "/**\r\n\t * This method is used for check eligibility Encoder\r\n\t * @return\r\n\t */"
+        },
+        {
+          "name": "checkEligibilityForBooking",
+          "parameters": [],
+          "javadoc": ""
         }
       ]
     }

@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "35ACC541304A3273D021CE38015854C5",
+  "keywordFileContentHash": "B975F9386960F7D9C34FF1313CAD30A2",
   "keywordClasses": [
     {
       "name": "tabSection.SystemInterfaceStatus",
@@ -36,6 +36,11 @@
         },
         {
           "name": "systemInterfaceStatusForCommon",
+          "parameters": [],
+          "javadoc": "/**\r\n\t * This is System Interface Status page\r\n\t * @return\r\n\t */"
+        },
+        {
+          "name": "systemInterfaceStatusForBooking",
           "parameters": [],
           "javadoc": "/**\r\n\t * This is System Interface Status page\r\n\t * @return\r\n\t */"
         }

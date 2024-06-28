@@ -3,6 +3,7 @@ package tabSection
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 import com.kms.katalon.core.annotation.Keyword
+import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 import globalVariableUtils.GlobalVariableUtil
@@ -12,6 +13,18 @@ import internal.GlobalVariable
 
 
 public class DisbursementInfo {
+
+	def checkALL() {
+		if(WebUI.verifyElementPresent(findTestObject("Object Repository/BackOffice/DisbursementInformation/loanProceed"), 1,FailureHandling.OPTIONAL)) {
+			WebUI.scrollToElement(findTestObject("Object Repository/BackOffice/DisbursementInformation/loanProceed"), 1,FailureHandling.OPTIONAL)
+			GlobalVariableUtil.captureScreenShotWithTime()
+		}
+
+		if(WebUI.verifyElementPresent(findTestObject("Object Repository/BackOffice/DisbursementInformation/AgentKeymansCommission"), 1,FailureHandling.OPTIONAL)) {
+			WebUI.scrollToElement(findTestObject("Object Repository/BackOffice/DisbursementInformation/AgentKeymansCommission"), 1,FailureHandling.OPTIONAL)
+			GlobalVariableUtil.captureScreenShotWithTime()
+		}
+	}
 
 	/**
 	 * This metnhod is for the fulfillment Disbursement Information
@@ -418,6 +431,29 @@ public class DisbursementInfo {
 			//			if(WebUI.waitForElementPresent(findTestObject("Object Repository/TabSection/nextArrowButton"), 2)) {
 			//				WebUI.click(findTestObject("Object Repository/TabSection/nextArrowButton"))
 			//			}
+		}catch(Exception e) {
+			//If the script is fail it will take the ScreenShot Where the Script is failed
+			WebUI.takeScreenshot()
+			//printing the reason in console
+			println(e.toString())
+		}
+	}
+
+
+
+	/**
+	 * This method is for the COMaker Disbursement Information
+	 * @return
+	 */
+	@Keyword
+	def disbursementInformationForBooking() {
+		try {
+			//clicking on the Disbursement Info Tab
+			WebUI.click(findTestObject("Object Repository/TabSection/DisbursementInformation"))
+			WebUI.delay(1)
+			GlobalVariableUtil.captureScreenShotWithTime()
+			WebUI.click(findTestObject("Object Repository/TabSection/nextArrowButton"))
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()

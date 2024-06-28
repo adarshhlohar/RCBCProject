@@ -1,4 +1,0 @@
-1
-00:00:00,082 --> 00:00:11,714
-1. tabSection.vouching.VouchingForAll()
-

@@ -115,7 +115,7 @@ public class AlertsSummary {
 		try {
 			//clicking on alert summary tab
 			WebUI.click(findTestObject("Object Repository/TabSection/AlertSummary"))
-			
+
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
@@ -140,7 +140,7 @@ public class AlertsSummary {
 		try {
 			//clicking on alert summary tab
 			WebUI.click(findTestObject("Object Repository/TabSection/AlertSummary"))
-			
+
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
@@ -165,7 +165,7 @@ public class AlertsSummary {
 		try {
 			//clicking on alert summary tab
 			WebUI.click(findTestObject("Object Repository/TabSection/AlertSummary"))
-			
+
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
@@ -190,7 +190,7 @@ public class AlertsSummary {
 		try {
 			//clicking on alert summary tab
 			WebUI.click(findTestObject("Object Repository/TabSection/AlertSummary"))
-			
+
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
@@ -215,10 +215,33 @@ public class AlertsSummary {
 		try {
 			//clicking on alert summary tab
 			WebUI.click(findTestObject("Object Repository/TabSection/AlertSummary"))
-			
+
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
+
+			//clicking on next arrow button
+			WebUI.click(findTestObject("Object Repository/TabSection/nextArrowButton"))
+		}catch(Exception e) {
+			//If the script is fail it will take the ScreenShot Where the Script is failed
+			WebUI.takeScreenshot()
+			//printing the reason in console
+			println(e.toString())
+		}
+	}
+	
+	/**
+	 * This metnhod is for the AO Alert Summary
+	 * @return
+	 */
+	@Keyword
+	def alertsSummaryForBooking() {
+		try {
+			//clicking on alert summary tab
+			WebUI.click(findTestObject("Object Repository/TabSection/AlertSummary"))
+
+			WebUI.delay(1)
+			GlobalVariableUtil.captureScreenShotWithTime()
 
 			//clicking on next arrow button
 			WebUI.click(findTestObject("Object Repository/TabSection/nextArrowButton"))

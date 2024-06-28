@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "2B461A1DDB82F99661DB34EE2C4F7C68",
+  "keywordFileContentHash": "3AF023A090799C30A6E0795C298244C7",
   "keywordClasses": [
     {
       "name": "tabSection.AlertsSummary",
@@ -46,6 +46,11 @@
         },
         {
           "name": "alertsSummaryForCommon",
+          "parameters": [],
+          "javadoc": "/**\r\n\t * This metnhod is for the AO Alert Summary\r\n\t * @return\r\n\t */"
+        },
+        {
+          "name": "alertsSummaryForBooking",
           "parameters": [],
           "javadoc": "/**\r\n\t * This metnhod is for the AO Alert Summary\r\n\t * @return\r\n\t */"
         }

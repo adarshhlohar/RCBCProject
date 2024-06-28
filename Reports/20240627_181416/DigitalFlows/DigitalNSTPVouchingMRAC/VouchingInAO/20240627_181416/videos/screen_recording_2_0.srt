@@ -1,4 +1,0 @@
-1
-00:00:00,107 --> 00:00:13,280
-1. accountOfficer.HomePageForibpsAO.selectResistration()
-

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DisbursmentInformation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d983b8b8-0cb4-4d44-b08f-783e62f9509c</testCaseGuid>
+</TestCaseEntity>

@@ -61,7 +61,7 @@ public class CreditInvestigation {
 			WebUI.click(findTestObject("Object Repository/TabSection/creditInvestigation"))
 
 			saveCINumber()
-			
+
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
@@ -109,7 +109,7 @@ public class CreditInvestigation {
 		try {
 			//clicking the credit Investigation tab
 			WebUI.click(findTestObject("Object Repository/TabSection/creditInvestigation"))
-			
+
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
@@ -134,7 +134,7 @@ public class CreditInvestigation {
 		try {
 			//clicking the credit Investigation tab
 			WebUI.click(findTestObject("Object Repository/TabSection/creditInvestigation"))
-			
+
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
@@ -250,7 +250,7 @@ public class CreditInvestigation {
 		try {
 			//clicking the credit Investigation tab
 			WebUI.click(findTestObject("Object Repository/TabSection/creditInvestigation"))
-			
+
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
@@ -275,7 +275,7 @@ public class CreditInvestigation {
 		try {
 			//clicking the credit Investigation tab
 			WebUI.click(findTestObject("Object Repository/TabSection/creditInvestigation"))
-			
+
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
@@ -301,7 +301,30 @@ public class CreditInvestigation {
 		try {
 			//clicking the credit Investigation tab
 			WebUI.click(findTestObject("Object Repository/TabSection/creditInvestigation"))
-			
+
+			WebUI.delay(1)
+			GlobalVariableUtil.captureScreenShotWithTime()
+
+
+			//clicking on the next arrow button
+			WebUI.click(findTestObject("Object Repository/TabSection/nextArrowButton"))
+		}catch(Exception e) {
+			//If the script is fail it will take the ScreenShot Where the Script is failed
+			WebUI.takeScreenshot()
+			//printing the reason in console
+			println(e.toString())
+		}
+	}
+	
+	
+	
+	
+	@Keyword
+	def creditInvestigationForBooking() {
+		try {
+			//clicking the credit Investigation tab
+			WebUI.click(findTestObject("Object Repository/TabSection/creditInvestigation"))
+
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 

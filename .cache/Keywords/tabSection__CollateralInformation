@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "29195C07C42DBE1BF46D59012E152B16",
+  "keywordFileContentHash": "29E1C7F1EE8379CCA93A269A75BF22FC",
   "keywordClasses": [
     {
       "name": "tabSection.CollateralInformation",
@@ -111,6 +111,11 @@
         },
         {
           "name": "collateralInformationCommon",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "collateralInformationBooking",
           "parameters": [],
           "javadoc": ""
         }
