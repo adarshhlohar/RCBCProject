@@ -115,4 +115,57 @@ public class HomePageForibpsFullFillment {
 			}
 		}
 	}
+
+
+
+	@Keyword
+	def selectResistrationForBooking() {
+		WebUI.waitForPageLoad(5)
+
+		if(WebUI.waitForElementClickable(findTestObject("Object Repository/BackOffice/Fulfillment/ibpsHomePage/fullfillment"), 2)) {
+
+			WebUI.delay(1)
+			GlobalVariableUtil.loadGlobalVariable();
+
+			println(" ******* " + GlobalVariable.LOSID)
+
+			WebUI.comment(" ******** " + GlobalVariable.LOSID)
+
+			String xpath = "//label[text()='" + GlobalVariable.LOSID + "']"
+
+
+			WebUI.click(findTestObject("Object Repository/BackOffice/Fulfillment/ibpsHomePage/booking"))
+
+			//sorting by the latest first
+			WebUI.click(findTestObject("Object Repository/BackOffice/COMaker/ibpsHomePage/resistrationNo"))
+
+			WebDriver driver = DriverFactory.getWebDriver()
+
+			driver.switchTo().frame("iframe_Int42")
+
+			Thread.sleep(100)
+			WebUI.delay(1)
+			driver.findElement(By.xpath(xpath)).click()
+
+			WebUI.delay(2)
+		}else {
+			WebUI.delay(1)
+			WebUI.click(findTestObject("Object Repository/ibpsLogOut/label_QK_CO7"))
+			WebUI.delay(1)
+			WebUI.click(findTestObject("Object Repository/ibpsLogOut/label_User Desktop"))
+
+			WebUI.delay(1)
+			GlobalVariableUtil.loadGlobalVariable();
+
+			println(" ******* " + GlobalVariable.LOSID)
+
+			WebUI.comment(" ******** " + GlobalVariable.LOSID)
+
+			String xpath = "//label[text()='" + GlobalVariable.LOSID + "']"
+
+			WebDriver driver = DriverFactory.getWebDriver()
+
+			driver.switchTo().frame("iframe_Int42")
+		}
+	}
 }

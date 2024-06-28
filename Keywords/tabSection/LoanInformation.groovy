@@ -2,6 +2,7 @@ package tabSection
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 import com.kms.katalon.core.annotation.Keyword
+import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 import globalVariableUtils.GlobalVariableUtil
@@ -9,6 +10,35 @@ import globalVariableUtils.GlobalVariableUtil
 
 
 public class LoanInformation {
+
+
+	def checkALL() {
+		if(WebUI.verifyElementPresent(findTestObject("Object Repository/LoanInformationPreRelease/LoanInformation"), 2,FailureHandling.OPTIONAL)) {
+			WebUI.scrollToElement(findTestObject("Object Repository/LoanInformationPreRelease/LoanInformation"), 1,FailureHandling.OPTIONAL)
+			GlobalVariableUtil.captureScreenShotWithTime()
+		}
+		if(WebUI.verifyElementPresent(findTestObject("Object Repository/LoanInformationPreRelease/LoanApproval"), 2,FailureHandling.OPTIONAL)) {
+			WebUI.scrollToElement(findTestObject("Object Repository/LoanInformationPreRelease/LoanApproval"), 1,FailureHandling.OPTIONAL)
+			GlobalVariableUtil.captureScreenShotWithTime()
+		}
+		if(WebUI.verifyElementPresent(findTestObject("Object Repository/LoanInformationPreRelease/PromisaryNoteInformation"), 2,FailureHandling.OPTIONAL)) {
+			WebUI.scrollToElement(findTestObject("Object Repository/LoanInformationPreRelease/PromisaryNoteInformation"), 1,FailureHandling.OPTIONAL)
+			GlobalVariableUtil.captureScreenShotWithTime()
+		}
+		if(WebUI.verifyElementPresent(findTestObject("Object Repository/LoanInformationPreRelease/RatesTab"), 2,FailureHandling.OPTIONAL)) {
+			WebUI.scrollToElement(findTestObject("Object Repository/LoanInformationPreRelease/RatesTab"), 1,FailureHandling.OPTIONAL)
+			GlobalVariableUtil.captureScreenShotWithTime()
+		}
+		if(WebUI.verifyElementPresent(findTestObject("Object Repository/LoanInformationPreRelease/PromisaryNoteInformation"), 2,FailureHandling.OPTIONAL)) {
+			WebUI.scrollToElement(findTestObject("Object Repository/LoanInformationPreRelease/PromisaryNoteInformation"), 1,FailureHandling.OPTIONAL)
+			GlobalVariableUtil.captureScreenShotWithTime()
+		}
+		if(WebUI.verifyElementPresent(findTestObject("Object Repository/LoanInformationPreRelease/modeOfPayment1"), 2,FailureHandling.OPTIONAL)) {
+			WebUI.scrollToElement(findTestObject("Object Repository/LoanInformationPreRelease/modeOfPayment1"), 1,FailureHandling.OPTIONAL)
+			GlobalVariableUtil.captureScreenShotWithTime()
+		}
+	}
+
 
 
 	/**
@@ -842,6 +872,8 @@ public class LoanInformation {
 
 		WebUI.delay(1)
 		GlobalVariableUtil.captureScreenShotWithTime()
+		WebUI.click(findTestObject("Object Repository/LoanInformationPreRelease/updateBtn"))
+		checkALL()
 	}
 
 	/**
@@ -1323,6 +1355,23 @@ public class LoanInformation {
 			WebUI.comment("After Amendment")
 
 			WebUI.delay(1)
+		}catch(Exception e) {
+			//If the script is fail it will take the ScreenShot Where the Script is failed
+			WebUI.takeScreenshot()
+			//printing the reason in console
+			println(e.toString())
+		}
+	}
+
+
+	@Keyword
+	def LoanInformationForBooking() {
+		try {
+			WebUI.delay(1)
+			//clicking on loan information tab
+			WebUI.click(findTestObject('Object Repository/TabSection/LoanInformation'))
+
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()

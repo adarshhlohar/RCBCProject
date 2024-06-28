@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "CBF835B5DAA3F32061EBA45BD3E7868C",
+  "keywordFileContentHash": "86EC32E2BE639F982F03229A9F45E386",
   "keywordClasses": [
     {
       "name": "tabSection.DisbursementInfo",
@@ -76,6 +76,11 @@
         },
         {
           "name": "disbursementInformationForCommon",
+          "parameters": [],
+          "javadoc": "/**\r\n\t * This method is for the COMaker Disbursement Information\r\n\t * @return\r\n\t */"
+        },
+        {
+          "name": "disbursementInformationForBooking",
           "parameters": [],
           "javadoc": "/**\r\n\t * This method is for the COMaker Disbursement Information\r\n\t * @return\r\n\t */"
         }

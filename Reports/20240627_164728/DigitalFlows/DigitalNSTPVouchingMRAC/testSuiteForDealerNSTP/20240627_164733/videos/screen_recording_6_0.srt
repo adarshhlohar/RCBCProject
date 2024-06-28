@@ -1,4 +1,0 @@
-1
-00:00:00,151 --> 00:00:14,485
-1. autoLoanProtal.Borrower_Detail.borrower_DetailsForNSTP(fst_Name, mid_Name, lst_Name, email, mob_Num, date, maritalStatus, suffix, residence)
-

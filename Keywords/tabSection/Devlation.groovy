@@ -220,21 +220,21 @@ public class Deviation {
 			println(newValue)
 			def amemdedfield = WebUI.getAttribute(findTestObject("Object Repository/FulfillmentDeviation/AmendedField"), "title")
 
-//			float verifyNewDIValue = Float.parseFloat(String.format("%.2f", Float.parseFloat(GlobalVariable.NewDIRate)))
-//			println(" ***** " + verifyNewDIValue)
-//			String verifyNewDIValueStr = verifyNewDIValue.toString()
-//
-//			float verifyNewSIValue = Float.parseFloat(String.format("%.2f", Float.parseFloat(GlobalVariable.NewSIRate)))
-//			println(" ***** " + verifyNewSIValue)
-//			String verifyNewSIValueStr = verifyNewSIValue.toString()
-//
-//			if(amemdedfield.equalsIgnoreCase("DI %Rate")) {
-//				Assert.assertEquals(GlobalVariable.OldDIRate, oldValue)
-//				Assert.assertEquals(verifyNewDIValueStr, newValue)
-//			}else if(amemdedfield.equalsIgnoreCase("SI %Rate")){
-//				Assert.assertEquals(GlobalVariable.OldSIRate, oldValue)
-//				Assert.assertEquals(verifyNewSIValueStr, newValue)
-//			}
+			//			float verifyNewDIValue = Float.parseFloat(String.format("%.2f", Float.parseFloat(GlobalVariable.NewDIRate)))
+			//			println(" ***** " + verifyNewDIValue)
+			//			String verifyNewDIValueStr = verifyNewDIValue.toString()
+			//
+			//			float verifyNewSIValue = Float.parseFloat(String.format("%.2f", Float.parseFloat(GlobalVariable.NewSIRate)))
+			//			println(" ***** " + verifyNewSIValue)
+			//			String verifyNewSIValueStr = verifyNewSIValue.toString()
+			//
+			//			if(amemdedfield.equalsIgnoreCase("DI %Rate")) {
+			//				Assert.assertEquals(GlobalVariable.OldDIRate, oldValue)
+			//				Assert.assertEquals(verifyNewDIValueStr, newValue)
+			//			}else if(amemdedfield.equalsIgnoreCase("SI %Rate")){
+			//				Assert.assertEquals(GlobalVariable.OldSIRate, oldValue)
+			//				Assert.assertEquals(verifyNewSIValueStr, newValue)
+			//			}
 			WebUI.click(findTestObject("Object Repository/FulfillmentDeviation/Approve"))
 			WebUI.delay(1)
 			WebUI.click(findTestObject("Object Repository/FulfillmentDeviation/saveChanges"))
@@ -250,21 +250,21 @@ public class Deviation {
 				println(newValue)
 				amemdedfield = WebUI.getAttribute(findTestObject("Object Repository/FulfillmentDeviation/AmendedField"), "title")
 
-//				verifyNewDIValue = Float.parseFloat(String.format("%.2f", Float.parseFloat(GlobalVariable.NewDIRate)))
-//				println(" ***** " + verifyNewDIValue)
-//				verifyNewDIValueStr = verifyNewDIValue.toString()
-//
-//				verifyNewSIValue = Float.parseFloat(String.format("%.2f", Float.parseFloat(GlobalVariable.NewSIRate)))
-//				println(" ***** " + verifyNewSIValue)
-//				verifyNewSIValueStr = verifyNewSIValue.toString()
-//
-//				if(amemdedfield.equalsIgnoreCase("DI %Rate")) {
-//					Assert.assertEquals(GlobalVariable.OldDIRate, oldValue)
-//					Assert.assertEquals(verifyNewDIValue, newValue)
-//				}else if(amemdedfield.equalsIgnoreCase("SI %Rate")){
-//					Assert.assertEquals(GlobalVariable.OldSIRate, oldValue)
-//					Assert.assertEquals(verifyNewSIValue, newValue)
-//				}
+				//				verifyNewDIValue = Float.parseFloat(String.format("%.2f", Float.parseFloat(GlobalVariable.NewDIRate)))
+				//				println(" ***** " + verifyNewDIValue)
+				//				verifyNewDIValueStr = verifyNewDIValue.toString()
+				//
+				//				verifyNewSIValue = Float.parseFloat(String.format("%.2f", Float.parseFloat(GlobalVariable.NewSIRate)))
+				//				println(" ***** " + verifyNewSIValue)
+				//				verifyNewSIValueStr = verifyNewSIValue.toString()
+				//
+				//				if(amemdedfield.equalsIgnoreCase("DI %Rate")) {
+				//					Assert.assertEquals(GlobalVariable.OldDIRate, oldValue)
+				//					Assert.assertEquals(verifyNewDIValue, newValue)
+				//				}else if(amemdedfield.equalsIgnoreCase("SI %Rate")){
+				//					Assert.assertEquals(GlobalVariable.OldSIRate, oldValue)
+				//					Assert.assertEquals(verifyNewSIValue, newValue)
+				//				}
 				WebUI.click(findTestObject("Object Repository/FulfillmentDeviation/Approve"))
 				WebUI.delay(1)
 				WebUI.click(findTestObject("Object Repository/FulfillmentDeviation/saveChanges"))
@@ -331,6 +331,27 @@ public class Deviation {
 			GlobalVariableUtil.captureScreenShotWithTime()
 		}
 		catch(Exception e) {
+			//If the script is fail it will take the ScreenShot Where the Script is failed
+			WebUI.takeScreenshot()
+			//printing the reason in console
+			println(e.toString())
+		}
+	}
+	
+	
+	
+	/**
+	 * This metnhod is for the Booking Devlations
+	 * @return
+	 */
+	@Keyword
+	def deviationForBooking() {
+		try {
+			//clicking on the deviations tab
+			WebUI.click(findTestObject("Object Repository/TabSection/Devlations"))
+			WebUI.delay(1)
+			GlobalVariableUtil.captureScreenShotWithTime()
+		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
 			//printing the reason in console

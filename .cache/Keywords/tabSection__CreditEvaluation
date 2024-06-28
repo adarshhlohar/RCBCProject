@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "FB99AAF8556DB5FC0C95A4A3FC2CCDF7",
+  "keywordFileContentHash": "649F7DAA613527941B390430730AE710",
   "keywordClasses": [
     {
       "name": "tabSection.CreditEvaluation",
@@ -73,6 +73,11 @@
           "name": "creditEvaluationCommon",
           "parameters": [],
           "javadoc": "/**\r\n\t * This method is for the credit evaluation Fullfillment\r\n\t * @return\r\n\t */"
+        },
+        {
+          "name": "creditEvaluationBooking",
+          "parameters": [],
+          "javadoc": ""
         }
       ]
     }

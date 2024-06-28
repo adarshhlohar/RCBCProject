@@ -1,4 +1,0 @@
-1
-00:00:00,588 --> 00:00:11,808
-1. paperBasedPortal.Borrower_Detail.borrower_DetailsNSTP(fst_Name, mid_Name, lst_Name, email, mob_Num, date, maritalStatus, suffix, residence)
-

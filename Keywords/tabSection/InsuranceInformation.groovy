@@ -3,6 +3,7 @@ package tabSection
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 import com.kms.katalon.core.annotation.Keyword
+import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 import globalVariableUtils.GlobalVariableUtil
@@ -11,6 +12,20 @@ import globalVariableUtils.GlobalVariableUtil
 
 
 public class InsuranceInformation {
+
+	def checkALL() {
+		if(WebUI.verifyElementPresent(findTestObject("Object Repository/BackOffice/InsuranceInformation/InsuranceInfo"), 1,FailureHandling.OPTIONAL)) {
+			WebUI.scrollToElement(findTestObject("Object Repository/BackOffice/InsuranceInformation/InsuranceInfo"), 1,FailureHandling.OPTIONAL)
+			GlobalVariableUtil.captureScreenShotWithTime()
+		}
+
+		if(WebUI.verifyElementPresent(findTestObject("Object Repository/BackOffice/InsuranceInformation/coveragePremium"), 1,FailureHandling.OPTIONAL)) {
+			WebUI.scrollToElement(findTestObject("Object Repository/BackOffice/InsuranceInformation/coveragePremium"), 1,FailureHandling.OPTIONAL)
+			GlobalVariableUtil.captureScreenShotWithTime()
+		}
+	}
+
+
 	/**
 	 * This method is for the AO Insurance Information 
 	 * @return
@@ -147,7 +162,7 @@ public class InsuranceInformation {
 		try {
 			//clicking on the Insurance Information tab
 			WebUI.click(findTestObject("Object Repository/TabSection/InsuranceInformation"))
-			
+
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
@@ -156,23 +171,23 @@ public class InsuranceInformation {
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
-//			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/Fulfillment/InsuranceInformationWithoutAPI/modeOfPayment"), 1)
+			//			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/Fulfillment/InsuranceInformationWithoutAPI/modeOfPayment"), 1)
 
 			WebUI.delay(1)
-//			GlobalVariableUtil.captureScreenShotWithTime()
-//			WebUI.delay(1)
+			//			GlobalVariableUtil.captureScreenShotWithTime()
+			//			WebUI.delay(1)
 
 			//			WebUI.setText(findTestObject("Object Repository/BackOffice/Fulfillment/InsuranceInformationWithoutAPI/effectiveDateOfADA"),"06/06/2024")
 			//
 			//			WebUI.setText(findTestObject("Object Repository/BackOffice/Fulfillment/InsuranceInformationWithoutAPI/accountNumber"), "565756644")
 			//
 			//			WebUI.setText(findTestObject("Object Repository/BackOffice/Fulfillment/InsuranceInformationWithoutAPI/accountName"), "Adarsh")
-//			WebUI.delay(1)
-//			GlobalVariableUtil.captureScreenShotWithTime()
-//			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/Fulfillment/InsuranceInformationWithoutAPI/paymentFrequency"), 1)
+			//			WebUI.delay(1)
+			//			GlobalVariableUtil.captureScreenShotWithTime()
+			//			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/Fulfillment/InsuranceInformationWithoutAPI/paymentFrequency"), 1)
 
-//			WebUI.delay(1)
-//			GlobalVariableUtil.captureScreenShotWithTime()
+			//			WebUI.delay(1)
+			//			GlobalVariableUtil.captureScreenShotWithTime()
 
 			WebUI.delay(1)
 			//clicking on the next arrow button
@@ -344,6 +359,26 @@ public class InsuranceInformation {
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
+			//clicking on the next arrow button
+			WebUI.click(findTestObject("Object Repository/TabSection/nextArrowButton"))
+		}catch(Exception e) {
+			//If the script is fail it will take the ScreenShot Where the Script is failed
+			WebUI.takeScreenshot()
+			//printing the reason in console
+			println(e.toString())
+		}
+	}
+	
+	
+	
+	@Keyword
+	def insuranceInformationForBooking() {
+		try {
+			//clicking on the Insurance Information tab
+			WebUI.click(findTestObject("Object Repository/TabSection/InsuranceInformation"))
+			WebUI.delay(1)
+			GlobalVariableUtil.captureScreenShotWithTime()
+			checkALL()
 			//clicking on the next arrow button
 			WebUI.click(findTestObject("Object Repository/TabSection/nextArrowButton"))
 		}catch(Exception e) {

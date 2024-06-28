@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>InsuranceInformation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4e6378ab-3fe4-4ad3-a1e7-e8adda31dd1f</testCaseGuid>
+</TestCaseEntity>

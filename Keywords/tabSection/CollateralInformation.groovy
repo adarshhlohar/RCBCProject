@@ -315,4 +315,23 @@ public class CollateralInformation {
 			println(e.toString())
 		}
 	}
+
+
+	/*
+	 * This method is used for the AO collateral information
+	 */
+	@Keyword
+	def collateralInformationBooking() {
+		try {
+			//clicking on the tab Collateral info
+			WebUI.click(findTestObject('Object Repository/TabSection/CollateralInformation'))
+			WebUI.delay(1)
+			GlobalVariableUtil.captureScreenShotWithTime()
+		}catch(Exception e) {
+			//If the script is fail it will take the ScreenShot Where the Script is failed
+			WebUI.takeScreenshot()
+			//printing the reason in console
+			println(e.toString())
+		}
+	}
 }

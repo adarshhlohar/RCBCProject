@@ -1,4 +1,0 @@
-1
-00:00:00,325 --> 00:00:07,837
-1. paperBasedPortal.SelectPaperBased.paperBased()
-

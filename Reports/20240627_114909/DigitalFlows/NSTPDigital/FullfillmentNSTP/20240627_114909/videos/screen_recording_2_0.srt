@@ -1,4 +1,0 @@
-1
-00:00:00,089 --> 00:00:10,988
-1. fulfillment.HomePageForibpsFullFillment.selectResistration()
-

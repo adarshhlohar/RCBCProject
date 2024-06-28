@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "7030494EBE1D8505A7E239B7EDD2EE0C",
+  "keywordFileContentHash": "55D5674891B8AA7B8C8A13C228267877",
   "keywordClasses": [
     {
       "name": "tabSection.CreditInvestigation",
@@ -58,6 +58,11 @@
           "name": "creditInvestigationForCommon",
           "parameters": [],
           "javadoc": "/**\r\n\t * This metnhod is for the Fullfillment credit Investigation\r\n\t * @return\r\n\t */"
+        },
+        {
+          "name": "creditInvestigationForBooking",
+          "parameters": [],
+          "javadoc": ""
         }
       ]
     }
