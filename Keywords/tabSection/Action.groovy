@@ -14,6 +14,14 @@ import internal.GlobalVariable
 public class Action {
 
 	static	String  result ="LOS-"
+
+
+	def checkALL() {
+		if(WebUI.verifyElementPresent(findTestObject("Object Repository/Action/otherLoanDetail"), 1,FailureHandling.OPTIONAL)) {
+			WebUI.scrollToElement(findTestObject("Object Repository/Action/otherLoanDetail"), 1,FailureHandling.OPTIONAL)
+			GlobalVariableUtil.captureScreenShotWithTime()
+		}
+	}
 	/**
 	 * This is the the action tab in that we submitting the application
 	 * @return
@@ -23,12 +31,15 @@ public class Action {
 
 		try {
 			WebUI.click(findTestObject('Object Repository/TabSection/Action'))
+			GlobalVariableUtil.captureScreenShotWithTime()
 
+			checkALL()
 			WebUI.waitForElementVisible(findTestObject('Object Repository/Action/Decision'), 4)
 
 			WebUI.selectOptionByIndex(findTestObject('Object Repository/Action/Decision'), 1)
 
 			WebUI.setText(findTestObject('Object Repository/Action/Remarks'), "OK")
+
 
 			String currentWindow = WebUI.getWindowTitle();
 
@@ -83,7 +94,8 @@ public class Action {
 
 		try {
 			WebUI.click(findTestObject('Object Repository/TabSection/Action'))
-
+			GlobalVariableUtil.captureScreenShotWithTime()
+			checkALL()
 			WebUI.waitForElementVisible(findTestObject('Object Repository/Action/Decision'), 4)
 
 			WebUI.selectOptionByIndex(findTestObject('Object Repository/Action/Decision'), 1)

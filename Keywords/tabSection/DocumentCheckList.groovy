@@ -3,6 +3,7 @@ package tabSection
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 import com.kms.katalon.core.annotation.Keyword
+import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 import globalVariableUtils.GlobalVariableUtil
@@ -169,6 +170,20 @@ public class DocumentCheckList {
 		}
 	}
 
+
+
+
+	def checkALL() {
+		if(WebUI.verifyElementPresent(findTestObject("Object Repository/DocumentCheckListForPreRelease/kycDocument"), 2,FailureHandling.OPTIONAL)) {
+			WebUI.scrollToElement(findTestObject("Object Repository/DocumentCheckListForPreRelease/kycDocument"), 1,FailureHandling.OPTIONAL)
+			GlobalVariableUtil.captureScreenShotWithTime()
+		}
+		if(WebUI.verifyElementPresent(findTestObject("Object Repository/DocumentCheckListForPreRelease/prereleaseDocument"), 2,FailureHandling.OPTIONAL)) {
+			WebUI.scrollToElement(findTestObject("Object Repository/DocumentCheckListForPreRelease/prereleaseDocument"), 1,FailureHandling.OPTIONAL)
+			GlobalVariableUtil.captureScreenShotWithTime()
+		}
+	}
+
 	/*
 	 * This is the method for document checklist in PreRelease
 	 */
@@ -201,20 +216,12 @@ public class DocumentCheckList {
 			//			outwardDocument(generate11)
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
-
-
 			WebUI.click(findTestObject("Object Repository/DocumentCheckListForPreRelease/OutwardDocument/generateAll"))
-
 			WebUI.delay(1)
-
 			WebUI.switchToWindowIndex(2)
-
 			WebUI.delay(2)
-
 			WebUI.closeWindowIndex(2)
-
 			WebUI.switchToWindowIndex(1)
-
 
 			String viewIDType = "Object Repository/DocumentCheckListForPreRelease/KycDocuments/viewIdTypeDocument"
 			if(WebUI.waitForElementPresent(findTestObject(viewIDType), 2)) {
@@ -263,16 +270,11 @@ public class DocumentCheckList {
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
+			checkALL()
 
 			WebUI.click(findTestObject('Object Repository/CollateralInformationPreRelease/SaveBtn'))
 
 			WebUI.delay(2)
-			//			WebUI.switchToWindowIndex(currentPageIndex+1)
-			//
-			//
-			//			WebUI.closeWindowIndex(currentPageIndex+1)
-			//
-			//			WebUI.switchToWindowIndex(currentPageIndex)
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -316,21 +318,26 @@ public class DocumentCheckList {
 			//			outwardDocument(generate11)
 
 			WebUI.delay(1)
-
 			WebUI.click(findTestObject("Object Repository/DocumentCheckListForPreRelease/OutwardDocument/generateAll"))
-
 			WebUI.delay(1)
-
 			WebUI.switchToWindowIndex(2)
-
 			WebUI.delay(3)
-
 			WebUI.closeWindowIndex(2)
-
 			WebUI.switchToWindowIndex(1)
 
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
+
+			String viewIDType = "Object Repository/DocumentCheckListForPreRelease/KycDocuments/viewIdTypeDocument"
+			if(WebUI.waitForElementPresent(findTestObject(viewIDType), 2)) {
+				viewDocument(viewIDType)
+			}
+
+			String viewIncomeDocument = "Object Repository/DocumentCheckListForPreRelease/FinancialDocument/viewIncomeDocument"
+			if(WebUI.waitForElementPresent(findTestObject(viewIncomeDocument), 2)) {
+				viewDocument(viewIncomeDocument)
+			}
+
 
 
 			String viewDoc1 = "Object Repository/DocumentCheckListForPreRelease/OutwardDocument/viewBtn1"
@@ -345,6 +352,10 @@ public class DocumentCheckList {
 			viewDocument(viewDoc5)
 			String viewDoc6 = "Object Repository/DocumentCheckListForPreRelease/OutwardDocument/viewBtn6"
 			viewDocument(viewDoc6)
+			String viewDoc7 = "Object Repository/DocumentCheckListForPreRelease/OutwardDocument/viewBtn7"
+			if(WebUI.waitForElementClickable(findTestObject(viewDoc7), 2)) {
+				viewDocument(viewDoc7)
+			}
 
 
 			String testObject1="Object Repository/DocumentCheckListForPreRelease/InwardDocument/button1"
@@ -357,6 +368,7 @@ public class DocumentCheckList {
 
 			//			uploadDocument(testObject1,1)
 			WebUI.delay(1)
+			checkALL()
 			//			uploadDocument(testObject2,2)
 			//			uploadDocument(testObject3,3)
 			//			uploadDocument(testObject4,4)
@@ -381,6 +393,8 @@ public class DocumentCheckList {
 			WebUI.click(findTestObject('Object Repository/TabSection/DocumentCheclist'))
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
+			viewDocumentCallAtTime()
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -399,9 +413,11 @@ public class DocumentCheckList {
 		try {
 			//clicking on the document checklist tab
 			WebUI.click(findTestObject('Object Repository/TabSection/DocumentCheclist'))
-			
+
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
+			viewDocumentCallAtTime()
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -421,6 +437,8 @@ public class DocumentCheckList {
 			WebUI.click(findTestObject('Object Repository/TabSection/DocumentCheclist'))
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
+			viewDocumentCallAtTime()
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -439,6 +457,8 @@ public class DocumentCheckList {
 			WebUI.click(findTestObject('Object Repository/TabSection/DocumentCheclist'))
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
+			viewDocumentCallAtTime()
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -458,6 +478,8 @@ public class DocumentCheckList {
 			WebUI.click(findTestObject('Object Repository/TabSection/DocumentCheclist'))
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
+			viewDocumentCallAtTime()
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -475,9 +497,10 @@ public class DocumentCheckList {
 		try {
 			//clicking on the document checklist tab
 			WebUI.click(findTestObject('Object Repository/TabSection/DocumentCheclist'))
+			GlobalVariableUtil.captureScreenShotWithTime()
 			WebUI.delay(1)
 			viewDocumentCallAtTime()
-			GlobalVariableUtil.captureScreenShotWithTime()
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -497,6 +520,7 @@ public class DocumentCheckList {
 			WebUI.click(findTestObject('Object Repository/TabSection/DocumentCheclist'))
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
+			viewDocumentCallAtTime()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -516,6 +540,8 @@ public class DocumentCheckList {
 			WebUI.click(findTestObject('Object Repository/TabSection/DocumentCheclist'))
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
+			viewDocumentCallAtTime()
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -567,19 +593,23 @@ public class DocumentCheckList {
 
 
 			WebUI.click(findTestObject("Object Repository/DocumentCheckListForPreRelease/OutwardDocument/generateAll"))
-
 			WebUI.delay(1)
-
 			WebUI.switchToWindowIndex(2)
-
 			WebUI.delay(3)
-
 			WebUI.closeWindowIndex(2)
-
 			WebUI.switchToWindowIndex(1)
-
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
+
+			String viewIDType = "Object Repository/DocumentCheckListForPreRelease/KycDocuments/viewIdTypeDocument"
+			if(WebUI.waitForElementPresent(findTestObject(viewIDType), 2)) {
+				viewDocument(viewIDType)
+			}
+
+			String viewIncomeDocument = "Object Repository/DocumentCheckListForPreRelease/FinancialDocument/viewIncomeDocument"
+			if(WebUI.waitForElementPresent(findTestObject(viewIncomeDocument), 2)) {
+				viewDocument(viewIncomeDocument)
+			}
 
 
 			String viewDoc1 = "Object Repository/DocumentCheckListForPreRelease/OutwardDocument/viewBtn1"
@@ -621,7 +651,7 @@ public class DocumentCheckList {
 			//			uploadDocument(testObject5,5)
 
 			WebUI.delay(2)
-
+			checkALL()
 
 			WebUI.click(findTestObject('Object Repository/CollateralInformationPreRelease/SaveBtn'))
 
@@ -645,6 +675,8 @@ public class DocumentCheckList {
 			WebUI.click(findTestObject('Object Repository/TabSection/DocumentCheclist'))
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
+			viewDocumentCallAtTime()
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -663,7 +695,9 @@ public class DocumentCheckList {
 			//clicking on the document checklist tab
 			WebUI.click(findTestObject('Object Repository/TabSection/DocumentCheclist'))
 			WebUI.delay(1)
+			viewDocumentCallAtTime()
 			GlobalVariableUtil.captureScreenShotWithTime()
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -684,6 +718,7 @@ public class DocumentCheckList {
 			WebUI.click(findTestObject('Object Repository/TabSection/DocumentCheclist'))
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -704,6 +739,7 @@ public class DocumentCheckList {
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			viewDocumentCallAtTime()
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()

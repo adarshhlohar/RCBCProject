@@ -61,7 +61,8 @@ public class HomePageForibpsFCI {
 				println(elements.size())
 
 				if(elements.size() > 0) {
-
+					GlobalVariableUtil.captureScreenShotWithTime()
+					
 					driver.findElement(By.xpath(xpath)).click()
 
 					WebUI.delay(2)
@@ -81,7 +82,8 @@ public class HomePageForibpsFCI {
 					driver.switchTo().frame("iframe_Int42")
 
 					Thread.sleep(100)
-
+					GlobalVariableUtil.captureScreenShotWithTime()
+					
 					driver.findElement(By.xpath(xpath)).click()
 
 					WebUI.delay(2)

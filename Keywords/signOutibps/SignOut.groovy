@@ -62,6 +62,7 @@ public class SignOut {
 		WebUI.delay(1)
 
 		GlobalVariableUtil.loadGlobalVariable();
+		GlobalVariableUtil.captureScreenShotWithTime()
 
 		WebUI.delay(2)
 

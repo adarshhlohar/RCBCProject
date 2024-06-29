@@ -166,6 +166,7 @@ public class LoanInformation {
 			WebUI.click(findTestObject("Object Repository/LoanInformationPreRelease/Save"))
 			WebUI.delay(2)
 			WebUI.click(findTestObject("Object Repository/LoanInformationPreRelease/updateBtn"))
+			checkALL()
 			WebUI.delay(2)
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
@@ -277,6 +278,7 @@ public class LoanInformation {
 				WebUI.setText(findTestObject('Object Repository/DealerPreRelease/LoanInformation/accountNumber'),accountNumber)
 				WebUI.setText(findTestObject('Object Repository/DealerPreRelease/LoanInformation/accountName'), accountName)
 			}
+			checkALL()
 
 			WebUI.click(findTestObject("Object Repository/LoanInformationPreRelease/Save"))
 			WebUI.delay(2)
@@ -391,6 +393,7 @@ public class LoanInformation {
 				WebUI.setText(findTestObject('Object Repository/DealerPreRelease/LoanInformation/accountName'), accountName)
 			}
 
+			checkALL()
 			WebUI.click(findTestObject("Object Repository/LoanInformationPreRelease/Save"))
 			WebUI.delay(2)
 		}catch(Exception e) {
@@ -502,6 +505,7 @@ public class LoanInformation {
 				WebUI.setText(findTestObject('Object Repository/LoanInformationPreRelease/ModeOfPaymentADA/accountName'), accountName)
 			}
 
+			checkALL()
 			WebUI.click(findTestObject("Object Repository/LoanInformationPreRelease/Save"))
 			WebUI.delay(2)
 		}catch(Exception e) {
@@ -581,6 +585,7 @@ public class LoanInformation {
 
 			WebUI.delay(2)
 			WebUI.click(findTestObject("Object Repository/LoanInformationPreRelease/updateBtn"))
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -643,6 +648,7 @@ public class LoanInformation {
 			GlobalVariableUtil.saveGlobalVariable("isDeviation", isDeviationStr)
 			WebUI.delay(2)
 			WebUI.click(findTestObject("Object Repository/LoanInformationPreRelease/updateBtn"))
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -661,6 +667,7 @@ public class LoanInformation {
 		try {
 			//clicking on loan information tab
 			WebUI.click(findTestObject('Object Repository/TabSection/LoanInformation'))
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -687,6 +694,9 @@ public class LoanInformation {
 			//
 			//			WebUI.setText(findTestObject("Object Repository/BackOffice/COMaker/LoanInformation/RCOfAccount"), "QK_AO6")
 			WebUI.delay(1)
+
+			checkALL()
+
 			GlobalVariableUtil.captureScreenShotWithTime()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
@@ -707,6 +717,7 @@ public class LoanInformation {
 			WebUI.click(findTestObject('Object Repository/TabSection/LoanInformation'))
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -725,10 +736,11 @@ public class LoanInformation {
 			WebUI.delay(2)
 			//clicking on loan information tab
 			WebUI.click(findTestObject('Object Repository/TabSection/LoanInformation'))
-
+			GlobalVariableUtil.captureScreenShotWithTime()
 			WebUI.setText(findTestObject("Object Repository/BackOffice/Fulfillment/LoanInformationWithoutAPI/FundTransferPricing"), "40000")
 			WebUI.delay(1)
-			GlobalVariableUtil.captureScreenShotWithTime()
+
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -747,10 +759,11 @@ public class LoanInformation {
 			WebUI.delay(2)
 			//clicking on loan information tab
 			WebUI.click(findTestObject('Object Repository/TabSection/LoanInformation'))
+			GlobalVariableUtil.captureScreenShotWithTime()
 
 			WebUI.setText(findTestObject("Object Repository/BackOffice/Fulfillment/LoanInformationWithoutAPI/FundTransferPricing"), "40000")
 			WebUI.delay(1)
-			GlobalVariableUtil.captureScreenShotWithTime()
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -911,6 +924,7 @@ public class LoanInformation {
 			WebUI.delay(2)
 			//clicking on loan information tab
 			WebUI.click(findTestObject('Object Repository/TabSection/LoanInformation'))
+			GlobalVariableUtil.captureScreenShotWithTime()
 
 			loanInfoForPaperbased(marketingPromoCode,Downpayment_Amt,Actual_Cashout,loanTerm,insuranceType,loanPurpose,modeOfRelease,Scheduled_Unit_Release_Date,Actual_Unit_Release_Date,Total_CMFCollectedby_Dealer,Payment_Type,PaymentFrequency,Mode_Of_Payment)
 		}catch(Exception e) {
@@ -940,6 +954,7 @@ public class LoanInformation {
 			//			WebUI.setText(findTestObject("Object Repository/BackOffice/COMaker/LoanInformation/RCOfAccount"), "QK_AO6")
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -961,6 +976,7 @@ public class LoanInformation {
 			WebUI.click(findTestObject('Object Repository/TabSection/LoanInformation'))
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -981,6 +997,7 @@ public class LoanInformation {
 			WebUI.delay(1)
 			//clicking on loan information tab
 			WebUI.click(findTestObject('Object Repository/TabSection/LoanInformation'))
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -1044,6 +1061,7 @@ public class LoanInformation {
 			WebUI.setText(findTestObject("Object Repository/BackOffice/PreReleasePaperbaseLoanInfo/motorCarInsurance5"), "0")
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
+			checkALL()
 
 			//			WebUI.setText(findTestObject("Object Repository/BackOffice/PreReleasePaperbaseLoanInfo/motorCarInsurance6"), "0")
 		}catch(Exception e) {
@@ -1119,6 +1137,7 @@ public class LoanInformation {
 
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
+			checkALL()
 
 			//			WebUI.setText(findTestObject("Object Repository/BackOffice/PreReleasePaperbaseLoanInfo/motorCarInsurance6"), "0")
 		}catch(Exception e) {
@@ -1195,6 +1214,7 @@ public class LoanInformation {
 			//WebUI.setText(findTestObject("Object Repository/BackOffice/PreReleasePaperbaseLoanInfo/motorCarInsurance6"), "0")
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -1267,6 +1287,7 @@ public class LoanInformation {
 			WebUI.click(findTestObject("Object Repository/LoanInformationPreRelease/updateBtn"))
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -1300,6 +1321,7 @@ public class LoanInformation {
 			//			WebUI.setText(findTestObject("Object Repository/BackOffice/PreReleasePaperbaseLoanInfo/motorCarInsurance6"), "0")
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -1323,7 +1345,7 @@ public class LoanInformation {
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
-
+			checkALL()
 			WebUI.delay(1)
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
@@ -1353,7 +1375,7 @@ public class LoanInformation {
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 			WebUI.comment("After Amendment")
-
+			checkALL()
 			WebUI.delay(1)
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed

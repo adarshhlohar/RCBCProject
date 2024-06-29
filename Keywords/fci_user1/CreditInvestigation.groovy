@@ -1,26 +1,14 @@
 package fci_user1
 
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
-import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-
-import org.openqa.selenium.TakesScreenshot
 
 import com.kms.katalon.core.annotation.Keyword
-import com.kms.katalon.core.checkpoint.Checkpoint
-import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
-import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
-import com.kms.katalon.core.model.FailureHandling
-import com.kms.katalon.core.testcase.TestCase
-import com.kms.katalon.core.testdata.TestData
-import com.kms.katalon.core.testobject.TestObject
-import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
-import internal.GlobalVariable
+import globalVariableUtils.GlobalVariableUtil
+
+
+
 
 public class CreditInvestigation {
 
@@ -35,7 +23,8 @@ public class CreditInvestigation {
 		WebUI.delay(2)
 
 		WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/FCI_User/ibpsHomePage/agency"), 3)
-
+		GlobalVariableUtil.captureScreenShotWithTime()
+		
 		WebUI.delay(2)
 
 		WebUI.click(findTestObject("Object Repository/BackOffice/FCI_User/ibpsHomePage/submit"))
@@ -61,6 +50,8 @@ public class CreditInvestigation {
 
 		WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/FCI_User/ibpsHomePage/agencyForEmp"), 3)
 
+		GlobalVariableUtil.captureScreenShotWithTime()
+		
 		WebUI.delay(2)
 
 		WebUI.click(findTestObject("Object Repository/BackOffice/FCI_User/ibpsHomePage/submitEmp"))
@@ -90,9 +81,10 @@ public class CreditInvestigation {
 			WebUI.setText(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigationEMP/userContactNumber"),"(63) 8768678678" )
 			WebUI.setText(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigationEMP/coductedBy"), "Head Manager")
 			WebUI.takeScreenshot()
+			GlobalVariableUtil.captureScreenShotWithTime()
 			WebUI.delay(1)
-			
-			
+
+
 			WebUI.setText(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigationEMP/companyName"), "QK")
 			WebUI.setText(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigationEMP/natureOfBusiness"), "300")
 			WebUI.setText(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigationEMP/contactNumber"), "(63) 9867456787")
@@ -103,38 +95,42 @@ public class CreditInvestigation {
 			WebUI.setText(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigationEMP/verifiedIncome"), "70000")
 			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigationEMP/employeeWorkingHours"), 1)
 			WebUI.takeScreenshot()
+			GlobalVariableUtil.captureScreenShotWithTime()
 			WebUI.delay(1)
 
 
 
-//			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigation/typeOfOwnership"), 1)
-//			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigation/MaritialStatus"), 4)
-//
-//			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigation/classification"), 1)
-//			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigation/houseDescription"), 1)
-//
-//			WebUI.setText(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigation/resisteredOwnerName"), "Adarsh")
+			//			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigation/typeOfOwnership"), 1)
+			//			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigation/MaritialStatus"), 4)
+			//
+			//			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigation/classification"), 1)
+			//			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigation/houseDescription"), 1)
+			//
+			//			WebUI.setText(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigation/resisteredOwnerName"), "Adarsh")
 
 			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigationEMP/typeOfInformant"), 2)
 			WebUI.setText(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigationEMP/informantName"), "Jogendra")
 			WebUI.setText(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigationEMP/informantAddress"), "Pune")
 			WebUI.setText(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigationEMP/remarkFindings"), "good")
 			WebUI.takeScreenshot()
+			GlobalVariableUtil.captureScreenShotWithTime()
 			WebUI.delay(1)
-//			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigation/identityCheck"), 1)
-//			WebUI.setText(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigation/lengthOfStay"), "3")
+			//			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigation/identityCheck"), 1)
+			//			WebUI.setText(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigation/lengthOfStay"), "3")
 
-//			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigation/reputationToBarangayOfficial"),1 )
-//			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigation/reputationToHomeAssociation"),1 )
-//			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigation/reputationToNeighbors"),1 )
+			//			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigation/reputationToBarangayOfficial"),1 )
+			//			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigation/reputationToHomeAssociation"),1 )
+			//			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigation/reputationToNeighbors"),1 )
 
 			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigationEMP/FCIResult"),1 )
 			WebUI.setText(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigationEMP/CIRemark"), "ok")
 			WebUI.takeScreenshot()
+			GlobalVariableUtil.captureScreenShotWithTime()
 			WebUI.delay(1)
 
 			WebUI.click(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigationEMP/plusIconForAttachment"))
 			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigationEMP/AttachDescription"), 1)
+			GlobalVariableUtil.captureScreenShotWithTime()
 			WebUI.click(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigationEMP/saveAndClose"))
 			WebUI.takeScreenshot()
 			WebUI.delay(1)
@@ -158,6 +154,7 @@ public class CreditInvestigation {
 			currentIndex = currentIndex + 1
 			WebUI.switchToWindowIndex(currentIndex)
 			WebUI.delay(4)
+			GlobalVariableUtil.captureScreenShotWithTime()
 			WebUI.closeWindowIndex(currentIndex)
 			currentIndex = currentIndex -1
 			WebUI.switchToWindowIndex(currentIndex)
@@ -196,37 +193,46 @@ public class CreditInvestigation {
 			WebUI.setText(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigation/callAttempts"), "2")
 			WebUI.setText(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigation/userContactNumber"),"(63) 8768678678" )
 			WebUI.setText(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigation/coductedBy"), "Head Manager")
-
+			GlobalVariableUtil.captureScreenShotWithTime()
+			
 
 			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigation/personalInterviewed"), 1)
 			WebUI.setText(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigation/nameOfPersonInterviewed"), "NIKITA")
 			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigation/verificationOfIdentity"), 1)
 			WebUI.setText(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigation/numberOfDependence"), "2")
-
+			GlobalVariableUtil.captureScreenShotWithTime()
+			
 			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigation/typeOfOwnership"), 1)
 			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigation/MaritialStatus"), 4)
-
+			GlobalVariableUtil.captureScreenShotWithTime()
+			
 			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigation/classification"), 1)
 			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigation/houseDescription"), 1)
-
+			GlobalVariableUtil.captureScreenShotWithTime()
+			
 			WebUI.setText(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigation/resisteredOwnerName"), "Adarsh")
-
+			GlobalVariableUtil.captureScreenShotWithTime()
+			
 			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigation/typeOfInformant"), 2)
 			WebUI.setText(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigation/informantName"), "Jogendra")
 			WebUI.setText(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigation/informantAddress"), "Pune")
 			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigation/identityCheck"), 1)
 			WebUI.setText(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigation/lengthOfStay"), "3")
-
+			GlobalVariableUtil.captureScreenShotWithTime()
+			
 			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigation/reputationToBarangayOfficial"),1 )
 			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigation/reputationToHomeAssociation"),1 )
 			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigation/reputationToNeighbors"),1 )
-
+			GlobalVariableUtil.captureScreenShotWithTime()
+			
 			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigation/FCIResult"),1 )
 			WebUI.setText(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigation/CIRemark"), "ok")
-
+			GlobalVariableUtil.captureScreenShotWithTime()
+			
 
 			WebUI.click(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigation/plusIconForAttachment"))
 			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigation/AttachDescription"), 1)
+			GlobalVariableUtil.captureScreenShotWithTime()
 			WebUI.click(findTestObject("Object Repository/BackOffice/FCI_User/CreditInvestigation/saveAndClose"))
 
 
@@ -249,6 +255,7 @@ public class CreditInvestigation {
 			currentIndex = currentIndex + 1
 			WebUI.switchToWindowIndex(currentIndex)
 			WebUI.delay(4)
+			GlobalVariableUtil.captureScreenShotWithTime()
 			WebUI.closeWindowIndex(currentIndex)
 			currentIndex = currentIndex -1
 			WebUI.switchToWindowIndex(currentIndex)

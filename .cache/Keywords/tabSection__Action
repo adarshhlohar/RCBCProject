@@ -1,21 +1,19 @@
 {
-  "keywordFileContentHash": "CE95BDDFA7AE062A471942C4DDD46AC0",
+  "keywordFileContentHash": "16FD0FFA61EA52D82EEF9A69E8905280",
   "keywordClasses": [
     {
       "name": "tabSection.Action",
       "keywordMethods": [
         {
           "name": "submitForAO",
-          "parameters": [],
-          "javadoc": "/**\r\n\t * This is the the action tab in that we submitting the application\r\n\t * @return\r\n\t */"
+          "parameters": []
         },
         {
           "name": "submitForAmendment",
-          "parameters": [],
-          "javadoc": "/**\r\n\t * This is the the action tab in that we submitting the application\r\n\t * @return\r\n\t */"
+          "parameters": []
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }
