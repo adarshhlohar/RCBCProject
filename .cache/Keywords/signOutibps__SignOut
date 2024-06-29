@@ -1,21 +1,19 @@
 {
-  "keywordFileContentHash": "545C70824C674505173EE9DC171C6F27",
+  "keywordFileContentHash": "018AAAB81A36136ED96CDF33BC212A71",
   "keywordClasses": [
     {
       "name": "signOutibps.SignOut",
       "keywordMethods": [
         {
           "name": "logout",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "logoutFCI",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

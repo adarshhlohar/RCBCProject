@@ -3,6 +3,7 @@ package tabSection
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 import com.kms.katalon.core.annotation.Keyword
+import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 import globalVariableUtils.GlobalVariableUtil
@@ -12,6 +13,21 @@ import globalVariableUtils.GlobalVariableUtil
 
 public class CheckEligibility {
 
+
+	def checkALL() {
+		if(WebUI.verifyElementPresent(findTestObject("Object Repository/BackOffice/CheckEligibility/creditChecking"), 2,FailureHandling.OPTIONAL)) {
+			WebUI.scrollToElement(findTestObject("Object Repository/BackOffice/CheckEligibility/creditChecking"), 1,FailureHandling.OPTIONAL)
+			GlobalVariableUtil.captureScreenShotWithTime()
+		}
+		if(WebUI.verifyElementPresent(findTestObject("Object Repository/BackOffice/CheckEligibility/NTBOrETBCheck"), 2,FailureHandling.OPTIONAL)) {
+			WebUI.scrollToElement(findTestObject("Object Repository/BackOffice/CheckEligibility/NTBOrETBCheck"), 1,FailureHandling.OPTIONAL)
+			GlobalVariableUtil.captureScreenShotWithTime()
+		}
+		if(WebUI.verifyElementPresent(findTestObject("Object Repository/BackOffice/CheckEligibility/AMLRiskRating"), 2,FailureHandling.OPTIONAL)) {
+			WebUI.scrollToElement(findTestObject("Object Repository/BackOffice/CheckEligibility/AMLRiskRating"), 1,FailureHandling.OPTIONAL)
+			GlobalVariableUtil.captureScreenShotWithTime()
+		}
+	}
 
 
 
@@ -26,6 +42,7 @@ public class CheckEligibility {
 			WebUI.click(findTestObject("Object Repository/TabSection/checkEligibility"))
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -45,6 +62,7 @@ public class CheckEligibility {
 			WebUI.click(findTestObject("Object Repository/TabSection/checkEligibility"))
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -64,6 +82,7 @@ public class CheckEligibility {
 		try {
 			//clicking on the check eligibilty tab
 			WebUI.click(findTestObject("Object Repository/TabSection/checkEligibility"))
+			GlobalVariableUtil.captureScreenShotWithTime()
 
 			WebUI.setText(findTestObject("Object Repository/BackOffice/EncoderNSTP/checkEligibility/quickCheckNumericalScore"), "2000")
 
@@ -74,6 +93,7 @@ public class CheckEligibility {
 			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/EncoderNSTP/checkEligibility/compreCheckRiskLevel"),6)
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -93,6 +113,7 @@ public class CheckEligibility {
 		try {
 			//clicking on the check eligibilty tab
 			WebUI.click(findTestObject("Object Repository/TabSection/checkEligibility"))
+			GlobalVariableUtil.captureScreenShotWithTime()
 
 			WebUI.setText(findTestObject("Object Repository/BackOffice/EncoderNSTP/checkEligibility/quickCheckNumericalScore"), "2000")
 
@@ -103,6 +124,7 @@ public class CheckEligibility {
 			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/EncoderNSTP/checkEligibility/compreCheckRiskLevel"),5)
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -122,6 +144,7 @@ public class CheckEligibility {
 			WebUI.click(findTestObject("Object Repository/TabSection/checkEligibility"))
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -142,6 +165,7 @@ public class CheckEligibility {
 			WebUI.click(findTestObject("Object Repository/TabSection/checkEligibility"))
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -161,6 +185,7 @@ public class CheckEligibility {
 			WebUI.click(findTestObject("Object Repository/TabSection/checkEligibility"))
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -422,6 +447,7 @@ public class CheckEligibility {
 		try {
 			//clicking on the check eligibilty tab
 			WebUI.click(findTestObject("Object Repository/TabSection/checkEligibility"))
+			GlobalVariableUtil.captureScreenShotWithTime()
 
 			checkEligibilityForPaperBased()
 
@@ -435,6 +461,7 @@ public class CheckEligibility {
 			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/EncoderNSTP/checkEligibility/compreCheckRiskLevel"),6)
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -454,6 +481,7 @@ public class CheckEligibility {
 			WebUI.click(findTestObject("Object Repository/TabSection/checkEligibility"))
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -474,6 +502,7 @@ public class CheckEligibility {
 			WebUI.click(findTestObject("Object Repository/TabSection/checkEligibility"))
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -494,6 +523,7 @@ public class CheckEligibility {
 			WebUI.click(findTestObject("Object Repository/TabSection/checkEligibility"))
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -513,6 +543,7 @@ public class CheckEligibility {
 			WebUI.click(findTestObject("Object Repository/TabSection/checkEligibility"))
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -534,6 +565,7 @@ public class CheckEligibility {
 			WebUI.click(findTestObject("Object Repository/TabSection/checkEligibility"))
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -561,6 +593,7 @@ public class CheckEligibility {
 			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/EncoderNSTP/checkEligibility/compreCheckRiskLevel"),6)
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -624,6 +657,7 @@ public class CheckEligibility {
 			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/EncoderNSTP/checkEligibility/compreCheckRiskLevel"),6)
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -638,6 +672,7 @@ public class CheckEligibility {
 		try {
 			//clicking on the check eligibilty tab
 			WebUI.click(findTestObject("Object Repository/TabSection/checkEligibility"))
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()

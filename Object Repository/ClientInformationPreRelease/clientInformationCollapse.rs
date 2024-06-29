@@ -6,12 +6,12 @@
    <elementGuidId>ec0c1d85-6a06-4016-b2a7-51ef7e59d75d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@ref_element = 'Object Repository/Frames/iframe_Form_ngformIframe']</value>
+         <key>XPATH</key>
+         <value>(//div[text()=&quot;Client Information&quot;])[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[text()=&quot;Client Information&quot;]</value>
+         <key>BASIC</key>
+         <value>//*[@ref_element = 'Object Repository/Frames/iframe_Form_ngformIframe']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,6 +23,6 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/Frames/iframe_Form_ngformIframe</value>
-      <webElementGuid>d3bce412-87db-44cb-bf7b-33caca6647a6</webElementGuid>
+      <webElementGuid>72e770e7-7dc3-48c4-b60d-32caf46c088e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -12,15 +12,15 @@ import globalVariableUtils.GlobalVariableUtil
 
 
 public class CreditEvaluation {
-	
-	
-	
+
+
+
 	def checkALL() {
 		if(WebUI.verifyElementPresent(findTestObject("Object Repository/BackOffice/CreditEvaluation/otherCreditCheckings"), 1,FailureHandling.OPTIONAL)) {
 			WebUI.scrollToElement(findTestObject("Object Repository/BackOffice/CreditEvaluation/otherCreditCheckings"), 1,FailureHandling.OPTIONAL)
 			GlobalVariableUtil.captureScreenShotWithTime()
 		}
-		
+
 		if(WebUI.verifyElementPresent(findTestObject("Object Repository/BackOffice/CreditEvaluation/NTBBankCheck"), 1,FailureHandling.OPTIONAL)) {
 			WebUI.scrollToElement(findTestObject("Object Repository/BackOffice/CreditEvaluation/NTBBankCheck"), 1,FailureHandling.OPTIONAL)
 			GlobalVariableUtil.captureScreenShotWithTime()
@@ -86,6 +86,8 @@ public class CreditEvaluation {
 		try {
 			//clicking on the credit evaluation tab
 			WebUI.click(findTestObject("Object Repository/TabSection/creditEvaluation"))
+			GlobalVariableUtil.captureScreenShotWithTime()
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -106,7 +108,7 @@ public class CreditEvaluation {
 			WebUI.click(findTestObject("Object Repository/TabSection/creditEvaluation"))
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
-
+			checkALL()
 
 			//			enterNTBBankCheck()
 
@@ -131,6 +133,7 @@ public class CreditEvaluation {
 			WebUI.click(findTestObject("Object Repository/TabSection/creditEvaluation"))
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -150,6 +153,7 @@ public class CreditEvaluation {
 			WebUI.click(findTestObject("Object Repository/TabSection/creditEvaluation"))
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -169,7 +173,7 @@ public class CreditEvaluation {
 			WebUI.click(findTestObject("Object Repository/TabSection/creditEvaluation"))
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
-
+			checkALL()
 			//			WebUI.setText(findTestObject("Object Repository/BackOffice/COMaker/CreditEvaluation/varifiedMonthlyIncomeBorrower"), "30000")
 			//			WebUI.setText(findTestObject("Object Repository/BackOffice/COMaker/CreditEvaluation/varifiedMonthlyIncomeCoBorrower"), "25000")
 			//			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/COMaker/CreditEvaluation/basisOfVarification"), 1)
@@ -203,6 +207,7 @@ public class CreditEvaluation {
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
+			checkALL()
 
 			WebUI.delay(1)
 			WebUI.click(findTestObject("Object Repository/TabSection/nextArrowButton"))
@@ -227,6 +232,7 @@ public class CreditEvaluation {
 		try {
 			//clicking on the credit evaluation tab
 			WebUI.click(findTestObject("Object Repository/TabSection/creditEvaluation"))
+			GlobalVariableUtil.captureScreenShotWithTime()
 			WebUI.setText(findTestObject("Object Repository/BackOffice/COMaker/CreditEvaluation/varifiedMonthlyIncomeBorrower"), "30000")
 			WebUI.setText(findTestObject("Object Repository/BackOffice/COMaker/CreditEvaluation/varifiedMonthlyIncomeCoBorrower"), "25000")
 			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/COMaker/CreditEvaluation/basisOfVarification"), 1)
@@ -259,6 +265,8 @@ public class CreditEvaluation {
 		try {
 			//clicking on the credit evaluation tab
 			WebUI.click(findTestObject("Object Repository/TabSection/creditEvaluation"))
+			GlobalVariableUtil.captureScreenShotWithTime()
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -277,17 +285,21 @@ public class CreditEvaluation {
 		try {
 			//clicking on the credit evaluation tab
 			WebUI.click(findTestObject("Object Repository/TabSection/creditEvaluation"))
+			GlobalVariableUtil.captureScreenShotWithTime()
 
 			WebUI.setText(findTestObject("Object Repository/BackOfficePaperBase/COMaker/CreditEvaluation/varifiedMonthlyIncomeBorrower"), "78000")
 
 			WebUI.setText(findTestObject("Object Repository/BackOfficePaperBase/COMaker/CreditEvaluation/varifiedMonthlyIncomeCoBorrower"), "66000")
 
 			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOfficePaperBase/COMaker/CreditEvaluation/basisOfVarification"), 1)
+			GlobalVariableUtil.captureScreenShotWithTime()
 
 
 			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOfficePaperBase/COMaker/CreditEvaluation/Recommandation"), 1)
 
 			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOfficePaperBase/COMaker/CreditEvaluation/Approver"), 1)
+			GlobalVariableUtil.captureScreenShotWithTime()
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -308,7 +320,7 @@ public class CreditEvaluation {
 			WebUI.click(findTestObject("Object Repository/TabSection/creditEvaluation"))
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
-
+			checkALL()
 
 			//			WebUI.setText(findTestObject("Object Repository/BackOffice/COMaker/CreditEvaluation/varifiedMonthlyIncomeBorrower"), "78000")
 			//			WebUI.setText(findTestObject("Object Repository/BackOffice/COMaker/CreditEvaluation/varifiedMonthlyIncomeCoBorrower"), "60000")
@@ -333,6 +345,7 @@ public class CreditEvaluation {
 			WebUI.click(findTestObject("Object Repository/TabSection/creditEvaluation"))
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -352,6 +365,7 @@ public class CreditEvaluation {
 			WebUI.click(findTestObject("Object Repository/TabSection/creditEvaluation"))
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -372,7 +386,7 @@ public class CreditEvaluation {
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
-
+			checkALL()
 			WebUI.delay(1)
 			WebUI.click(findTestObject("Object Repository/TabSection/nextArrowButton"))
 		}catch(Exception e) {
@@ -396,6 +410,7 @@ public class CreditEvaluation {
 			WebUI.click(findTestObject("Object Repository/TabSection/creditEvaluation"))
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -403,9 +418,9 @@ public class CreditEvaluation {
 			println(e.toString())
 		}
 	}
-	
-	
-	
+
+
+
 	@Keyword
 	def creditEvaluationBooking() {
 		try {
@@ -421,7 +436,4 @@ public class CreditEvaluation {
 			println(e.toString())
 		}
 	}
-	
-	
-	
 }

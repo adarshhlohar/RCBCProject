@@ -237,6 +237,47 @@ public class CustomerDetail {
 	}
 
 
+
+
+	def checkALL() {
+		if(WebUI.verifyElementPresent(findTestObject("Object Repository/ClientInformationPreRelease/clientInformationCollapse"), 1,FailureHandling.OPTIONAL)) {
+			WebUI.scrollToElement(findTestObject("Object Repository/ClientInformationPreRelease/clientInformationCollapse"), 1,FailureHandling.OPTIONAL)
+			GlobalVariableUtil.captureScreenShotWithTime()
+		}
+
+		if(WebUI.verifyElementPresent(findTestObject("Object Repository/ClientInformationPreRelease/borrowerDetailCollapse"), 1,FailureHandling.OPTIONAL)) {
+			WebUI.scrollToElement(findTestObject("Object Repository/ClientInformationPreRelease/borrowerDetailCollapse"), 1,FailureHandling.OPTIONAL)
+			GlobalVariableUtil.captureScreenShotWithTime()
+		}
+
+		if(WebUI.verifyElementPresent(findTestObject("Object Repository/ClientInformationPreRelease/borrowerAddressDetailsCollapse"), 1,FailureHandling.OPTIONAL)) {
+			WebUI.scrollToElement(findTestObject("Object Repository/ClientInformationPreRelease/borrowerAddressDetailsCollapse"), 1,FailureHandling.OPTIONAL)
+			GlobalVariableUtil.captureScreenShotWithTime()
+		}
+
+		if(WebUI.verifyElementPresent(findTestObject("Object Repository/ClientInformationPreRelease/borrowerSourceOfIncomeCollapse"), 1,FailureHandling.OPTIONAL)) {
+			WebUI.scrollToElement(findTestObject("Object Repository/ClientInformationPreRelease/borrowerSourceOfIncomeCollapse"), 1,FailureHandling.OPTIONAL)
+			GlobalVariableUtil.captureScreenShotWithTime()
+		}
+
+		if(WebUI.verifyElementPresent(findTestObject("Object Repository/ClientInformationPreRelease/coBorrowerDetailsCollapse"), 1,FailureHandling.OPTIONAL)) {
+			WebUI.scrollToElement(findTestObject("Object Repository/ClientInformationPreRelease/coBorrowerDetailsCollapse"), 1,FailureHandling.OPTIONAL)
+			GlobalVariableUtil.captureScreenShotWithTime()
+		}
+
+		if(WebUI.verifyElementPresent(findTestObject("Object Repository/ClientInformationPreRelease/coBorrowerSourceOfIncome"), 1,FailureHandling.OPTIONAL)) {
+			WebUI.scrollToElement(findTestObject("Object Repository/ClientInformationPreRelease/coBorrowerSourceOfIncome"), 1,FailureHandling.OPTIONAL)
+			GlobalVariableUtil.captureScreenShotWithTime()
+		}
+
+		if(WebUI.verifyElementPresent(findTestObject("Object Repository/ClientInformationPreRelease/AIFDetailsCollapse"), 1,FailureHandling.OPTIONAL)) {
+			WebUI.scrollToElement(findTestObject("Object Repository/ClientInformationPreRelease/AIFDetailsCollapse"), 1,FailureHandling.OPTIONAL)
+			GlobalVariableUtil.captureScreenShotWithTime()
+		}
+	}
+
+
+
 	/**
 	 * This metnhod is for the PreRelease client Information
 	 * @return
@@ -251,6 +292,8 @@ public class CustomerDetail {
 			WebUI.switchToWindowIndex(parentWindowId+1)
 
 			matchReferenceNumber()
+
+			checkALL()
 
 			WebUI.delay(1)
 		}catch(Exception e) {
@@ -290,7 +333,7 @@ public class CustomerDetail {
 
 			WebUI.comment("After Changing")
 
-
+			checkALL()
 
 			WebUI.click(findTestObject("Object Repository/ClientInformationPreRelease/saveChanges"))
 
@@ -335,6 +378,7 @@ public class CustomerDetail {
 
 			WebUI.comment("After Changing")
 
+			checkALL()
 
 			WebUI.click(findTestObject("Object Repository/ClientInformationPreRelease/saveChanges"))
 
@@ -360,6 +404,8 @@ public class CustomerDetail {
 
 			matchReferenceNumber()
 
+			checkALL()
+
 			//			WebUI.click(findTestObject("Object Repository/ClientInformationPreRelease/saveAndClose"))
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
@@ -383,6 +429,8 @@ public class CustomerDetail {
 			WebUI.switchToWindowIndex(parentWindowId+1)
 
 			matchReferenceNumber()
+
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -409,6 +457,8 @@ public class CustomerDetail {
 			enterPricipalDetail()
 
 			enterCoBorrowerDetail()
+
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -435,6 +485,8 @@ public class CustomerDetail {
 			enterPricipalDetail()
 
 			enterCoBorrowerDetail()
+
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -457,6 +509,8 @@ public class CustomerDetail {
 			WebUI.switchToWindowIndex(parentWindowId+1)
 
 			matchReferenceNumber()
+
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -480,6 +534,8 @@ public class CustomerDetail {
 			WebUI.switchToWindowIndex(parentWindowId+1)
 
 			matchReferenceNumber()
+
+			checkALL()
 
 			//			if(WebUI.waitForElementPresent(findTestObject("Object Repository/BackOffice/COApprover/ibpsHomePage/expandlayout"),2)) {
 			//				WebUI.click(findTestObject("Object Repository/BackOffice/COApprover/ibpsHomePage/expandlayout"))
@@ -507,6 +563,8 @@ public class CustomerDetail {
 			WebUI.switchToWindowIndex(parentWindowId+1)
 
 			matchReferenceNumber()
+
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -536,6 +594,8 @@ public class CustomerDetail {
 			enterPricipalDetail()
 
 			enterCoBorrowerDetailNSTPPaperbase()
+
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -561,6 +621,8 @@ public class CustomerDetail {
 			matchReferenceNumber()
 
 			enterPricipalDetail()
+
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -588,6 +650,8 @@ public class CustomerDetail {
 			enterPricipalDetail()
 
 			enterCoBorrowerDetailNSTPPaperbase()
+
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -609,6 +673,8 @@ public class CustomerDetail {
 			WebUI.switchToWindowIndex(parentWindowId+1)
 
 			matchReferenceNumber()
+
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -632,6 +698,7 @@ public class CustomerDetail {
 
 			matchReferenceNumber()
 
+			checkALL()
 			//			WebUI.click(findTestObject("Object Repository/BackOffice/COApprover/ibpsHomePage/expandlayout"))
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
@@ -658,6 +725,8 @@ public class CustomerDetail {
 
 			matchReferenceNumber()
 
+			checkALL()
+
 			//			WebUI.click(findTestObject("Object Repository/ClientInformationPreRelease/saveAndClose"))
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
@@ -682,6 +751,8 @@ public class CustomerDetail {
 			WebUI.switchToWindowIndex(parentWindowId+1)
 
 			matchReferenceNumber()
+
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -705,6 +776,8 @@ public class CustomerDetail {
 			WebUI.switchToWindowIndex(parentWindowId+1,FailureHandling.OPTIONAL)
 
 			matchReferenceNumber()
+
+			checkALL()
 
 			//			WebUI.click(findTestObject("Object Repository/BackOffice/SDApprover/ClientInfo/expandLayout"))
 		}catch(Exception e) {
@@ -730,6 +803,8 @@ public class CustomerDetail {
 			WebUI.switchToWindowIndex(parentWindowId+1)
 
 			matchReferenceNumber()
+
+			checkALL()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -764,6 +839,8 @@ public class CustomerDetail {
 
 			WebUI.comment("After Amendment")
 
+			checkALL()
+
 
 			WebUI.click(findTestObject("Object Repository/ClientInformationPreRelease/saveChanges"))
 
@@ -795,6 +872,8 @@ public class CustomerDetail {
 			GlobalVariableUtil.saveGlobalVariable("AccountNumber", accountNumber)
 			GlobalVariableUtil.saveGlobalVariable("CIFNumber", cifNumber)
 			GlobalVariableUtil.captureScreenShotWithTime()
+
+			checkALL()
 			WebUI.click(findTestObject("Object Repository/ClientInformationPreRelease/saveChanges"))
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed

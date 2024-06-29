@@ -36,6 +36,8 @@ public class InsuranceInformation {
 			//clicking on the Insurance Information tab
 			WebUI.click(findTestObject("Object Repository/TabSection/InsuranceInformation"))
 
+			checkALL()
+
 			//clicking on the next arrow button
 			WebUI.click(findTestObject("Object Repository/TabSection/nextArrowButton"))
 		}catch(Exception e) {
@@ -58,6 +60,7 @@ public class InsuranceInformation {
 			WebUI.click(findTestObject("Object Repository/TabSection/InsuranceInformation"))
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
+			checkALL()
 
 			//clicking on the next arrow button
 			WebUI.click(findTestObject("Object Repository/TabSection/nextArrowButton"))
@@ -91,6 +94,7 @@ public class InsuranceInformation {
 			WebUI.scrollToElement(findTestObject("Object Repository/BackOffice/Fulfillment/InsuranceInformationWithoutAPI/paymentFrequency"), 2)
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
+			checkALL()
 			//clicking on the next arrow button
 			WebUI.click(findTestObject("Object Repository/TabSection/nextArrowButton"))
 		}catch(Exception e) {
@@ -138,6 +142,7 @@ public class InsuranceInformation {
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 			WebUI.delay(1)
+			checkALL()
 
 			//clicking on the next arrow button
 			WebUI.click(findTestObject("Object Repository/TabSection/nextArrowButton"))
@@ -188,6 +193,7 @@ public class InsuranceInformation {
 
 			//			WebUI.delay(1)
 			//			GlobalVariableUtil.captureScreenShotWithTime()
+			checkALL()
 
 			WebUI.delay(1)
 			//clicking on the next arrow button
@@ -212,6 +218,7 @@ public class InsuranceInformation {
 			WebUI.click(findTestObject("Object Repository/TabSection/InsuranceInformation"))
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
+			checkALL()
 
 			//clicking on the next arrow button
 			WebUI.click(findTestObject("Object Repository/TabSection/nextArrowButton"))
@@ -235,7 +242,7 @@ public class InsuranceInformation {
 			WebUI.click(findTestObject("Object Repository/TabSection/InsuranceInformation"))
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
-
+			checkALL()
 			//clicking on the next arrow button
 			WebUI.click(findTestObject("Object Repository/TabSection/nextArrowButton"))
 		}catch(Exception e) {
@@ -258,7 +265,7 @@ public class InsuranceInformation {
 			WebUI.click(findTestObject("Object Repository/TabSection/InsuranceInformation"))
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
-
+			checkALL()
 			//clicking on the next arrow button
 			WebUI.click(findTestObject("Object Repository/TabSection/nextArrowButton"))
 		}catch(Exception e) {
@@ -281,7 +288,7 @@ public class InsuranceInformation {
 			WebUI.click(findTestObject("Object Repository/TabSection/InsuranceInformation"))
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
-
+			checkALL()
 			//clicking on the next arrow button
 			WebUI.click(findTestObject("Object Repository/TabSection/nextArrowButton"))
 		}catch(Exception e) {
@@ -312,6 +319,7 @@ public class InsuranceInformation {
 			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/Fulfillment/InsuranceInformationWithoutAPI/paymentFrequency"), 1)
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
+			checkALL()
 			//clicking on the next arrow button
 			WebUI.click(findTestObject("Object Repository/TabSection/nextArrowButton"))
 		}catch(Exception e) {
@@ -336,6 +344,7 @@ public class InsuranceInformation {
 			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/Fulfillment/InsuranceInformationWithoutAPI/paymentFrequency"), 1)
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
+			checkALL()
 			//clicking on the next arrow button
 			WebUI.click(findTestObject("Object Repository/TabSection/nextArrowButton"))
 		}catch(Exception e) {
@@ -358,7 +367,7 @@ public class InsuranceInformation {
 			WebUI.click(findTestObject("Object Repository/TabSection/InsuranceInformation"))
 			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
-
+			checkALL()
 			//clicking on the next arrow button
 			WebUI.click(findTestObject("Object Repository/TabSection/nextArrowButton"))
 		}catch(Exception e) {
@@ -368,9 +377,9 @@ public class InsuranceInformation {
 			println(e.toString())
 		}
 	}
-	
-	
-	
+
+
+
 	@Keyword
 	def insuranceInformationForBooking() {
 		try {

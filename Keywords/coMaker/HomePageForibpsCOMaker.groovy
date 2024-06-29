@@ -70,6 +70,8 @@ public class HomePageForibpsCOMaker {
 				GlobalVariableUtil.captureScreenShotWithTime()
 				//sorting by the latest first
 				WebUI.click(findTestObject("Object Repository/BackOffice/COMaker/ibpsHomePage/resistrationNo"))
+				
+				WebUI.delay(1)
 
 				driver.switchTo().frame("iframe_Int42")
 
