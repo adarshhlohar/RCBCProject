@@ -1,0 +1,66 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+testSuiteForCOApproverNSTP,Edge Chromium 126,,,29-06-2024 18:34:42,29-06-2024 18:40:23,5m - 40.798s,PASSED
+,,,,,,,
+Test Cases/Digital_NSTP/testCaseForCOApprover/LoginPage,Edge Chromium 126,,,29-06-2024 18:34:42,29-06-2024 18:35:17,34.652s,PASSED
+coApprover.LoginForibpsCOApprover.login(),Edge Chromium 126,,,29-06-2024 18:34:44,29-06-2024 18:35:15,30.636s,PASSED
+Video,Edge Chromium 126,,,29-06-2024 18:35:17,29-06-2024 18:35:17,0.005s,PASSED
+,,,,,,,
+Test Cases/Digital_NSTP/testCaseForCOApprover/HomePage,Edge Chromium 126,,,29-06-2024 18:35:17,29-06-2024 18:35:32,15.315s,PASSED
+coApprover.HomePageForibpsCOApprover.selectResistration(),Edge Chromium 126,,,29-06-2024 18:35:17,29-06-2024 18:35:30,12.799s,PASSED
+Video,Edge Chromium 126,,,29-06-2024 18:35:32,29-06-2024 18:35:32,0.008s,PASSED
+,,,,,,,
+Test Cases/Digital_NSTP/testCaseForCOApprover/ClientInformation,Edge Chromium 126,,,29-06-2024 18:35:32,29-06-2024 18:36:13,40.332s,PASSED
+tabSection.CustomerDetail.clientInformationForCOApproverForNSTP(),Edge Chromium 126,,,29-06-2024 18:35:33,29-06-2024 18:36:11,37.876s,PASSED
+Video,Edge Chromium 126,,,29-06-2024 18:36:13,29-06-2024 18:36:13,0.003s,PASSED
+,,,,,,,
+Test Cases/Digital_NSTP/testCaseForCOApprover/LoanInformation,Edge Chromium 126,,,29-06-2024 18:36:13,29-06-2024 18:36:43,29.937s,PASSED
+tabSection.LoanInformation.loanInfoForCOApprover(),Edge Chromium 126,,,29-06-2024 18:36:13,29-06-2024 18:36:41,27.688s,PASSED
+Video,Edge Chromium 126,,,29-06-2024 18:36:43,29-06-2024 18:36:43,0.002s,PASSED
+,,,,,,,
+Test Cases/Digital_NSTP/testCaseForCOApprover/DocumentChecklist,Edge Chromium 126,,,29-06-2024 18:36:43,29-06-2024 18:37:55,1m - 11.907s,PASSED
+tabSection.DocumentCheckList.documentCheckListForCOApprover(),Edge Chromium 126,,,29-06-2024 18:36:43,29-06-2024 18:37:53,1m - 9.512s,PASSED
+Video,Edge Chromium 126,,,29-06-2024 18:37:55,29-06-2024 18:37:55,0.002s,PASSED
+,,,,,,,
+Test Cases/Digital_NSTP/testCaseForCOApprover/CollateralInformation,Edge Chromium 126,,,29-06-2024 18:37:55,29-06-2024 18:38:01,6.658s,PASSED
+tabSection.CollateralInformation.collateralInformationForCOApprover(),Edge Chromium 126,,,29-06-2024 18:37:55,29-06-2024 18:37:59,4.463s,PASSED
+Video,Edge Chromium 126,,,29-06-2024 18:38:01,29-06-2024 18:38:01,0.003s,PASSED
+,,,,,,,
+Test Cases/Digital_NSTP/testCaseForCOApprover/CheckEligibility,Edge Chromium 126,,,29-06-2024 18:38:01,29-06-2024 18:38:19,17.664s,PASSED
+tabSection.CheckEligibility.checkEligibilityForCOApprover(),Edge Chromium 126,,,29-06-2024 18:38:02,29-06-2024 18:38:17,15.347s,PASSED
+Video,Edge Chromium 126,,,29-06-2024 18:38:19,29-06-2024 18:38:19,0.002s,PASSED
+,,,,,,,
+Test Cases/Digital_NSTP/testCaseForCOApprover/CreditEvaluation,Edge Chromium 126,,,29-06-2024 18:38:19,29-06-2024 18:38:33,13.922s,PASSED
+tabSection.CreditEvaluation.creditEvaluationForCOApproverNSTP(),Edge Chromium 126,,,29-06-2024 18:38:19,29-06-2024 18:38:31,11.708s,PASSED
+Video,Edge Chromium 126,,,29-06-2024 18:38:33,29-06-2024 18:38:33,0.001s,PASSED
+,,,,,,,
+Test Cases/Digital_NSTP/testCaseForCOApprover/Deviation,Edge Chromium 126,,,29-06-2024 18:38:33,29-06-2024 18:38:40,6.795s,PASSED
+tabSection.Deviation.deviationForCOApprover(),Edge Chromium 126,,,29-06-2024 18:38:33,29-06-2024 18:38:38,4.503s,PASSED
+Video,Edge Chromium 126,,,29-06-2024 18:38:40,29-06-2024 18:38:40,0.003s,PASSED
+,,,,,,,
+Test Cases/Digital_NSTP/testCaseForCOApprover/CreditInvestigation,Edge Chromium 126,,,29-06-2024 18:38:40,29-06-2024 18:38:50,10.015s,PASSED
+tabSection.CreditInvestigation.creditInvestigationCOApprover(),Edge Chromium 126,,,29-06-2024 18:38:40,29-06-2024 18:38:48,7.748s,PASSED
+Video,Edge Chromium 126,,,29-06-2024 18:38:50,29-06-2024 18:38:50,0.001s,PASSED
+,,,,,,,
+Test Cases/Digital_NSTP/testCaseForCOApprover/InsuranceInformation,Edge Chromium 126,,,29-06-2024 18:38:50,29-06-2024 18:39:05,15.052s,PASSED
+tabSection.InsuranceInformation.insuranceInformationForCOApprover(),Edge Chromium 126,,,29-06-2024 18:38:50,29-06-2024 18:39:03,12.844s,PASSED
+Video,Edge Chromium 126,,,29-06-2024 18:39:05,29-06-2024 18:39:05,0.002s,PASSED
+,,,,,,,
+Test Cases/Digital_NSTP/testCaseForCOApprover/DisbursementInformation,Edge Chromium 126,,,29-06-2024 18:39:05,29-06-2024 18:39:12,7.505s,PASSED
+tabSection.DisbursementInfo.disbursementInformationForCOApprover(),Edge Chromium 126,,,29-06-2024 18:39:05,29-06-2024 18:39:10,5.290s,PASSED
+Video,Edge Chromium 126,,,29-06-2024 18:39:12,29-06-2024 18:39:12,0.002s,PASSED
+,,,,,,,
+Test Cases/Digital_NSTP/testCaseForCOApprover/SystemIntefaceStatus,Edge Chromium 126,,,29-06-2024 18:39:12,29-06-2024 18:39:20,7.641s,PASSED
+tabSection.SystemInterfaceStatus.systemInterfaceStatusForCOApprover(),Edge Chromium 126,,,29-06-2024 18:39:13,29-06-2024 18:39:18,5.427s,PASSED
+Video,Edge Chromium 126,,,29-06-2024 18:39:20,29-06-2024 18:39:20,0.001s,PASSED
+,,,,,,,
+Test Cases/Digital_NSTP/testCaseForCOApprover/AlertSummary,Edge Chromium 126,,,29-06-2024 18:39:20,29-06-2024 18:39:28,7.740s,PASSED
+tabSection.AlertsSummary.alertsSummaryForCOApprover(),Edge Chromium 126,,,29-06-2024 18:39:20,29-06-2024 18:39:26,5.458s,PASSED
+Video,Edge Chromium 126,,,29-06-2024 18:39:28,29-06-2024 18:39:28,0.001s,PASSED
+,,,,,,,
+Test Cases/Digital_NSTP/testCaseForCOApprover/Action,Edge Chromium 126,,,29-06-2024 18:39:28,29-06-2024 18:40:02,34.044s,PASSED
+tabSection.Action.submitForAO(),Edge Chromium 126,,,29-06-2024 18:39:28,29-06-2024 18:40:00,31.775s,PASSED
+Video,Edge Chromium 126,,,29-06-2024 18:40:02,29-06-2024 18:40:02,0.002s,PASSED
+,,,,,,,
+Test Cases/LogOut/logout,Edge Chromium 126,,,29-06-2024 18:40:02,29-06-2024 18:40:23,20.812s,PASSED
+signOutibps.SignOut.logout(),Edge Chromium 126,,,29-06-2024 18:40:02,29-06-2024 18:40:21,18.560s,PASSED
+Video,Edge Chromium 126,,,29-06-2024 18:40:23,29-06-2024 18:40:23,0.003s,PASSED

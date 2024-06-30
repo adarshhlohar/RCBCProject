@@ -6,14 +6,16 @@
       "keywordMethods": [
         {
           "name": "logout",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "logoutFCI",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

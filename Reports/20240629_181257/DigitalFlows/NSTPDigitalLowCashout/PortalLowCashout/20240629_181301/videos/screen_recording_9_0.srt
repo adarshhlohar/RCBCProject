@@ -1,0 +1,12 @@
+1
+00:00:00,722 --> 00:00:12,619
+1. autoLoanProtal.AdditionalInformationWithAPI.borrowersDetail(nationality, visaType, sex, occupation, idType, idNumber, accountNumber)
+
+2
+00:00:12,624 --> 00:00:27,123
+5. autoLoanProtal.AdditionalInformationWithAPI.homeAddress(country, region, province, townCityMunicipality, barangay, streetName, unitNoBldgNameBldgNoVillageSubdivision)
+
+3
+00:00:27,123 --> 00:00:45,807
+9. autoLoanProtal.AdditionalInformationWithAPI.coBorrowersDetails(coBorrowerRelationshipWithBorrower, coBorrowerFirstName, coBorrowerMiddleName, coBorrowerLastName, coBorrowerSuffix)
+

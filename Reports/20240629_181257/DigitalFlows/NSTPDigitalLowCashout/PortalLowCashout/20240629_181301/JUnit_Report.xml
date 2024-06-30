@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PortalLowCashout" time="412.077" tests="11" failures="0" errors="0">
+   <testsuite name="PortalLowCashout" tests="11" failures="0" errors="0" time="412.077" skipped="0" timestamp="29-06-2024T18:13:37" hostname="Adarsh.Lohar - QKNBK2037.qkcorp.qualitykiosk.com" id="Test Suites/DigitalFlows/NSTPDigitalLowCashout/PortalLowCashout">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\PortalLowCashout\\20240629_181301"/>
+         <property name="logFiles" value="D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\PortalLowCashout\\20240629_181301\\execution0.log"/>
+         <property name="attachments" value="D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\PortalLowCashout\\20240629_181301\\Screenshots/Portal29_06_2406_14_07/Regression29_06_24_06_14_09.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\PortalLowCashout\\20240629_181301\\Screenshots/Portal29_06_2406_14_07/Regression29_06_24_06_14_47.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\PortalLowCashout\\20240629_181301\\Screenshots/Portal29_06_2406_14_07/Regression29_06_24_06_14_59.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\PortalLowCashout\\20240629_181301\\Screenshots/Portal29_06_2406_14_07/Regression29_06_24_06_15_15.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\PortalLowCashout\\20240629_181301\\Screenshots/Portal29_06_2406_14_07/Regression29_06_24_06_15_54.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\PortalLowCashout\\20240629_181301\\Screenshots/Portal29_06_2406_14_07/Regression29_06_24_06_16_14.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\PortalLowCashout\\20240629_181301\\Screenshots/Portal29_06_2406_14_07/Regression29_06_24_06_16_32.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\PortalLowCashout\\20240629_181301\\Screenshots/Portal29_06_2406_14_07/Regression29_06_24_06_16_51.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\PortalLowCashout\\20240629_181301\\Screenshots/Portal29_06_2406_14_07/Regression29_06_24_06_17_02.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\PortalLowCashout\\20240629_181301\\Screenshots/Portal29_06_2406_14_07/Regression29_06_24_06_17_12.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\PortalLowCashout\\20240629_181301\\Screenshots/Portal29_06_2406_14_07/Regression29_06_24_06_17_22.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\PortalLowCashout\\20240629_181301\\Screenshots/Portal29_06_2406_14_07/Regression29_06_24_06_17_40.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\PortalLowCashout\\20240629_181301\\Screenshots/Portal29_06_2406_14_07/Regression29_06_24_06_17_55.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\PortalLowCashout\\20240629_181301\\Screenshots/Portal29_06_2406_14_07/Regression29_06_24_06_18_05.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\PortalLowCashout\\20240629_181301\\Screenshots/Portal29_06_2406_14_07/Regression29_06_24_06_18_20.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\PortalLowCashout\\20240629_181301\\Screenshots/Portal29_06_2406_14_07/Regression29_06_24_06_18_43.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\PortalLowCashout\\20240629_181301\\Screenshots/Portal29_06_2406_14_07/Regression29_06_24_06_19_09.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\PortalLowCashout\\20240629_181301\\Screenshots/Portal29_06_2406_14_07/Regression29_06_24_06_19_36.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\PortalLowCashout\\20240629_181301\\Screenshots/Portal29_06_2406_14_07/Regression29_06_24_06_19_43.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\PortalLowCashout\\20240629_181301\\Screenshots/Portal29_06_2406_14_07/Regression29_06_24_06_20_19.jpg"/>
+         <property name="hostName" value="Adarsh.Lohar - QKNBK2037.qkcorp.qualitykiosk.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Edge Chromium 126"/>
+         <property name="hostAddress" value="192.168.0.103"/>
+         <property name="sessionId" value="a583a5bb6b784690cc2d7c5d6bd5d9cd"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/LoginPage" time="67.021" classname="Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/LoginPage" status="PASSED">
+         <system-out><![CDATA[29-06-2024T18:13:37 - [TEST_CASE][PASSED] - Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/LoginPage: Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/LoginPage
+
+29-06-2024T18:13:39 - [TEST_STEP][PASSED] - loginPage.LoginPage.login_Page(): loginPage.LoginPage.login_Page is PASSED
+
+29-06-2024T18:13:41 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+29-06-2024T18:13:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-06-2024T18:13:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-06-2024T18:13:52 - [MESSAGE][PASSED] - Current window maximized
+
+29-06-2024T18:13:58 - [MESSAGE][PASSED] - Navigate to 'https://rcbcuat.nonprodnmc.com/LoanPortal' successfully
+
+29-06-2024T18:14:03 - [MESSAGE][PASSED] - Text 'QK_Dealer7' is set on object 'Object Repository/LoginPage/email'
+
+29-06-2024T18:14:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginPage/password'
+
+29-06-2024T18:14:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:14:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:14:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:14:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\PortalLowCashout\\20240629_181301\\Screenshots/Portal29_06_2406_14_07/Regression29_06_24_06_14_09.jpg]]
+
+29-06-2024T18:14:24 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/log_in' is clicked on
+
+29-06-2024T18:14:42 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Auto_Loan_Portal' is present
+
+29-06-2024T18:14:42 - [MESSAGE][INFO] - We are in Home Page
+
+29-06-2024T18:14:42 - [MESSAGE][PASSED] - loginPage.LoginPage.login_Page is PASSED
+
+29-06-2024T18:14:44 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/LoginPage' .
+
+29-06-2024T18:14:44 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/LoginPage' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/HomePage" time="11.185" classname="Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/HomePage" status="PASSED">
+         <system-out><![CDATA[29-06-2024T18:14:44 - [TEST_CASE][PASSED] - Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/HomePage: Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/HomePage
+
+29-06-2024T18:14:44 - [TEST_STEP][PASSED] - homePage.homePage.homepage(): homePage.homePage.homepage is PASSED
+
+29-06-2024T18:14:45 - [MESSAGE][PASSED] - Wait for page load successfully
+
+29-06-2024T18:14:45 - [MESSAGE][PASSED] - Text 'What system would you like to access?' is present on page 
+
+29-06-2024T18:14:46 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/ManageLoans' is clickable
+
+29-06-2024T18:14:46 - [MESSAGE][PASSED] - Object 'Object Repository/SignOutButton/exitIcon' is clickable
+
+29-06-2024T18:14:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:14:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:14:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\PortalLowCashout\\20240629_181301\\Screenshots/Portal29_06_2406_14_07/Regression29_06_24_06_14_47.jpg]]
+
+29-06-2024T18:14:51 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Auto_Loan_Portal' is clicked on
+
+29-06-2024T18:14:53 - [MESSAGE][PASSED] - Object 'Object Repository/ModeOfApplication/digitalApplication' is present
+
+29-06-2024T18:14:53 - [MESSAGE][INFO] - We are getting two options
+
+29-06-2024T18:14:53 - [MESSAGE][PASSED] - homePage.homePage.homepage is PASSED
+
+29-06-2024T18:14:55 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/HomePage' .
+
+29-06-2024T18:14:55 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/HomePage' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/SelectAutoLoan" time="17.517" classname="Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/SelectAutoLoan" status="PASSED">
+         <system-out><![CDATA[29-06-2024T18:14:55 - [TEST_CASE][PASSED] - Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/SelectAutoLoan: Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/SelectAutoLoan
+
+29-06-2024T18:14:56 - [TEST_STEP][PASSED] - autoLoanProtal.SelectAutoLoan.clickToDigitalApplication(): autoLoanProtal.SelectAutoLoan.clickToDigitalApplication is PASSED
+
+29-06-2024T18:14:56 - [MESSAGE][PASSED] - Wait for page load successfully
+
+29-06-2024T18:14:56 - [MESSAGE][PASSED] - Text 'Mode of Application' is present on page 
+
+29-06-2024T18:14:57 - [MESSAGE][PASSED] - Object 'Object Repository/ModeOfApplication/paperBased' is clickable
+
+29-06-2024T18:14:57 - [MESSAGE][PASSED] - Object 'Object Repository/ModeOfApplication/closeButton' is clickable
+
+29-06-2024T18:14:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:14:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:15:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:15:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\PortalLowCashout\\20240629_181301\\Screenshots/Portal29_06_2406_14_07/Regression29_06_24_06_14_59.jpg]]
+
+29-06-2024T18:15:09 - [MESSAGE][PASSED] - Object: 'Object Repository/ModeOfApplication/digitalApplication' is clicked on
+
+29-06-2024T18:15:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:15:11 - [MESSAGE][PASSED] - Object 'Object Repository/LetsGetStarted/lets_get_started' is present
+
+29-06-2024T18:15:11 - [MESSAGE][INFO] - We are in Right Page
+
+29-06-2024T18:15:11 - [MESSAGE][PASSED] - autoLoanProtal.SelectAutoLoan.clickToDigitalApplication is PASSED
+
+29-06-2024T18:15:13 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/SelectAutoLoan' .
+
+29-06-2024T18:15:13 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/SelectAutoLoan' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/LetsgetStarted" time="26.073" classname="Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/LetsgetStarted" status="PASSED">
+         <system-out><![CDATA[29-06-2024T18:15:13 - [TEST_CASE][PASSED] - Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/LetsgetStarted: Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/LetsgetStarted
+
+29-06-2024T18:15:13 - [TEST_STEP][PASSED] - autoLoanProtal.letsGetStarted.letsGetStartedBtnFun(): autoLoanProtal.letsGetStarted.letsGetStartedBtnFun is PASSED
+
+29-06-2024T18:15:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+29-06-2024T18:15:14 - [MESSAGE][PASSED] - Text 'Quick & easy Auto Loan Application with RCBC' is present on page 
+
+29-06-2024T18:15:14 - [MESSAGE][PASSED] - Object 'Object Repository/LetsGetStarted/homeButton' is clickable
+
+29-06-2024T18:15:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:15:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:15:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\PortalLowCashout\\20240629_181301\\Screenshots/Portal29_06_2406_14_07/Regression29_06_24_06_15_15.jpg]]
+
+29-06-2024T18:15:32 - [MESSAGE][PASSED] - Object: 'Object Repository/LetsGetStarted/lets_get_started' is clicked on
+
+29-06-2024T18:15:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+29-06-2024T18:15:37 - [MESSAGE][PASSED] - Object 'Object Repository/Loan Details/loanDetail' is present
+
+29-06-2024T18:15:37 - [MESSAGE][INFO] - We are in Loan Detail Page
+
+29-06-2024T18:15:37 - [MESSAGE][PASSED] - autoLoanProtal.letsGetStarted.letsGetStartedBtnFun is PASSED
+
+29-06-2024T18:15:39 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/LetsgetStarted' .
+
+29-06-2024T18:15:39 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/LetsgetStarted' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/LoanDetails" time="61.134" classname="Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/LoanDetails" status="PASSED">
+         <system-out><![CDATA[29-06-2024T18:15:39 - [TEST_CASE][PASSED] - Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/LoanDetails: Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/LoanDetails
+
+29-06-2024T18:15:40 - [TEST_STEP][PASSED] - autoLoanProtal.LoanDetails.loanDetail(brand, unitDescription, loanTerm, downpaymentValue, actualCashOut, insuranceType): autoLoanProtal.LoanDetails.loanDetail is PASSED
+
+29-06-2024T18:15:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+29-06-2024T18:15:40 - [MESSAGE][PASSED] - Object 'Object Repository/Loan Details/loanDetail' is present
+
+29-06-2024T18:15:41 - [MESSAGE][PASSED] - Object 'Object Repository/Loan Details/Used' is clickable
+
+29-06-2024T18:15:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Loan Details/Brand' is clicked on
+
+29-06-2024T18:15:44 - [MESSAGE][PASSED] - All options with value 'HONDA' are selected in object 'Object Repository/Loan Details/Brand'  using regular expression
+
+29-06-2024T18:15:46 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Loan Details/UnitDescription'
+
+29-06-2024T18:15:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Loan Details/LoanTerm' is clicked on
+
+29-06-2024T18:15:50 - [MESSAGE][PASSED] - All options with value 'AL5' are selected in object 'Object Repository/Loan Details/LoanTerm'  using regular expression
+
+29-06-2024T18:15:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Loan Details/DownpaymentValue' is clicked on
+
+29-06-2024T18:15:51 - [MESSAGE][PASSED] - Keys '200000' sent to object: 'Object Repository/Loan Details/DownpaymentValue'
+
+29-06-2024T18:15:52 - [MESSAGE][PASSED] - Keys '500' sent to object: 'Object Repository/Loan Details/ActualCashOut'
+
+29-06-2024T18:15:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:15:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:15:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:15:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\PortalLowCashout\\20240629_181301\\Screenshots/Portal29_06_2406_14_07/Regression29_06_24_06_15_54.jpg]]
+
+29-06-2024T18:15:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Loan Details/Insurance type' is clicked on
+
+29-06-2024T18:16:01 - [MESSAGE][PASSED] - All options with value 'REG' are selected in object 'Object Repository/Loan Details/Insurance type'  using regular expression
+
+29-06-2024T18:16:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+29-06-2024T18:16:03 - [MESSAGE][PASSED] - Current window's title is: 'Portal : LOS-3588'
+
+29-06-2024T18:16:03 - [MESSAGE][INFO] - LOS-3588
+
+29-06-2024T18:16:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Loan Details/increamentButton' is clicked on
+
+29-06-2024T18:16:10 - [MESSAGE][PASSED] - Attribute 'title' of object 'Object Repository/Loan Details/noOfAdvancePayment' is: '1'
+
+29-06-2024T18:16:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Loan Details/principalRadioBtn' is clicked on
+
+29-06-2024T18:16:12 - [MESSAGE][PASSED] - Object 'Object Repository/Loan Details/amortizationRadioBtn' is clickable
+
+29-06-2024T18:16:12 - [MESSAGE][PASSED] - Object 'Object Repository/Loan Details/autoLoanCheckBox' is not checked
+
+29-06-2024T18:16:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:16:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:16:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:16:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\PortalLowCashout\\20240629_181301\\Screenshots/Portal29_06_2406_14_07/Regression29_06_24_06_16_14.jpg]]
+
+29-06-2024T18:16:17 - [MESSAGE][PASSED] - Object 'Object Repository/Loan Details/Clear Data' is clickable
+
+29-06-2024T18:16:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Loan Details/Calculate' is clicked on
+
+29-06-2024T18:16:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+29-06-2024T18:16:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/Loan Details/monthlyInsurancePremium' is: '₱ 0.00'
+
+29-06-2024T18:16:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/Loan Details/MonthlyAmortization' is: '₱ 41,471.78'
+
+29-06-2024T18:16:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/Loan Details/totalMonthlyAmortization' is: '₱ 41,471.78'
+
+29-06-2024T18:16:30 - [MESSAGE][PASSED] - Object 'Object Repository/Loan Details/monthlyInsurancePremium13Month' is present
+
+29-06-2024T18:16:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/Loan Details/monthlyInsurancePremium13Month' is: ''
+
+29-06-2024T18:16:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:16:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:16:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\PortalLowCashout\\20240629_181301\\Screenshots/Portal29_06_2406_14_07/Regression29_06_24_06_16_32.jpg]]
+
+29-06-2024T18:16:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Loan Details/Apply Now' is clicked on
+
+29-06-2024T18:16:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+29-06-2024T18:16:38 - [MESSAGE][PASSED] - Object 'Object Repository/Borrower_Details/borrowerInformation' is present
+
+29-06-2024T18:16:38 - [MESSAGE][INFO] - We are in Borrower Detail Page
+
+29-06-2024T18:16:38 - [MESSAGE][PASSED] - autoLoanProtal.LoanDetails.loanDetail is PASSED
+
+29-06-2024T18:16:40 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/LoanDetails' .
+
+29-06-2024T18:16:40 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/LoanDetails' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/BorrowerDetail" time="27.632" classname="Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/BorrowerDetail" status="PASSED">
+         <system-out><![CDATA[29-06-2024T18:16:41 - [TEST_CASE][PASSED] - Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/BorrowerDetail: Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/BorrowerDetail
+
+29-06-2024T18:16:41 - [TEST_STEP][PASSED] - autoLoanProtal.Borrower_Detail.borrower_Details(fst_Name, mid_Name, lst_Name, email, mob_Num, date, maritalStatus, suffix, residence): autoLoanProtal.Borrower_Detail.borrower_Details is PASSED
+
+29-06-2024T18:16:41 - [MESSAGE][PASSED] - Wait for page load successfully
+
+29-06-2024T18:16:42 - [MESSAGE][PASSED] - Object 'Object Repository/Borrower_Details/borrowerInformation' is present
+
+29-06-2024T18:16:43 - [MESSAGE][PASSED] - Text 'DhirajSLX' is set on object 'Object Repository/Borrower_Details/first_Name'
+
+29-06-2024T18:16:45 - [MESSAGE][PASSED] - Text 'DhananjaySLX' is set on object 'Object Repository/Borrower_Details/middle_Name'
+
+29-06-2024T18:16:46 - [MESSAGE][PASSED] - Text 'ManeXLS' is set on object 'Object Repository/Borrower_Details/last_Name'
+
+29-06-2024T18:16:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrower_Details/suffix' is clicked on
+
+29-06-2024T18:16:49 - [MESSAGE][PASSED] - All options with value 'SF3' are selected in object 'Object Repository/Borrower_Details/suffix'  using regular expression
+
+29-06-2024T18:16:49 - [MESSAGE][PASSED] - 7 options of object 'Object Repository/Borrower_Details/suffix' counted
+
+29-06-2024T18:16:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:16:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:16:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:16:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\PortalLowCashout\\20240629_181301\\Screenshots/Portal29_06_2406_14_07/Regression29_06_24_06_16_51.jpg]]
+
+29-06-2024T18:16:54 - [MESSAGE][PASSED] - All options with value 'M' are selected in object 'Object Repository/Borrower_Details/marital_Status' 
+
+29-06-2024T18:16:55 - [MESSAGE][PASSED] - Text '26/09/1995' is set on object 'Object Repository/Borrower_Details/date_Of_Birth'
+
+29-06-2024T18:16:56 - [MESSAGE][PASSED] - Text 'AdarshXLS@gmail.com' is set on object 'Object Repository/Borrower_Details/email'
+
+29-06-2024T18:16:57 - [MESSAGE][PASSED] - Text '(63) 9356986523' is set on object 'Object Repository/Borrower_Details/mobile_Number'
+
+29-06-2024T18:16:59 - [MESSAGE][PASSED] - All options with value 'RO001' are selected in object 'Object Repository/Borrower_Details/residence_Ownership_Type' 
+
+29-06-2024T18:16:59 - [MESSAGE][PASSED] - 6 options of object 'Object Repository/Borrower_Details/residence_Ownership_Type' counted
+
+29-06-2024T18:17:00 - [MESSAGE][PASSED] - Object 'Object Repository/Borrower_Details/back' is clickable
+
+29-06-2024T18:17:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:17:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:17:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:17:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\PortalLowCashout\\20240629_181301\\Screenshots/Portal29_06_2406_14_07/Regression29_06_24_06_17_02.jpg]]
+
+29-06-2024T18:17:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Borrower_Details/continue' is clicked on
+
+29-06-2024T18:17:06 - [MESSAGE][PASSED] - Object 'Object Repository/confirmationPage/reviewLoanDetail' is present
+
+29-06-2024T18:17:06 - [MESSAGE][INFO] - We are in review loan Detail Page page
+
+29-06-2024T18:17:06 - [MESSAGE][PASSED] - autoLoanProtal.Borrower_Detail.borrower_Details is PASSED
+
+29-06-2024T18:17:08 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/BorrowerDetail' .
+
+29-06-2024T18:17:08 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/BorrowerDetail' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/ConfirmationPage" time="11.151" classname="Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/ConfirmationPage" status="PASSED">
+         <system-out><![CDATA[29-06-2024T18:17:08 - [TEST_CASE][PASSED] - Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/ConfirmationPage: Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/ConfirmationPage
+
+29-06-2024T18:17:08 - [TEST_STEP][PASSED] - autoLoanProtal.confirmationPage.editOnConfirmationPage(): autoLoanProtal.confirmationPage.editOnConfirmationPage is PASSED
+
+29-06-2024T18:17:08 - [MESSAGE][PASSED] - Wait for page load successfully
+
+29-06-2024T18:17:09 - [MESSAGE][PASSED] - Object 'Object Repository/confirmationPage/reviewLoanDetail' is present
+
+29-06-2024T18:17:09 - [MESSAGE][PASSED] - Object 'Object Repository/confirmationPage/autoLoanAppDetailsEditBtn' is clickable
+
+29-06-2024T18:17:10 - [MESSAGE][PASSED] - Object 'Object Repository/confirmationPage/borrowerDetailsEditBtn' is clickable
+
+29-06-2024T18:17:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:17:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:17:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:17:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\PortalLowCashout\\20240629_181301\\Screenshots/Portal29_06_2406_14_07/Regression29_06_24_06_17_12.jpg]]
+
+29-06-2024T18:17:16 - [MESSAGE][PASSED] - Object: 'Object Repository/confirmationPage/continueBtn' is clicked on
+
+29-06-2024T18:17:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:17:17 - [MESSAGE][PASSED] - autoLoanProtal.confirmationPage.editOnConfirmationPage is PASSED
+
+29-06-2024T18:17:19 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/ConfirmationPage' .
+
+29-06-2024T18:17:19 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/ConfirmationPage' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/InitialCheckingWithAPI" time="9.167" classname="Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/InitialCheckingWithAPI" status="PASSED">
+         <system-out><![CDATA[29-06-2024T18:17:19 - [TEST_CASE][PASSED] - Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/InitialCheckingWithAPI: Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/InitialCheckingWithAPI
+
+29-06-2024T18:17:19 - [TEST_STEP][PASSED] - autoLoanProtal.initial_Confirmation.initial_conf(): autoLoanProtal.initial_Confirmation.initial_conf is PASSED
+
+29-06-2024T18:17:20 - [MESSAGE][PASSED] - Wait for page load successfully
+
+29-06-2024T18:17:20 - [MESSAGE][PASSED] - Object 'Object Repository/Initial_Confirmation/oneMoreStep' is present
+
+29-06-2024T18:17:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:17:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:17:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:17:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\PortalLowCashout\\20240629_181301\\Screenshots/Portal29_06_2406_14_07/Regression29_06_24_06_17_22.jpg]]
+
+29-06-2024T18:17:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Initial_Confirmation/okay' is clicked on
+
+29-06-2024T18:17:26 - [MESSAGE][PASSED] - Object 'Object Repository/AdditionalInformationWithoutAPI/additionPageLogo' is present
+
+29-06-2024T18:17:26 - [MESSAGE][INFO] - We are in Addition page
+
+29-06-2024T18:17:26 - [MESSAGE][PASSED] - autoLoanProtal.initial_Confirmation.initial_conf is PASSED
+
+29-06-2024T18:17:28 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/InitialCheckingWithAPI' .
+
+29-06-2024T18:17:28 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/InitialCheckingWithAPI' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/AdditionalPageWithAPI" time="48.103" classname="Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/AdditionalPageWithAPI" status="PASSED">
+         <system-out><![CDATA[29-06-2024T18:17:29 - [TEST_CASE][PASSED] - Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/AdditionalPageWithAPI: Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/AdditionalPageWithAPI
+
+29-06-2024T18:17:30 - [TEST_STEP][PASSED] - autoLoanProtal.AdditionalInformationWithAPI.borrowersDetail(nationality, visaType, sex, occupation, idType, idNumber, accountNumber): autoLoanProtal.AdditionalInformationWithAPI.borrowersDetail is PASSED
+
+29-06-2024T18:17:30 - [MESSAGE][PASSED] - Wait for page load successfully
+
+29-06-2024T18:17:31 - [MESSAGE][PASSED] - Object 'Object Repository/AdditionalInformationWithoutAPI/additionPageLogo' is present
+
+29-06-2024T18:17:32 - [MESSAGE][PASSED] - All options with value '15' are selected in object 'Object Repository/AdditionalInformationWithAPI/BorrowerDetail/nationality' 
+
+29-06-2024T18:17:33 - [MESSAGE][PASSED] - All options with value 'VT05' are selected in object 'Object Repository/AdditionalInformationWithAPI/BorrowerDetail/visaType' 
+
+29-06-2024T18:17:34 - [MESSAGE][PASSED] - All options with value 'M' are selected in object 'Object Repository/AdditionalInformationWithAPI/BorrowerDetail/sex' 
+
+29-06-2024T18:17:35 - [MESSAGE][PASSED] - All options with value 'BL' are selected in object 'Object Repository/AdditionalInformationWithAPI/BorrowerDetail/occupation' 
+
+29-06-2024T18:17:36 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/AdditionalInformationWithAPI/BorrowerDetail/idType'
+
+29-06-2024T18:17:37 - [MESSAGE][PASSED] - Text '5465475464' is set on object 'Object Repository/AdditionalInformationWithAPI/BorrowerDetail/idNumber'
+
+29-06-2024T18:17:38 - [MESSAGE][PASSED] - Text '0000000017517518' is set on object 'Object Repository/AdditionalInformationWithAPI/BorrowerDetail/currentOrSavingAccountNumberIfAny'
+
+29-06-2024T18:17:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:17:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:17:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:17:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\PortalLowCashout\\20240629_181301\\Screenshots/Portal29_06_2406_14_07/Regression29_06_24_06_17_40.jpg]]
+
+29-06-2024T18:17:42 - [MESSAGE][PASSED] - autoLoanProtal.AdditionalInformationWithAPI.borrowersDetail is PASSED
+
+29-06-2024T18:17:42 - [TEST_STEP][PASSED] - autoLoanProtal.AdditionalInformationWithAPI.homeAddress(country, region, province, townCityMunicipality, barangay, streetName, unitNoBldgNameBldgNoVillageSubdivision): autoLoanProtal.AdditionalInformationWithAPI.homeAddress is PASSED
+
+29-06-2024T18:17:43 - [MESSAGE][PASSED] - All options with value '01' are selected in object 'Object Repository/AdditionalInformationWithAPI/HomeAddress/country' 
+
+29-06-2024T18:17:45 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/AdditionalInformationWithAPI/HomeAddress/region'
+
+29-06-2024T18:17:46 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/AdditionalInformationWithAPI/HomeAddress/province'
+
+29-06-2024T18:17:48 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/AdditionalInformationWithAPI/HomeAddress/townCityMunicipality'
+
+29-06-2024T18:17:50 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/AdditionalInformationWithAPI/HomeAddress/barangay'
+
+29-06-2024T18:17:51 - [MESSAGE][PASSED] - Text 'Mahape road,MBP' is set on object 'Object Repository/AdditionalInformationWithAPI/HomeAddress/streetName'
+
+29-06-2024T18:17:53 - [MESSAGE][PASSED] - Text 'Rupa Solitaire' is set on object 'Object Repository/AdditionalInformationWithAPI/HomeAddress/unitNoBldgNameBldgNoVillageSubdivision'
+
+29-06-2024T18:17:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:17:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:17:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:17:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\PortalLowCashout\\20240629_181301\\Screenshots/Portal29_06_2406_14_07/Regression29_06_24_06_17_55.jpg]]
+
+29-06-2024T18:17:56 - [MESSAGE][PASSED] - autoLoanProtal.AdditionalInformationWithAPI.homeAddress is PASSED
+
+29-06-2024T18:17:56 - [TEST_STEP][PASSED] - autoLoanProtal.AdditionalInformationWithAPI.coBorrowersDetails(coBorrowerRelationshipWithBorrower, coBorrowerFirstName, coBorrowerMiddleName, coBorrowerLastName, coBorrowerSuffix): autoLoanProtal.AdditionalInformationWithAPI.coBorrowersDetails is PASSED
+
+29-06-2024T18:17:58 - [MESSAGE][PASSED] - All options with value 'S' are selected in object 'Object Repository/AdditionalInformationWithAPI/CoBorrowerDetail/coBorrowerRelationshipWithBorrower' 
+
+29-06-2024T18:18:00 - [MESSAGE][PASSED] - Text 'Sachin' is set on object 'Object Repository/AdditionalInformationWithAPI/CoBorrowerDetail/coBorrowerFirstName'
+
+29-06-2024T18:18:01 - [MESSAGE][PASSED] - Text 'Depak' is set on object 'Object Repository/AdditionalInformationWithAPI/CoBorrowerDetail/coBorrowerMiddleName'
+
+29-06-2024T18:18:02 - [MESSAGE][PASSED] - Text 'Sharma' is set on object 'Object Repository/AdditionalInformationWithAPI/CoBorrowerDetail/coBorrowerLastName'
+
+29-06-2024T18:18:03 - [MESSAGE][PASSED] - All options with value 'SF2' are selected in object 'Object Repository/AdditionalInformationWithAPI/CoBorrowerDetail/coBorrowerSuffix' 
+
+29-06-2024T18:18:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:18:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:18:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:18:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\PortalLowCashout\\20240629_181301\\Screenshots/Portal29_06_2406_14_07/Regression29_06_24_06_18_05.jpg]]
+
+29-06-2024T18:18:09 - [MESSAGE][PASSED] - Object: 'Object Repository/AdditionalInformationWithAPI/continue' is clicked on
+
+29-06-2024T18:18:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:18:15 - [MESSAGE][PASSED] - Object 'Object Repository/UploadYourDocuments/uploadYourDocumentText' is present
+
+29-06-2024T18:18:15 - [MESSAGE][INFO] - We are in Upload Document Page
+
+29-06-2024T18:18:15 - [MESSAGE][PASSED] - autoLoanProtal.AdditionalInformationWithAPI.coBorrowersDetails is PASSED
+
+29-06-2024T18:18:17 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/AdditionalPageWithAPI' .
+
+29-06-2024T18:18:17 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/AdditionalPageWithAPI' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/DocumentUploadPageWithout" time="117.828" classname="Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/DocumentUploadPageWithout" status="PASSED">
+         <system-out><![CDATA[29-06-2024T18:18:17 - [TEST_CASE][PASSED] - Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/DocumentUploadPageWithout: Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/DocumentUploadPageWithout
+
+29-06-2024T18:18:17 - [TEST_STEP][PASSED] - autoLoanProtal.UploadYourDocuments.uploadYourDocumentsPage(): autoLoanProtal.UploadYourDocuments.uploadYourDocumentsPage is PASSED
+
+29-06-2024T18:18:18 - [MESSAGE][PASSED] - Object 'Object Repository/UploadYourDocuments/uploadYourDocumentText' is present
+
+29-06-2024T18:18:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:18:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:18:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:18:21 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\PortalLowCashout\\20240629_181301\\Screenshots/Portal29_06_2406_14_07/Regression29_06_24_06_18_20.jpg]]
+
+29-06-2024T18:18:23 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/UploadYourDocuments/validId_selectIdType'
+
+29-06-2024T18:18:23 - [MESSAGE][PASSED] - Current window's index is: 0
+
+29-06-2024T18:18:24 - [MESSAGE][PASSED] - Object: 'Object Repository/UploadYourDocuments/uploadFile_Btn' is clicked on
+
+29-06-2024T18:18:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:18:25 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+29-06-2024T18:18:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:18:27 - [MESSAGE][PASSED] - Wait for page load successfully
+
+29-06-2024T18:18:27 - [MESSAGE][PASSED] - File 'D:\newRCBCProject\RCBCLOS_Automation\Document\Katalon_WebObjects.pdf' sent to object: 'Object Repository/UploadYourDocuments/browseFile'
+
+29-06-2024T18:18:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:18:29 - [MESSAGE][PASSED] - Object: 'Object Repository/UploadYourDocuments/ValidID/documentType' is clicked on
+
+29-06-2024T18:18:30 - [MESSAGE][PASSED] - All options with value 'ID Type Documents' are selected in object 'Object Repository/UploadYourDocuments/ValidID/documentType' 
+
+29-06-2024T18:18:31 - [MESSAGE][PASSED] - Object: 'Object Repository/UploadYourDocuments/ValidID/uploadBtn' is clicked on
+
+29-06-2024T18:18:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+29-06-2024T18:18:34 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+29-06-2024T18:18:34 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+29-06-2024T18:18:34 - [MESSAGE][PASSED] - Current window's index is: 0
+
+29-06-2024T18:18:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+29-06-2024T18:18:38 - [MESSAGE][PASSED] - Object: 'Object Repository/UploadYourDocuments/IdDocViewButton' is clicked on
+
+29-06-2024T18:18:39 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+29-06-2024T18:18:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+29-06-2024T18:18:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:18:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:18:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\PortalLowCashout\\20240629_181301\\Screenshots/Portal29_06_2406_14_07/Regression29_06_24_06_18_43.jpg]]
+
+29-06-2024T18:18:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+29-06-2024T18:18:48 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+29-06-2024T18:18:48 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+29-06-2024T18:18:49 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/UploadYourDocuments/incomeDocument_selectIdType'
+
+29-06-2024T18:18:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:18:50 - [MESSAGE][PASSED] - Current window's index is: 0
+
+29-06-2024T18:18:52 - [MESSAGE][PASSED] - Object: 'Object Repository/UploadYourDocuments/uploadFile_Btn1' is clicked on
+
+29-06-2024T18:18:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:18:53 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+29-06-2024T18:18:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:18:54 - [MESSAGE][PASSED] - Wait for page load successfully
+
+29-06-2024T18:18:54 - [MESSAGE][PASSED] - File 'D:\newRCBCProject\RCBCLOS_Automation\Document\Katalon_WebObjects.pdf' sent to object: 'Object Repository/UploadYourDocuments/browseFile'
+
+29-06-2024T18:18:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:18:56 - [MESSAGE][PASSED] - Object: 'Object Repository/UploadYourDocuments/ValidID/documentType' is clicked on
+
+29-06-2024T18:18:57 - [MESSAGE][PASSED] - All options with value 'Income Documents' are selected in object 'Object Repository/UploadYourDocuments/ValidID/documentType' 
+
+29-06-2024T18:18:58 - [MESSAGE][PASSED] - Object: 'Object Repository/UploadYourDocuments/ValidID/uploadBtn' is clicked on
+
+29-06-2024T18:19:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+29-06-2024T18:19:02 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+29-06-2024T18:19:02 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+29-06-2024T18:19:02 - [MESSAGE][PASSED] - Current window's index is: 0
+
+29-06-2024T18:19:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+29-06-2024T18:19:05 - [MESSAGE][PASSED] - Object: 'Object Repository/UploadYourDocuments/IncomeDocViewBtn' is clicked on
+
+29-06-2024T18:19:05 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+29-06-2024T18:19:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+29-06-2024T18:19:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:19:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:19:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\PortalLowCashout\\20240629_181301\\Screenshots/Portal29_06_2406_14_07/Regression29_06_24_06_19_09.jpg]]
+
+29-06-2024T18:19:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+29-06-2024T18:19:14 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+29-06-2024T18:19:14 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+29-06-2024T18:19:15 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/UploadYourDocuments/nextBtn' successfully
+
+29-06-2024T18:19:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:19:16 - [MESSAGE][PASSED] - Current window's index is: 0
+
+29-06-2024T18:19:17 - [MESSAGE][PASSED] - Object: 'Object Repository/UploadYourDocuments/uploadFile_Btn2' is clicked on
+
+29-06-2024T18:19:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:19:18 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+29-06-2024T18:19:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:19:20 - [MESSAGE][PASSED] - Wait for page load successfully
+
+29-06-2024T18:19:20 - [MESSAGE][PASSED] - File 'D:\newRCBCProject\RCBCLOS_Automation\Document\Katalon_WebObjects.pdf' sent to object: 'Object Repository/UploadYourDocuments/browseFile'
+
+29-06-2024T18:19:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:19:21 - [MESSAGE][PASSED] - Object: 'Object Repository/UploadYourDocuments/ValidID/documentType' is clicked on
+
+29-06-2024T18:19:23 - [MESSAGE][PASSED] - All options with value 'Loan Application Documents' are selected in object 'Object Repository/UploadYourDocuments/ValidID/documentType' 
+
+29-06-2024T18:19:23 - [MESSAGE][PASSED] - Object: 'Object Repository/UploadYourDocuments/ValidID/uploadBtn' is clicked on
+
+29-06-2024T18:19:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+29-06-2024T18:19:27 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+29-06-2024T18:19:27 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+29-06-2024T18:19:27 - [MESSAGE][PASSED] - Current window's index is: 0
+
+29-06-2024T18:19:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+29-06-2024T18:19:32 - [MESSAGE][PASSED] - Object: 'Object Repository/UploadYourDocuments/LoanApplicationDocViewBtn' is clicked on
+
+29-06-2024T18:19:32 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+29-06-2024T18:19:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+29-06-2024T18:19:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:19:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:19:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\PortalLowCashout\\20240629_181301\\Screenshots/Portal29_06_2406_14_07/Regression29_06_24_06_19_36.jpg]]
+
+29-06-2024T18:19:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+29-06-2024T18:19:41 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+29-06-2024T18:19:41 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+29-06-2024T18:19:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:19:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:19:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:19:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\PortalLowCashout\\20240629_181301\\Screenshots/Portal29_06_2406_14_07/Regression29_06_24_06_19_43.jpg]]
+
+29-06-2024T18:19:45 - [MESSAGE][PASSED] - Object 'Object Repository/UploadYourDocuments/backBtn' is clickable
+
+29-06-2024T18:20:12 - [MESSAGE][PASSED] - Object: 'Object Repository/UploadYourDocuments/nextBtn' is clicked on
+
+29-06-2024T18:20:13 - [MESSAGE][PASSED] - autoLoanProtal.UploadYourDocuments.uploadYourDocumentsPage is PASSED
+
+29-06-2024T18:20:15 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/DocumentUploadPageWithout' .
+
+29-06-2024T18:20:15 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/DocumentUploadPageWithout' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Digital_NSTP/NSTPPortal/SubmitPageProceedToBackOffice" time="13.724" classname="Test Cases/Digital_NSTP/NSTPPortal/SubmitPageProceedToBackOffice" status="PASSED">
+         <system-out><![CDATA[29-06-2024T18:20:15 - [TEST_CASE][PASSED] - Test Cases/Digital_NSTP/NSTPPortal/SubmitPageProceedToBackOffice: Test Cases/Digital_NSTP/NSTPPortal/SubmitPageProceedToBackOffice
+
+29-06-2024T18:20:15 - [TEST_STEP][PASSED] - autoLoanProtal.SubmitPage.proceedToPreReleaseFunNSTP(): autoLoanProtal.SubmitPage.proceedToPreReleaseFunNSTP is PASSED
+
+29-06-2024T18:20:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+29-06-2024T18:20:16 - [MESSAGE][PASSED] - Object 'Object Repository/SubmitPage/submitPageNSTP' is present
+
+29-06-2024T18:20:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+29-06-2024T18:20:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:20:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:20:21 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\PortalLowCashout\\20240629_181301\\Screenshots/Portal29_06_2406_14_07/Regression29_06_24_06_20_19.jpg]]
+
+29-06-2024T18:20:22 - [MESSAGE][PASSED] - Object: 'Object Repository/SubmitPage/goToBackOffice' is clicked on
+
+29-06-2024T18:20:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+29-06-2024T18:20:27 - [MESSAGE][PASSED] - autoLoanProtal.SubmitPage.proceedToPreReleaseFunNSTP is PASSED
+
+29-06-2024T18:20:29 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Digital_NSTP/NSTPPortal/SubmitPageProceedToBackOffice' .
+
+29-06-2024T18:20:29 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Digital_NSTP/NSTPPortal/SubmitPageProceedToBackOffice' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[29-06-2024T18:13:37 - [TEST_SUITE][PASSED] - PortalLowCashout: Test Cases/Digital_NSTP/NSTPPortal/SubmitPageProceedToBackOffice]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,48 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PortalLowCashout,Edge Chromium 126,,,29-06-2024 18:13:37,29-06-2024 18:20:29,6m - 52.077s,PASSED
+,,,,,,,
+Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/LoginPage,Edge Chromium 126,,,29-06-2024 18:13:37,29-06-2024 18:14:44,1m - 7.021s,PASSED
+loginPage.LoginPage.login_Page(),Edge Chromium 126,,,29-06-2024 18:13:39,29-06-2024 18:14:42,1m - 2.850s,PASSED
+Video,Edge Chromium 126,,,29-06-2024 18:14:44,29-06-2024 18:14:44,0.004s,PASSED
+,,,,,,,
+Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/HomePage,Edge Chromium 126,,,29-06-2024 18:14:44,29-06-2024 18:14:55,11.185s,PASSED
+homePage.homePage.homepage(),Edge Chromium 126,,,29-06-2024 18:14:44,29-06-2024 18:14:53,8.886s,PASSED
+Video,Edge Chromium 126,,,29-06-2024 18:14:55,29-06-2024 18:14:55,0.002s,PASSED
+,,,,,,,
+Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/SelectAutoLoan,Edge Chromium 126,,,29-06-2024 18:14:55,29-06-2024 18:15:13,17.517s,PASSED
+autoLoanProtal.SelectAutoLoan.clickToDigitalApplication(),Edge Chromium 126,,,29-06-2024 18:14:56,29-06-2024 18:15:11,15.197s,PASSED
+Video,Edge Chromium 126,,,29-06-2024 18:15:13,29-06-2024 18:15:13,0.002s,PASSED
+,,,,,,,
+Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/LetsgetStarted,Edge Chromium 126,,,29-06-2024 18:15:13,29-06-2024 18:15:39,26.073s,PASSED
+autoLoanProtal.letsGetStarted.letsGetStartedBtnFun(),Edge Chromium 126,,,29-06-2024 18:15:13,29-06-2024 18:15:37,23.824s,PASSED
+Video,Edge Chromium 126,,,29-06-2024 18:15:39,29-06-2024 18:15:39,0.003s,PASSED
+,,,,,,,
+Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/LoanDetails,Edge Chromium 126,,,29-06-2024 18:15:39,29-06-2024 18:16:40,1m - 1.134s,PASSED
+"autoLoanProtal.LoanDetails.loanDetail(brand, unitDescription, loanTerm, downpaymentValue, actualCashOut, insuranceType)",Edge Chromium 126,,,29-06-2024 18:15:40,29-06-2024 18:16:38,58.474s,PASSED
+Video,Edge Chromium 126,,,29-06-2024 18:16:40,29-06-2024 18:16:40,0.016s,PASSED
+,,,,,,,
+Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/BorrowerDetail,Edge Chromium 126,,,29-06-2024 18:16:41,29-06-2024 18:17:08,27.632s,PASSED
+"autoLoanProtal.Borrower_Detail.borrower_Details(fst_Name, mid_Name, lst_Name, email, mob_Num, date, maritalStatus, suffix, residence)",Edge Chromium 126,,,29-06-2024 18:16:41,29-06-2024 18:17:06,24.985s,PASSED
+Video,Edge Chromium 126,,,29-06-2024 18:17:08,29-06-2024 18:17:08,0.000s,PASSED
+,,,,,,,
+Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/ConfirmationPage,Edge Chromium 126,,,29-06-2024 18:17:08,29-06-2024 18:17:19,11.151s,PASSED
+autoLoanProtal.confirmationPage.editOnConfirmationPage(),Edge Chromium 126,,,29-06-2024 18:17:08,29-06-2024 18:17:17,8.882s,PASSED
+Video,Edge Chromium 126,,,29-06-2024 18:17:19,29-06-2024 18:17:19,0.006s,PASSED
+,,,,,,,
+Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/InitialCheckingWithAPI,Edge Chromium 126,,,29-06-2024 18:17:19,29-06-2024 18:17:28,9.167s,PASSED
+autoLoanProtal.initial_Confirmation.initial_conf(),Edge Chromium 126,,,29-06-2024 18:17:19,29-06-2024 18:17:26,6.950s,PASSED
+Video,Edge Chromium 126,,,29-06-2024 18:17:28,29-06-2024 18:17:28,0.001s,PASSED
+,,,,,,,
+Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/AdditionalPageWithAPI,Edge Chromium 126,,,29-06-2024 18:17:29,29-06-2024 18:18:17,48.103s,PASSED
+"autoLoanProtal.AdditionalInformationWithAPI.borrowersDetail(nationality, visaType, sex, occupation, idType, idNumber, accountNumber)",Edge Chromium 126,,,29-06-2024 18:17:30,29-06-2024 18:17:42,11.900s,PASSED
+"autoLoanProtal.AdditionalInformationWithAPI.homeAddress(country, region, province, townCityMunicipality, barangay, streetName, unitNoBldgNameBldgNoVillageSubdivision)",Edge Chromium 126,,,29-06-2024 18:17:42,29-06-2024 18:17:56,14.499s,PASSED
+"autoLoanProtal.AdditionalInformationWithAPI.coBorrowersDetails(coBorrowerRelationshipWithBorrower, coBorrowerFirstName, coBorrowerMiddleName, coBorrowerLastName, coBorrowerSuffix)",Edge Chromium 126,,,29-06-2024 18:17:56,29-06-2024 18:18:15,18.684s,PASSED
+Video,Edge Chromium 126,,,29-06-2024 18:18:17,29-06-2024 18:18:17,0.000s,PASSED
+,,,,,,,
+Test Cases/Digital_STPWithAndWithoutAPI/DigitalPotal/DocumentUploadPageWithout,Edge Chromium 126,,,29-06-2024 18:18:17,29-06-2024 18:20:15,1m - 57.828s,PASSED
+autoLoanProtal.UploadYourDocuments.uploadYourDocumentsPage(),Edge Chromium 126,,,29-06-2024 18:18:17,29-06-2024 18:20:13,1m - 55.402s,PASSED
+Video,Edge Chromium 126,,,29-06-2024 18:20:15,29-06-2024 18:20:15,0.002s,PASSED
+,,,,,,,
+Test Cases/Digital_NSTP/NSTPPortal/SubmitPageProceedToBackOffice,Edge Chromium 126,,,29-06-2024 18:20:15,29-06-2024 18:20:29,13.724s,PASSED
+autoLoanProtal.SubmitPage.proceedToPreReleaseFunNSTP(),Edge Chromium 126,,,29-06-2024 18:20:15,29-06-2024 18:20:27,11.442s,PASSED
+Video,Edge Chromium 126,,,29-06-2024 18:20:29,29-06-2024 18:20:29,0.002s,PASSED

@@ -1,16 +1,15 @@
 {
-  "keywordFileContentHash": "78632606B4C391F39D289CC983834BF0",
+  "keywordFileContentHash": "B5C5E713896635A4E1F3EC9D3BFB0F0A",
   "keywordClasses": [
     {
       "name": "accountOfficer.HomePageForibpsAO",
       "keywordMethods": [
         {
           "name": "selectResistration",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

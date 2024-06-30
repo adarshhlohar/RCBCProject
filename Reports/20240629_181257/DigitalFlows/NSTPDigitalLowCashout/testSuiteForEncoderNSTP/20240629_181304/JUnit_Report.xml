@@ -1,0 +1,1120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="testSuiteForEncoderNSTP" time="477.615" tests="13" failures="0" errors="0">
+   <testsuite name="testSuiteForEncoderNSTP" tests="13" failures="0" errors="0" time="477.615" skipped="0" timestamp="29-06-2024T18:20:42" hostname="Adarsh.Lohar - QKNBK2037.qkcorp.qualitykiosk.com" id="Test Suites/DigitalFlows/NSTPDigitalLowCashout/testSuiteForEncoderNSTP">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304"/>
+         <property name="logFiles" value="D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\execution0.log"/>
+         <property name="attachments" value="D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_21_04.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_21_27.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_21_32.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_21_38.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_21_54.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_22_10.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_22_19.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_22_25.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_22_38.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_23_02.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_23_13.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_23_20.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_23_27.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_23_51.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_23_56.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_24_08.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_24_15.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_24_28.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_24_32.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_24_36.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_24_39.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_24_43.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_24_47.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_24_50.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_24_58.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_25_02.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_25_05.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_25_09.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_25_13.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_25_16.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_25_25.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_25_33.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_25_44.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_26_23.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_26_27.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_26_34.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_26_40.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_26_49.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_26_53.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_26_56.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_27_00.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_27_07.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_27_11.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_27_14.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_27_22.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_27_29.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_27_33.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_27_36.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_27_44.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_27_52.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_27_56.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\1719665883567.png, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_28_05.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_28_28.jpg, D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_28_37.jpg"/>
+         <property name="hostName" value="Adarsh.Lohar - QKNBK2037.qkcorp.qualitykiosk.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Edge Chromium 126"/>
+         <property name="hostAddress" value="192.168.0.103"/>
+         <property name="sessionId" value="a0777c153459558674908f1ca600d63d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Digital_NSTP/testCaseForEncoderNSTP/LoginPage" time="33.655" classname="Test Cases/Digital_NSTP/testCaseForEncoderNSTP/LoginPage" status="PASSED">
+         <system-out><![CDATA[29-06-2024T18:20:43 - [TEST_CASE][PASSED] - Test Cases/Digital_NSTP/testCaseForEncoderNSTP/LoginPage: Test Cases/Digital_NSTP/testCaseForEncoderNSTP/LoginPage
+
+29-06-2024T18:20:44 - [TEST_STEP][PASSED] - encoder.LoginForibpsEncoder.login(): encoder.LoginForibpsEncoder.login is PASSED
+
+29-06-2024T18:20:45 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+29-06-2024T18:20:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-06-2024T18:20:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-06-2024T18:20:52 - [MESSAGE][PASSED] - Current window maximized
+
+29-06-2024T18:20:56 - [MESSAGE][PASSED] - Navigate to 'https://rcbcuat.nonprodnmc.com/omniapp' successfully
+
+29-06-2024T18:21:01 - [MESSAGE][PASSED] - Text 'QK_Encoder7' is set on object 'Object Repository/BackOffice/ibpsLogin/userName'
+
+29-06-2024T18:21:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/BackOffice/ibpsLogin/password'
+
+29-06-2024T18:21:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:21:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:21:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:21:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_21_04.jpg]]
+
+29-06-2024T18:21:06 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/ibpsLogin/loginButton' is clicked on
+
+29-06-2024T18:21:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+29-06-2024T18:21:12 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id="oaloginform:contloginbtn"]'. Please recheck the objects properties to make sure the desired element is located. 
+
+29-06-2024T18:21:12 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/BackOffice/ibpsLogin/yesLogin'. Try using Self-healing.
+
+29-06-2024T18:21:13 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+29-06-2024T18:21:14 - [MESSAGE][WARNING] - [SELF-HEALING] javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression  because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression."}
+  (Session info: MicrosoftEdge=126.0.2592.81)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'QKNBK2037', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 126.0.2592.81, fedcm:accounts: true, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:51704}, msedge: {msedgedriverVersion: 125.0.2535.47 (b3ce6d15dc7f..., userDataDir: C:\Users\ADARSH~1.LOH\AppDa...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a0777c153459558674908f1ca600d63d
+*** Element info: {Using=xpath, value=}
+
+29-06-2024T18:21:14 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+29-06-2024T18:21:14 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/BackOffice/ibpsLogin/yesLogin' located by '//input[@id="oaloginform:contloginbtn"]' not found
+
+29-06-2024T18:21:14 - [MESSAGE][PASSED] - encoder.LoginForibpsEncoder.login is PASSED
+
+29-06-2024T18:21:17 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Digital_NSTP/testCaseForEncoderNSTP/LoginPage' .
+
+29-06-2024T18:21:17 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Digital_NSTP/testCaseForEncoderNSTP/LoginPage' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Digital_NSTP/testCaseForEncoderNSTP/HomePage" time="30.465" classname="Test Cases/Digital_NSTP/testCaseForEncoderNSTP/HomePage" status="PASSED">
+         <system-out><![CDATA[29-06-2024T18:21:17 - [TEST_CASE][PASSED] - Test Cases/Digital_NSTP/testCaseForEncoderNSTP/HomePage: Test Cases/Digital_NSTP/testCaseForEncoderNSTP/HomePage
+
+29-06-2024T18:21:17 - [TEST_STEP][PASSED] - encoder.HomePageForibpsEncoder.selectResistration(): encoder.HomePageForibpsEncoder.selectResistration is PASSED
+
+29-06-2024T18:21:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+29-06-2024T18:21:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+29-06-2024T18:21:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+29-06-2024T18:21:22 - [MESSAGE][INFO] -  ******** LOS-3588
+
+29-06-2024T18:21:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+29-06-2024T18:21:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:21:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:21:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:21:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_21_27.jpg]]
+
+29-06-2024T18:21:30 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/EncoderNSTP/ibpsHomePage/encoder' is clicked on
+
+29-06-2024T18:21:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:21:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:21:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:21:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_21_32.jpg]]
+
+29-06-2024T18:21:35 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/COMaker/ibpsHomePage/resistrationNo' is clicked on
+
+29-06-2024T18:21:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:21:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:21:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:21:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:21:39 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_21_38.jpg]]
+
+29-06-2024T18:21:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+29-06-2024T18:21:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+29-06-2024T18:21:45 - [MESSAGE][PASSED] - encoder.HomePageForibpsEncoder.selectResistration is PASSED
+
+29-06-2024T18:21:47 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Digital_NSTP/testCaseForEncoderNSTP/HomePage' .
+
+29-06-2024T18:21:47 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Digital_NSTP/testCaseForEncoderNSTP/HomePage' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Digital_NSTP/testCaseForEncoderNSTP/ClientInformation" time="187.143" classname="Test Cases/Digital_NSTP/testCaseForEncoderNSTP/ClientInformation" status="PASSED">
+         <system-out><![CDATA[29-06-2024T18:21:47 - [TEST_CASE][PASSED] - Test Cases/Digital_NSTP/testCaseForEncoderNSTP/ClientInformation: Test Cases/Digital_NSTP/testCaseForEncoderNSTP/ClientInformation
+
+29-06-2024T18:21:47 - [TEST_STEP][PASSED] - tabSection.CustomerDetail.clientInformationForEncoderNSTP(): tabSection.CustomerDetail.clientInformationForEncoderNSTP is PASSED
+
+29-06-2024T18:21:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:21:49 - [MESSAGE][PASSED] - Current window's index is: 0
+
+29-06-2024T18:21:49 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+29-06-2024T18:21:52 - [MESSAGE][PASSED] - Attribute 'title' of object 'Object Repository/ClientInformationPreRelease/creditProgram' is: ''
+
+29-06-2024T18:21:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/Action/referenceNumber' is: 'Encoder : LOS-3588'
+
+29-06-2024T18:21:53 - [MESSAGE][INFO] - Encoder : LOS-3588 Contains LOS-3588
+
+29-06-2024T18:21:53 - [MESSAGE][INFO] - Ready to go....
+
+29-06-2024T18:21:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:21:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:21:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_21_54.jpg]]
+
+29-06-2024T18:21:58 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/principal' is clicked on
+
+29-06-2024T18:22:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+29-06-2024T18:22:01 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/borrowerType'
+
+29-06-2024T18:22:03 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/applicationType'
+
+29-06-2024T18:22:04 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/custemerType'
+
+29-06-2024T18:22:06 - [MESSAGE][WARNING] - Object 'Object Repository/BackOffice/EncoderWithWithout/sex' is not clickable after 2 second(s)
+
+29-06-2024T18:22:09 - [MESSAGE][WARNING] - Object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/dateOfBirth' is not clickable after 2 second(s)
+
+29-06-2024T18:22:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:22:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:22:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_22_10.jpg]]
+
+29-06-2024T18:22:13 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/placeOfBirth'
+
+29-06-2024T18:22:16 - [MESSAGE][WARNING] - Object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/maritalStatus' is not clickable after 2 second(s)
+
+29-06-2024T18:22:18 - [MESSAGE][WARNING] - Object 'Object Repository/BackOffice/EncoderWithWithout/nationality' is not clickable after 2 second(s)
+
+29-06-2024T18:22:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:22:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:22:21 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_22_19.jpg]]
+
+29-06-2024T18:22:22 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/numberOfYearsMarried'
+
+29-06-2024T18:22:24 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/numberOfDependents'
+
+29-06-2024T18:22:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:22:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:22:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_22_25.jpg]]
+
+29-06-2024T18:22:29 - [MESSAGE][WARNING] - Object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/cifNumber' is not clickable after 2 second(s)
+
+29-06-2024T18:22:32 - [MESSAGE][WARNING] - Object 'Object Repository/BackOffice/EncoderWithWithout/idType' is not clickable after 2 second(s)
+
+29-06-2024T18:22:34 - [MESSAGE][WARNING] - Object 'Object Repository/BackOffice/EncoderWithWithout/idNumber' is not clickable after 2 second(s)
+
+29-06-2024T18:22:37 - [MESSAGE][WARNING] - Object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/RCBCCurrentOrSavingAccountNumber' is not clickable after 2 second(s)
+
+29-06-2024T18:22:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:22:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:22:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_22_38.jpg]]
+
+29-06-2024T18:22:40 - [MESSAGE][PASSED] - Object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/isAddressPresent' is clickable
+
+29-06-2024T18:22:41 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/isAddressPresent' is clicked on
+
+29-06-2024T18:22:43 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/deleteAddress' is clicked on
+
+29-06-2024T18:22:45 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/plusButtonForAddressDetail' is clicked on
+
+29-06-2024T18:22:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:22:48 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/typeOfAddress'
+
+29-06-2024T18:22:49 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/residenceOwnershipType'
+
+29-06-2024T18:22:50 - [MESSAGE][PASSED] - Text '4' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/lengthOfStayAtCurrentResidance'
+
+29-06-2024T18:22:52 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/country'
+
+29-06-2024T18:22:54 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/region'
+
+29-06-2024T18:22:56 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/provience'
+
+29-06-2024T18:22:57 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/townCityMuncipalities'
+
+29-06-2024T18:22:58 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/barangay'
+
+29-06-2024T18:22:59 - [MESSAGE][PASSED] - Text 'Mahape Road' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/StreetName'
+
+29-06-2024T18:23:01 - [MESSAGE][PASSED] - Text 'Rupa Solitaire' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/unitNumberBuildingName'
+
+29-06-2024T18:23:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:23:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:23:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_23_02.jpg]]
+
+29-06-2024T18:23:06 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/saveAndClose' is clicked on
+
+29-06-2024T18:23:07 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/sourceOfWealth'
+
+29-06-2024T18:23:08 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/occupation'
+
+29-06-2024T18:23:09 - [MESSAGE][PASSED] - Text 'Mahesh' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/companyEmployerName'
+
+29-06-2024T18:23:11 - [MESSAGE][PASSED] - Text 'Test Engineer' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/jobTitle'
+
+29-06-2024T18:23:12 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/numberOfYearsInCurrentCompany'
+
+29-06-2024T18:23:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:23:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:23:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_23_13.jpg]]
+
+29-06-2024T18:23:16 - [MESSAGE][PASSED] - Text '6' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/totalYearsOfExperince'
+
+29-06-2024T18:23:18 - [MESSAGE][PASSED] - Text '60000' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/declareMonthlyIncome'
+
+29-06-2024T18:23:19 - [MESSAGE][PASSED] - Text '(63) 9356986567' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/employerContactNumber'
+
+29-06-2024T18:23:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:23:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:23:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_23_20.jpg]]
+
+29-06-2024T18:23:23 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/Industry'
+
+29-06-2024T18:23:25 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/subIndustry'
+
+29-06-2024T18:23:26 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/natureOfBusiness'
+
+29-06-2024T18:23:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:23:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:23:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_23_27.jpg]]
+
+29-06-2024T18:23:35 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/PrincipalInformation/saveChanges' is clicked on
+
+29-06-2024T18:23:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+29-06-2024T18:23:42 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/CoBorrowerDetail/coBorrower' is clicked on
+
+29-06-2024T18:23:44 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/CoBorrowerDetail/sex'
+
+29-06-2024T18:23:44 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/CoBorrowerDetail/dob' is clicked on
+
+29-06-2024T18:23:45 - [MESSAGE][PASSED] - Text '01/01/1994' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/CoBorrowerDetail/dob'
+
+29-06-2024T18:23:47 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/CoBorrowerDetail/placeOfBirth'
+
+29-06-2024T18:23:49 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/CoBorrowerDetail/nationality'
+
+29-06-2024T18:23:50 - [MESSAGE][PASSED] - All options with index in [4] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/CoBorrowerDetail/maritialStatus'
+
+29-06-2024T18:23:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:23:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:23:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_23_51.jpg]]
+
+29-06-2024T18:23:53 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/CoBorrowerDetail/idType'
+
+29-06-2024T18:23:55 - [MESSAGE][PASSED] - Text '4464675758758' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/CoBorrowerDetail/idNumber'
+
+29-06-2024T18:23:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:23:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:23:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_23_56.jpg]]
+
+29-06-2024T18:23:58 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/CoBorrowerDetail/sourceOfWealth'
+
+29-06-2024T18:24:00 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/CoBorrowerDetail/occupation'
+
+29-06-2024T18:24:01 - [MESSAGE][PASSED] - Text 'QK' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/CoBorrowerDetail/company'
+
+29-06-2024T18:24:02 - [MESSAGE][PASSED] - Text 'Automation Engineer' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/CoBorrowerDetail/jobTitle'
+
+29-06-2024T18:24:03 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/CoBorrowerDetail/yearsInCompany'
+
+29-06-2024T18:24:05 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/CoBorrowerDetail/totalYearsOfExperience'
+
+29-06-2024T18:24:07 - [MESSAGE][PASSED] - Text '(63) 8787456356' is set on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/CoBorrowerDetail/employerContactNumber'
+
+29-06-2024T18:24:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:24:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:24:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_24_08.jpg]]
+
+29-06-2024T18:24:11 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/CoBorrowerDetail/industry'
+
+29-06-2024T18:24:13 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/CoBorrowerDetail/subIndustry'
+
+29-06-2024T18:24:14 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/CoBorrowerDetail/natureOfBussiness'
+
+29-06-2024T18:24:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:24:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:24:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_24_15.jpg]]
+
+29-06-2024T18:24:23 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/EncoderNSTP/ClientInformation/CoBorrowerDetail/save' is clicked on
+
+29-06-2024T18:24:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+29-06-2024T18:24:27 - [MESSAGE][PASSED] - Object 'Object Repository/ClientInformationPreRelease/clientInformationCollapse' is present
+
+29-06-2024T18:24:27 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ClientInformationPreRelease/clientInformationCollapse' successfully
+
+29-06-2024T18:24:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:24:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:24:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_24_28.jpg]]
+
+29-06-2024T18:24:30 - [MESSAGE][PASSED] - Object 'Object Repository/ClientInformationPreRelease/borrowerDetailCollapse' is present
+
+29-06-2024T18:24:31 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ClientInformationPreRelease/borrowerDetailCollapse' successfully
+
+29-06-2024T18:24:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:24:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:24:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_24_32.jpg]]
+
+29-06-2024T18:24:34 - [MESSAGE][PASSED] - Object 'Object Repository/ClientInformationPreRelease/borrowerAddressDetailsCollapse' is present
+
+29-06-2024T18:24:35 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ClientInformationPreRelease/borrowerAddressDetailsCollapse' successfully
+
+29-06-2024T18:24:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:24:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:24:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_24_36.jpg]]
+
+29-06-2024T18:24:38 - [MESSAGE][PASSED] - Object 'Object Repository/ClientInformationPreRelease/borrowerSourceOfIncomeCollapse' is present
+
+29-06-2024T18:24:38 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ClientInformationPreRelease/borrowerSourceOfIncomeCollapse' successfully
+
+29-06-2024T18:24:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:24:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:24:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_24_39.jpg]]
+
+29-06-2024T18:24:41 - [MESSAGE][PASSED] - Object 'Object Repository/ClientInformationPreRelease/coBorrowerDetailsCollapse' is present
+
+29-06-2024T18:24:42 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ClientInformationPreRelease/coBorrowerDetailsCollapse' successfully
+
+29-06-2024T18:24:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:24:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:24:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_24_43.jpg]]
+
+29-06-2024T18:24:45 - [MESSAGE][PASSED] - Object 'Object Repository/ClientInformationPreRelease/coBorrowerSourceOfIncome' is present
+
+29-06-2024T18:24:46 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ClientInformationPreRelease/coBorrowerSourceOfIncome' successfully
+
+29-06-2024T18:24:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:24:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:24:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_24_47.jpg]]
+
+29-06-2024T18:24:49 - [MESSAGE][PASSED] - Object 'Object Repository/ClientInformationPreRelease/AIFDetailsCollapse' is present
+
+29-06-2024T18:24:49 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ClientInformationPreRelease/AIFDetailsCollapse' successfully
+
+29-06-2024T18:24:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:24:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:24:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_24_50.jpg]]
+
+29-06-2024T18:24:52 - [MESSAGE][PASSED] - tabSection.CustomerDetail.clientInformationForEncoderNSTP is PASSED
+
+29-06-2024T18:24:54 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Digital_NSTP/testCaseForEncoderNSTP/ClientInformation' .
+
+29-06-2024T18:24:54 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Digital_NSTP/testCaseForEncoderNSTP/ClientInformation' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Digital_NSTP/testCaseForEncoderNSTP/LoanInformation" time="25.582" classname="Test Cases/Digital_NSTP/testCaseForEncoderNSTP/LoanInformation" status="PASSED">
+         <system-out><![CDATA[29-06-2024T18:24:54 - [TEST_CASE][PASSED] - Test Cases/Digital_NSTP/testCaseForEncoderNSTP/LoanInformation: Test Cases/Digital_NSTP/testCaseForEncoderNSTP/LoanInformation
+
+29-06-2024T18:24:54 - [TEST_STEP][PASSED] - tabSection.LoanInformation.loanInfoForEncoder(): tabSection.LoanInformation.loanInfoForEncoder is PASSED
+
+29-06-2024T18:24:56 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/LoanInformation' is clicked on
+
+29-06-2024T18:24:56 - [MESSAGE][PASSED] - Object 'Object Repository/LoanInformationPreRelease/LoanInformation' is present
+
+29-06-2024T18:24:57 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LoanInformationPreRelease/LoanInformation' successfully
+
+29-06-2024T18:24:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:24:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:25:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_24_58.jpg]]
+
+29-06-2024T18:25:00 - [MESSAGE][PASSED] - Object 'Object Repository/LoanInformationPreRelease/LoanApproval' is present
+
+29-06-2024T18:25:01 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LoanInformationPreRelease/LoanApproval' successfully
+
+29-06-2024T18:25:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:25:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:25:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_25_02.jpg]]
+
+29-06-2024T18:25:04 - [MESSAGE][PASSED] - Object 'Object Repository/LoanInformationPreRelease/PromisaryNoteInformation' is present
+
+29-06-2024T18:25:04 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LoanInformationPreRelease/PromisaryNoteInformation' successfully
+
+29-06-2024T18:25:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:25:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:25:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_25_05.jpg]]
+
+29-06-2024T18:25:07 - [MESSAGE][PASSED] - Object 'Object Repository/LoanInformationPreRelease/RatesTab' is present
+
+29-06-2024T18:25:08 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LoanInformationPreRelease/RatesTab' successfully
+
+29-06-2024T18:25:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:25:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:25:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_25_09.jpg]]
+
+29-06-2024T18:25:11 - [MESSAGE][PASSED] - Object 'Object Repository/LoanInformationPreRelease/PromisaryNoteInformation' is present
+
+29-06-2024T18:25:12 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LoanInformationPreRelease/PromisaryNoteInformation' successfully
+
+29-06-2024T18:25:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:25:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:25:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_25_13.jpg]]
+
+29-06-2024T18:25:15 - [MESSAGE][PASSED] - Object 'Object Repository/LoanInformationPreRelease/modeOfPayment1' is present
+
+29-06-2024T18:25:15 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LoanInformationPreRelease/modeOfPayment1' successfully
+
+29-06-2024T18:25:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:25:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:25:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_25_16.jpg]]
+
+29-06-2024T18:25:18 - [MESSAGE][PASSED] - tabSection.LoanInformation.loanInfoForEncoder is PASSED
+
+29-06-2024T18:25:20 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Digital_NSTP/testCaseForEncoderNSTP/LoanInformation' .
+
+29-06-2024T18:25:20 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Digital_NSTP/testCaseForEncoderNSTP/LoanInformation' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Digital_NSTP/testCaseForEncoderNSTP/DocumentChecklist" time="70.908" classname="Test Cases/Digital_NSTP/testCaseForEncoderNSTP/DocumentChecklist" status="PASSED">
+         <system-out><![CDATA[29-06-2024T18:25:20 - [TEST_CASE][PASSED] - Test Cases/Digital_NSTP/testCaseForEncoderNSTP/DocumentChecklist: Test Cases/Digital_NSTP/testCaseForEncoderNSTP/DocumentChecklist
+
+29-06-2024T18:25:20 - [TEST_STEP][PASSED] - tabSection.DocumentCheckList.documentCheckListForEncoder(): tabSection.DocumentCheckList.documentCheckListForEncoder is PASSED
+
+29-06-2024T18:25:23 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/DocumentCheclist' is clicked on
+
+29-06-2024T18:25:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:25:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:25:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:25:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_25_25.jpg]]
+
+29-06-2024T18:25:27 - [MESSAGE][PASSED] - Object 'Object Repository/DocumentCheckListForPreRelease/KycDocuments/viewIdTypeDocument' is present
+
+29-06-2024T18:25:27 - [MESSAGE][PASSED] - Current window's index is: 1
+
+29-06-2024T18:25:28 - [MESSAGE][PASSED] - Object: 'Object Repository/DocumentCheckListForPreRelease/KycDocuments/viewIdTypeDocument' is clicked on
+
+29-06-2024T18:25:29 - [MESSAGE][PASSED] - Switched to window with index: '2'
+
+29-06-2024T18:25:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+29-06-2024T18:25:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:25:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:25:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_25_33.jpg]]
+
+29-06-2024T18:25:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+29-06-2024T18:25:37 - [MESSAGE][PASSED] - Window with index 2 is closed
+
+29-06-2024T18:25:37 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+29-06-2024T18:25:38 - [MESSAGE][PASSED] - Object 'Object Repository/DocumentCheckListForPreRelease/FinancialDocument/viewIncomeDocument' is present
+
+29-06-2024T18:25:38 - [MESSAGE][PASSED] - Current window's index is: 1
+
+29-06-2024T18:25:40 - [MESSAGE][PASSED] - Object: 'Object Repository/DocumentCheckListForPreRelease/FinancialDocument/viewIncomeDocument' is clicked on
+
+29-06-2024T18:25:40 - [MESSAGE][PASSED] - Switched to window with index: '2'
+
+29-06-2024T18:25:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+29-06-2024T18:25:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:25:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:25:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_25_44.jpg]]
+
+29-06-2024T18:25:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+29-06-2024T18:25:49 - [MESSAGE][PASSED] - Window with index 2 is closed
+
+29-06-2024T18:25:49 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+29-06-2024T18:25:52 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //table[@id="LOS_GENERATE_DOCUMENT"]/tbody/tr[1]/td[12]/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+29-06-2024T18:25:52 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/DocumentCheckListForPreRelease/OutwardDocument/viewBtn1'. Try using Self-healing.
+
+29-06-2024T18:25:53 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+29-06-2024T18:25:54 - [MESSAGE][WARNING] - [SELF-HEALING] javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression  because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression."}
+  (Session info: MicrosoftEdge=126.0.2592.81)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'QKNBK2037', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 126.0.2592.81, fedcm:accounts: true, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:51704}, msedge: {msedgedriverVersion: 125.0.2535.47 (b3ce6d15dc7f..., userDataDir: C:\Users\ADARSH~1.LOH\AppDa...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a0777c153459558674908f1ca600d63d
+*** Element info: {Using=xpath, value=}
+
+29-06-2024T18:25:54 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+29-06-2024T18:25:54 - [MESSAGE][WARNING] - Object 'Object Repository/DocumentCheckListForPreRelease/OutwardDocument/viewBtn1' is not present after 1 second(s)
+
+29-06-2024T18:25:56 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //table[@id="LOS_GENERATE_DOCUMENT"]/tbody/tr[2]/td[12]/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+29-06-2024T18:25:56 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/DocumentCheckListForPreRelease/OutwardDocument/viewBtn2'. Try using Self-healing.
+
+29-06-2024T18:25:57 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+29-06-2024T18:25:58 - [MESSAGE][WARNING] - [SELF-HEALING] javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression  because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression."}
+  (Session info: MicrosoftEdge=126.0.2592.81)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'QKNBK2037', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 126.0.2592.81, fedcm:accounts: true, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:51704}, msedge: {msedgedriverVersion: 125.0.2535.47 (b3ce6d15dc7f..., userDataDir: C:\Users\ADARSH~1.LOH\AppDa...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a0777c153459558674908f1ca600d63d
+*** Element info: {Using=xpath, value=}
+
+29-06-2024T18:25:58 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+29-06-2024T18:25:58 - [MESSAGE][WARNING] - Object 'Object Repository/DocumentCheckListForPreRelease/OutwardDocument/viewBtn2' is not present after 1 second(s)
+
+29-06-2024T18:26:01 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //table[@id="LOS_GENERATE_DOCUMENT"]/tbody/tr[3]/td[12]/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+29-06-2024T18:26:01 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/DocumentCheckListForPreRelease/OutwardDocument/viewBtn3'. Try using Self-healing.
+
+29-06-2024T18:26:02 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+29-06-2024T18:26:03 - [MESSAGE][WARNING] - [SELF-HEALING] javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression  because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression."}
+  (Session info: MicrosoftEdge=126.0.2592.81)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'QKNBK2037', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 126.0.2592.81, fedcm:accounts: true, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:51704}, msedge: {msedgedriverVersion: 125.0.2535.47 (b3ce6d15dc7f..., userDataDir: C:\Users\ADARSH~1.LOH\AppDa...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a0777c153459558674908f1ca600d63d
+*** Element info: {Using=xpath, value=}
+
+29-06-2024T18:26:03 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+29-06-2024T18:26:03 - [MESSAGE][WARNING] - Object 'Object Repository/DocumentCheckListForPreRelease/OutwardDocument/viewBtn3' is not present after 1 second(s)
+
+29-06-2024T18:26:05 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //table[@id="LOS_GENERATE_DOCUMENT"]/tbody/tr[4]/td[12]/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+29-06-2024T18:26:05 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/DocumentCheckListForPreRelease/OutwardDocument/viewBtn4'. Try using Self-healing.
+
+29-06-2024T18:26:06 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+29-06-2024T18:26:08 - [MESSAGE][WARNING] - [SELF-HEALING] javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression  because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression."}
+  (Session info: MicrosoftEdge=126.0.2592.81)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'QKNBK2037', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 126.0.2592.81, fedcm:accounts: true, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:51704}, msedge: {msedgedriverVersion: 125.0.2535.47 (b3ce6d15dc7f..., userDataDir: C:\Users\ADARSH~1.LOH\AppDa...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a0777c153459558674908f1ca600d63d
+*** Element info: {Using=xpath, value=}
+
+29-06-2024T18:26:08 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+29-06-2024T18:26:08 - [MESSAGE][WARNING] - Object 'Object Repository/DocumentCheckListForPreRelease/OutwardDocument/viewBtn4' is not present after 1 second(s)
+
+29-06-2024T18:26:10 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //table[@id="LOS_GENERATE_DOCUMENT"]/tbody/tr[5]/td[12]/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+29-06-2024T18:26:10 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/DocumentCheckListForPreRelease/OutwardDocument/viewBtn5'. Try using Self-healing.
+
+29-06-2024T18:26:11 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+29-06-2024T18:26:12 - [MESSAGE][WARNING] - [SELF-HEALING] javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression  because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression."}
+  (Session info: MicrosoftEdge=126.0.2592.81)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'QKNBK2037', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 126.0.2592.81, fedcm:accounts: true, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:51704}, msedge: {msedgedriverVersion: 125.0.2535.47 (b3ce6d15dc7f..., userDataDir: C:\Users\ADARSH~1.LOH\AppDa...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a0777c153459558674908f1ca600d63d
+*** Element info: {Using=xpath, value=}
+
+29-06-2024T18:26:12 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+29-06-2024T18:26:12 - [MESSAGE][WARNING] - Object 'Object Repository/DocumentCheckListForPreRelease/OutwardDocument/viewBtn5' is not present after 1 second(s)
+
+29-06-2024T18:26:15 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //table[@id="LOS_GENERATE_DOCUMENT"]/tbody/tr[6]/td[12]/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+29-06-2024T18:26:15 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/DocumentCheckListForPreRelease/OutwardDocument/viewBtn6'. Try using Self-healing.
+
+29-06-2024T18:26:16 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+29-06-2024T18:26:17 - [MESSAGE][WARNING] - [SELF-HEALING] javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression  because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression."}
+  (Session info: MicrosoftEdge=126.0.2592.81)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'QKNBK2037', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 126.0.2592.81, fedcm:accounts: true, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:51704}, msedge: {msedgedriverVersion: 125.0.2535.47 (b3ce6d15dc7f..., userDataDir: C:\Users\ADARSH~1.LOH\AppDa...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a0777c153459558674908f1ca600d63d
+*** Element info: {Using=xpath, value=}
+
+29-06-2024T18:26:17 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+29-06-2024T18:26:17 - [MESSAGE][WARNING] - Object 'Object Repository/DocumentCheckListForPreRelease/OutwardDocument/viewBtn6' is not present after 1 second(s)
+
+29-06-2024T18:26:19 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //table[@id="LOS_GENERATE_DOCUMENT"]/tbody/tr[7]/td[12]/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+29-06-2024T18:26:19 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/DocumentCheckListForPreRelease/OutwardDocument/viewBtn7'. Try using Self-healing.
+
+29-06-2024T18:26:20 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+29-06-2024T18:26:21 - [MESSAGE][WARNING] - [SELF-HEALING] javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression  because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression."}
+  (Session info: MicrosoftEdge=126.0.2592.81)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'QKNBK2037', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 126.0.2592.81, fedcm:accounts: true, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:51704}, msedge: {msedgedriverVersion: 125.0.2535.47 (b3ce6d15dc7f..., userDataDir: C:\Users\ADARSH~1.LOH\AppDa...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a0777c153459558674908f1ca600d63d
+*** Element info: {Using=xpath, value=}
+
+29-06-2024T18:26:21 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+29-06-2024T18:26:21 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/DocumentCheckListForPreRelease/OutwardDocument/viewBtn7' located by '//table[@id="LOS_GENERATE_DOCUMENT"]/tbody/tr[7]/td[12]/a' not found
+
+29-06-2024T18:26:22 - [MESSAGE][PASSED] - Object 'Object Repository/DocumentCheckListForPreRelease/kycDocument' is present
+
+29-06-2024T18:26:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/DocumentCheckListForPreRelease/kycDocument' successfully
+
+29-06-2024T18:26:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:26:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:26:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_26_23.jpg]]
+
+29-06-2024T18:26:25 - [MESSAGE][PASSED] - Object 'Object Repository/DocumentCheckListForPreRelease/prereleaseDocument' is present
+
+29-06-2024T18:26:26 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/DocumentCheckListForPreRelease/prereleaseDocument' successfully
+
+29-06-2024T18:26:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:26:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:26:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_26_27.jpg]]
+
+29-06-2024T18:26:29 - [MESSAGE][PASSED] - tabSection.DocumentCheckList.documentCheckListForEncoder is PASSED
+
+29-06-2024T18:26:31 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Digital_NSTP/testCaseForEncoderNSTP/DocumentChecklist' .
+
+29-06-2024T18:26:31 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Digital_NSTP/testCaseForEncoderNSTP/DocumentChecklist' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Digital_NSTP/testCaseForEncoderNSTP/CollateralInformation" time="7.229" classname="Test Cases/Digital_NSTP/testCaseForEncoderNSTP/CollateralInformation" status="PASSED">
+         <system-out><![CDATA[29-06-2024T18:26:31 - [TEST_CASE][PASSED] - Test Cases/Digital_NSTP/testCaseForEncoderNSTP/CollateralInformation: Test Cases/Digital_NSTP/testCaseForEncoderNSTP/CollateralInformation
+
+29-06-2024T18:26:31 - [TEST_STEP][PASSED] - tabSection.CollateralInformation.collateralInformationForEncoder(): tabSection.CollateralInformation.collateralInformationForEncoder is PASSED
+
+29-06-2024T18:26:32 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/CollateralInformation' is clicked on
+
+29-06-2024T18:26:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:26:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:26:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:26:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_26_34.jpg]]
+
+29-06-2024T18:26:36 - [MESSAGE][PASSED] - tabSection.CollateralInformation.collateralInformationForEncoder is PASSED
+
+29-06-2024T18:26:38 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Digital_NSTP/testCaseForEncoderNSTP/CollateralInformation' .
+
+29-06-2024T18:26:38 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Digital_NSTP/testCaseForEncoderNSTP/CollateralInformation' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Digital_NSTP/testCaseForEncoderNSTP/CheckEligibility" time="25.692" classname="Test Cases/Digital_NSTP/testCaseForEncoderNSTP/CheckEligibility" status="PASSED">
+         <system-out><![CDATA[29-06-2024T18:26:38 - [TEST_CASE][PASSED] - Test Cases/Digital_NSTP/testCaseForEncoderNSTP/CheckEligibility: Test Cases/Digital_NSTP/testCaseForEncoderNSTP/CheckEligibility
+
+29-06-2024T18:26:38 - [TEST_STEP][PASSED] - tabSection.CheckEligibility.checkEligibilityForEncoderNSTP(): tabSection.CheckEligibility.checkEligibilityForEncoderNSTP is PASSED
+
+29-06-2024T18:26:39 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/checkEligibility' is clicked on
+
+29-06-2024T18:26:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:26:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:26:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_26_40.jpg]]
+
+29-06-2024T18:26:43 - [MESSAGE][PASSED] - Text '2000' is set on object 'Object Repository/BackOffice/EncoderNSTP/checkEligibility/quickCheckNumericalScore'
+
+29-06-2024T18:26:45 - [MESSAGE][PASSED] - All options with index in [6] are selected on object 'Object Repository/BackOffice/EncoderNSTP/checkEligibility/quickCheckRiskLevel'
+
+29-06-2024T18:26:46 - [MESSAGE][PASSED] - Text '3000' is set on object 'Object Repository/BackOffice/EncoderNSTP/checkEligibility/compreCheckNumricalScore'
+
+29-06-2024T18:26:47 - [MESSAGE][PASSED] - All options with index in [6] are selected on object 'Object Repository/BackOffice/EncoderNSTP/checkEligibility/compreCheckRiskLevel'
+
+29-06-2024T18:26:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:26:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:26:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:26:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_26_49.jpg]]
+
+29-06-2024T18:26:51 - [MESSAGE][PASSED] - Object 'Object Repository/BackOffice/CheckEligibility/creditChecking' is present
+
+29-06-2024T18:26:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/BackOffice/CheckEligibility/creditChecking' successfully
+
+29-06-2024T18:26:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:26:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:26:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_26_53.jpg]]
+
+29-06-2024T18:26:55 - [MESSAGE][PASSED] - Object 'Object Repository/BackOffice/CheckEligibility/NTBOrETBCheck' is present
+
+29-06-2024T18:26:55 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/BackOffice/CheckEligibility/NTBOrETBCheck' successfully
+
+29-06-2024T18:26:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:26:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:26:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_26_56.jpg]]
+
+29-06-2024T18:26:58 - [MESSAGE][PASSED] - Object 'Object Repository/BackOffice/CheckEligibility/AMLRiskRating' is present
+
+29-06-2024T18:26:59 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/BackOffice/CheckEligibility/AMLRiskRating' successfully
+
+29-06-2024T18:27:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:27:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:27:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_27_00.jpg]]
+
+29-06-2024T18:27:02 - [MESSAGE][PASSED] - tabSection.CheckEligibility.checkEligibilityForEncoderNSTP is PASSED
+
+29-06-2024T18:27:04 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Digital_NSTP/testCaseForEncoderNSTP/CheckEligibility' .
+
+29-06-2024T18:27:04 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Digital_NSTP/testCaseForEncoderNSTP/CheckEligibility' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Digital_NSTP/testCaseForEncoderNSTP/CreditEvaluation" time="14.6" classname="Test Cases/Digital_NSTP/testCaseForEncoderNSTP/CreditEvaluation" status="PASSED">
+         <system-out><![CDATA[29-06-2024T18:27:04 - [TEST_CASE][PASSED] - Test Cases/Digital_NSTP/testCaseForEncoderNSTP/CreditEvaluation: Test Cases/Digital_NSTP/testCaseForEncoderNSTP/CreditEvaluation
+
+29-06-2024T18:27:04 - [TEST_STEP][PASSED] - tabSection.CreditEvaluation.creditEvaluationForEncoderNSTP(): tabSection.CreditEvaluation.creditEvaluationForEncoderNSTP is PASSED
+
+29-06-2024T18:27:05 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/creditEvaluation' is clicked on
+
+29-06-2024T18:27:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:27:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:27:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:27:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_27_07.jpg]]
+
+29-06-2024T18:27:09 - [MESSAGE][PASSED] - Object 'Object Repository/BackOffice/CreditEvaluation/otherCreditCheckings' is present
+
+29-06-2024T18:27:10 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/BackOffice/CreditEvaluation/otherCreditCheckings' successfully
+
+29-06-2024T18:27:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:27:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:27:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_27_11.jpg]]
+
+29-06-2024T18:27:13 - [MESSAGE][PASSED] - Object 'Object Repository/BackOffice/CreditEvaluation/NTBBankCheck' is present
+
+29-06-2024T18:27:13 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/BackOffice/CreditEvaluation/NTBBankCheck' successfully
+
+29-06-2024T18:27:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:27:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:27:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_27_14.jpg]]
+
+29-06-2024T18:27:16 - [MESSAGE][PASSED] - tabSection.CreditEvaluation.creditEvaluationForEncoderNSTP is PASSED
+
+29-06-2024T18:27:18 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Digital_NSTP/testCaseForEncoderNSTP/CreditEvaluation' .
+
+29-06-2024T18:27:18 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Digital_NSTP/testCaseForEncoderNSTP/CreditEvaluation' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Digital_NSTP/testCaseForEncoderNSTP/CreditInvestigation" time="7.866" classname="Test Cases/Digital_NSTP/testCaseForEncoderNSTP/CreditInvestigation" status="PASSED">
+         <system-out><![CDATA[29-06-2024T18:27:18 - [TEST_CASE][PASSED] - Test Cases/Digital_NSTP/testCaseForEncoderNSTP/CreditInvestigation: Test Cases/Digital_NSTP/testCaseForEncoderNSTP/CreditInvestigation
+
+29-06-2024T18:27:19 - [TEST_STEP][PASSED] - tabSection.CreditInvestigation.creditInvestigationForEncoder(): tabSection.CreditInvestigation.creditInvestigationForEncoder is PASSED
+
+29-06-2024T18:27:20 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/creditInvestigation' is clicked on
+
+29-06-2024T18:27:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:27:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:27:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:27:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_27_22.jpg]]
+
+29-06-2024T18:27:24 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/nextArrowButton' is clicked on
+
+29-06-2024T18:27:24 - [MESSAGE][PASSED] - tabSection.CreditInvestigation.creditInvestigationForEncoder is PASSED
+
+29-06-2024T18:27:26 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Digital_NSTP/testCaseForEncoderNSTP/CreditInvestigation' .
+
+29-06-2024T18:27:26 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Digital_NSTP/testCaseForEncoderNSTP/CreditInvestigation' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Digital_NSTP/testCaseForEncoderNSTP/InsuranceInformation" time="14.784" classname="Test Cases/Digital_NSTP/testCaseForEncoderNSTP/InsuranceInformation" status="PASSED">
+         <system-out><![CDATA[29-06-2024T18:27:26 - [TEST_CASE][PASSED] - Test Cases/Digital_NSTP/testCaseForEncoderNSTP/InsuranceInformation: Test Cases/Digital_NSTP/testCaseForEncoderNSTP/InsuranceInformation
+
+29-06-2024T18:27:26 - [TEST_STEP][PASSED] - tabSection.InsuranceInformation.insuranceInformationForEncoder(): tabSection.InsuranceInformation.insuranceInformationForEncoder is PASSED
+
+29-06-2024T18:27:27 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/InsuranceInformation' is clicked on
+
+29-06-2024T18:27:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:27:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:27:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:27:31 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_27_29.jpg]]
+
+29-06-2024T18:27:31 - [MESSAGE][PASSED] - Object 'Object Repository/BackOffice/InsuranceInformation/InsuranceInfo' is present
+
+29-06-2024T18:27:32 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/BackOffice/InsuranceInformation/InsuranceInfo' successfully
+
+29-06-2024T18:27:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:27:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:27:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_27_33.jpg]]
+
+29-06-2024T18:27:35 - [MESSAGE][PASSED] - Object 'Object Repository/BackOffice/InsuranceInformation/coveragePremium' is present
+
+29-06-2024T18:27:35 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/BackOffice/InsuranceInformation/coveragePremium' successfully
+
+29-06-2024T18:27:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:27:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:27:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_27_36.jpg]]
+
+29-06-2024T18:27:39 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/nextArrowButton' is clicked on
+
+29-06-2024T18:27:39 - [MESSAGE][PASSED] - tabSection.InsuranceInformation.insuranceInformationForEncoder is PASSED
+
+29-06-2024T18:27:41 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Digital_NSTP/testCaseForEncoderNSTP/InsuranceInformation' .
+
+29-06-2024T18:27:41 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Digital_NSTP/testCaseForEncoderNSTP/InsuranceInformation' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Digital_NSTP/testCaseForEncoderNSTP/DisbursementInformation" time="7.44" classname="Test Cases/Digital_NSTP/testCaseForEncoderNSTP/DisbursementInformation" status="PASSED">
+         <system-out><![CDATA[29-06-2024T18:27:41 - [TEST_CASE][PASSED] - Test Cases/Digital_NSTP/testCaseForEncoderNSTP/DisbursementInformation: Test Cases/Digital_NSTP/testCaseForEncoderNSTP/DisbursementInformation
+
+29-06-2024T18:27:41 - [TEST_STEP][PASSED] - tabSection.DisbursementInfo.disbursementInformationForEncoder(): tabSection.DisbursementInfo.disbursementInformationForEncoder is PASSED
+
+29-06-2024T18:27:42 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/DisbursementInformation' is clicked on
+
+29-06-2024T18:27:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:27:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:27:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:27:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_27_44.jpg]]
+
+29-06-2024T18:27:46 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/nextArrowButton' is clicked on
+
+29-06-2024T18:27:46 - [MESSAGE][PASSED] - tabSection.DisbursementInfo.disbursementInformationForEncoder is PASSED
+
+29-06-2024T18:27:48 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Digital_NSTP/testCaseForEncoderNSTP/DisbursementInformation' .
+
+29-06-2024T18:27:48 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Digital_NSTP/testCaseForEncoderNSTP/DisbursementInformation' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Digital_NSTP/testCaseForEncoderNSTP/Action" time="32.416" classname="Test Cases/Digital_NSTP/testCaseForEncoderNSTP/Action" status="PASSED">
+         <system-out><![CDATA[29-06-2024T18:27:48 - [TEST_CASE][PASSED] - Test Cases/Digital_NSTP/testCaseForEncoderNSTP/Action: Test Cases/Digital_NSTP/testCaseForEncoderNSTP/Action
+
+29-06-2024T18:27:49 - [TEST_STEP][PASSED] - tabSection.Action.submitForAO(): tabSection.Action.submitForAO is PASSED
+
+29-06-2024T18:27:51 - [MESSAGE][PASSED] - Object: 'Object Repository/TabSection/Action' is clicked on
+
+29-06-2024T18:27:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:27:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:27:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_27_52.jpg]]
+
+29-06-2024T18:27:54 - [MESSAGE][PASSED] - Object 'Object Repository/Action/otherLoanDetail' is present
+
+29-06-2024T18:27:55 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Action/otherLoanDetail' successfully
+
+29-06-2024T18:27:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:27:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:27:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_27_56.jpg]]
+
+29-06-2024T18:27:58 - [MESSAGE][PASSED] - Object 'Object Repository/Action/Decision' is visible
+
+29-06-2024T18:27:59 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Action/Decision'
+
+29-06-2024T18:28:00 - [MESSAGE][PASSED] - Text 'OK' is set on object 'Object Repository/Action/Remarks'
+
+29-06-2024T18:28:00 - [MESSAGE][PASSED] - Current window's title is: 'Encoder : LOS-3588'
+
+29-06-2024T18:28:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/Action/referenceNumber' is: 'Encoder : LOS-3588'
+
+29-06-2024T18:28:01 - [MESSAGE][INFO] - LOS-3588
+
+29-06-2024T18:28:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Action/SubmitButton' is clicked on
+
+29-06-2024T18:28:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\1719665883567.png]]
+
+29-06-2024T18:28:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:28:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:28:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:28:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_28_05.jpg]]
+
+29-06-2024T18:28:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Action/confirmYes' is clicked on
+
+29-06-2024T18:28:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+29-06-2024T18:28:19 - [MESSAGE][PASSED] - tabSection.Action.submitForAO is PASSED
+
+29-06-2024T18:28:21 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Digital_NSTP/testCaseForEncoderNSTP/Action' .
+
+29-06-2024T18:28:21 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Digital_NSTP/testCaseForEncoderNSTP/Action' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LogOut/logout" time="19.265" classname="Test Cases/LogOut/logout" status="PASSED">
+         <system-out><![CDATA[29-06-2024T18:28:21 - [TEST_CASE][PASSED] - Test Cases/LogOut/logout: Test Cases/LogOut/logout
+
+29-06-2024T18:28:21 - [TEST_STEP][PASSED] - signOutibps.SignOut.logout(): signOutibps.SignOut.logout is PASSED
+
+29-06-2024T18:28:21 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+29-06-2024T18:28:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:28:23 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/ibpsLogOut/selectProcess'
+
+29-06-2024T18:28:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:28:25 - [MESSAGE][PASSED] - Object: 'Object Repository/ibpsLogOut/searchBar' is double clicked on
+
+29-06-2024T18:28:25 - [MESSAGE][PASSED] - Keys 'LOS-3588' sent to object: 'Object Repository/ibpsLogOut/searchBar'
+
+29-06-2024T18:28:26 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ibpsLogOut/searchBar'
+
+29-06-2024T18:28:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:28:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:28:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:28:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_28_28.jpg]]
+
+29-06-2024T18:28:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+29-06-2024T18:28:32 - [MESSAGE][PASSED] - Object: 'Object Repository/ibpsLogOut/label_QK_CO7' is clicked on
+
+29-06-2024T18:28:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+29-06-2024T18:28:35 - [MESSAGE][PASSED] - Object: 'Object Repository/ibpsLogOut/Logout' is clicked on
+
+29-06-2024T18:28:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:28:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:28:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+29-06-2024T18:28:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\newRCBCProject\\RCBCLOS_Automation\\Reports\\20240629_181257\\DigitalFlows\\NSTPDigitalLowCashout\\testSuiteForEncoderNSTP\\20240629_181304\\Screenshots/Encoder29_06_2406_21_03/Regression29_06_24_06_28_37.jpg]]
+
+29-06-2024T18:28:38 - [MESSAGE][PASSED] - signOutibps.SignOut.logout is PASSED
+
+29-06-2024T18:28:40 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/LogOut/logout' .
+
+29-06-2024T18:28:40 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/LogOut/logout' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[29-06-2024T18:20:42 - [TEST_SUITE][PASSED] - testSuiteForEncoderNSTP: Test Cases/LogOut/logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

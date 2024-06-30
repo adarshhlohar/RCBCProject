@@ -79,7 +79,6 @@ public class HomePageForibpsAO {
 
 					WebUI.delay(2)
 				}
-				//				WebUI.click(findTestObject("Object Repository/BackOffice/AO/ibpsHomePage/resistrationNumberFirst"))
 			}else {
 				WebUI.delay(1)
 				WebUI.click(findTestObject("Object Repository/ibpsLogOut/label_QK_CO7"))

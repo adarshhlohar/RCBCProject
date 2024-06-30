@@ -6,14 +6,16 @@
       "keywordMethods": [
         {
           "name": "selectResistration",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "selectResistrationForCI2",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }
