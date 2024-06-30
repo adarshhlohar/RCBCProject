@@ -6,14 +6,16 @@
       "keywordMethods": [
         {
           "name": "submitForAO",
-          "parameters": []
+          "parameters": [],
+          "javadoc": "/**\r\n\t * This is the the action tab in that we submitting the application\r\n\t * @return\r\n\t */"
         },
         {
           "name": "submitForAmendment",
-          "parameters": []
+          "parameters": [],
+          "javadoc": "/**\r\n\t * This is the the action tab in that we submitting the application\r\n\t * @return\r\n\t */"
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

@@ -6,66 +6,81 @@
       "keywordMethods": [
         {
           "name": "creditEvaluationForAO",
-          "parameters": []
+          "parameters": [],
+          "javadoc": "/**\r\n\t * This method is for the credit evaluation AO\r\n\t * @return\r\n\t */"
         },
         {
           "name": "creditEvaluationForEncoderNSTP",
-          "parameters": []
+          "parameters": [],
+          "javadoc": "/**\r\n\t * This method is for the credit evaluation Encoder\r\n\t * @return\r\n\t */"
         },
         {
           "name": "creditEvaluationForEncoderWithAndWithout",
-          "parameters": []
+          "parameters": [],
+          "javadoc": "/**\r\n\t * This method is for the credit evaluation Encoder\r\n\t * @return\r\n\t */"
         },
         {
           "name": "creditEvaluationForFullfillment",
-          "parameters": []
+          "parameters": [],
+          "javadoc": "/**\r\n\t * This method is for the credit evaluation Fullfillment\r\n\t * @return\r\n\t */"
         },
         {
           "name": "creditEvaluationForCOApproverNSTP",
-          "parameters": []
+          "parameters": [],
+          "javadoc": "/**\r\n\t * This method is for the credit evaluation COApprover\r\n\t * @return\r\n\t */"
         },
         {
           "name": "creditEvaluationForCOMakerNSTP",
-          "parameters": []
+          "parameters": [],
+          "javadoc": "/**\r\n\t * This method is for the credit evaluation COMaker\r\n\t * @return\r\n\t */"
         },
         {
           "name": "creditEvaluationForCOMakerNSTPForDecline",
-          "parameters": []
+          "parameters": [],
+          "javadoc": "/**\r\n\t * This method is for the credit evaluation COMaker\r\n\t * @return\r\n\t */"
         },
         {
           "name": "creditEvaluationForEncoderPaperBased",
-          "parameters": []
+          "parameters": [],
+          "javadoc": "/**\r\n\t * This method is for the credit evaluation Encoder\r\n\t * @return\r\n\t */"
         },
         {
           "name": "creditEvaluationForCOMakerPaperbased",
-          "parameters": []
+          "parameters": [],
+          "javadoc": "/**\r\n\t * This method is for the credit evaluation COMaker paper based\r\n\t * @return\r\n\t */"
         },
         {
           "name": "creditEvaluationForCOApproverPaperbased",
-          "parameters": []
+          "parameters": [],
+          "javadoc": "/**\r\n\t * This method is for the credit evaluation COApprover Paperbased\r\n\t * @return\r\n\t */"
         },
         {
           "name": "creditEvaluationForAOPaperbase",
-          "parameters": []
+          "parameters": [],
+          "javadoc": "/**\r\n\t * This method is for the credit evaluation AO\r\n\t * @return\r\n\t */"
         },
         {
           "name": "creditEvaluationForFullfillmentPaperbased",
-          "parameters": []
+          "parameters": [],
+          "javadoc": "/**\r\n\t * This method is for the credit evaluation Fullfillment\r\n\t * @return\r\n\t */"
         },
         {
           "name": "CreditEvaluationAfterAmendment",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "creditEvaluationCommon",
-          "parameters": []
+          "parameters": [],
+          "javadoc": "/**\r\n\t * This method is for the credit evaluation Fullfillment\r\n\t * @return\r\n\t */"
         },
         {
           "name": "creditEvaluationBooking",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }
