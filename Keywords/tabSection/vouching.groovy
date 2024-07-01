@@ -12,8 +12,8 @@ import globalVariableUtils.GlobalVariableUtil
 
 
 public class vouching {
-	
-	
+
+
 	def checkALL() {
 		if(WebUI.verifyElementPresent(findTestObject("Object Repository/Vouching/clientInformation"), 1,FailureHandling.OPTIONAL)) {
 			WebUI.scrollToElement(findTestObject("Object Repository/Vouching/clientInformation"), 1,FailureHandling.OPTIONAL)
@@ -24,12 +24,12 @@ public class vouching {
 			WebUI.scrollToElement(findTestObject("Object Repository/Vouching/financialInformation"), 1,FailureHandling.OPTIONAL)
 			GlobalVariableUtil.captureScreenShotWithTime()
 		}
-		
+
 		if(WebUI.verifyElementPresent(findTestObject("Object Repository/Vouching/loanInformation"), 1,FailureHandling.OPTIONAL)) {
 			WebUI.scrollToElement(findTestObject("Object Repository/Vouching/loanInformation"), 1,FailureHandling.OPTIONAL)
 			GlobalVariableUtil.captureScreenShotWithTime()
 		}
-		
+
 		if(WebUI.verifyElementPresent(findTestObject("Object Repository/Vouching/commissionDetail"), 1,FailureHandling.OPTIONAL)) {
 			WebUI.scrollToElement(findTestObject("Object Repository/Vouching/commissionDetail"), 1,FailureHandling.OPTIONAL)
 			GlobalVariableUtil.captureScreenShotWithTime()
@@ -38,15 +38,13 @@ public class vouching {
 			WebUI.scrollToElement(findTestObject("Object Repository/Vouching/attachment"), 1,FailureHandling.OPTIONAL)
 			GlobalVariableUtil.captureScreenShotWithTime()
 		}
-		
 	}
-	
-	
-	
+
+
+
 	@Keyword
 	def vouchingDeatilForSD_Approver() {
 		WebUI.click(findTestObject("Object Repository/TabSection/Vouching"))
-		WebUI.delay(1)
 		GlobalVariableUtil.captureScreenShotWithTime()
 		checkALL()
 
@@ -96,7 +94,6 @@ public class vouching {
 	@Keyword
 	def vouchingDeatilForSD_ApproverNSTP() {
 		WebUI.click(findTestObject("Object Repository/TabSection/Vouching"))
-		WebUI.delay(1)
 		GlobalVariableUtil.captureScreenShotWithTime()
 		checkALL()
 
@@ -125,13 +122,11 @@ public class vouching {
 		WebUI.setText(findTestObject("Object Repository/Vouching/SpouseGrossMonthlyIncome"),"0")
 
 		WebUI.setText(findTestObject("Object Repository/Vouching/CoBorrowerGrossMonthlyIncome"),"0")
-		WebUI.delay(1)
 		GlobalVariableUtil.captureScreenShotWithTime()
 
 		WebUI.selectOptionByIndex(findTestObject("Object Repository/Vouching/vehicleCategory"), 1)
 
 		WebUI.selectOptionByIndex(findTestObject("Object Repository/Vouching/recommendation"), 1)
-		WebUI.delay(1)
 		GlobalVariableUtil.captureScreenShotWithTime()
 		checkALL()
 	}
@@ -143,7 +138,6 @@ public class vouching {
 		WebUI.delay(2)
 		if(WebUI.verifyElementClickable(findTestObject("Object Repository/TabSection/Vouching"),FailureHandling.OPTIONAL)){
 			WebUI.click(findTestObject("Object Repository/TabSection/Vouching"))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			checkALL()
 			WebUI.click(findTestObject("Object Repository/TabSection/nextArrowButton"))

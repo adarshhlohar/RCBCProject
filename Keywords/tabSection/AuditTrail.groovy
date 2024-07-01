@@ -23,7 +23,6 @@ public class AuditTrail {
 			//clicking on alert summary tab
 			WebUI.click(findTestObject("Object Repository/TabSection/AuditTrail"))
 
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 
@@ -48,9 +47,8 @@ public class AuditTrail {
 			//clicking on alert summary tab
 			WebUI.click(findTestObject("Object Repository/TabSection/AuditTrail"))
 
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
-			
+
 
 			//clicking on next arrow button
 			WebUI.click(findTestObject("Object Repository/TabSection/nextArrowButton"))
@@ -72,8 +70,7 @@ public class AuditTrail {
 		try {
 			//clicking on alert summary tab
 			WebUI.click(findTestObject("Object Repository/TabSection/AuditTrail"))
-			
-			WebUI.delay(1)
+
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 
@@ -98,8 +95,7 @@ public class AuditTrail {
 		try {
 			//clicking on alert summary tab
 			WebUI.click(findTestObject("Object Repository/TabSection/AuditTrail"))
-			
-			WebUI.delay(1)
+
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 
@@ -124,8 +120,7 @@ public class AuditTrail {
 		try {
 			//clicking on alert summary tab
 			WebUI.click(findTestObject("Object Repository/TabSection/AuditTrail"))
-			
-			WebUI.delay(1)
+
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 
@@ -148,8 +143,7 @@ public class AuditTrail {
 		try {
 			//clicking on alert summary tab
 			WebUI.click(findTestObject("Object Repository/TabSection/AuditTrail"))
-			
-			WebUI.delay(1)
+
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 
@@ -173,8 +167,7 @@ public class AuditTrail {
 		try {
 			//clicking on alert summary tab
 			WebUI.click(findTestObject("Object Repository/TabSection/AuditTrail"))
-			
-			WebUI.delay(1)
+
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 
@@ -198,8 +191,7 @@ public class AuditTrail {
 		try {
 			//clicking on alert summary tab
 			WebUI.click(findTestObject("Object Repository/TabSection/AuditTrail"))
-			
-			WebUI.delay(1)
+
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 
@@ -223,8 +215,7 @@ public class AuditTrail {
 		try {
 			//clicking on alert summary tab
 			WebUI.click(findTestObject("Object Repository/TabSection/AuditTrail"))
-			
-			WebUI.delay(1)
+
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 
@@ -249,10 +240,9 @@ public class AuditTrail {
 			//clicking on alert summary tab
 			WebUI.click(findTestObject("Object Repository/TabSection/AuditTrail"))
 
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
-			
+
 			//clicking on next arrow button
 			WebUI.click(findTestObject("Object Repository/TabSection/nextArrowButton"))
 		}catch(Exception e) {
@@ -276,8 +266,7 @@ public class AuditTrail {
 		try {
 			//clicking on alert summary tab
 			WebUI.click(findTestObject("Object Repository/TabSection/AuditTrail"))
-			
-			WebUI.delay(1)
+
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 			//clicking on next arrow button

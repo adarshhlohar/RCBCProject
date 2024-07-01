@@ -110,6 +110,13 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>898c45fd-4695-4f5f-8b91-281c2de94020</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Digital_NSTP/testCaseForSD_Approver/Vouching</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>29985312-f67d-484a-b576-6230da6aa616</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

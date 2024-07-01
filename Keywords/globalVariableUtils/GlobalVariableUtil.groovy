@@ -142,18 +142,19 @@ public class GlobalVariableUtil {
 	@Keyword
 	def static captureScreenShotWithTime() {
 		try {
-			WebUI.delay(1)
+//			WebUI.delay(1)
 			Date today = new Date()
 
 			String todaysDate = today.format('dd_MM_yy')
 
 			String nowTime = today.format('hh_mm_ss')
 
+			loadGlobalVariable()
+			
+			WebUI.takeScreenshot(((((GlobalVariable.FolderPath + '/Regression') + todaysDate) + '_') + nowTime) + '.jpg')
+			
 			WebUI.delay(1)
 
-			loadGlobalVariable()
-
-			WebUI.takeScreenshot(((((GlobalVariable.FolderPath + '/Regression') + todaysDate) + '_') + nowTime) + '.jpg')
 		} catch (Exception e) {
 			logger.logFailed("Failed to capture screenshot : "+ e.getMessage())
 		}

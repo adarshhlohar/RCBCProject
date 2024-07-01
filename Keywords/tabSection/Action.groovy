@@ -65,7 +65,6 @@ public class Action {
 			WebUI.click(findTestObject('Object Repository/Action/SubmitButton'))
 
 			WebUI.takeScreenshot()
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 

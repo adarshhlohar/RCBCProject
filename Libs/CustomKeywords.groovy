@@ -6,235 +6,115 @@
 import java.lang.String
 
 
- /**
-	 * This is the application page in that we selecting the application 
-	 */ 
-def static "tabSection.ApplicationSection.applicationSectionTab"(
-    	String show	
-     , 	String sortBy	) {
-    (new tabSection.ApplicationSection()).applicationSectionTab(
-        	show
-         , 	sortBy)
-}
 
- /**
-	 * This is the application page in that we selecting the application
-	 */ 
-def static "tabSection.ApplicationSection.applicationSectionTabAmendment"(
-    	String show	
-     , 	String sortBy	) {
-    (new tabSection.ApplicationSection()).applicationSectionTabAmendment(
-        	show
-         , 	sortBy)
+def static "coApprover.HomePageForibpsCOApprover.selectResistration"() {
+    (new coApprover.HomePageForibpsCOApprover()).selectResistration()
 }
 
 
-def static "vouchingApprover.HomePageForibpsCOApprover.selectResistration"() {
-    (new vouchingApprover.HomePageForibpsCOApprover()).selectResistration()
+def static "coApprover.HomePageForibpsCOApprover.COApproverCMG"() {
+    (new coApprover.HomePageForibpsCOApprover()).COApproverCMG()
 }
 
 
-def static "tabSection.Deviation.deviationForAO"() {
-    (new tabSection.Deviation()).deviationForAO()
+def static "encoder.HomePageForibpsEncoder.selectResistration"() {
+    (new encoder.HomePageForibpsEncoder()).selectResistration()
 }
 
 
-def static "tabSection.Deviation.deviationForFullfillment"() {
-    (new tabSection.Deviation()).deviationForFullfillment()
+def static "encoder.LoginForibpsEncoder.login"() {
+    (new encoder.LoginForibpsEncoder()).login()
 }
 
 
-def static "tabSection.Deviation.deviationForCOMaker"() {
-    (new tabSection.Deviation()).deviationForCOMaker()
+def static "autoLoanProtal.UploadYourDocuments.uploadYourDocumentsPage"() {
+    (new autoLoanProtal.UploadYourDocuments()).uploadYourDocumentsPage()
 }
 
 
-def static "tabSection.Deviation.deviationForCOApprover"() {
-    (new tabSection.Deviation()).deviationForCOApprover()
+def static "autoLoanProtal.UploadYourDocuments.uploadYourDocumentsPageForAmendment"() {
+    (new autoLoanProtal.UploadYourDocuments()).uploadYourDocumentsPageForAmendment()
 }
 
 
-def static "tabSection.Deviation.deviationForCOMakerPaperbase"() {
-    (new tabSection.Deviation()).deviationForCOMakerPaperbase()
+def static "paperBasedPortal.SubmitPage.proceedToPreReleaseFun"() {
+    (new paperBasedPortal.SubmitPage()).proceedToPreReleaseFun()
 }
 
 
-def static "tabSection.Deviation.deviationForCOApproverPaperbased"() {
-    (new tabSection.Deviation()).deviationForCOApproverPaperbased()
+def static "paperBasedPortal.SubmitPage.proceedToPreReleaseFunWithout"() {
+    (new paperBasedPortal.SubmitPage()).proceedToPreReleaseFunWithout()
 }
 
 
-def static "tabSection.Deviation.deviationForAOPaperbase"() {
-    (new tabSection.Deviation()).deviationForAOPaperbase()
+def static "paperBasedPortal.SubmitPage.proceedToPreReleaseFunNSTP"() {
+    (new paperBasedPortal.SubmitPage()).proceedToPreReleaseFunNSTP()
 }
 
 
-def static "tabSection.Deviation.deviationForFullfillmentPaperbased"() {
-    (new tabSection.Deviation()).deviationForFullfillmentPaperbased()
+def static "homePage.homePage.homepage"() {
+    (new homePage.homePage()).homepage()
 }
 
 
-def static "tabSection.Deviation.deviationForCommon"() {
-    (new tabSection.Deviation()).deviationForCommon()
+def static "autoLoanProtal.SubmitPage.proceedToPreReleaseFun"() {
+    (new autoLoanProtal.SubmitPage()).proceedToPreReleaseFun()
 }
 
 
-def static "tabSection.Deviation.deviationForSD_Approve"() {
-    (new tabSection.Deviation()).deviationForSD_Approve()
+def static "autoLoanProtal.SubmitPage.proceedToPreReleaseFunWithout"() {
+    (new autoLoanProtal.SubmitPage()).proceedToPreReleaseFunWithout()
 }
 
 
-def static "tabSection.Deviation.deviationForChangeinNameAndDOB"() {
-    (new tabSection.Deviation()).deviationForChangeinNameAndDOB()
+def static "autoLoanProtal.SubmitPage.proceedToPreReleaseFunNSTP"() {
+    (new autoLoanProtal.SubmitPage()).proceedToPreReleaseFunNSTP()
 }
 
 
-def static "tabSection.Deviation.deviationForBooking"() {
-    (new tabSection.Deviation()).deviationForBooking()
+def static "fci_user1.LoginForibpsFCI.login"() {
+    (new fci_user1.LoginForibpsFCI()).login()
 }
 
- /**
-	 * This is the the action tab in that we submitting the application
-	 * @return
-	 */ 
-def static "tabSection.Action.submitForAO"() {
-    (new tabSection.Action()).submitForAO()
+
+def static "paperBasedPortal.letsGetStarted.letsGetStartedBtnFun"() {
+    (new paperBasedPortal.letsGetStarted()).letsGetStartedBtnFun()
 }
 
- /**
-	 * This is the the action tab in that we submitting the application
-	 * @return
-	 */ 
-def static "tabSection.Action.submitForAmendment"() {
-    (new tabSection.Action()).submitForAmendment()
+
+def static "globalVariableUtils.GlobalVariableUtil.loadGlobalVariable"() {
+    (new globalVariableUtils.GlobalVariableUtil()).loadGlobalVariable()
 }
 
- /**
-	 * This metnhod is for the fulfillment Disbursement Information
-	 * @return
-	 */ 
-def static "tabSection.DisbursementInfo.disbursementInformationForPreRealease"() {
-    (new tabSection.DisbursementInfo()).disbursementInformationForPreRealease()
+
+def static "globalVariableUtils.GlobalVariableUtil.captureScreenShot"(
+    	String ScreenShotPath	
+     , 	String screenshot_name	) {
+    (new globalVariableUtils.GlobalVariableUtil()).captureScreenShot(
+        	ScreenShotPath
+         , 	screenshot_name)
 }
 
- /**
-	 * This metnhod is for the AO Disbursement Information
-	 * @return
-	 */ 
-def static "tabSection.DisbursementInfo.disbursementInformationForAO"() {
-    (new tabSection.DisbursementInfo()).disbursementInformationForAO()
+
+def static "globalVariableUtils.GlobalVariableUtil.createFolder"(
+    	String folderName	) {
+    (new globalVariableUtils.GlobalVariableUtil()).createFolder(
+        	folderName)
 }
 
- /**
-	 * This metnhod is for the AO Disbursement Information
-	 * @return
-	 */ 
-def static "tabSection.DisbursementInfo.disbursementInformationForAOWithout"() {
-    (new tabSection.DisbursementInfo()).disbursementInformationForAOWithout()
+
+def static "globalVariableUtils.GlobalVariableUtil.captureScreenShotWithTime"() {
+    (new globalVariableUtils.GlobalVariableUtil()).captureScreenShotWithTime()
 }
 
- /**
-	 * This metnhod is for the AO Disbursement Information
-	 * @return
-	 */ 
-def static "tabSection.DisbursementInfo.disbursementInformationForNSTPAO"() {
-    (new tabSection.DisbursementInfo()).disbursementInformationForNSTPAO()
+
+def static "globalVariableUtils.GlobalVariableUtil.captureScreenShot"() {
+    (new globalVariableUtils.GlobalVariableUtil()).captureScreenShot()
 }
 
- /**
-	 * This metnhod is for the Encoder Disbursement Information
-	 * @return
-	 */ 
-def static "tabSection.DisbursementInfo.disbursementInformationForEncoder"() {
-    (new tabSection.DisbursementInfo()).disbursementInformationForEncoder()
-}
 
- /**
-	 * This metnhod is for the Fullfillment Disbursement Information
-	 * @return
-	 */ 
-def static "tabSection.DisbursementInfo.disbursementInformationForFullfillmentWithAndWithout"() {
-    (new tabSection.DisbursementInfo()).disbursementInformationForFullfillmentWithAndWithout()
-}
-
- /**
-	 * This metnhod is for the Fullfillment Disbursement Information
-	 * @return
-	 */ 
-def static "tabSection.DisbursementInfo.disbursementInformationForFullfillment"() {
-    (new tabSection.DisbursementInfo()).disbursementInformationForFullfillment()
-}
-
- /**
-	 * This metnhod is for the COMaker Disbursement Information
-	 * @return
-	 */ 
-def static "tabSection.DisbursementInfo.disbursementInformationForCOMaker"() {
-    (new tabSection.DisbursementInfo()).disbursementInformationForCOMaker()
-}
-
- /**
-	 * This metnhod is for the COMaker Disbursement Information
-	 * @return
-	 */ 
-def static "tabSection.DisbursementInfo.disbursementInformationForCOApprover"() {
-    (new tabSection.DisbursementInfo()).disbursementInformationForCOApprover()
-}
-
- /**
-	 * This metnhod is for the Encoder Disbursement Information
-	 * @return
-	 */ 
-def static "tabSection.DisbursementInfo.disbursementInformationForEncoderPaperbased"() {
-    (new tabSection.DisbursementInfo()).disbursementInformationForEncoderPaperbased()
-}
-
- /**
-	 * This metnhod is for the Encoder Disbursement Information
-	 * @return
-	 */ 
-def static "tabSection.DisbursementInfo.disbursementInformationForCOMakerPaperbased"() {
-    (new tabSection.DisbursementInfo()).disbursementInformationForCOMakerPaperbased()
-}
-
- /**
-	 * This method is for the COMaker Disbursement Information
-	 * @return
-	 */ 
-def static "tabSection.DisbursementInfo.disbursementInformationForCOApproverPaperbased"() {
-    (new tabSection.DisbursementInfo()).disbursementInformationForCOApproverPaperbased()
-}
-
- /**
-	 * This metnhod is for the AO Disbursement Information
-	 * @return
-	 */ 
-def static "tabSection.DisbursementInfo.disbursementInformationForAOPaperbase"() {
-    (new tabSection.DisbursementInfo()).disbursementInformationForAOPaperbase()
-}
-
- /**
-	 * This metnhod is for the Fullfillment Disbursement Information
-	 * @return
-	 */ 
-def static "tabSection.DisbursementInfo.disbursementInformationForFullfillmentPaperbase"() {
-    (new tabSection.DisbursementInfo()).disbursementInformationForFullfillmentPaperbase()
-}
-
- /**
-	 * This method is for the COMaker Disbursement Information
-	 * @return
-	 */ 
-def static "tabSection.DisbursementInfo.disbursementInformationForCommon"() {
-    (new tabSection.DisbursementInfo()).disbursementInformationForCommon()
-}
-
- /**
-	 * This method is for the COMaker Disbursement Information
-	 * @return
-	 */ 
-def static "tabSection.DisbursementInfo.disbursementInformationForBooking"() {
-    (new tabSection.DisbursementInfo()).disbursementInformationForBooking()
+def static "booking.HomePageForibpsFullFillment.selectResistration"() {
+    (new booking.HomePageForibpsFullFillment()).selectResistration()
 }
 
  /**
@@ -339,11 +219,6 @@ def static "tabSection.InsuranceInformation.insuranceInformationForBooking"() {
 }
 
 
-def static "accountOfficer.HomePageForibpsAO.selectResistration"() {
-    (new accountOfficer.HomePageForibpsAO()).selectResistration()
-}
-
-
 def static "tabSection.vouching.vouchingDeatilForSD_Approver"() {
     (new tabSection.vouching()).vouchingDeatilForSD_Approver()
 }
@@ -374,6 +249,16 @@ def static "tabSection.vouching.vouchingForCommon"() {
 }
 
 
+def static "fulfillment.HomePageForibpsFullFillment.selectResistration"() {
+    (new fulfillment.HomePageForibpsFullFillment()).selectResistration()
+}
+
+
+def static "fulfillment.HomePageForibpsFullFillment.selectResistrationForBooking"() {
+    (new fulfillment.HomePageForibpsFullFillment()).selectResistrationForBooking()
+}
+
+
 def static "signOutibps.SignOut.logout"() {
     (new signOutibps.SignOut()).logout()
 }
@@ -381,6 +266,11 @@ def static "signOutibps.SignOut.logout"() {
 
 def static "signOutibps.SignOut.logoutFCI"() {
     (new signOutibps.SignOut()).logoutFCI()
+}
+
+
+def static "accountOfficerForPaper.HomePageForibpsAO.selectResistration"() {
+    (new accountOfficerForPaper.HomePageForibpsAO()).selectResistration()
 }
 
 
@@ -791,6 +681,16 @@ def static "tabSection.CreditInvestigation.creditInvestigationForBooking"() {
     (new tabSection.CreditInvestigation()).creditInvestigationForBooking()
 }
 
+
+def static "fci_user1.HomePageForibpsFCI.selectResistration"() {
+    (new fci_user1.HomePageForibpsFCI()).selectResistration()
+}
+
+
+def static "fci_user1.HomePageForibpsFCI.selectResistrationForCI2"() {
+    (new fci_user1.HomePageForibpsFCI()).selectResistrationForCI2()
+}
+
  /**
 	 * This method is for the credit evaluation AO
 	 * @return
@@ -987,6 +887,16 @@ def static "tabSection.CollateralInformation.collateralInformationBooking"() {
 }
 
 
+def static "autoLoanProtal.confirmationPage.editOnConfirmationPage"() {
+    (new autoLoanProtal.confirmationPage()).editOnConfirmationPage()
+}
+
+
+def static "autoLoanProtal.confirmationPage.editOnConfirmationPageAmendment"() {
+    (new autoLoanProtal.confirmationPage()).editOnConfirmationPageAmendment()
+}
+
+
 def static "tabSection.DocumentCheckList.documentCheckListForPreRelease"() {
     (new tabSection.DocumentCheckList()).documentCheckListForPreRelease()
 }
@@ -1125,6 +1035,16 @@ def static "tabSection.SystemInterfaceStatus.systemInterfaceStatusForBooking"() 
     (new tabSection.SystemInterfaceStatus()).systemInterfaceStatusForBooking()
 }
 
+
+def static "coMaker.LoginForibpsCOMaker.login"() {
+    (new coMaker.LoginForibpsCOMaker()).login()
+}
+
+
+def static "autoLoanProtal.letsGetStarted.letsGetStartedBtnFun"() {
+    (new autoLoanProtal.letsGetStarted()).letsGetStartedBtnFun()
+}
+
  /**
 	 * This method is used for check eligibility AO
 	 * @return
@@ -1253,8 +1173,54 @@ def static "postRelease.PostReleaseSubmit.submit_post_release"() {
 }
 
 
-def static "vouchingApprover.LoginForibpsCOApprover.login"() {
-    (new vouchingApprover.LoginForibpsCOApprover()).login()
+def static "accountOfficer.LoginForibpsAO.login"() {
+    (new accountOfficer.LoginForibpsAO()).login()
+}
+
+
+def static "autoLoanProtal.Borrower_Detail.borrower_Details"(
+    	String fst_Name	
+     , 	String mid_Name	
+     , 	String lst_Name	
+     , 	String email	
+     , 	String mob_Num	
+     , 	String date	
+     , 	String maritalStatus	
+     , 	String suffix	
+     , 	String residence	) {
+    (new autoLoanProtal.Borrower_Detail()).borrower_Details(
+        	fst_Name
+         , 	mid_Name
+         , 	lst_Name
+         , 	email
+         , 	mob_Num
+         , 	date
+         , 	maritalStatus
+         , 	suffix
+         , 	residence)
+}
+
+
+def static "autoLoanProtal.Borrower_Detail.borrower_DetailsForNSTP"(
+    	String fst_Name	
+     , 	String mid_Name	
+     , 	String lst_Name	
+     , 	String email	
+     , 	String mob_Num	
+     , 	String date	
+     , 	String maritalStatus	
+     , 	String suffix	
+     , 	String residence	) {
+    (new autoLoanProtal.Borrower_Detail()).borrower_DetailsForNSTP(
+        	fst_Name
+         , 	mid_Name
+         , 	lst_Name
+         , 	email
+         , 	mob_Num
+         , 	date
+         , 	maritalStatus
+         , 	suffix
+         , 	residence)
 }
 
  /**
@@ -1417,86 +1383,6 @@ def static "tabSection.CustomerDetail.clientInformationBooking"() {
 }
 
  /**
-	 * This metnhod is for the AO Alert Summary
-	 * @return
-	 */ 
-def static "tabSection.AlertsSummary.alertsSummaryForAO"() {
-    (new tabSection.AlertsSummary()).alertsSummaryForAO()
-}
-
- /**
-	 * This metnhod is for the Fullfillment Alert Summary
-	 * @return
-	 */ 
-def static "tabSection.AlertsSummary.alertsSummaryForFullfillment"() {
-    (new tabSection.AlertsSummary()).alertsSummaryForFullfillment()
-}
-
- /**
-	 * This metnhod is for the COMaker Alert Summary
-	 * @return
-	 */ 
-def static "tabSection.AlertsSummary.alertsSummaryForCOMaker"() {
-    (new tabSection.AlertsSummary()).alertsSummaryForCOMaker()
-}
-
- /**
-	 * This method is for the COApprover Alert Summary
-	 * @return
-	 */ 
-def static "tabSection.AlertsSummary.alertsSummaryForCOApprover"() {
-    (new tabSection.AlertsSummary()).alertsSummaryForCOApprover()
-}
-
- /**
-	 * This metnhod is for the COMaker Alert Summary paperbased
-	 * @return
-	 */ 
-def static "tabSection.AlertsSummary.alertsSummaryForCOMakerPaperbased"() {
-    (new tabSection.AlertsSummary()).alertsSummaryForCOMakerPaperbased()
-}
-
- /**
-	 * This method is for the COApprover Alert Summary paper based
-	 * @return
-	 */ 
-def static "tabSection.AlertsSummary.alertsSummaryForCOApproverPaperbased"() {
-    (new tabSection.AlertsSummary()).alertsSummaryForCOApproverPaperbased()
-}
-
- /**
-	 * This metnhod is for the AO Alert Summary
-	 * @return
-	 */ 
-def static "tabSection.AlertsSummary.alertsSummaryForAOPaperbase"() {
-    (new tabSection.AlertsSummary()).alertsSummaryForAOPaperbase()
-}
-
- /**
-	 * This metnhod is for the Fullfillment Alert Summary
-	 * @return
-	 */ 
-def static "tabSection.AlertsSummary.alertsSummaryForFullfillmentPaperbase"() {
-    (new tabSection.AlertsSummary()).alertsSummaryForFullfillmentPaperbase()
-}
-
- /**
-	 * This metnhod is for the AO Alert Summary
-	 * @return
-	 */ 
-def static "tabSection.AlertsSummary.alertsSummaryForCommon"() {
-    (new tabSection.AlertsSummary()).alertsSummaryForCommon()
-}
-
- /**
-	 * This metnhod is for the AO Alert Summary
-	 * @return
-	 */ 
-def static "tabSection.AlertsSummary.alertsSummaryForBooking"() {
-    (new tabSection.AlertsSummary()).alertsSummaryForBooking()
-}
-
- /**
 	 * This metnhod is for the AO Audit Trail
 	 * @return
 	 */ 
@@ -1582,4 +1468,647 @@ def static "tabSection.AuditTrail.auditTrailForfullfillmentPaperbased"() {
 	 */ 
 def static "tabSection.AuditTrail.auditTrailForCommon"() {
     (new tabSection.AuditTrail()).auditTrailForCommon()
+}
+
+ /**
+	 * 1.This is the borrower detail page in paper based
+	 * 2.@Params : fst_Name,mid_Name,lst_Name,email,mob_Num,date,maritalStatus,suffix,residence
+	 * 3.The data inside for params we using a data driven
+	 */ 
+def static "paperBasedPortal.Borrower_Detail.borrower_Details"(
+    	String fst_Name	
+     , 	String mid_Name	
+     , 	String lst_Name	
+     , 	String email	
+     , 	String mob_Num	
+     , 	String date	
+     , 	String maritalStatus	
+     , 	String suffix	
+     , 	String residence	) {
+    (new paperBasedPortal.Borrower_Detail()).borrower_Details(
+        	fst_Name
+         , 	mid_Name
+         , 	lst_Name
+         , 	email
+         , 	mob_Num
+         , 	date
+         , 	maritalStatus
+         , 	suffix
+         , 	residence)
+}
+
+ /**
+	 * 1.This is the borrower detail page in paper based
+	 * 2.@Params : fst_Name,mid_Name,lst_Name,email,mob_Num,date,maritalStatus,suffix,residence
+	 * 3.The data inside for params we using a data driven
+	 */ 
+def static "paperBasedPortal.Borrower_Detail.borrower_DetailsAOLogin"(
+    	String fst_Name	
+     , 	String mid_Name	
+     , 	String lst_Name	
+     , 	String email	
+     , 	String mob_Num	
+     , 	String date	
+     , 	String maritalStatus	
+     , 	String suffix	
+     , 	String residence	) {
+    (new paperBasedPortal.Borrower_Detail()).borrower_DetailsAOLogin(
+        	fst_Name
+         , 	mid_Name
+         , 	lst_Name
+         , 	email
+         , 	mob_Num
+         , 	date
+         , 	maritalStatus
+         , 	suffix
+         , 	residence)
+}
+
+ /**
+	 * 1.This is the borrower detail page in paper based
+	 * 2.@Params : fst_Name,mid_Name,lst_Name,email,mob_Num,date,maritalStatus,suffix,residence
+	 * 3.The data inside for params we using a data driven
+	 */ 
+def static "paperBasedPortal.Borrower_Detail.borrower_DetailsNSTP"(
+    	String fst_Name	
+     , 	String mid_Name	
+     , 	String lst_Name	
+     , 	String email	
+     , 	String mob_Num	
+     , 	String date	
+     , 	String maritalStatus	
+     , 	String suffix	
+     , 	String residence	) {
+    (new paperBasedPortal.Borrower_Detail()).borrower_DetailsNSTP(
+        	fst_Name
+         , 	mid_Name
+         , 	lst_Name
+         , 	email
+         , 	mob_Num
+         , 	date
+         , 	maritalStatus
+         , 	suffix
+         , 	residence)
+}
+
+
+def static "paperBasedPortal.Borrower_Detail.borrower_DetailsNSTPAOLogin"(
+    	String fst_Name	
+     , 	String mid_Name	
+     , 	String lst_Name	
+     , 	String email	
+     , 	String mob_Num	
+     , 	String date	
+     , 	String maritalStatus	
+     , 	String suffix	
+     , 	String residence	) {
+    (new paperBasedPortal.Borrower_Detail()).borrower_DetailsNSTPAOLogin(
+        	fst_Name
+         , 	mid_Name
+         , 	lst_Name
+         , 	email
+         , 	mob_Num
+         , 	date
+         , 	maritalStatus
+         , 	suffix
+         , 	residence)
+}
+
+
+def static "coMaker.HomePageForibpsCOMaker.selectResistration"() {
+    (new coMaker.HomePageForibpsCOMaker()).selectResistration()
+}
+
+ /**
+	 * This is the application page in that we selecting the application 
+	 */ 
+def static "tabSection.ApplicationSection.applicationSectionTab"(
+    	String show	
+     , 	String sortBy	) {
+    (new tabSection.ApplicationSection()).applicationSectionTab(
+        	show
+         , 	sortBy)
+}
+
+ /**
+	 * This is the application page in that we selecting the application
+	 */ 
+def static "tabSection.ApplicationSection.applicationSectionTabAmendment"(
+    	String show	
+     , 	String sortBy	) {
+    (new tabSection.ApplicationSection()).applicationSectionTabAmendment(
+        	show
+         , 	sortBy)
+}
+
+
+def static "vouchingApprover.HomePageForibpsCOApprover.selectResistration"() {
+    (new vouchingApprover.HomePageForibpsCOApprover()).selectResistration()
+}
+
+
+def static "coApprover.LoginForibpsCOApprover.login"() {
+    (new coApprover.LoginForibpsCOApprover()).login()
+}
+
+
+def static "tabSection.Deviation.deviationForAO"() {
+    (new tabSection.Deviation()).deviationForAO()
+}
+
+
+def static "tabSection.Deviation.deviationForFullfillment"() {
+    (new tabSection.Deviation()).deviationForFullfillment()
+}
+
+
+def static "tabSection.Deviation.deviationForCOMaker"() {
+    (new tabSection.Deviation()).deviationForCOMaker()
+}
+
+
+def static "tabSection.Deviation.deviationForCOApprover"() {
+    (new tabSection.Deviation()).deviationForCOApprover()
+}
+
+
+def static "tabSection.Deviation.deviationForCOMakerPaperbase"() {
+    (new tabSection.Deviation()).deviationForCOMakerPaperbase()
+}
+
+
+def static "tabSection.Deviation.deviationForCOApproverPaperbased"() {
+    (new tabSection.Deviation()).deviationForCOApproverPaperbased()
+}
+
+
+def static "tabSection.Deviation.deviationForAOPaperbase"() {
+    (new tabSection.Deviation()).deviationForAOPaperbase()
+}
+
+
+def static "tabSection.Deviation.deviationForFullfillmentPaperbased"() {
+    (new tabSection.Deviation()).deviationForFullfillmentPaperbased()
+}
+
+
+def static "tabSection.Deviation.deviationForCommon"() {
+    (new tabSection.Deviation()).deviationForCommon()
+}
+
+
+def static "tabSection.Deviation.deviationForSD_Approve"() {
+    (new tabSection.Deviation()).deviationForSD_Approve()
+}
+
+
+def static "tabSection.Deviation.deviationForChangeinNameAndDOB"() {
+    (new tabSection.Deviation()).deviationForChangeinNameAndDOB()
+}
+
+
+def static "tabSection.Deviation.deviationForBooking"() {
+    (new tabSection.Deviation()).deviationForBooking()
+}
+
+
+def static "autoLoanProtal.AdditionalInformationWithoutAPI.coBorrowersDetails"(
+    	String coBorrowerRelationshipWithBorrower	
+     , 	String coBorrowerFirstName	
+     , 	String coBorrowerMiddleName	
+     , 	String coBorrowerLastName	
+     , 	String coBorrowerSuffix	) {
+    (new autoLoanProtal.AdditionalInformationWithoutAPI()).coBorrowersDetails(
+        	coBorrowerRelationshipWithBorrower
+         , 	coBorrowerFirstName
+         , 	coBorrowerMiddleName
+         , 	coBorrowerLastName
+         , 	coBorrowerSuffix)
+}
+
+ /**
+	 * This is the the action tab in that we submitting the application
+	 * @return
+	 */ 
+def static "tabSection.Action.submitForAO"() {
+    (new tabSection.Action()).submitForAO()
+}
+
+ /**
+	 * This is the the action tab in that we submitting the application
+	 * @return
+	 */ 
+def static "tabSection.Action.submitForAmendment"() {
+    (new tabSection.Action()).submitForAmendment()
+}
+
+ /**
+	 * This metnhod is for the fulfillment Disbursement Information
+	 * @return
+	 */ 
+def static "tabSection.DisbursementInfo.disbursementInformationForPreRealease"() {
+    (new tabSection.DisbursementInfo()).disbursementInformationForPreRealease()
+}
+
+ /**
+	 * This metnhod is for the AO Disbursement Information
+	 * @return
+	 */ 
+def static "tabSection.DisbursementInfo.disbursementInformationForAO"() {
+    (new tabSection.DisbursementInfo()).disbursementInformationForAO()
+}
+
+ /**
+	 * This metnhod is for the AO Disbursement Information
+	 * @return
+	 */ 
+def static "tabSection.DisbursementInfo.disbursementInformationForAOWithout"() {
+    (new tabSection.DisbursementInfo()).disbursementInformationForAOWithout()
+}
+
+ /**
+	 * This metnhod is for the AO Disbursement Information
+	 * @return
+	 */ 
+def static "tabSection.DisbursementInfo.disbursementInformationForNSTPAO"() {
+    (new tabSection.DisbursementInfo()).disbursementInformationForNSTPAO()
+}
+
+ /**
+	 * This metnhod is for the Encoder Disbursement Information
+	 * @return
+	 */ 
+def static "tabSection.DisbursementInfo.disbursementInformationForEncoder"() {
+    (new tabSection.DisbursementInfo()).disbursementInformationForEncoder()
+}
+
+ /**
+	 * This metnhod is for the Fullfillment Disbursement Information
+	 * @return
+	 */ 
+def static "tabSection.DisbursementInfo.disbursementInformationForFullfillmentWithAndWithout"() {
+    (new tabSection.DisbursementInfo()).disbursementInformationForFullfillmentWithAndWithout()
+}
+
+ /**
+	 * This metnhod is for the Fullfillment Disbursement Information
+	 * @return
+	 */ 
+def static "tabSection.DisbursementInfo.disbursementInformationForFullfillment"() {
+    (new tabSection.DisbursementInfo()).disbursementInformationForFullfillment()
+}
+
+ /**
+	 * This metnhod is for the COMaker Disbursement Information
+	 * @return
+	 */ 
+def static "tabSection.DisbursementInfo.disbursementInformationForCOMaker"() {
+    (new tabSection.DisbursementInfo()).disbursementInformationForCOMaker()
+}
+
+ /**
+	 * This metnhod is for the COMaker Disbursement Information
+	 * @return
+	 */ 
+def static "tabSection.DisbursementInfo.disbursementInformationForCOApprover"() {
+    (new tabSection.DisbursementInfo()).disbursementInformationForCOApprover()
+}
+
+ /**
+	 * This metnhod is for the Encoder Disbursement Information
+	 * @return
+	 */ 
+def static "tabSection.DisbursementInfo.disbursementInformationForEncoderPaperbased"() {
+    (new tabSection.DisbursementInfo()).disbursementInformationForEncoderPaperbased()
+}
+
+ /**
+	 * This metnhod is for the Encoder Disbursement Information
+	 * @return
+	 */ 
+def static "tabSection.DisbursementInfo.disbursementInformationForCOMakerPaperbased"() {
+    (new tabSection.DisbursementInfo()).disbursementInformationForCOMakerPaperbased()
+}
+
+ /**
+	 * This method is for the COMaker Disbursement Information
+	 * @return
+	 */ 
+def static "tabSection.DisbursementInfo.disbursementInformationForCOApproverPaperbased"() {
+    (new tabSection.DisbursementInfo()).disbursementInformationForCOApproverPaperbased()
+}
+
+ /**
+	 * This metnhod is for the AO Disbursement Information
+	 * @return
+	 */ 
+def static "tabSection.DisbursementInfo.disbursementInformationForAOPaperbase"() {
+    (new tabSection.DisbursementInfo()).disbursementInformationForAOPaperbase()
+}
+
+ /**
+	 * This metnhod is for the Fullfillment Disbursement Information
+	 * @return
+	 */ 
+def static "tabSection.DisbursementInfo.disbursementInformationForFullfillmentPaperbase"() {
+    (new tabSection.DisbursementInfo()).disbursementInformationForFullfillmentPaperbase()
+}
+
+ /**
+	 * This method is for the COMaker Disbursement Information
+	 * @return
+	 */ 
+def static "tabSection.DisbursementInfo.disbursementInformationForCommon"() {
+    (new tabSection.DisbursementInfo()).disbursementInformationForCommon()
+}
+
+ /**
+	 * This method is for the COMaker Disbursement Information
+	 * @return
+	 */ 
+def static "tabSection.DisbursementInfo.disbursementInformationForBooking"() {
+    (new tabSection.DisbursementInfo()).disbursementInformationForBooking()
+}
+
+ /**
+	 * This method is for the upload document page   
+	 */ 
+def static "paperBasedPortal.UploadYourDocuments.uploadYourDocumentsPage"() {
+    (new paperBasedPortal.UploadYourDocuments()).uploadYourDocumentsPage()
+}
+
+
+def static "accountOfficer.HomePageForibpsAO.selectResistration"() {
+    (new accountOfficer.HomePageForibpsAO()).selectResistration()
+}
+
+
+def static "fulfillment.LoginForibpsFullFillment.login"() {
+    (new fulfillment.LoginForibpsFullFillment()).login()
+}
+
+
+def static "autoLoanProtal.SelectAutoLoan.clickToDigitalApplication"() {
+    (new autoLoanProtal.SelectAutoLoan()).clickToDigitalApplication()
+}
+
+
+def static "autoLoanProtal.initial_Confirmation.initial_conf"() {
+    (new autoLoanProtal.initial_Confirmation()).initial_conf()
+}
+
+
+def static "autoLoanProtal.LoanDetails.loanDetail"(
+    	String brand	
+     , 	String unitDescription	
+     , 	String loanTerm	
+     , 	String downpaymentValue	
+     , 	String actualCashOut	
+     , 	String insuranceType	) {
+    (new autoLoanProtal.LoanDetails()).loanDetail(
+        	brand
+         , 	unitDescription
+         , 	loanTerm
+         , 	downpaymentValue
+         , 	actualCashOut
+         , 	insuranceType)
+}
+
+
+def static "autoLoanProtal.LoanDetails.loanDetailForAO"(
+    	String brand	
+     , 	String unitDescription	
+     , 	String loanTerm	
+     , 	String downpaymentValue	
+     , 	String actualCashOut	
+     , 	String insuranceType	) {
+    (new autoLoanProtal.LoanDetails()).loanDetailForAO(
+        	brand
+         , 	unitDescription
+         , 	loanTerm
+         , 	downpaymentValue
+         , 	actualCashOut
+         , 	insuranceType)
+}
+
+
+def static "paperBasedPortal.SelectPaperBased.paperBased"() {
+    (new paperBasedPortal.SelectPaperBased()).paperBased()
+}
+
+
+def static "autoLoanProtal.SelectManageLoans.selectToManageLoan"() {
+    (new autoLoanProtal.SelectManageLoans()).selectToManageLoan()
+}
+
+
+def static "autoLoanProtal.initial_Confirmation_PreQualified.initial_confirmation"() {
+    (new autoLoanProtal.initial_Confirmation_PreQualified()).initial_confirmation()
+}
+
+
+def static "autoLoanProtal.initial_Confirmation_PreQualified.initial_confirmationForAmendment"() {
+    (new autoLoanProtal.initial_Confirmation_PreQualified()).initial_confirmationForAmendment()
+}
+
+
+def static "autoLoanProtal.AdditionalInformationWithAPI.borrowersDetail"(
+    	String nationality	
+     , 	String visaType	
+     , 	String sex	
+     , 	String occupation	
+     , 	String idType	
+     , 	String idNumber	
+     , 	String accountNumber	) {
+    (new autoLoanProtal.AdditionalInformationWithAPI()).borrowersDetail(
+        	nationality
+         , 	visaType
+         , 	sex
+         , 	occupation
+         , 	idType
+         , 	idNumber
+         , 	accountNumber)
+}
+
+
+def static "autoLoanProtal.AdditionalInformationWithAPI.homeAddress"(
+    	String country	
+     , 	String region	
+     , 	String province	
+     , 	String townCityMunicipality	
+     , 	String barangay	
+     , 	String streetName	
+     , 	String unitNoBldgNameBldgNoVillageSubdivision	) {
+    (new autoLoanProtal.AdditionalInformationWithAPI()).homeAddress(
+        	country
+         , 	region
+         , 	province
+         , 	townCityMunicipality
+         , 	barangay
+         , 	streetName
+         , 	unitNoBldgNameBldgNoVillageSubdivision)
+}
+
+
+def static "autoLoanProtal.AdditionalInformationWithAPI.coBorrowersDetails"(
+    	String coBorrowerRelationshipWithBorrower	
+     , 	String coBorrowerFirstName	
+     , 	String coBorrowerMiddleName	
+     , 	String coBorrowerLastName	
+     , 	String coBorrowerSuffix	) {
+    (new autoLoanProtal.AdditionalInformationWithAPI()).coBorrowersDetails(
+        	coBorrowerRelationshipWithBorrower
+         , 	coBorrowerFirstName
+         , 	coBorrowerMiddleName
+         , 	coBorrowerLastName
+         , 	coBorrowerSuffix)
+}
+
+
+def static "autoLoanProtal.AdditionalInformationWithAPI.AdditionalDetailContinueAmendment"() {
+    (new autoLoanProtal.AdditionalInformationWithAPI()).AdditionalDetailContinueAmendment()
+}
+
+
+def static "autoLoanProtal.AdditionalInformationWithAPI.borrowersSpouseDatail"(
+    	String borrowerSpouseFirstName	
+     , 	String borrowerSpouseMiddleName	
+     , 	String borrowerSpouseLastName	
+     , 	String borrowerSpouseSuffix	) {
+    (new autoLoanProtal.AdditionalInformationWithAPI()).borrowersSpouseDatail(
+        	borrowerSpouseFirstName
+         , 	borrowerSpouseMiddleName
+         , 	borrowerSpouseLastName
+         , 	borrowerSpouseSuffix)
+}
+
+
+def static "autoLoanProtal.AdditionalInformationWithAPI.coBorrowersSpouseDetails"(
+    	String coBorrowerSpouseFirstName	
+     , 	String coBorrowerSpouseMiddleName	
+     , 	String coBorrowerSpouseLastName	
+     , 	String coBorrowerSpouseSuffix	) {
+    (new autoLoanProtal.AdditionalInformationWithAPI()).coBorrowersSpouseDetails(
+        	coBorrowerSpouseFirstName
+         , 	coBorrowerSpouseMiddleName
+         , 	coBorrowerSpouseLastName
+         , 	coBorrowerSpouseSuffix)
+}
+
+
+def static "approver3.HomePageForibpsSD_Approver.selectResistration"() {
+    (new approver3.HomePageForibpsSD_Approver()).selectResistration()
+}
+
+
+def static "vouchingApprover.LoginForibpsCOApprover.login"() {
+    (new vouchingApprover.LoginForibpsCOApprover()).login()
+}
+
+ /**
+	 * 1.This method is used for the login page
+	 * 2.@Params : In this method we using url, username And password it is coming from the global profile QA
+	 */ 
+def static "loginPage.LoginPage.login_Page"() {
+    (new loginPage.LoginPage()).login_Page()
+}
+
+ /**
+	 * This metnhod is for the AO Alert Summary
+	 * @return
+	 */ 
+def static "tabSection.AlertsSummary.alertsSummaryForAO"() {
+    (new tabSection.AlertsSummary()).alertsSummaryForAO()
+}
+
+ /**
+	 * This metnhod is for the Fullfillment Alert Summary
+	 * @return
+	 */ 
+def static "tabSection.AlertsSummary.alertsSummaryForFullfillment"() {
+    (new tabSection.AlertsSummary()).alertsSummaryForFullfillment()
+}
+
+ /**
+	 * This metnhod is for the COMaker Alert Summary
+	 * @return
+	 */ 
+def static "tabSection.AlertsSummary.alertsSummaryForCOMaker"() {
+    (new tabSection.AlertsSummary()).alertsSummaryForCOMaker()
+}
+
+ /**
+	 * This method is for the COApprover Alert Summary
+	 * @return
+	 */ 
+def static "tabSection.AlertsSummary.alertsSummaryForCOApprover"() {
+    (new tabSection.AlertsSummary()).alertsSummaryForCOApprover()
+}
+
+ /**
+	 * This metnhod is for the COMaker Alert Summary paperbased
+	 * @return
+	 */ 
+def static "tabSection.AlertsSummary.alertsSummaryForCOMakerPaperbased"() {
+    (new tabSection.AlertsSummary()).alertsSummaryForCOMakerPaperbased()
+}
+
+ /**
+	 * This method is for the COApprover Alert Summary paper based
+	 * @return
+	 */ 
+def static "tabSection.AlertsSummary.alertsSummaryForCOApproverPaperbased"() {
+    (new tabSection.AlertsSummary()).alertsSummaryForCOApproverPaperbased()
+}
+
+ /**
+	 * This metnhod is for the AO Alert Summary
+	 * @return
+	 */ 
+def static "tabSection.AlertsSummary.alertsSummaryForAOPaperbase"() {
+    (new tabSection.AlertsSummary()).alertsSummaryForAOPaperbase()
+}
+
+ /**
+	 * This metnhod is for the Fullfillment Alert Summary
+	 * @return
+	 */ 
+def static "tabSection.AlertsSummary.alertsSummaryForFullfillmentPaperbase"() {
+    (new tabSection.AlertsSummary()).alertsSummaryForFullfillmentPaperbase()
+}
+
+ /**
+	 * This metnhod is for the AO Alert Summary
+	 * @return
+	 */ 
+def static "tabSection.AlertsSummary.alertsSummaryForCommon"() {
+    (new tabSection.AlertsSummary()).alertsSummaryForCommon()
+}
+
+ /**
+	 * This metnhod is for the AO Alert Summary
+	 * @return
+	 */ 
+def static "tabSection.AlertsSummary.alertsSummaryForBooking"() {
+    (new tabSection.AlertsSummary()).alertsSummaryForBooking()
+}
+
+
+def static "fci_user1.CreditInvestigation.creditInvestigationdetail"() {
+    (new fci_user1.CreditInvestigation()).creditInvestigationdetail()
+}
+
+
+def static "fci_user1.CreditInvestigation.creditInvestigationdetailEmp"() {
+    (new fci_user1.CreditInvestigation()).creditInvestigationdetailEmp()
+}
+
+
+def static "fci_user1.CreditInvestigation.creditInvestigationApproverEMP"() {
+    (new fci_user1.CreditInvestigation()).creditInvestigationApproverEMP()
+}
+
+
+def static "fci_user1.CreditInvestigation.creditInvestigationApprover"() {
+    (new fci_user1.CreditInvestigation()).creditInvestigationApprover()
 }

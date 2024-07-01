@@ -39,7 +39,7 @@ public class UploadYourDocuments {
 
 		WebUI.switchToWindowIndex(currentIndex)
 
-		WebUI.delay(3)
+		WebUI.delay(2)
 
 		GlobalVariableUtil.captureScreenShotWithTime()
 
@@ -107,8 +107,6 @@ public class UploadYourDocuments {
 	def uploadYourDocumentsPage() {
 		try {
 			WebUI.verifyElementPresent(findTestObject("Object Repository/UploadYourDocuments/uploadYourDocumentText"), 2, FailureHandling.CONTINUE_ON_FAILURE)
-
-			WebUI.delay(1)
 
 			GlobalVariableUtil.captureScreenShotWithTime()
 
@@ -339,8 +337,6 @@ public class UploadYourDocuments {
 			String LoanAppliaction = "Object Repository/UploadYourDocuments/LoanApplicationDocViewBtn"
 
 			viewDocument(LoanAppliaction)
-
-			WebUI.delay(1)
 
 			GlobalVariableUtil.captureScreenShotWithTime()
 

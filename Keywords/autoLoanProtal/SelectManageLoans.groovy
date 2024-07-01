@@ -20,7 +20,7 @@ public class SelectManageLoans {
 		try {
 			WebUI.waitForPageLoad(10)
 			WebUI.delay(1)
-			
+
 			GlobalVariableUtil.captureScreenShotWithTime()
 			//Clicking on manage Loans
 			WebUI.click(findTestObject("Object Repository/HomePage/ManageLoans"))

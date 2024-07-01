@@ -41,7 +41,6 @@ public class DisbursementInfo {
 			WebUI.selectOptionByIndex(findTestObject('Object Repository/DisbursementInformation/payeeName'), 1)
 
 			WebUI.selectOptionByValue(findTestObject('Object Repository/DisbursementInformation/modeOfDisbursement'), "Credit to RCBC CASA", false)
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			WebUI.click(findTestObject('Object Repository/DisbursementInformation/saveAndNextBtn'))
 
@@ -77,12 +76,10 @@ public class DisbursementInfo {
 			WebUI.setText(findTestObject("Object Repository/BackOffice/AO/DisbursmentInfoForAO/loanProceeds/name"), "rahul")
 
 			WebUI.selectOptionByValue(findTestObject("Object Repository/BackOffice/AO/DisbursmentInfoForAO/loanProceeds/modeOfDisbursement"), "Credit to Account ", false)
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			WebUI.setText(findTestObject("Object Repository/BackOffice/AO/DisbursmentInfoForAO/loanProceeds/accountNumber"), "3454375345")
 
 			WebUI.setText(findTestObject("Object Repository/BackOffice/AO/DisbursmentInfoForAO/loanProceeds/bankName"), "SBI")
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 			WebUI.selectOptionByValue(findTestObject("Object Repository/BackOffice/AO/DisbursmentInfoForAO/dealersCommission/modeOfDisbursement"), "CMF Payment",false)
@@ -92,7 +89,6 @@ public class DisbursementInfo {
 
 
 			WebUI.setText(findTestObject("Object Repository/BackOffice/AO/DisbursmentInfoForAO/remarks/aoRemarks"), "done")
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
@@ -125,7 +121,6 @@ public class DisbursementInfo {
 			}
 
 			WebUI.setText(findTestObject("Object Repository/BackOffice/AO/DisbursmentInfoForAO/remarks/aoRemarks"),"OK")
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 			WebUI.click(findTestObject("Object Repository/TabSection/nextArrowButton"))
@@ -177,7 +172,6 @@ public class DisbursementInfo {
 		try {
 			//clicking on the Disbursement Info Tab
 			WebUI.click(findTestObject("Object Repository/TabSection/DisbursementInformation"))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			WebUI.click(findTestObject("Object Repository/TabSection/nextArrowButton"))
 		}catch(Exception e) {
@@ -203,7 +197,6 @@ public class DisbursementInfo {
 
 			WebUI.setText(findTestObject("Object Repository/BackOffice/Fulfillment/DisbursementInformationWithoutAPI/instructionToLOD"),"OK")
 
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 			WebUI.click(findTestObject("Object Repository/TabSection/nextArrowButton"))
@@ -230,7 +223,6 @@ public class DisbursementInfo {
 
 			WebUI.setText(findTestObject("Object Repository/BackOffice/Fulfillment/DisbursementInformationWithoutAPI/instructionToLOD"),"OK")
 
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			WebUI.click(findTestObject("Object Repository/TabSection/nextArrowButton"))
 		}catch(Exception e) {
@@ -252,7 +244,6 @@ public class DisbursementInfo {
 		try {
 			//clicking on the Disbursement Info Tab
 			WebUI.click(findTestObject("Object Repository/TabSection/DisbursementInformation"))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 			WebUI.click(findTestObject("Object Repository/TabSection/nextArrowButton"))
@@ -273,7 +264,6 @@ public class DisbursementInfo {
 		try {
 			//clicking on the Disbursement Info Tab
 			WebUI.click(findTestObject("Object Repository/TabSection/DisbursementInformation"))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			WebUI.click(findTestObject("Object Repository/TabSection/nextArrowButton"))
 		}catch(Exception e) {
@@ -295,7 +285,6 @@ public class DisbursementInfo {
 		try {
 			//clicking on the Disbursement Info Tab
 			WebUI.click(findTestObject("Object Repository/TabSection/DisbursementInformation"))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 			WebUI.click(findTestObject("Object Repository/TabSection/nextArrowButton"))
@@ -317,7 +306,6 @@ public class DisbursementInfo {
 		try {
 			//clicking on the Disbursement Info Tab
 			WebUI.click(findTestObject("Object Repository/TabSection/DisbursementInformation"))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			WebUI.click(findTestObject("Object Repository/TabSection/nextArrowButton"))
 		}catch(Exception e) {
@@ -338,7 +326,6 @@ public class DisbursementInfo {
 		try {
 			//clicking on the Disbursement Info Tab
 			WebUI.click(findTestObject("Object Repository/TabSection/DisbursementInformation"))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			WebUI.click(findTestObject("Object Repository/TabSection/nextArrowButton"))
 		}catch(Exception e) {
@@ -361,18 +348,15 @@ public class DisbursementInfo {
 			WebUI.click(findTestObject("Object Repository/TabSection/DisbursementInformation"))
 
 			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOfficePaperBase/Fullfillment/DisbursementInfo/modeOfDisbursement"), 1)
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			WebUI.setText(findTestObject("Object Repository/BackOfficePaperBase/Fullfillment/DisbursementInfo/accountNumber"), "465657575")
 
 			WebUI.setText(findTestObject("Object Repository/BackOfficePaperBase/Fullfillment/DisbursementInfo/bankName"), "Axis")
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 			WebUI.setText(findTestObject("Object Repository/BackOfficePaperBase/AO/DisbursementInfo/GrossAmount"), "50000")
 
 			WebUI.setText(findTestObject("Object Repository/BackOfficePaperBase/AO/DisbursementInfo/AORemark"), "done")
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 			WebUI.click(findTestObject("Object Repository/TabSection/nextArrowButton"))
@@ -405,7 +389,6 @@ public class DisbursementInfo {
 
 			WebUI.setText(findTestObject("Object Repository/BackOfficePaperBase/Fullfillment/DisbursementInfo/instructionToLOD"), "OK")
 
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			WebUI.click(findTestObject("Object Repository/TabSection/nextArrowButton"))
 		}catch(Exception e) {
@@ -426,7 +409,6 @@ public class DisbursementInfo {
 		try {
 			//clicking on the Disbursement Info Tab
 			WebUI.click(findTestObject("Object Repository/TabSection/DisbursementInformation"))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			//			if(WebUI.waitForElementPresent(findTestObject("Object Repository/TabSection/nextArrowButton"), 2)) {
 			//				WebUI.click(findTestObject("Object Repository/TabSection/nextArrowButton"))
@@ -450,7 +432,6 @@ public class DisbursementInfo {
 		try {
 			//clicking on the Disbursement Info Tab
 			WebUI.click(findTestObject("Object Repository/TabSection/DisbursementInformation"))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			WebUI.click(findTestObject("Object Repository/TabSection/nextArrowButton"))
 			checkALL()

@@ -30,17 +30,17 @@ public class HomePageForibpsAO {
 			WebUI.waitForPageLoad(5)
 
 			//			WebUI.click(findTestObject("Object Repository/BackOffice/AO/ibpsHomePage/accountOfficer"))
-			WebUI.delay(2)
+			WebUI.delay(1)
 
 			if(WebUI.waitForElementClickable(findTestObject("Object Repository/BackOffice/AO/ibpsHomePage/accountOfficer"), 2)) {
 				GlobalVariableUtil.loadGlobalVariable();
 
-				WebUI.delay(3)
+				WebUI.delay(1)
 
 				println(" ******* " + GlobalVariable.LOSID)
 
 				WebUI.comment(" ******** " + GlobalVariable.LOSID)
-				WebUI.delay(2)
+				WebUI.delay(1)
 
 				String xpath = "//label[text()='" + GlobalVariable.LOSID + "']"
 
@@ -77,7 +77,7 @@ public class HomePageForibpsAO {
 
 					driver.findElement(By.xpath(xpath)).click()
 
-					WebUI.delay(2)
+					WebUI.delay(1)
 				}
 			}else {
 				WebUI.delay(1)

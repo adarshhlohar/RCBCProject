@@ -24,7 +24,7 @@ public class initial_Confirmation {
 			WebUI.waitForPageLoad(10)
 			WebUI.verifyElementPresent(findTestObject("Object Repository/Initial_Confirmation/oneMoreStep"), 2, FailureHandling.CONTINUE_ON_FAILURE)
 			WebUI.delay(1)
-			
+
 			GlobalVariableUtil.captureScreenShotWithTime()
 			//Clicking on okay
 			WebUI.click(findTestObject('Object Repository/Initial_Confirmation/okay'))

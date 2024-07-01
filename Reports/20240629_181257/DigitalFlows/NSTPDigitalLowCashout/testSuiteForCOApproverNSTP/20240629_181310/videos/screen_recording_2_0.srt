@@ -1,4 +1,0 @@
-1
-00:00:00,167 --> 00:00:12,973
-1. coApprover.HomePageForibpsCOApprover.selectResistration()
-

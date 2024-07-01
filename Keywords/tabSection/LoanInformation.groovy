@@ -195,7 +195,6 @@ public class LoanInformation {
 
 			WebUI.comment("before Changing Actual Cashout")
 
-			WebUI.delay(1)
 
 			GlobalVariableUtil.captureScreenShotWithTime()
 
@@ -219,7 +218,6 @@ public class LoanInformation {
 
 			WebUI.setText(findTestObject('Object Repository/LoanInformationPreRelease/actualUnitReleaseDate'), actualUnitReleaseDate)
 
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 			def currentIndex = WebUI.getWindowIndex()
@@ -266,7 +264,6 @@ public class LoanInformation {
 
 			WebUI.sendKeys(findTestObject('Object Repository/LoanInformationPreRelease/totalCMFCollectedByDealer'), totalCmf)
 
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			if(modeOfPayment.equalsIgnoreCase("OTC")) {
 
@@ -310,9 +307,6 @@ public class LoanInformation {
 
 			WebUI.comment("before Changing Actual Cashout")
 
-			WebUI.delay(1)
-
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 			WebUI.delay(1)
@@ -323,7 +317,6 @@ public class LoanInformation {
 
 			WebUI.comment("before Changing Actual Cashout")
 
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 			WebUI.delay(1)
@@ -359,7 +352,6 @@ public class LoanInformation {
 
 			WebUI.selectOptionByValue(findTestObject('Object Repository/LoanInformationPreRelease/paymentFrequency'),paymentFrequecy,false)
 
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 			String totalCmf = WebUI.getAttribute(findTestObject("Object Repository/LoanInformationPreRelease/paymentScheme/totalCmf"),"title")
@@ -378,7 +370,6 @@ public class LoanInformation {
 
 			WebUI.sendKeys(findTestObject('Object Repository/LoanInformationPreRelease/totalCMFCollectedByDealer'), totalCmf)
 
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			//			WebUI.sendKeys(findTestObject("Object Repository/LoanInformationPreRelease/DIRate"), 10)
 
@@ -424,7 +415,6 @@ public class LoanInformation {
 
 			WebUI.comment("before Changing Actual Cashout")
 
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 			WebUI.delay(1)
@@ -435,7 +425,6 @@ public class LoanInformation {
 
 			WebUI.comment("After Changing Actual Cashout")
 
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			WebUI.delay(1)
 
@@ -449,7 +438,6 @@ public class LoanInformation {
 
 			WebUI.setText(findTestObject('Object Repository/LoanInformationPreRelease/actualUnitReleaseDate'), actualUnitReleaseDate)
 
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 			def currentIndex = WebUI.getWindowIndex()
@@ -490,7 +478,6 @@ public class LoanInformation {
 
 			WebUI.sendKeys(findTestObject('Object Repository/LoanInformationPreRelease/totalCMFCollectedByDealer'), totalCmf)
 
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			//			WebUI.sendKeys(findTestObject("Object Repository/LoanInformationPreRelease/DIRate"), 10)
 
@@ -715,7 +702,6 @@ public class LoanInformation {
 		try {
 			//clicking on loan information tab
 			WebUI.click(findTestObject('Object Repository/TabSection/LoanInformation'))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			checkALL()
 		}catch(Exception e) {
@@ -872,7 +858,6 @@ public class LoanInformation {
 		WebUI.switchToWindowIndex(currentIndex - 1)
 
 		WebUI.setText(findTestObject("Object Repository/BackOfficePaperBase/EncoderPaperbaseLoanInformation/Total_CMFCollectedby_Dealer"), Total_CMFCollectedby_Dealer)
-		WebUI.delay(1)
 		GlobalVariableUtil.captureScreenShotWithTime()
 
 		//		WebUI.setText(findTestObject("Object Repository/BackOfficePaperBase/EncoderPaperbaseLoanInformation/IRR_Percentage"), "8")
@@ -883,7 +868,6 @@ public class LoanInformation {
 
 		WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOfficePaperBase/EncoderPaperbaseLoanInformation/Mode_Of_Payment"), Mode_Of_Payment)
 
-		WebUI.delay(1)
 		GlobalVariableUtil.captureScreenShotWithTime()
 		WebUI.click(findTestObject("Object Repository/LoanInformationPreRelease/updateBtn"))
 		checkALL()
@@ -952,7 +936,6 @@ public class LoanInformation {
 			//			WebUI.setText(findTestObject("Object Repository/BackOffice/COMaker/LoanInformation/RCOfAssignedAO"), "QK_AO6")
 			//
 			//			WebUI.setText(findTestObject("Object Repository/BackOffice/COMaker/LoanInformation/RCOfAccount"), "QK_AO6")
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			checkALL()
 		}catch(Exception e) {
@@ -974,7 +957,6 @@ public class LoanInformation {
 			WebUI.delay(1)
 			//clicking on loan information tab
 			WebUI.click(findTestObject('Object Repository/TabSection/LoanInformation'))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			checkALL()
 		}catch(Exception e) {
@@ -1091,7 +1073,6 @@ public class LoanInformation {
 
 			WebUI.comment("Before Changing")
 
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 
@@ -1135,7 +1116,6 @@ public class LoanInformation {
 			WebUI.setText(findTestObject("Object Repository/BackOffice/PreReleasePaperbaseLoanInfo/motorCarInsurance4"), "0")
 			WebUI.setText(findTestObject("Object Repository/BackOffice/PreReleasePaperbaseLoanInfo/motorCarInsurance5"), "0")
 
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			checkALL()
 
@@ -1165,7 +1145,6 @@ public class LoanInformation {
 
 			WebUI.comment("Before Changing")
 
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 
@@ -1177,7 +1156,6 @@ public class LoanInformation {
 
 			WebUI.comment("After Changing")
 
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 			WebUI.takeScreenshot()
@@ -1281,7 +1259,6 @@ public class LoanInformation {
 			GlobalVariableUtil.captureScreenShotWithTime()
 			WebUI.setText(findTestObject("Object Repository/BackOffice/AO/LoanInfo/SIRate"),newSIRate)
 			WebUI.setText(findTestObject("Object Repository/BackOffice/AO/LoanInfo/DIRate"),newDIRate)
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			WebUI.delay(2)
 			WebUI.click(findTestObject("Object Repository/LoanInformationPreRelease/updateBtn"))
@@ -1342,7 +1319,6 @@ public class LoanInformation {
 			WebUI.delay(1)
 			//clicking on loan information tab
 			WebUI.click(findTestObject('Object Repository/TabSection/LoanInformation'))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 			checkALL()
@@ -1371,7 +1347,6 @@ public class LoanInformation {
 
 			WebUI.scrollToElement(findTestObject("Object Repository/BackOfficePaperBase/EncoderPaperbaseLoanInformation/Actual_Cashout"), 2)
 
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 			WebUI.comment("After Amendment")

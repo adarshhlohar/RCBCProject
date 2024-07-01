@@ -1,4 +1,0 @@
-1
-00:00:00,127 --> 00:00:17,086
-1. sdApprover.HomePageForibpsSD_Approver.selectResistration()
-
