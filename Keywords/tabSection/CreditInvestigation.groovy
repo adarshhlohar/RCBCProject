@@ -86,7 +86,6 @@ public class CreditInvestigation {
 		try {
 			//clicking the credit Investigation tab
 			WebUI.click(findTestObject("Object Repository/TabSection/creditInvestigation"))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 
@@ -110,7 +109,6 @@ public class CreditInvestigation {
 			//clicking the credit Investigation tab
 			WebUI.click(findTestObject("Object Repository/TabSection/creditInvestigation"))
 
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 
@@ -135,7 +133,6 @@ public class CreditInvestigation {
 			//clicking the credit Investigation tab
 			WebUI.click(findTestObject("Object Repository/TabSection/creditInvestigation"))
 
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 
@@ -161,7 +158,6 @@ public class CreditInvestigation {
 			WebUI.click(findTestObject("Object Repository/TabSection/creditInvestigation"))
 			saveCINumber()
 
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 			//clicking on the next arrow button
@@ -184,7 +180,6 @@ public class CreditInvestigation {
 		try {
 			//clicking the credit Investigation tab
 			WebUI.click(findTestObject("Object Repository/TabSection/creditInvestigation"))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 
@@ -251,7 +246,6 @@ public class CreditInvestigation {
 			//clicking the credit Investigation tab
 			WebUI.click(findTestObject("Object Repository/TabSection/creditInvestigation"))
 
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 
@@ -276,7 +270,6 @@ public class CreditInvestigation {
 			//clicking the credit Investigation tab
 			WebUI.click(findTestObject("Object Repository/TabSection/creditInvestigation"))
 
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 
@@ -302,7 +295,6 @@ public class CreditInvestigation {
 			//clicking the credit Investigation tab
 			WebUI.click(findTestObject("Object Repository/TabSection/creditInvestigation"))
 
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 
@@ -315,17 +307,16 @@ public class CreditInvestigation {
 			println(e.toString())
 		}
 	}
-	
-	
-	
-	
+
+
+
+
 	@Keyword
 	def creditInvestigationForBooking() {
 		try {
 			//clicking the credit Investigation tab
 			WebUI.click(findTestObject("Object Repository/TabSection/creditInvestigation"))
 
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 

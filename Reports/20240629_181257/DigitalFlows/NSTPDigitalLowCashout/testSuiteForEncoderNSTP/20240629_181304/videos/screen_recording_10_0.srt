@@ -1,4 +1,0 @@
-1
-00:00:00,119 --> 00:00:12,693
-1. tabSection.InsuranceInformation.insuranceInformationForEncoder()
-

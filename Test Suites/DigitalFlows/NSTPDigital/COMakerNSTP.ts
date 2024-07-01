@@ -103,6 +103,13 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>194bb7e8-98fc-407d-bab8-958cdc30e3d4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Digital_NSTP/testCaseForCOMaker/Vouching</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>48ebfa61-1830-4218-853e-de35ddbb51e6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

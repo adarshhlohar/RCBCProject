@@ -29,9 +29,9 @@ public class LoginForibpsFullFillment {
 			WebUI.setEncryptedText(findTestObject("Object Repository/BackOffice/ibpsLogin/password"), GlobalVariable.password)
 
 			GlobalVariableUtil.createFolder("Fulfillment")
-			
+
 			GlobalVariableUtil.captureScreenShotWithTime()
-			
+
 			//Clicking on the login button
 			WebUI.click(findTestObject("Object Repository/BackOffice/ibpsLogin/loginButton"))
 

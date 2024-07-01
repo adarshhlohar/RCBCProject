@@ -32,9 +32,9 @@ public class LoginPage {
 			//Entering the Encypted password for the in password field
 			WebUI.setEncryptedText(findTestObject("Object Repository/LoginPage/password"), GlobalVariable.password)
 
-			
+
 			GlobalVariableUtil.createFolder("Portal")
-			
+
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 			//Clicking on the login button

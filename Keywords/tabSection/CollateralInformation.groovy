@@ -34,7 +34,6 @@ public class CollateralInformation {
 
 
 			//			WebUI.verifyElementClickable(findTestObject('Object Repository/CollateralInformationPreRelease/closeBtn'), FailureHandling.STOP_ON_FAILURE)
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 			WebUI.click(findTestObject('Object Repository/CollateralInformationPreRelease/SaveBtn'))
@@ -55,6 +54,7 @@ public class CollateralInformation {
 		try {
 			//clicking on the tab Collateral info
 			WebUI.click(findTestObject('Object Repository/TabSection/CollateralInformation'))
+			GlobalVariableUtil.captureScreenShotWithTime()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
 			WebUI.takeScreenshot()
@@ -72,7 +72,6 @@ public class CollateralInformation {
 		try {
 			//clicking on the tab Collateral info
 			WebUI.click(findTestObject('Object Repository/TabSection/CollateralInformation'))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
@@ -91,7 +90,6 @@ public class CollateralInformation {
 		try {
 			//clicking on the tab Collateral info
 			WebUI.click(findTestObject('Object Repository/TabSection/CollateralInformation'))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
@@ -109,7 +107,6 @@ public class CollateralInformation {
 		try {
 			//clicking on the tab Collateral info
 			WebUI.click(findTestObject('Object Repository/TabSection/CollateralInformation'))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
@@ -128,7 +125,6 @@ public class CollateralInformation {
 		try {
 			//clicking on the tab Collateral info
 			WebUI.click(findTestObject('Object Repository/TabSection/CollateralInformation'))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
@@ -148,7 +144,6 @@ public class CollateralInformation {
 		WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOfficePaperBase/EncoderCollateralInfoPaperbase/subModel"), 1)
 		WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOfficePaperBase/EncoderCollateralInfoPaperbase/yearModel"), 1)
 		WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOfficePaperBase/EncoderCollateralInfoPaperbase/makeType"), 1)
-		WebUI.delay(1)
 		GlobalVariableUtil.captureScreenShotWithTime()
 	}
 
@@ -160,7 +155,7 @@ public class CollateralInformation {
 		try {
 			//clicking on the tab Collateral info
 			WebUI.click(findTestObject('Object Repository/TabSection/CollateralInformation'))
-
+			GlobalVariableUtil.captureScreenShotWithTime()
 			collatralInfoForPaperBasedWithout()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
@@ -181,7 +176,6 @@ public class CollateralInformation {
 		WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOfficePaperBase/EncoderCollateralInfoPaperbase/subModel"), 1)
 		WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOfficePaperBase/EncoderCollateralInfoPaperbase/yearModel"), 1)
 		WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOfficePaperBase/EncoderCollateralInfoPaperbase/makeType"), 1)
-		WebUI.delay(1)
 		GlobalVariableUtil.captureScreenShotWithTime()
 	}
 
@@ -211,7 +205,6 @@ public class CollateralInformation {
 		try {
 			//clicking on the tab Collateral info
 			WebUI.click(findTestObject('Object Repository/TabSection/CollateralInformation'))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
@@ -230,7 +223,6 @@ public class CollateralInformation {
 		try {
 			//clicking on the tab Collateral info
 			WebUI.click(findTestObject('Object Repository/TabSection/CollateralInformation'))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
@@ -249,7 +241,6 @@ public class CollateralInformation {
 		try {
 			//clicking on the tab Collateral info
 			WebUI.click(findTestObject('Object Repository/TabSection/CollateralInformation'))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
@@ -268,7 +259,6 @@ public class CollateralInformation {
 		try {
 			//clicking on the tab Collateral info
 			WebUI.click(findTestObject('Object Repository/TabSection/CollateralInformation'))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
@@ -287,7 +277,6 @@ public class CollateralInformation {
 		try {
 			//clicking on the tab Collateral info
 			WebUI.click(findTestObject('Object Repository/TabSection/CollateralInformation'))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
@@ -306,7 +295,6 @@ public class CollateralInformation {
 		try {
 			//clicking on the tab Collateral info
 			WebUI.click(findTestObject('Object Repository/TabSection/CollateralInformation'))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed
@@ -325,7 +313,6 @@ public class CollateralInformation {
 		try {
 			//clicking on the tab Collateral info
 			WebUI.click(findTestObject('Object Repository/TabSection/CollateralInformation'))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 		}catch(Exception e) {
 			//If the script is fail it will take the ScreenShot Where the Script is failed

@@ -29,7 +29,7 @@ public class confirmationPage {
 			WebUI.verifyElementClickable(findTestObject('Object Repository/confirmationPage/borrowerDetailsEditBtn'),FailureHandling.CONTINUE_ON_FAILURE)
 
 			WebUI.delay(1)
-			
+
 			GlobalVariableUtil.captureScreenShotWithTime()
 			//Clicking on continue button
 			WebUI.click(findTestObject('Object Repository/confirmationPage/continueBtn'))
@@ -63,11 +63,11 @@ public class confirmationPage {
 			WebUI.switchToWindowIndex(1)
 			(WebUI.verifyElementPresent(findTestObject("Object Repository/confirmationPage/reviewLoanDetail"), 2,FailureHandling.CONTINUE_ON_FAILURE))
 			//Clicking on continue button
-			
+
 			WebUI.delay(1)
-			
+
 			GlobalVariableUtil.captureScreenShotWithTime()
-			
+
 			WebUI.click(findTestObject('Object Repository/confirmationPage/continueBtn'))
 			if(WebUI.verifyElementPresent(findTestObject("Object Repository/Initial_Confirmation _PreQualified/PreQualifiedMsg"), 2, FailureHandling.CONTINUE_ON_FAILURE)) {
 				WebUI.comment("We Are in Pre-Qualified stage ")

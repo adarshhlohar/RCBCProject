@@ -1,4 +1,0 @@
-1
-00:00:00,104 --> 00:00:23,151
-1. coMaker.HomePageForibpsCOMaker.selectResistration()
-

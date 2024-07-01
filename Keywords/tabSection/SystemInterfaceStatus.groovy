@@ -11,15 +11,13 @@ import globalVariableUtils.GlobalVariableUtil
 
 
 public class SystemInterfaceStatus {
-	
-	
+
+
 	def checkALL() {
 		if(WebUI.verifyElementPresent(findTestObject("Object Repository/BackOffice/SystemInterfaceStatus/IntegrationLogHighLight"), 1,FailureHandling.OPTIONAL)) {
 			WebUI.scrollToElement(findTestObject("Object Repository/BackOffice/SystemInterfaceStatus/IntegrationLogHighLight"), 1,FailureHandling.OPTIONAL)
 			GlobalVariableUtil.captureScreenShotWithTime()
 		}
-
-		
 	}
 	/**
 	 * This is System Interface Status page
@@ -30,7 +28,6 @@ public class SystemInterfaceStatus {
 		try {
 			//clicking on the System Interface Status
 			WebUI.click(findTestObject("Object Repository/TabSection/SystemInterfaceStatus"))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 			WebUI.click(findTestObject("Object Repository/TabSection/nextArrowButton"))
@@ -52,7 +49,6 @@ public class SystemInterfaceStatus {
 		try {
 			//clicking on the System Interface Status
 			WebUI.click(findTestObject("Object Repository/TabSection/SystemInterfaceStatus"))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 			WebUI.click(findTestObject("Object Repository/TabSection/nextArrowButton"))
@@ -74,7 +70,6 @@ public class SystemInterfaceStatus {
 		try {
 			//clicking on the System Interface Status
 			WebUI.click(findTestObject("Object Repository/TabSection/SystemInterfaceStatus"))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 			WebUI.click(findTestObject("Object Repository/TabSection/nextArrowButton"))
@@ -96,7 +91,6 @@ public class SystemInterfaceStatus {
 		try {
 			//clicking on the System Interface Status
 			WebUI.click(findTestObject("Object Repository/TabSection/SystemInterfaceStatus"))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 			WebUI.click(findTestObject("Object Repository/TabSection/nextArrowButton"))
@@ -119,7 +113,6 @@ public class SystemInterfaceStatus {
 			//clicking on the System Interface Status
 			WebUI.click(findTestObject("Object Repository/TabSection/SystemInterfaceStatus"))
 
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 			WebUI.click(findTestObject("Object Repository/TabSection/nextArrowButton"))
@@ -142,7 +135,6 @@ public class SystemInterfaceStatus {
 			//clicking on the System Interface Status
 			WebUI.click(findTestObject("Object Repository/TabSection/SystemInterfaceStatus"))
 
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 			WebUI.click(findTestObject("Object Repository/TabSection/nextArrowButton"))
@@ -166,7 +158,6 @@ public class SystemInterfaceStatus {
 			//clicking on the System Interface Status
 			WebUI.click(findTestObject("Object Repository/TabSection/SystemInterfaceStatus"))
 
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 			WebUI.click(findTestObject("Object Repository/TabSection/nextArrowButton"))
@@ -177,9 +168,9 @@ public class SystemInterfaceStatus {
 			println(e.toString())
 		}
 	}
-	
-	
-	
+
+
+
 	/**
 	 * This is System Interface Status page
 	 * @return
@@ -190,9 +181,8 @@ public class SystemInterfaceStatus {
 			//clicking on the System Interface Status
 			WebUI.click(findTestObject("Object Repository/TabSection/SystemInterfaceStatus"))
 
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
-			
+
 			checkALL()
 
 			WebUI.click(findTestObject("Object Repository/TabSection/nextArrowButton"))

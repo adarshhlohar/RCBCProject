@@ -1,4 +1,0 @@
-1
-00:00:00,209 --> 00:03:04,726
-1. tabSection.CustomerDetail.clientInformationForEncoderNSTP()
-

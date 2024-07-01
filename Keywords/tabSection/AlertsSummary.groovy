@@ -43,7 +43,7 @@ public class AlertsSummary {
 		try {
 			//clicking on alert summary tab
 			WebUI.click(findTestObject("Object Repository/TabSection/AlertSummary"))
-			WebUI.delay(1)
+
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 
@@ -229,7 +229,7 @@ public class AlertsSummary {
 			println(e.toString())
 		}
 	}
-	
+
 	/**
 	 * This metnhod is for the AO Alert Summary
 	 * @return

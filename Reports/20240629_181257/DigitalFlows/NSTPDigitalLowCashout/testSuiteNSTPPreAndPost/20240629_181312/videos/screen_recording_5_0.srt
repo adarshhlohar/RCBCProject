@@ -1,4 +1,0 @@
-1
-00:00:00,340 --> 00:01:50,081
-1. tabSection.LoanInformation.loanInfoForPreRelease(marketingPromoCode, loanPurpose, modeOfRelease, scheduleUnitReleaseDate, actualUnitReleaseDate, paymentType, paymentFrequecy, modeOfPayment, effectiveDateOfAda, accountNumber, accountName)
-

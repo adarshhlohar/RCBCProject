@@ -35,7 +35,6 @@ public class SignOut {
 		WebUI.sendKeys(findTestObject("Object Repository/ibpsLogOut/searchBar"), GlobalVariable.LOSID)
 
 		WebUI.sendKeys(findTestObject("Object Repository/ibpsLogOut/searchBar"), Keys.chord(Keys.ENTER))
-		WebUI.delay(1)
 		GlobalVariableUtil.captureScreenShotWithTime()
 
 		WebUI.delay(2)

@@ -131,7 +131,7 @@ public class HomePageForibpsFullFillment {
 
 			WebUI.comment(" ******** " + GlobalVariable.LOSID)
 
-			String xpath = "//label[text()='" + GlobalVariable.LOSID + "']"
+			String xpath = "(//label[text()='" + GlobalVariable.LOSID + "'])[2]"
 
 
 			WebUI.click(findTestObject("Object Repository/BackOffice/Fulfillment/ibpsHomePage/booking"))

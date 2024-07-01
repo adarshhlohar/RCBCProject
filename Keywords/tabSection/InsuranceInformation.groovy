@@ -58,7 +58,6 @@ public class InsuranceInformation {
 		try {
 			//clicking on the Insurance Information tab
 			WebUI.click(findTestObject("Object Repository/TabSection/InsuranceInformation"))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			checkALL()
 
@@ -92,7 +91,6 @@ public class InsuranceInformation {
 			WebUI.scrollToElement(findTestObject("Object Repository/BackOffice/Fulfillment/InsuranceInformationWithoutAPI/modeOfPayment"), 2)
 			//			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/Fulfillment/InsuranceInformationWithoutAPI/paymentFrequency"), 1)
 			WebUI.scrollToElement(findTestObject("Object Repository/BackOffice/Fulfillment/InsuranceInformationWithoutAPI/paymentFrequency"), 2)
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			checkALL()
 			//clicking on the next arrow button
@@ -118,11 +116,9 @@ public class InsuranceInformation {
 
 
 			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/Fulfillment/InsuranceInformationWithoutAPI/detailCode"), 1)
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 			//			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/Fulfillment/InsuranceInformationWithoutAPI/modeOfPayment"), 1)
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			WebUI.delay(1)
 
@@ -131,14 +127,12 @@ public class InsuranceInformation {
 			//			WebUI.setText(findTestObject("Object Repository/BackOffice/Fulfillment/InsuranceInformationWithoutAPI/accountNumber"), "565756644")
 			//
 			//			WebUI.setText(findTestObject("Object Repository/BackOffice/Fulfillment/InsuranceInformationWithoutAPI/accountName"), "Adarsh")
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/Fulfillment/InsuranceInformationWithoutAPI/paymentFrequency"), 1)
 
 			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/Fulfillment/InsuranceInformationWithoutAPI/paymentFrequency"), 1)
 
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 			WebUI.delay(1)
@@ -168,12 +162,10 @@ public class InsuranceInformation {
 			//clicking on the Insurance Information tab
 			WebUI.click(findTestObject("Object Repository/TabSection/InsuranceInformation"))
 
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/Fulfillment/InsuranceInformationWithoutAPI/detailCode"), 1)
 
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 			//			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/Fulfillment/InsuranceInformationWithoutAPI/modeOfPayment"), 1)
@@ -216,7 +208,6 @@ public class InsuranceInformation {
 		try {
 			//clicking on the Insurance Information tab
 			WebUI.click(findTestObject("Object Repository/TabSection/InsuranceInformation"))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			checkALL()
 
@@ -240,7 +231,6 @@ public class InsuranceInformation {
 		try {
 			//clicking on the Insurance Information tab
 			WebUI.click(findTestObject("Object Repository/TabSection/InsuranceInformation"))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			checkALL()
 			//clicking on the next arrow button
@@ -263,7 +253,6 @@ public class InsuranceInformation {
 		try {
 			//clicking on the Insurance Information tab
 			WebUI.click(findTestObject("Object Repository/TabSection/InsuranceInformation"))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			checkALL()
 			//clicking on the next arrow button
@@ -286,7 +275,6 @@ public class InsuranceInformation {
 		try {
 			//clicking on the Insurance Information tab
 			WebUI.click(findTestObject("Object Repository/TabSection/InsuranceInformation"))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			checkALL()
 			//clicking on the next arrow button
@@ -312,12 +300,10 @@ public class InsuranceInformation {
 
 
 			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/Fulfillment/InsuranceInformationWithoutAPI/detailCode"), 1)
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/Fulfillment/InsuranceInformationWithoutAPI/modeOfPayment"), 2)
 
 			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/Fulfillment/InsuranceInformationWithoutAPI/paymentFrequency"), 1)
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			checkALL()
 			//clicking on the next arrow button
@@ -342,7 +328,6 @@ public class InsuranceInformation {
 			WebUI.click(findTestObject("Object Repository/TabSection/InsuranceInformation"))
 
 			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/Fulfillment/InsuranceInformationWithoutAPI/paymentFrequency"), 1)
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			checkALL()
 			//clicking on the next arrow button
@@ -365,7 +350,6 @@ public class InsuranceInformation {
 		try {
 			//clicking on the Insurance Information tab
 			WebUI.click(findTestObject("Object Repository/TabSection/InsuranceInformation"))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			checkALL()
 			//clicking on the next arrow button
@@ -385,7 +369,6 @@ public class InsuranceInformation {
 		try {
 			//clicking on the Insurance Information tab
 			WebUI.click(findTestObject("Object Repository/TabSection/InsuranceInformation"))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			checkALL()
 			//clicking on the next arrow button

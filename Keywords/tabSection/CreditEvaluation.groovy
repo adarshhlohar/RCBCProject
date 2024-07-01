@@ -42,7 +42,6 @@ public class CreditEvaluation {
 		WebUI.setText(findTestObject("Object Repository/BackOffice/EncoderNSTP/creditEvaluation/NTBBankCheck/accountNumber"),"54387938744")
 
 		WebUI.setText(findTestObject("Object Repository/BackOffice/EncoderNSTP/creditEvaluation/NTBBankCheck/numberOfAccountHolders"),"2")
-		WebUI.delay(1)
 		GlobalVariableUtil.captureScreenShotWithTime()
 
 
@@ -69,7 +68,6 @@ public class CreditEvaluation {
 
 		WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/EncoderNSTP/creditEvaluation/OtherExistingLoanCheck/loanRating"), 1)
 
-		WebUI.delay(1)
 		GlobalVariableUtil.captureScreenShotWithTime()
 
 
@@ -106,7 +104,6 @@ public class CreditEvaluation {
 		try {
 			//clicking on the credit evaluation tab
 			WebUI.click(findTestObject("Object Repository/TabSection/creditEvaluation"))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			checkALL()
 
@@ -131,7 +128,6 @@ public class CreditEvaluation {
 		try {
 			//clicking on the credit evaluation tab
 			WebUI.click(findTestObject("Object Repository/TabSection/creditEvaluation"))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			checkALL()
 		}catch(Exception e) {
@@ -151,7 +147,6 @@ public class CreditEvaluation {
 		try {
 			//clicking on the credit evaluation tab
 			WebUI.click(findTestObject("Object Repository/TabSection/creditEvaluation"))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			checkALL()
 		}catch(Exception e) {
@@ -171,7 +166,6 @@ public class CreditEvaluation {
 		try {
 			//clicking on the credit evaluation tab
 			WebUI.click(findTestObject("Object Repository/TabSection/creditEvaluation"))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			checkALL()
 			//			WebUI.setText(findTestObject("Object Repository/BackOffice/COMaker/CreditEvaluation/varifiedMonthlyIncomeBorrower"), "30000")
@@ -197,14 +191,12 @@ public class CreditEvaluation {
 			WebUI.setText(findTestObject("Object Repository/BackOffice/COMaker/CreditEvaluation/varifiedMonthlyIncomeBorrower"), "30000")
 			WebUI.setText(findTestObject("Object Repository/BackOffice/COMaker/CreditEvaluation/varifiedMonthlyIncomeCoBorrower"), "25000")
 			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/COMaker/CreditEvaluation/basisOfVarification"), 1)
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 
 			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/COMaker/CreditEvaluation/Recommandation"), 1)
 
 			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/COMaker/CreditEvaluation/Approver"), 1)
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 			checkALL()
@@ -236,12 +228,10 @@ public class CreditEvaluation {
 			WebUI.setText(findTestObject("Object Repository/BackOffice/COMaker/CreditEvaluation/varifiedMonthlyIncomeBorrower"), "30000")
 			WebUI.setText(findTestObject("Object Repository/BackOffice/COMaker/CreditEvaluation/varifiedMonthlyIncomeCoBorrower"), "25000")
 			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/COMaker/CreditEvaluation/basisOfVarification"), 1)
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 
 			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/COMaker/CreditEvaluation/Recommandation"), 3)
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 
@@ -318,7 +308,6 @@ public class CreditEvaluation {
 		try {
 			//clicking on the credit evaluation tab
 			WebUI.click(findTestObject("Object Repository/TabSection/creditEvaluation"))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			checkALL()
 
@@ -343,7 +332,6 @@ public class CreditEvaluation {
 		try {
 			//clicking on the credit evaluation tab
 			WebUI.click(findTestObject("Object Repository/TabSection/creditEvaluation"))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			checkALL()
 		}catch(Exception e) {
@@ -363,7 +351,6 @@ public class CreditEvaluation {
 		try {
 			//clicking on the credit evaluation tab
 			WebUI.click(findTestObject("Object Repository/TabSection/creditEvaluation"))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			checkALL()
 		}catch(Exception e) {
@@ -383,7 +370,6 @@ public class CreditEvaluation {
 			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/COMaker/CreditEvaluation/Recommandation"), 1)
 
 			WebUI.selectOptionByIndex(findTestObject("Object Repository/BackOffice/COMaker/CreditEvaluation/Approver"), 1)
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 			checkALL()
@@ -408,7 +394,6 @@ public class CreditEvaluation {
 		try {
 			//clicking on the credit evaluation tab
 			WebUI.click(findTestObject("Object Repository/TabSection/creditEvaluation"))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			checkALL()
 		}catch(Exception e) {
@@ -426,7 +411,6 @@ public class CreditEvaluation {
 		try {
 			//clicking on the credit evaluation tab
 			WebUI.click(findTestObject("Object Repository/TabSection/creditEvaluation"))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			checkALL()
 		}catch(Exception e) {

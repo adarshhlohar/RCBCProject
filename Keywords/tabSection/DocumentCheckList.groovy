@@ -24,7 +24,6 @@ public class DocumentCheckList {
 
 		WebUI.selectOptionByIndex(findTestObject('Object Repository/DocumentCheckListForPreRelease/InwardDocument/documentName'), i)
 
-		WebUI.delay(1)
 		GlobalVariableUtil.captureScreenShotWithTime()
 
 		WebUI.click(findTestObject('Object Repository/DocumentCheckListForPreRelease/InwardDocument/SaveAndClose'))
@@ -88,7 +87,6 @@ public class DocumentCheckList {
 
 		WebUI.switchToWindowIndex(2)
 
-		WebUI.delay(1)
 		GlobalVariableUtil.captureScreenShotWithTime()
 
 		WebUI.closeWindowIndex(2)
@@ -267,7 +265,6 @@ public class DocumentCheckList {
 			//			uploadDocument(testObject5,5)
 
 
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 			checkALL()
@@ -414,7 +411,6 @@ public class DocumentCheckList {
 			//clicking on the document checklist tab
 			WebUI.click(findTestObject('Object Repository/TabSection/DocumentCheclist'))
 
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			viewDocumentCallAtTime()
 			checkALL()
@@ -435,7 +431,6 @@ public class DocumentCheckList {
 		try {
 			//clicking on the document checklist tab
 			WebUI.click(findTestObject('Object Repository/TabSection/DocumentCheclist'))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			viewDocumentCallAtTime()
 			checkALL()
@@ -455,7 +450,6 @@ public class DocumentCheckList {
 		try {
 			//clicking on the document checklist tab
 			WebUI.click(findTestObject('Object Repository/TabSection/DocumentCheclist'))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			viewDocumentCallAtTime()
 			checkALL()
@@ -476,7 +470,6 @@ public class DocumentCheckList {
 		try {
 			//clicking on the document checklist tab
 			WebUI.click(findTestObject('Object Repository/TabSection/DocumentCheclist'))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			viewDocumentCallAtTime()
 			checkALL()
@@ -518,7 +511,6 @@ public class DocumentCheckList {
 		try {
 			//clicking on the document checklist tab
 			WebUI.click(findTestObject('Object Repository/TabSection/DocumentCheclist'))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			viewDocumentCallAtTime()
 		}catch(Exception e) {
@@ -538,7 +530,6 @@ public class DocumentCheckList {
 		try {
 			//clicking on the document checklist tab
 			WebUI.click(findTestObject('Object Repository/TabSection/DocumentCheclist'))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			viewDocumentCallAtTime()
 			checkALL()
@@ -587,7 +578,6 @@ public class DocumentCheckList {
 			//			outwardDocument(generate11)
 
 
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			WebUI.delay(1)
 
@@ -598,7 +588,6 @@ public class DocumentCheckList {
 			WebUI.delay(3)
 			WebUI.closeWindowIndex(2)
 			WebUI.switchToWindowIndex(1)
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 
 			String viewIDType = "Object Repository/DocumentCheckListForPreRelease/KycDocuments/viewIdTypeDocument"
@@ -673,7 +662,6 @@ public class DocumentCheckList {
 		try {
 			//clicking on the document checklist tab
 			WebUI.click(findTestObject('Object Repository/TabSection/DocumentCheclist'))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			viewDocumentCallAtTime()
 			checkALL()
@@ -694,7 +682,6 @@ public class DocumentCheckList {
 		try {
 			//clicking on the document checklist tab
 			WebUI.click(findTestObject('Object Repository/TabSection/DocumentCheclist'))
-			WebUI.delay(1)
 			viewDocumentCallAtTime()
 			GlobalVariableUtil.captureScreenShotWithTime()
 			checkALL()
@@ -716,7 +703,6 @@ public class DocumentCheckList {
 		try {
 			//clicking on the document checklist tab
 			WebUI.click(findTestObject('Object Repository/TabSection/DocumentCheclist'))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			checkALL()
 		}catch(Exception e) {
@@ -736,7 +722,6 @@ public class DocumentCheckList {
 		try {
 			//clicking on the document checklist tab
 			WebUI.click(findTestObject('Object Repository/TabSection/DocumentCheclist'))
-			WebUI.delay(1)
 			GlobalVariableUtil.captureScreenShotWithTime()
 			viewDocumentCallAtTime()
 			checkALL()
